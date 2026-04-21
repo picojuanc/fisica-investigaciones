@@ -1,93 +1,90 @@
 # Foco actual de investigación
 
-**Actualizado:** 2026-04-21 (cierre de sesión 21)
+**Actualizado:** 2026-04-21 (cierre de sesión 22)
 
 ## Estado
 
-**Sesión 21 CERRADA.** Segunda pieza de la Ruta A: **Q-039 parcialmente resuelta con resultado HONESTAMENTE NEGATIVO**. Λ_UV en régimen I de SCG es O(M_P²), tres órdenes de magnitud por debajo de Λ_c = 384 M_P² de ABKP 2025. La ruta ABKP NO cierra K-030 completamente. Ruta primaria pasa a ser **Randono 2006**. **K-030 sigue candidato**, refinado con Randono primario + ABKP parcial. **Q-040 promovida a prioridad ALTA** (compatibilidad K-019 ↔ β real).
+**Sesión 22 CERRADA.** Q-040 parcialmente resuelta con resultado **(C)**: Randono 2006 (β real) preserva normalizabilidad + CPT + violación P cualitativa, pero **NO la asimetría máxima del SM**. K-019 se debilita de "identidad matemática literal" a "compatibilidad cualitativa". **K-030 NO se promueve.** Segunda pieza no-promotoria en Ruta A (tras Q-039). **Q-042 nueva:** mecanismo de amplificación de violación P necesario.
+
+### Balance de Ruta A (tras 3 sesiones)
+- **K-031**: ✅ promovido (sesión 20, Q-041).
+- **K-030 vía ABKP (Q-039)**: ❌ negativo (sesión 21).
+- **K-030 vía Randono (Q-040)**: ⚠️ parcial (sesión 22).
+- **K-032**: pendiente.
+- **K-028**: pendiente.
+
+1 promoción, 2 resultados no-promoción. K-030 más débil que en sesión 17.
 
 ### Snapshot más reciente
-**`journal/2026-04-21_snapshot_v1.7.md`** (sesión 19) sigue siendo referencia. Sesiones 20-21 añaden refinamientos incrementales; v1.8 se reservará tras cerrar más piezas de Ruta A.
+**`journal/2026-04-21_snapshot_v1.7.md`** (sesión 19) sigue siendo referencia. Snapshot v1.8 ahora **recomendado** para consolidar sesiones 20-22 + resultados ambivalentes.
 
-### Resumen de sesión 21
+## Decisión estratégica pendiente
 
-Resultado negativo, pero operacionalmente útil:
+La Ruta A está dando más refinamiento (positivo o negativo honesto) que promociones. Cuatro opciones:
 
-1. **Q-039:** bajo identificación estándar Baez 2000 (k_CS = 2π/κΛ), en régimen I topológico k es entero, dando Λ(k) = 1/(4Gk) ~ O(0.1) M_P². Muy por debajo de Λ_c ABKP.
+**(X) Continuar Ruta A con K-032.** Matching II→IV explícito. Mayor impacto si cierra (primera predicción cuantitativa estructural de α). 3-5 sesiones. Alto riesgo de otro resultado parcial.
 
-2. **Interpretaciones alternativas** (Λ curvatura, running RG, inflación): exploradas y rechazadas como vías para cerrar el gap.
+**(Y) Q-042.** Mecanismo de amplificación P (Kaplan 2024 u otro). Si cierra, K-030 se promueve; si no, P-11 se reagrava. 2-3 sesiones. Crítico para P-11.
 
-3. **K-030 refinado:** no promovido. Se sostiene por Randono 2006 (β real). Sigue candidato.
+**(Z) Ruta B parcial.** Masas fermiónicas desde defectos WW como test exploratorio. 2-3 sesiones. Si rinde, cambia estrategia.
 
-4. **Q-040 asciende a prioridad ALTA:** compatibilidad K-019 ↔ β real determina destino final de K-030 y P-11.
+**(W) Consolidación.** Snapshot v1.8 + documento resumido para comunidad externa. Feedback externo orienta. Recomendado por el reporte #22.
 
-5. **Aplicación de Regla 9 del protocolo** ("destruir resultado propio es celebrable"): sesión 17 sobre-estimó ABKP; sesión 21 corrige honestamente.
-
-Análisis completo: `notes/Q-039_Lambda_UV_regimen_I.md`. Reporte narrativo #21.
-
-### Hallazgos clave de la sesión
-- **Resultado negativo limpio:** ABKP no aplica en régimen I SCG bajo interpretación razonable.
-- **Ruta Randono confirmada como primaria** para mitigar P-11.
-- **Q-040 crítica:** próximo paso natural.
-- **K-019 requiere re-articulación** si Randono es la ruta. Cambio ontológico moderado, fenomenología observable preservada.
-
-## Cadena lógica (estado final sesión 21)
+## Cadena lógica (estado final sesión 22)
 
 ```
-A-001 + A-002 + Ashtekar autodual con β real (Randono)  [P-11 🟡 media]
+A-001 + A-002 + Ashtekar (β real preferentemente)  [P-11 🟡 media, K-030 candidato]
   → Cuantización de Polyakov + Walker-Wang
     → D-006 (K-027), {D=1,3,1} (K-025), H-001+H-003
   + S_madre = S_PA + S_cosmo + S_defectos:
-    → D-007 (núcleo) + K-029
-    → K-030 candidato (Randono primario; ABKP parcial)
-    → D-008 + D-009 + K-031 CONFIRMADO (sesión 20)
-    → K-032 candidato (matching II→IV)
+    → D-007 (núcleo) + K-029 CONFIRMADO
+    → K-030 candidato: Randono primario (Q-040 parcial), ABKP descartado (Q-039)
+    → D-008 + D-009 + K-031 CONFIRMADO
+    → K-032 candidato pendiente (matching II→IV)
   ↓
-Régimen IV: SM + GR semiclásica con patrón α₂≈α₃≠α₁
+Régimen IV: SM con patrón α₂≈α₃≠α₁; asimetría máxima pendiente de Q-042
 ```
 
 ## Estadísticas acumuladas
 
-- **29 insights confirmados** (K-001 a K-027, K-029, K-031) + **3 candidatos** (K-028, K-030, K-032).
-- 3 hipótesis activas (H-001, H-002, H-003).
+- **29 insights confirmados** (K-001 a K-027, K-029, K-031) + **3 candidatos** (K-028, K-030 con reservas mayores, K-032).
 - **9 derivaciones** (D-001 a D-009).
-- **Bosquejo Lagrangiana:** 3/5 confirmadas estructuralmente + 2/5 parciales.
-- **Ruta A:** 1/4 promovidos (K-031), 1/4 bloqueado por resultado negativo (K-030 vía ABKP), 2/4 pendientes (K-028, K-032).
-- 21 reportes narrativos.
+- 3 hipótesis activas.
+- 22 reportes narrativos.
+- **Bosquejo Lagrangiana:** 3/5 confirmadas + 2/5 parciales.
 - **Sin eslabones rojos.**
+- Axiomas activos: 2 (A-001, A-002).
 
-## Siguientes pasos (sesión 22)
+## Siguientes pasos
 
-**Prioridad 1 — Q-040** (compatibilidad K-019 ↔ Randono β real).
-**CRÍTICA.** Determina destino final de K-030. Si afirmativa, K-030 pasa a confirmado (vía Randono). Si negativa, SCG necesita mecanismo nuevo.
-Esfuerzo: 1 sesión. Tractable.
-Método: leer Randono 0611074 (Physical Interpretation) + analizar preservación de SU(2)_L fenomenológica bajo β real.
+**Recomendación del reporte #22:** opción W (consolidación) o Y (Q-042).
 
-**Prioridad 2 — Matching II→IV explícito** (promueve K-032).
-3-5 sesiones. Máximo impacto cuantitativo.
+- **W (consolidación):** snapshot v1.8 consolida estado post-22; documento resumido para feedback externo. Días en lugar de semanas.
+- **Y (Q-042):** Kaplan 2024 como candidato principal. Si funciona, cierra K-030.
 
-**Prioridad 3 — K-028 riguroso (P-15').**
-2-3 sesiones. Técnico.
-
-**Prioridad 4 — Q-030** unicidad dimensional.
+**Menos urgente:**
+- X (K-032) — mayor recompensa si cierra, pero alto riesgo de otro parcial.
+- Z (Ruta B) — exploratorio; cambio de énfasis.
 
 ## Debilidades activas
 
-- 🟡 **P-11** (refinada sesión 21): Randono primario; ABKP parcial. Q-040 crítica.
-- 🟡 **P-8**: arquitectura completa + 3/5 confirmadas + 2/5 parciales.
-- 🟡 **P-14, P-10, P-15', P-12, P-13**: sin cambios.
+- 🟡 **P-11** (refinada sesiones 17, 21, 22): ambas rutas con costos. Q-042 crítica.
+- 🟡 **P-8**: 3/5 confirmadas + 2/5 parciales. Arquitectura completa.
+- 🟡 **P-14, P-10, P-15', P-12, P-13, P-5.1, P-7.1**: sin cambios.
 - ✅ **P-1 resuelto mayor**.
 
-## Para el yo futuro en sesión 22
+## Para el yo futuro en sesión 23
 
 **Archivos imprescindibles en orden de lectura:**
 1. `memory/MEMORY_INDEX.md`.
-2. **`journal/2026-04-21_snapshot_v1.7.md`** (snapshot maestro).
-3. `memory/session_log.md` (sesiones 16-21).
+2. **`journal/2026-04-21_snapshot_v1.7.md`** (v1.7; v1.8 pendiente).
+3. `memory/session_log.md` (sesiones 16-22).
 4. Este archivo.
 
 Documentos técnicos recientes:
-- `notes/Q-039_Lambda_UV_regimen_I.md` (resultado negativo, sesión 21).
-- `notes/Q-041_llenado_volumetrico_variacional.md` + D-009 (K-031 promovido, sesión 20).
+- `notes/Q-040_compatibilidad_randono_K-019.md` (sesión 22).
+- `notes/Q-039_Lambda_UV_regimen_I.md` (sesión 21).
+- `notes/Q-041_llenado_volumetrico_variacional.md` + D-009 (sesión 20).
 
-**Primera acción recomendada:** Q-040. Una sesión, puede cerrar K-030 vía Randono o forzar búsqueda de mecanismo nuevo.
+**Primera acción recomendada:** decisión estratégica entre W/Y/X/Z.
+Mi inclinación: **W** (consolidación) antes de invertir más sesiones técnicas.

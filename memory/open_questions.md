@@ -291,13 +291,25 @@ Las preguntas que la investigación debe responder, o al menos abordar. Numerada
 - **Imagen física:** cuerda SCG plegada = análogo cuántico-gravitacional de enana blanca (Casimir vs horizonte). Conexión Chandrasekhar-like.
 - **Ver:** `notes/Q-041_llenado_volumetrico_variacional.md`, `logic/derivations/D-009_llenado_volumetrico_variacional.md`.
 
-## Q-040 — ¿La ruta Randono 2006 (β real) es compatible con K-019 y AMS 2014 sin pérdida de contenido? [PRIORIDAD ALTA tras sesión 21]
+## Q-040 — ¿La ruta Randono 2006 (β real) es compatible con K-019 y AMS 2014? [PARCIALMENTE RESUELTA — resultado (C)]
 - **Abierta desde:** 2026-04-21 (sesión 17)
-- **Promovida a prioridad ALTA:** 2026-04-21 (sesión 21), tras determinar que ABKP no cierra en régimen I.
-- **Relevancia:** CRÍTICA. Determina el destino de K-030 y de P-11. Si se cierra afirmativamente, K-030 se promueve a confirmado (via Randono). Si no, SCG necesita mecanismo nuevo para resolver Kodama.
-- **Contexto:** K-019 (AMS 2014) identifica A_Ashtekar (β = −i autodual) con su(2)_L del grupo de Lorentz. Randono 2006 usa β real. En β real, A no es literalmente su(2)_L pero el estado Ψ_K^{(β)} sigue siendo CP-no-invariant (→ violación paridad observacional). ¿La diferencia es sólo de interpretación, o hay contenido físico perdido?
-- **Ruta:** leer Randono 0611074 (Physical Interpretation) en detalle; verificar que la fenomenología de SU(2)_L (acoplamiento levógiros / no dextrógiros) se preserva bajo β real. Verificar que AMS 2014 admite generalización β real.
-- **Esfuerzo estimado:** 1 sesión. Próxima sesión recomendada (22).
+- **Promovida a prioridad ALTA:** 2026-04-21 (sesión 21).
+- **Resuelta (parcial):** 2026-04-21 (sesión 22).
+- **Resultado (C):** Randono 2006 preserva normalizabilidad + CPT + violación P-T cualitativa, pero **NO preserva automáticamente la asimetría máxima del SM** (sólo fermiones L acoplan a SU(2)_L). Para β = γ_Immirzi ≈ 0.2375, la asimetría es finita/moderada, no máxima. K-019 pasa de "identidad matemática literal (β=-i)" a "compatibilidad cualitativa (β real)".
+- **Consecuencia:** K-030 NO se promueve. Sigue candidato con reservas mayores. P-11 sigue 🟡 media.
+- **Q-042 nueva:** ¿mecanismo SCG que amplifica violación P de Randono hasta asimetría máxima del SM?
+- **Ver:** `notes/Q-040_compatibilidad_randono_K-019.md`.
+
+## Q-042 — ¿Qué mecanismo SCG amplifica la violación P de Randono hasta la asimetría máxima del SM?
+- **Abierta desde:** 2026-04-21 (sesión 22).
+- **Relevancia:** ALTA. Determina si K-030 eventualmente se promueve o si P-11 se reagrava.
+- **Contexto:** bajo β real finito (Randono 2006), la violación P es moderada, no máxima. El SM requiere asimetría máxima. Hace falta mecanismo adicional.
+- **Candidatos a explorar:**
+  - (1) UBFC con simetría L: categoría de fusión específica de WW que rompa simetría L-R.
+  - (2) Condensación de anyones Higgs (K-021): selección de proyección L en la fase confinante.
+  - (3) Kaplan 2024 (PRL 132 141603): fermiones quirales en frontera topológica. Mecanismo independiente de β. **Candidato más prometedor.**
+  - (4) Límite β → ∞ no-perturbativo: especulativo.
+- **Ruta:** evaluar cada candidato; (3) es el más prometedor por literatura reciente. 2-3 sesiones estimadas.
 
 ---
 

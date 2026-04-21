@@ -881,3 +881,37 @@ Formato:
   - **Prioridad 3 — K-028 riguroso (P-15').** 2-3 sesiones.
   - **Prioridad 4 — Q-030:** unicidad dimensional.
 
+---
+
+## 2026-04-21 — Sesión 22: Ruta A — Q-040 (compatibilidad Randono ↔ K-019). Resultado parcial/ambiguo.
+
+- **Qué se hizo:**
+  - Ataque a Q-040: ¿la ruta Randono 2006 (β real) preserva la identificación K-019 "A = su(2)_L" y la asimetría máxima del SM?
+  - **Revisión de literatura:** AMS 2014 (β=-i explícito; identificación literal), Randono 2006 (β real; preserva CPT + violación P-T pero modulada por β), hep-th/0510001 (β genera violación P en Holst con fermiones), Kaplan 2024 (fermiones quirales en fronteras), ABKP 2025 (usa β=-i todavía).
+  - **Análisis técnico:** conexión de Ashtekar-Barbero A^i(β) = Γ^i + β K^i. Para β=-i: literal su(2)_L. Para β real: no literal, pero genera asimetría modulada.
+  - **Resultado: (C) PARCIAL.** Randono preserva normalizabilidad + CPT + violación P-T cualitativa. **NO preserva automáticamente** la asimetría máxima del SM (sólo fermiones L acoplan a SU(2)_L). Para β = γ_Immirzi ≈ 0.2375, la asimetría es finita y moderada, no máxima.
+  - **K-019 se debilita:** de "identidad matemática literal + asimetría máxima automática (β=-i)" a "compatibilidad cualitativa con violación P (β real), asimetría máxima pendiente de mecanismo adicional".
+  - **K-030 NO se promueve.** Sigue candidato con reservas mayores.
+  - **Q-042 nueva:** ¿qué mecanismo SCG amplifica la violación P de Randono hasta la asimetría máxima del SM? Candidatos: UBFC con simetría L, condensación Higgs (K-021), Kaplan 2024, límite β → ∞. Ninguno derivado; programa de 2-3 sesiones.
+  - Análisis completo: `notes/Q-040_compatibilidad_randono_K-019.md`.
+
+- **Qué se descubrió / refinó:**
+  - **Segundo resultado no-promotorio en Ruta A.** Tras Q-039 (sesión 21, negativo) y Q-040 (sesión 22, parcial), K-030 está en peor estado que en sesión 17. Ambas rutas (ABKP y Randono) tienen costos identificados.
+  - **Honestidad:** K-030 NO se promueve por ninguna de las dos rutas. Sigue candidato con caveats mayores.
+  - **P-11 NO se rebaja.** Sigue 🟡 media. Si Q-042 no encuentra mecanismo de amplificación, podría reagravarse.
+  - **Aplicación Regla 9:** los resultados acumulados están destruyendo la aparente robustez de K-030 de sesión 17. Esto es honesto y útil — evita construir más sobre arena.
+  - **Reevaluación estratégica necesaria.** Ruta A está dando más refinamiento que promociones. 1/3 piezas abordadas promovieron (K-031); 2/3 dieron negativo/parcial. K-032 y K-028 pendientes.
+
+- **Qué quedó abierto:**
+  - **Q-042 (prioridad media):** amplificación de violación P bajo β real.
+  - **Q-040 parcialmente cerrada** con veredicto (C).
+  - **K-030 candidato con reservas.** P-11 🟡 media sin cambio.
+  - **Ruta A restante:** K-032 (matching II→IV), K-028 (P-15' riguroso).
+  - **Alternativas estratégicas:** Ruta B parcial (masas desde defectos WW), consolidación + publicación (snapshot v1.8 + documento externo para feedback).
+
+- **Próximo paso sugerido:**
+  - **Opción X — Continuar Ruta A con K-032** (matching II→IV): mayor impacto cuantitativo si cierra. 3-5 sesiones.
+  - **Opción Y — Abordar Q-042** (mecanismo amplificación): si se encuentra, K-030 se promueve; si no, P-11 se reagrava. 2-3 sesiones.
+  - **Opción Z — Ruta B parcial:** probar masas fermiónicas desde defectos WW como test de viabilidad. Si rinde, cambia énfasis. 2-3 sesiones.
+  - **Opción W — Consolidación:** snapshot v1.8 + resumen para comunidad externa. Feedback informativo orienta próximas sesiones.
+

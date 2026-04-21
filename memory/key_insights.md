@@ -250,6 +250,14 @@ Formato:
 - **K-030 sigue candidato**, con la caracterización más precisa: Randono primario + ABKP parcial + SCG mitigantes + K-019 re-articulado. Severidad de P-11 sigue 🟡 media.
 - Análisis completo: `notes/Q-039_Lambda_UV_regimen_I.md`.
 
+**REFINAMIENTO DE K-030 (sesión 22, Q-040):** Q-040 determinó que la ruta Randono (β real) preserva normalizabilidad + CPT + violación P-T cualitativa, pero **NO preserva automáticamente la asimetría máxima del SM** (sólo fermiones L acoplan a SU(2)_L). K-019 se debilita: pasa de "identidad matemática literal (β=-i)" a "compatibilidad cualitativa (β real)". La asimetría máxima del SM requiere **mecanismo adicional** no provisto directamente por Randono:
+
+- Candidatos no derivados: (1) UBFC específica con simetría L; (2) condensación de anyones Higgs (K-021); (3) Kaplan 2024 fermiones quirales en frontera topológica; (4) límite β → ∞ especulativo.
+- **Q-042 nueva (prioridad media):** ¿qué mecanismo SCG amplifica violación P de Randono hasta asimetría máxima del SM?
+- **K-030 sigue candidato**, con reservas mayores. Ambas rutas (ABKP por Q-039, Randono por Q-040) tienen costos identificados. K-030 está **más débil** que en sesión 17, no más fuerte.
+- **P-11 sigue 🟡 media** (no rebajada a 🟡 baja como se esperaba).
+- Análisis completo: `notes/Q-040_compatibilidad_randono_K-019.md`.
+
 ## K-031 — La acción efectiva 2D de cuerda SCG emerge por reducción dimensional de S_PA e integra D-001/D-003/D-006/D-007 [PROMOVIDO A CONFIRMADO SESIÓN 20]
 
 - **Fecha:** 2026-04-21 (sesión 18)

@@ -56,7 +56,7 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 - Preguntas abiertas: `Q-001` (físicas), `QM-001` (metodológicas)
 - Problemas identificados en una hipótesis: `P-1`, `P-2`, ... dentro del archivo de debilidades
 
-## Inventario actual (2026-04-21, sesión 21)
+## Inventario actual (2026-04-21, sesión 22)
 
 ### Axiomas activos (v1.2, post-sesión 13)
 - A-001: corte Planck (válido)
@@ -144,7 +144,7 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 
 ### Debilidades (actualizado 2026-04-20, sesión 13)
 - ~~P-10: 🔴~~ → **P-10: 🟡 parcialmente resuelto** (Wen 2003, Walker-Wang, Crane-Yetter, K-026) (sesión 11)
-- P-11: 🟡 **media** (rebajada sesión 17; refinada sesión 21). Dependencia en Ashtekar autodual. K-030 candidato refinado: **Randono 2006 (β real) es la ruta primaria**; ABKP 2025 da mitigación parcial (Λ_UV en régimen I NO excede Λ_c; Q-039 negativa). Q-040 (compatibilidad K-019 ↔ β real) en **prioridad ALTA**. Destino final de K-030 depende de Q-040.
+- P-11: 🟡 **media** (rebajada sesión 17; refinada sesiones 21 y 22). Dependencia en Ashtekar autodual. K-030 candidato con reservas mayores tras Q-040: Randono preserva CPT + violación P cualitativa pero **NO la asimetría máxima SM**. K-019 debilitada bajo β real. Ambas rutas (ABKP y Randono) tienen costos identificados. **Q-042 nueva:** mecanismo de amplificación P necesario. Si Q-042 cierra, K-030 se promueve; si no, P-11 podría reagravarse.
 - **P-8: 🟡 arquitectura completa, 3/5 confirmadas estructuralmente + 2/5 parciales** (sesiones 12-20). Confirmadas: 5.1 (D-006), 5.2 (D-007), 5.4 (D-008 + D-009, K-031 promovido). Parciales con candidato: 5.3 (K-030), 5.5 (K-032). Piezas cuantitativas pendientes de Ruta A: Q-039 (Λ_UV → promueve K-030), matching II→IV explícito (→ promueve K-032), K-028 riguroso.
 - **P-14 🟡 (sesión 13):** consistencia cuántica de Polyakov 4D no-crítica como teoría efectiva WW. Plausible pero sin demostración formal.
 - **P-15' 🟡 baja (sesión 14 → rebajada 15):** cálculo riguroso de redshift interior BH; T-6 cerrada heurísticamente vía K-028 candidato.
