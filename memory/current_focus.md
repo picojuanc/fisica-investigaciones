@@ -1,90 +1,100 @@
 # Foco actual de investigación
 
-**Actualizado:** 2026-04-21 (cierre de sesión 22)
+**Actualizado:** 2026-04-21 (cierre de sesión 23 — consolidación)
 
 ## Estado
 
-**Sesión 22 CERRADA.** Q-040 parcialmente resuelta con resultado **(C)**: Randono 2006 (β real) preserva normalizabilidad + CPT + violación P cualitativa, pero **NO la asimetría máxima del SM**. K-019 se debilita de "identidad matemática literal" a "compatibilidad cualitativa". **K-030 NO se promueve.** Segunda pieza no-promotoria en Ruta A (tras Q-039). **Q-042 nueva:** mecanismo de amplificación de violación P necesario.
+**Sesión 23 CERRADA.** Consolidación completa (Opción W del reporte #22):
+- **Snapshot v1.8** producido: `journal/2026-04-21_snapshot_v1.8.md`. Autocontenido, cubre sesiones 0-22.
+- **OVERVIEW.md** externo publicado en la raíz del repo: documento accesible a físico teórico externo (~2200 palabras).
+- **README actualizado** con link al OVERVIEW como punto de entrada preferido para lectores externos.
+- **Repo GitHub** público y actualizado: https://github.com/picojuanc/fisica-investigaciones
 
-### Balance de Ruta A (tras 3 sesiones)
-- **K-031**: ✅ promovido (sesión 20, Q-041).
+### Fase nueva de la investigación
+
+Tras 23 sesiones (desde 2026-04-15), la investigación entra en **fase de feedback externo**:
+
+- Repo público con README + OVERVIEW + snapshot v1.8 + 22 reportes narrativos + 9 derivaciones + notas técnicas.
+- Canales de feedback: GitHub Issues, email (picojuanc@gmail.com), contactos personales.
+- En paralelo, el trabajo interno puede continuar, pero con ritmo más pausado a la espera de input externo.
+
+### Snapshot más reciente
+**`journal/2026-04-21_snapshot_v1.8.md`** ← **LEER AL INICIAR SESIÓN 24**
+
+## Balance actualizado de Ruta A
+
+Tras 3 sesiones de cuantificación:
+- **K-031**: ✅ promovido (sesión 20, Q-041 → D-009).
 - **K-030 vía ABKP (Q-039)**: ❌ negativo (sesión 21).
 - **K-030 vía Randono (Q-040)**: ⚠️ parcial (sesión 22).
 - **K-032**: pendiente.
 - **K-028**: pendiente.
 
-1 promoción, 2 resultados no-promoción. K-030 más débil que en sesión 17.
+**K-030** más débil que en sesión 17. Depende de Q-042 (nueva, prioridad alta).
 
-### Snapshot más reciente
-**`journal/2026-04-21_snapshot_v1.7.md`** (sesión 19) sigue siendo referencia. Snapshot v1.8 ahora **recomendado** para consolidar sesiones 20-22 + resultados ambivalentes.
-
-## Decisión estratégica pendiente
-
-La Ruta A está dando más refinamiento (positivo o negativo honesto) que promociones. Cuatro opciones:
-
-**(X) Continuar Ruta A con K-032.** Matching II→IV explícito. Mayor impacto si cierra (primera predicción cuantitativa estructural de α). 3-5 sesiones. Alto riesgo de otro resultado parcial.
-
-**(Y) Q-042.** Mecanismo de amplificación P (Kaplan 2024 u otro). Si cierra, K-030 se promueve; si no, P-11 se reagrava. 2-3 sesiones. Crítico para P-11.
-
-**(Z) Ruta B parcial.** Masas fermiónicas desde defectos WW como test exploratorio. 2-3 sesiones. Si rinde, cambia estrategia.
-
-**(W) Consolidación.** Snapshot v1.8 + documento resumido para comunidad externa. Feedback externo orienta. Recomendado por el reporte #22.
-
-## Cadena lógica (estado final sesión 22)
+## Cadena lógica (estado final sesión 23)
 
 ```
-A-001 + A-002 + Ashtekar (β real preferentemente)  [P-11 🟡 media, K-030 candidato]
-  → Cuantización de Polyakov + Walker-Wang
-    → D-006 (K-027), {D=1,3,1} (K-025), H-001+H-003
+A-001 + A-002 + Ashtekar (β real preferentemente)  [P-11 🟡 media]
+  → D-006 (K-027), {D=1,3,1} (K-025), H-001+H-003
   + S_madre = S_PA + S_cosmo + S_defectos:
-    → D-007 (núcleo) + K-029 CONFIRMADO
-    → K-030 candidato: Randono primario (Q-040 parcial), ABKP descartado (Q-039)
-    → D-008 + D-009 + K-031 CONFIRMADO
-    → K-032 candidato pendiente (matching II→IV)
+    → D-007 (K-029 confirmado)
+    → K-030 candidato con reservas (Randono; Q-042 pendiente)
+    → D-008 + D-009 (K-031 confirmado)
+    → K-032 candidato (matching II→IV pendiente)
   ↓
 Régimen IV: SM con patrón α₂≈α₃≠α₁; asimetría máxima pendiente de Q-042
 ```
 
 ## Estadísticas acumuladas
 
-- **29 insights confirmados** (K-001 a K-027, K-029, K-031) + **3 candidatos** (K-028, K-030 con reservas mayores, K-032).
+- **29 insights confirmados** + **3 candidatos**.
 - **9 derivaciones** (D-001 a D-009).
-- 3 hipótesis activas.
-- 22 reportes narrativos.
-- **Bosquejo Lagrangiana:** 3/5 confirmadas + 2/5 parciales.
+- **3 hipótesis activas**.
+- **22 reportes narrativos** + 1 pendiente #23.
+- **8 snapshots** (v1.1 a v1.8).
+- **Bosquejo Lagrangiana** estructuralmente completo.
 - **Sin eslabones rojos.**
 - Axiomas activos: 2 (A-001, A-002).
+- **Repo público:** https://github.com/picojuanc/fisica-investigaciones
 
-## Siguientes pasos
+## Siguientes pasos (a decidir en sesión 24)
 
-**Recomendación del reporte #22:** opción W (consolidación) o Y (Q-042).
+La investigación tiene múltiples frentes abiertos. Decisión a tomar en sesión 24 dependiendo de:
+1. Si llega feedback externo relevante → atender/integrar.
+2. Si no → priorizar entre:
 
-- **W (consolidación):** snapshot v1.8 consolida estado post-22; documento resumido para feedback externo. Días en lugar de semanas.
-- **Y (Q-042):** Kaplan 2024 como candidato principal. Si funciona, cierra K-030.
+**Ruta A continuada (cuantificación):**
+- **Q-042** (Kaplan 2024 amplificación P): 2-3 sesiones. Decide K-030.
+- **K-032** (matching II→IV explícito): 3-5 sesiones. Alto impacto.
+- **K-028** (P-15' riguroso QFT+GR): 2-3 sesiones. Técnico.
 
-**Menos urgente:**
-- X (K-032) — mayor recompensa si cierra, pero alto riesgo de otro parcial.
-- Z (Ruta B) — exploratorio; cambio de énfasis.
+**Ruta B (extensión ambiciosa):**
+- **Masas fermiónicas desde defectos WW:** exploratorio, 2-3 sesiones.
+- Si rinde, programa de 20-40 sesiones: generaciones, Yukawas, CKM/PMNS.
 
-## Debilidades activas
+**Formalización:**
+- **Q-030** (unicidad punto fijo dimensional): formal, 1-2 sesiones.
 
-- 🟡 **P-11** (refinada sesiones 17, 21, 22): ambas rutas con costos. Q-042 crítica.
-- 🟡 **P-8**: 3/5 confirmadas + 2/5 parciales. Arquitectura completa.
+**Comunicación:**
+- Si OVERVIEW.md atrae atención, escribir paper resumido para arXiv. Fuera del scope de la investigación per se.
+
+## Debilidades activas (sin cambios desde sesión 22)
+
+- 🟡 **P-11**: K-030 con reservas. Q-042 pendiente.
+- 🟡 **P-8**: arquitectura completa + 2/5 parciales.
 - 🟡 **P-14, P-10, P-15', P-12, P-13, P-5.1, P-7.1**: sin cambios.
 - ✅ **P-1 resuelto mayor**.
 
-## Para el yo futuro en sesión 23
+## Para el yo futuro en sesión 24
 
 **Archivos imprescindibles en orden de lectura:**
 1. `memory/MEMORY_INDEX.md`.
-2. **`journal/2026-04-21_snapshot_v1.7.md`** (v1.7; v1.8 pendiente).
-3. `memory/session_log.md` (sesiones 16-22).
-4. Este archivo.
+2. **`journal/2026-04-21_snapshot_v1.8.md`** (snapshot maestro, autocontenido).
+3. `OVERVIEW.md` (para recordar cómo se presentó públicamente la teoría).
+4. `memory/session_log.md` (últimas 4 entradas, sesiones 20-23).
+5. Este archivo.
 
-Documentos técnicos recientes:
-- `notes/Q-040_compatibilidad_randono_K-019.md` (sesión 22).
-- `notes/Q-039_Lambda_UV_regimen_I.md` (sesión 21).
-- `notes/Q-041_llenado_volumetrico_variacional.md` + D-009 (sesión 20).
+**Primera acción recomendada:** revisar si hay feedback externo en GitHub Issues o email. Si no, decidir entre Q-042, K-032, Q-030 o Ruta B parcial.
 
-**Primera acción recomendada:** decisión estratégica entre W/Y/X/Z.
-Mi inclinación: **W** (consolidación) antes de invertir más sesiones técnicas.
+La sesión 23 cierra una fase (consolidación). La sesión 24 abre otra (espera + próxima apuesta).

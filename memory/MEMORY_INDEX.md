@@ -18,7 +18,8 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 
 | Snapshot | Estado capturado | Fecha |
 |---|---|---|
-| [`../journal/2026-04-21_snapshot_v1.7.md`](../journal/2026-04-21_snapshot_v1.7.md) | **v1.7 — Bosquejo Lagrangiana estructuralmente completo. D-007, D-008. K-029 confirmado, K-030/K-031/K-032 candidatos. P-11 rebajada 🟡 alta → 🟡 media. Ciclo II→III cerrado. Patrón α₂≈α₃≠α₁ estructural.** | 2026-04-21 (sesión 19) |
+| [`../journal/2026-04-21_snapshot_v1.8.md`](../journal/2026-04-21_snapshot_v1.8.md) | **v1.8 — Consolidación post-Ruta A. D-009 añadida; K-031 promovido. Q-039 negativo + Q-040 parcial (K-030 con reservas mayores). Q-042 nueva. Balance: 29 confirmados + 3 candidatos; 9 derivaciones; arquitectura completa con 3/5 confirmadas + 2/5 parciales. OVERVIEW.md externo producido.** | 2026-04-21 (sesión 23) |
+| [`../journal/2026-04-21_snapshot_v1.7.md`](../journal/2026-04-21_snapshot_v1.7.md) | v1.7 — Bosquejo estructuralmente completo. D-007, D-008. K-029 confirmado, K-030/K-031/K-032 candidatos. P-11 rebajada 🟡 alta → 🟡 media. Ciclo II→III cerrado. Patrón α₂≈α₃≠α₁ estructural (histórico) | 2026-04-21 (sesión 19) |
 | [`../journal/2026-04-20_snapshot_v1.6.md`](../journal/2026-04-20_snapshot_v1.6.md) | v1.6 — Reducción axiomática (A-003 → D-006) + K-027 + bosquejo Lagrangiana + K-007 preservado + Casimir curvo + K-028 candidato (histórico) | 2026-04-20 (sesión 15) |
 | [`../journal/2026-04-19_snapshot_v1.5.md`](../journal/2026-04-19_snapshot_v1.5.md) | v1.5 — Stress-test cadena + Walker-Wang + K-025 (punto fijo) + K-026 (quiralidad) (histórico) | 2026-04-19 (sesión 11) |
 | [`../journal/2026-04-18_snapshot_v1.4.md`](../journal/2026-04-18_snapshot_v1.4.md) | v1.4 — H-001 + H-002 + H-003 formalizada + stress-test + generaciones + Higgs (histórico) | 2026-04-18 (sesión 10) |
@@ -56,7 +57,7 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 - Preguntas abiertas: `Q-001` (físicas), `QM-001` (metodológicas)
 - Problemas identificados en una hipótesis: `P-1`, `P-2`, ... dentro del archivo de debilidades
 
-## Inventario actual (2026-04-21, sesión 22)
+## Inventario actual (2026-04-21, sesión 23 — consolidación)
 
 ### Axiomas activos (v1.2, post-sesión 13)
 - A-001: corte Planck (válido)

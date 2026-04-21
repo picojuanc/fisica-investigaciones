@@ -915,3 +915,32 @@ Formato:
   - **Opción Z — Ruta B parcial:** probar masas fermiónicas desde defectos WW como test de viabilidad. Si rinde, cambia énfasis. 2-3 sesiones.
   - **Opción W — Consolidación:** snapshot v1.8 + resumen para comunidad externa. Feedback informativo orienta próximas sesiones.
 
+---
+
+## 2026-04-21 — Sesión 23: Consolidación (Opción W) — Snapshot v1.8 + OVERVIEW.md externo
+
+- **Qué se hizo:**
+  - Decisión estratégica tras balance honesto de Ruta A en sesión 22: consolidar antes de invertir más sesiones técnicas.
+  - **Snapshot v1.8** producido (`journal/2026-04-21_snapshot_v1.8.md`): autocontenido, cubre sesiones 0-22. Diferencias con v1.7: D-009 añadida; K-031 promovido; Q-039 y Q-040 documentados con resultados mixtos; Q-042 nueva.
+  - **OVERVIEW.md** para comunidad externa creado en la raíz del repo: documento de ~2200 palabras accesible a físico teórico externo. Secciones: motivación, arquitectura en una página, qué se deriva, qué se propone, qué NO se predice, debilidades, balance honesto de Ruta A, qué es original vs aplicación de literatura, qué invito a criticar, cómo dialogar.
+  - **README actualizado** con referencia al OVERVIEW como punto de entrada preferido para lectores externos.
+  - **Registro del snapshot v1.8** en `memory/MEMORY_INDEX.md`.
+  - **Commit + push** a GitHub pendiente al final.
+
+- **Qué se descubrió / refinó:**
+  - **No hay descubrimiento técnico.** Sesión de consolidación documental + preparación para feedback externo.
+  - **Estado del marco consolidado** en un solo documento autocontenido (v1.8) + un documento accesible (OVERVIEW.md).
+  - Clarificación honesta del balance Ruta A tras 3 sesiones: 1 promoción (K-031), 1 negativo (Q-039), 1 parcial (Q-040). K-030 con reservas.
+
+- **Qué quedó abierto:**
+  - Todas las preguntas técnicas pendientes: Q-042 (amplificación P), Q-030 (unicidad dimensional), matching II→IV explícito (K-032), K-028 riguroso, masas SM (Ruta B).
+  - **Fase nueva:** investigación + feedback externo. El repo está ahora públicamente visible en estado consolidado.
+
+- **Próximo paso sugerido:**
+  - Esperar feedback externo (via GitHub Issues, email, contactos personales).
+  - En paralelo, si se retoma la investigación interna, recomendaciones ordenadas:
+    - **Q-042** (amplificación P con Kaplan 2024): decide K-030, 2-3 sesiones.
+    - **K-032 (matching II→IV explícito):** 3-5 sesiones, alto impacto cuantitativo.
+    - **Ruta B parcial** (masas desde defectos WW): exploratorio.
+    - **Q-030** (unicidad punto fijo): formal, cierre de objeción epistémica.
+

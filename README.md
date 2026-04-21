@@ -17,14 +17,14 @@ Todo desde solo dos axiomas activos (corte Planck y transición de fase gravitac
 
 ## Estado al día de hoy
 
-- **21 sesiones documentadas** (desde 2026-04-15).
+- **22 sesiones documentadas** (desde 2026-04-15).
 - **9 derivaciones** formales (D-001 a D-009).
 - **29 insights confirmados** (K-001 a K-027, K-029, K-031) + 3 candidatos pendientes de cuantificación (K-028, K-030, K-032).
 - **3 hipótesis activas** (H-001, H-002, H-003).
-- **Bosquejo de Lagrangiana** estructuralmente completo: 3/5 sub-tareas confirmadas + 2/5 parciales.
+- **Bosquejo de Lagrangiana** estructuralmente completo: 3/5 sub-tareas confirmadas estructuralmente + 2/5 parciales.
 - **Sin eslabones rojos** en la cadena lógica.
 
-El estado consolidado más reciente está en [`journal/2026-04-21_snapshot_v1.7.md`](journal/2026-04-21_snapshot_v1.7.md) — documento autocontenido, cubre sesiones 0–19.
+El estado consolidado más reciente está en [`journal/2026-04-21_snapshot_v1.8.md`](journal/2026-04-21_snapshot_v1.8.md) — documento autocontenido, cubre sesiones 0–22.
 
 ## Cómo navegar
 
@@ -44,11 +44,13 @@ El estado consolidado más reciente está en [`journal/2026-04-21_snapshot_v1.7.
 
 ## Punto de entrada recomendado
 
+**Para un físico teórico externo** (20–30 min): [`OVERVIEW.md`](OVERVIEW.md) — resumen estructurado con lo que se deriva, lo que se propone y lo que no se predice, con invitación explícita a criticar.
+
 Si tienes 5 minutos: [`journal/reportes/01_el_punto_de_partida.md`](journal/reportes/01_el_punto_de_partida.md).
 
-Si tienes 30 minutos: [`journal/2026-04-21_snapshot_v1.7.md`](journal/2026-04-21_snapshot_v1.7.md).
+Si tienes 45 minutos y quieres el estado técnico completo: [`journal/2026-04-21_snapshot_v1.8.md`](journal/2026-04-21_snapshot_v1.8.md).
 
-Si quieres seguir la historia completa: los 21 reportes narrativos en [`journal/reportes/`](journal/reportes/), en orden.
+Si quieres seguir la historia completa: los 22 reportes narrativos en [`journal/reportes/`](journal/reportes/), en orden.
 
 ## Honestidad epistémica
 
