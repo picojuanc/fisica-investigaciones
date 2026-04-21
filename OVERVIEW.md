@@ -1,8 +1,10 @@
 # Teoría SCG — Resumen para física teórica
 
-Panorama accesible del marco SCG (Stabilized Gravitational String) para un lector con formación en física teórica: gravedad cuántica, teoría de cuerdas, LQG o fenomenología de partículas. La intención es que en 20–30 minutos puedas evaluar si merece tu atención y, en caso afirmativo, adónde mirar a continuación.
+Panorama accesible del marco SCG (Stabilized Condensed Gravity) para un lector con formación en física teórica: gravedad cuántica, teoría de cuerdas, LQG o fenomenología de partículas. La intención es que en 20–30 minutos puedas evaluar si merece tu atención y, en caso afirmativo, adónde mirar a continuación.
 
-**Estado:** 22 sesiones de desarrollo (abril 2026). Snapshot maestro: [`journal/2026-04-21_snapshot_v1.8.md`](journal/2026-04-21_snapshot_v1.8.md).
+**Estado:** 24 sesiones de desarrollo (abril 2026). Snapshot maestro: [`journal/2026-04-21_snapshot_v1.9.md`](journal/2026-04-21_snapshot_v1.9.md).
+
+**Nota de nomenclatura:** el acrónimo SCG se había anclado inconsistentemente a "Stabilized Gravitational String"; desde la sesión 24 se redefine a **"Stabilized Condensed Gravity"**, que ajusta mnemónica y refleja mejor la naturaleza condensada-topológica del marco.
 
 **Advertencia preliminar:** esto no es un paper. Es el registro vivo de una investigación en curso. Las afirmaciones están marcadas explícitamente como *derivadas*, *argumentadas*, *propuestas* o *candidatas*. Ningún resultado se presenta como cerrado si no lo está.
 

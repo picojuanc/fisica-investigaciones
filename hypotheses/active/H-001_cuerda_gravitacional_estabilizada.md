@@ -7,6 +7,8 @@
 - **Depende de:** A-001, A-002, A-003 (axiomas tentativos — ver `framework/axioms.md`)
 - **Contradice a:** — (aún por chequear contra literatura)
 
+> **Nota de nomenclatura (sesión 24, 2026-04-21):** el acrónimo **SCG** usado consistentemente en toda la investigación se redefinió de su anclaje histórico "Stabilized Gravitational String" (inconsistente — sus iniciales darían SGS) al marco general **"Stabilized Condensed Gravity"**. El título de esta hipótesis ("Fase de Cuerda Gravitacional Estabilizada") se mantiene como **descripción fenomenológica del objeto en régimen III** (interior de BH), no como definición del acrónimo. El acrónimo SCG nombra ahora el marco completo, no sólo la fase de cuerda.
+
 ## Enunciado
 
 > **Existe una fase de la gravedad cuántica en la cual, cuando la densidad de energía supera un umbral crítico cercano a la escala de Planck, el colapso gravitacional NO produce un horizonte de eventos clásico, sino una configuración unidimensional extendida ("cuerda") estabilizada por el equilibrio entre tres términos de energía: gravitacional, de tensión y de "presión de entrelazamiento".**

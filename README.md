@@ -6,7 +6,7 @@ No es un paper. No es un tratado cerrado. Es el registro vivo de un programa exp
 
 ## De qué trata
 
-El marco central — provisional — se llama **SCG (Stabilized Gravitational String)**. Parte de la gravedad cuántica en formulación autodual de Ashtekar, cuantizada sobre una red tipo Walker-Wang en 3+1D, y propone que de ahí emerge:
+El marco central — provisional — se llama **SCG (Stabilized Condensed Gravity)**. Parte de la gravedad cuántica en formulación de Ashtekar-Barbero-Immirzi con β real, condensada sobre una red tipo Walker-Wang modular en 3+1D, y propone que de ahí emerge:
 
 - La dimensionalidad del espacio-tiempo: un punto fijo auto-consistente (1 objeto, 3 espacio, 1 tiempo).
 - El grupo gauge del Modelo Estándar: SU(3) × SU(2) × U(1), con la carga cuantizada en 1/3 y la violación de paridad sólo en SU(2) como consecuencias geométricas.
@@ -17,14 +17,18 @@ Todo desde solo dos axiomas activos (corte Planck y transición de fase gravitac
 
 ## Estado al día de hoy
 
-- **22 sesiones documentadas** (desde 2026-04-15).
+- **24 sesiones documentadas** (desde 2026-04-15).
 - **9 derivaciones** formales (D-001 a D-009).
-- **29 insights confirmados** (K-001 a K-027, K-029, K-031) + 3 candidatos pendientes de cuantificación (K-028, K-030, K-032).
+- **29 insights confirmados** (K-001 a K-027, K-029, K-030 con ruta identificada, K-031) + 3 candidatos pendientes de cuantificación (K-028, K-032) + 1 potencial (K-033).
 - **3 hipótesis activas** (H-001, H-002, H-003).
 - **Bosquejo de Lagrangiana** estructuralmente completo: 3/5 sub-tareas confirmadas estructuralmente + 2/5 parciales.
-- **Sin eslabones rojos** en la cadena lógica.
+- **Sin eslabones rojos** en la cadena lógica. **P-11 rebajada a 🟡 baja** tras Q-042 (sesión 24).
 
-El estado consolidado más reciente está en [`journal/2026-04-21_snapshot_v1.8.md`](journal/2026-04-21_snapshot_v1.8.md) — documento autocontenido, cubre sesiones 0–22.
+El estado consolidado más reciente está en [`journal/2026-04-21_snapshot_v1.9.md`](journal/2026-04-21_snapshot_v1.9.md) — documento autocontenido, cubre sesiones 0–24.
+
+### Nota sobre la nomenclatura
+
+El acrónimo **SCG** se anclaba inconsistentemente a "Stabilized Gravitational String" (cuyas iniciales darían SGS). Desde la sesión 24 se redefine como **"Stabilized Condensed Gravity"**, que ajusta mnemónica y refleja mejor la naturaleza del marco: un condensado topológico de red Walker-Wang donde la gravedad se estabiliza en fase de cuerda plegada. El nombre histórico en español — "Fase de Cuerda Gravitacional Estabilizada" — se mantiene como descripción fenomenológica del objeto en régimen III (interior de BH), no como definición del acrónimo.
 
 ## Cómo navegar
 
@@ -48,9 +52,9 @@ El estado consolidado más reciente está en [`journal/2026-04-21_snapshot_v1.8.
 
 Si tienes 5 minutos: [`journal/reportes/01_el_punto_de_partida.md`](journal/reportes/01_el_punto_de_partida.md).
 
-Si tienes 45 minutos y quieres el estado técnico completo: [`journal/2026-04-21_snapshot_v1.8.md`](journal/2026-04-21_snapshot_v1.8.md).
+Si tienes 45 minutos y quieres el estado técnico completo: [`journal/2026-04-21_snapshot_v1.9.md`](journal/2026-04-21_snapshot_v1.9.md).
 
-Si quieres seguir la historia completa: los 22 reportes narrativos en [`journal/reportes/`](journal/reportes/), en orden.
+Si quieres seguir la historia completa: los 24 reportes narrativos en [`journal/reportes/`](journal/reportes/), en orden.
 
 ## Honestidad epistémica
 

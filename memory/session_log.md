@@ -988,3 +988,10 @@ Formato:
   - **Prioridad 4 — K-033:** exploratorio SO(10)-GUT. Requiere compromiso estratégico.
   - **Actualización documental:** reflejar reinterpretación de K-019 y K-026 en H-003 y framework files.
 
+- **Addendum (misma sesión 24, post-cierre): redefinición del acrónimo SCG.**
+  - **Observación externa:** "SCG" anclado a "Stabilized Gravitational String" es inconsistente — las iniciales darían SGS, no SCG.
+  - **Historial real:** H-001 original (sesión 1, español): "Fase de Cuerda Gravitacional Estabilizada (SCG)" — daría CGE. Snapshots recientes en inglés: "Stabilized Gravitational String" — daría SGS. El acrónimo SCG no correspondía a ninguno de los dos.
+  - **Decisión:** redefinir el anclaje del acrónimo a **"Stabilized Condensed Gravity"** (iniciales S-C-G ✓). El nuevo nombre refleja mejor la naturaleza física del marco: condensado topológico de red Walker-Wang modular donde la gravedad se estabiliza en fase de cuerda plegada. NO se tocan las 24 sesiones pasadas (el protocolo del diario prohíbe borrar entradas antiguas); sólo se actualizan los puntos de anclaje vivos: README.md, OVERVIEW.md, snapshot v1.9, H-001 (nota al inicio).
+  - **Nombre histórico en español:** "Fase de Cuerda Gravitacional Estabilizada" se mantiene como descripción fenomenológica del régimen III (interior de BH), no como definición del acrónimo. El acrónimo SCG nombra ahora el marco completo.
+  - **Archivos actualizados:** README.md, OVERVIEW.md, journal/2026-04-21_snapshot_v1.9.md, hypotheses/active/H-001_cuerda_gravitacional_estabilizada.md, memory/session_log.md (esta entrada).
+
