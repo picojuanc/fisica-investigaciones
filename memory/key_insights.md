@@ -258,6 +258,56 @@ Formato:
 - **P-11 sigue 🟡 media** (no rebajada a 🟡 baja como se esperaba).
 - Análisis completo: `notes/Q-040_compatibilidad_randono_K-019.md`.
 
+**PROMOCIÓN DE K-030 (sesión 24, Q-042 resuelta parcialmente con veredicto (D)):**
+
+- **K-030 pasa de "candidato con reservas mayores" a "CONFIRMADO con ruta identificada" (pendiente Q-043).** Primera promoción positiva desde su introducción en sesión 17.
+- **Mecanismo identificado:** Kaplan 2024 (PRL 132 141603) + Wang-Wen 2018-2019 (arXiv:1809.11171) + modular Walker-Wang (2208.03397) proveen conjuntamente ruta conceptual completa para asimetría máxima SM:
+  - Kaplan 2024: fermiones quirales sin mirror partners en frontera dD de bulk (d+1)D topológico.
+  - Wang-Wen 2018-2019: SM completo desde SO(10)-GUT definible no-perturbativamente en lattice 3+1D vía cobordismo (Ω^5 = ℤ₂, clase trivial) + gap del mirror sector.
+  - Modular WW: bulk 3+1D invertible/SPT; frontera (2+1)D quiral. Consistente con red SCG de H-003.
+- **Aplicabilidad a SCG:** los fermiones SM como defectos topológicos (H-003) actúan localmente como fronteras. Asimetría máxima emerge estructuralmente del gap del mirror, independiente de β de Ashtekar.
+- **Compatibilidad con Randono:** los sectores gravitacional (β real → Kodama normalizable) y quiral-SM (topológico → asimetría máxima) son estructuralmente desacoplados. β real no compromete la quiralidad.
+- **P-11 rebajada** de 🟡 media a 🟡 **baja** con caveat: dependencia en Q-043.
+- **Q-043 nueva:** ¿existe UBFC modular específica para SCG con contenido SO(10) que cancele anomalías y dé asimetría SM máxima? Decide promoción final de K-030 a "confirmado limpio".
+- **Costos:** K-019 tercera reinterpretación (quiralidad es topológica, no gravitacional); K-026 significativamente debilitada (dicotomía "gravedad quiral / red no-quiral" no se sostiene bajo modular WW + Kaplan).
+- **Promoción a "confirmado limpio" si:** Q-043 cierra constructivamente (UBFC modular SCG con SO(10) explícita).
+- Análisis completo: `notes/Q-042_mecanismo_amplificacion_P.md`.
+
+**REINTERPRETACIÓN DE K-019 (sesión 24, Q-042):** K-019 mantiene contenido empírico (SU(2)_L es quiral, los fermiones L acoplan) pero su **mecanismo físico** se reinterpreta por tercera vez:
+
+- **(i) Sesión 9 — AMS 2014:** literal con β = -i. "A_Ashtekar = su(2)_L" como identidad matemática. Asimetría máxima automática.
+- **(ii) Sesión 22 — Q-040 (Randono β real):** compatibilidad cualitativa. Violación P preservada observacionalmente, asimetría máxima no automática.
+- **(iii) Sesión 24 — Q-042 (Kaplan + Wang-Wen + modular WW):** **la quiralidad es topológica, no gravitacional**. SU(2)_L emerge como edge mode quiral de defectos WW modulares, con anomalías canceladas via SO(10)-cobordismo. Independiente de β de Ashtekar.
+- **Consecuencia:** la conexión gravitacional de Ashtekar-Barbero-Immirzi (con β real) es el sector **gravitacional puro**; la quiralidad SM no viene de ahí. Los dos sectores son estructuralmente desacoplados.
+- **Contenido empírico preservado:** SU(2)_L sigue siendo el único factor gauge quiral; los fermiones L siguen siendo los únicos que acoplan. No cambia la fenomenología.
+
+**DEGRADACIÓN DE K-026 (sesión 24, Q-042):** K-026 pasa de "confirmado estructural" a **"observación heurística sin dualidad limpia"**:
+
+- **Problema:** la red WW **puede ser quiral** en su frontera (modular WW + Kaplan + Wang-Wen). El argumento original "red no-quiral por Nielsen-Ninomiya" aplicaba a bulk puro sin frontera; no aplica a WW con frontera topológica.
+- **Qué sigue valiendo:** el patrón observado (SU(2) quiral, SU(3) y U(1) no-quirales) es real y requiere explicación. El patrón **origen** (SU(2) viene de Ashtekar, SU(3)/U(1) de red) sigue siendo una observación.
+- **Qué NO sigue valiendo:** la dicotomía "gravedad = único origen quiral, red = inherentemente no-quiral" ya no es teorema aplicable a SCG. La red WW con frontera topológica **es** una fuente potencial de quiralidad.
+- **Nueva interpretación:** SU(3) y U(1)_Y pueden emerger no-quiralmente del bulk WW (modos transversales + trivalencia), mientras SU(2)_L emerge quiralmente de la estructura de defecto/frontera. Pero la asignación "quiral vs no-quiral" NO es dictada por "origen gravitacional vs de red" — depende de la UBFC específica (Q-043).
+- Análisis: `notes/Q-042_mecanismo_amplificacion_P.md`.
+
+## K-033 (CANDIDATO POTENCIAL, NO PROMOVIDO) — SCG + modular Walker-Wang + Wang-Wen = marco natural para SO(10)-GUT no-perturbativo en 3+1D
+
+- **Fecha:** 2026-04-21 (sesión 24)
+- **Estado:** candidato potencial. Apertura colateral identificada, no explorada técnicamente.
+- **Enunciado:** la combinación de (i) red SCG Walker-Wang en 3+1D (H-003, K-026), (ii) construcción Wang-Wen 2018-2019 de SM completo desde 16 Weyl spinoriales de SO(10), y (iii) estructura modular WW con frontera quiral (2208.03397), provee un marco natural para definir SO(10)-GUT no-perturbativamente en lattice 3+1D dentro de SCG. La cadena de inclusiones SO(10) ⊃ SU(5) ⊃ SU(3) × SU(2) × U(1) coincide con el grupo gauge derivado en SCG (D-004).
+- **Por qué importa:**
+  - Conexión con gran unificación no disponible previamente en SCG.
+  - SCG + Wang-Wen = definición no-perturbativa de SM completo en lattice.
+  - Posible apertura para masas fermiónicas, Yukawas, generaciones desde estructura SO(10).
+- **Condiciones para promoción:**
+  - Q-043 resuelta: UBFC modular SCG con SO(10) contenido construida.
+  - Verificación de que las reglas de fusión de D-004 son compatibles con embebimiento SO(10).
+  - Programa técnico de 10+ sesiones.
+- **Caveats honestos:**
+  - No es derivación — es identificación de compatibilidad estructural.
+  - Elecciones específicas de UBFC pueden forzar grupos distintos a SO(10).
+  - Wang-Wen trata SO(10) con fermiones quirales libres; SCG tiene estructura geométrica adicional.
+- **Relación con literatura:** Wang-Wen 2018-2019 (marco técnico); Georgi-Glashow 1974 (SO(10)-GUT original); Langacker (review GUT).
+
 ## K-031 — La acción efectiva 2D de cuerda SCG emerge por reducción dimensional de S_PA e integra D-001/D-003/D-006/D-007 [PROMOVIDO A CONFIRMADO SESIÓN 20]
 
 - **Fecha:** 2026-04-21 (sesión 18)

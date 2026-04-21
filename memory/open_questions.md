@@ -300,16 +300,35 @@ Las preguntas que la investigación debe responder, o al menos abordar. Numerada
 - **Q-042 nueva:** ¿mecanismo SCG que amplifica violación P de Randono hasta asimetría máxima del SM?
 - **Ver:** `notes/Q-040_compatibilidad_randono_K-019.md`.
 
-## Q-042 — ¿Qué mecanismo SCG amplifica la violación P de Randono hasta la asimetría máxima del SM?
+## Q-042 — ¿Qué mecanismo SCG amplifica la violación P de Randono hasta la asimetría máxima del SM? [PARCIALMENTE RESUELTA — veredicto (D)]
 - **Abierta desde:** 2026-04-21 (sesión 22).
-- **Relevancia:** ALTA. Determina si K-030 eventualmente se promueve o si P-11 se reagrava.
-- **Contexto:** bajo β real finito (Randono 2006), la violación P es moderada, no máxima. El SM requiere asimetría máxima. Hace falta mecanismo adicional.
-- **Candidatos a explorar:**
-  - (1) UBFC con simetría L: categoría de fusión específica de WW que rompa simetría L-R.
-  - (2) Condensación de anyones Higgs (K-021): selección de proyección L en la fase confinante.
-  - (3) Kaplan 2024 (PRL 132 141603): fermiones quirales en frontera topológica. Mecanismo independiente de β. **Candidato más prometedor.**
-  - (4) Límite β → ∞ no-perturbativo: especulativo.
-- **Ruta:** evaluar cada candidato; (3) es el más prometedor por literatura reciente. 2-3 sesiones estimadas.
+- **Parcialmente resuelta:** 2026-04-21 (sesión 24).
+- **Relevancia:** ALTA. Determinó promoción de K-030 y rebaja de P-11.
+- **Resultado (D):** Mecanismo conceptual completo existe e es independiente de β. Kaplan 2024 + Wang-Wen 2018-2019 + modular Walker-Wang proveen:
+  - **Kaplan 2024 (PRL 132 141603):** fermiones quirales sin mirror partners en frontera dD de bulk (d+1)D topológico.
+  - **Wang-Wen 2018-2019 (arXiv:1809.11171):** SM completo desde SO(10)-GUT definible no-perturbativamente en lattice 3+1D vía cobordismo + gap del mirror.
+  - **Modular Walker-Wang:** bulk 3+1D invertible/SPT; frontera (2+1)D quiral.
+- **Aplicabilidad a SCG:** los fermiones SM como defectos topológicos (H-003) actúan localmente como fronteras. Asimetría máxima emerge estructuralmente. Compatible con Randono β real (sector gravitacional desacoplado del sector quiral).
+- **Costos identificados:**
+  - K-019 tercera reinterpretación: quiralidad es topológica, no gravitacional.
+  - K-026 degradada significativamente: dicotomía "gravedad quiral / red no-quiral" ya no se sostiene.
+  - Q-043 nueva (UBFC modular específica SCG).
+- **Consecuencias:** K-030 **promovido** a "confirmado con ruta identificada". P-11 rebajada a 🟡 baja (con caveat Q-043).
+- **Ver:** `notes/Q-042_mecanismo_amplificacion_P.md`.
+
+## Q-043 — ¿Existe UBFC modular específica para SCG con contenido SO(10) que cancele anomalías y dé asimetría SM máxima?
+- **Abierta desde:** 2026-04-21 (sesión 24).
+- **Relevancia:** ALTA. Decide promoción final de K-030 a confirmado limpio.
+- **Contexto:** Q-042 estableció que el mecanismo Kaplan 2024 + Wang-Wen + modular WW es aplicable a SCG en principio. Q-043 pregunta si la UBFC concreta existe.
+- **Condiciones:**
+  - (a) Categoría de fusión trivalente (compatible con SCG, H-003, D-004).
+  - (b) Modular (bulk invertible).
+  - (c) Frontera hospeda 16 Weyl spinoriales de SO(10).
+  - (d) Anomalías 't Hooft canceladas por cobordismo (clase trivial en Ω^5).
+- **Candidatos naturales:** Drinfeld center de SU(3)×SU(2)×U(1); Witt classes generadas por Ising MTC (2208.03397); UBFCs derivadas de SO(10) holografía.
+- **Esfuerzo estimado:** 5-10 sesiones.
+- **Si Q-043 afirmativa:** K-030 → confirmado limpio; P-11 → ✅ resuelto; K-033 candidato potencial (SO(10)-GUT en SCG) activable.
+- **Si Q-043 negativa o muy parcial:** K-030 sigue confirmado con ruta identificada pero con limitaciones; P-11 permanece 🟡 baja con caveat.
 
 ---
 

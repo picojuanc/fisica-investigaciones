@@ -3,9 +3,33 @@
 - **ID:** H-003
 - **Fecha de propuesta:** 2026-04-18 (sesión 10; material acumulado en sesiones 7–9)
 - **Estado:** activa
-- **Estado derivacional:** U(1) derivado; Z₃ derivado; SU(2) fuertemente motivado (importado de LQG/Ashtekar); SU(3) argumentado por 5 vías; generaciones propuesto; Higgs mecanismo establecido
-- **Depende de:** H-001 v1.2 (objetos 1D), H-002 (D=3), A-003 (presión de degeneración), D-004 (reglas de fusión)
+- **Estado derivacional (actualizado v1.9, sesión 24):** U(1) derivado; Z₃ derivado; **SU(2)_L reinterpretado como edge mode quiral de frontera WW modular** (ya no importado literalmente de Ashtekar autodual; ver nota v1.9 abajo); SU(3) argumentado por 5 vías; generaciones propuesto; Higgs mecanismo establecido. Asimetría máxima del SM: emerge de Kaplan 2024 + Wang-Wen 2018-2019 + modular Walker-Wang (Q-042, veredicto (D); Q-043 pendiente).
+- **Depende de:** H-001 v1.2 (objetos 1D), H-002 (D=3), A-003 (presión de degeneración), D-004 (reglas de fusión), **UBFC modular WW compatible con SO(10) (Q-043, pendiente)**.
 - **Contradice a:** — (extiende H-001 y H-002 al sector de materia)
+
+---
+
+## ⚠ Nota de reinterpretación v1.9 (sesión 24, post-Q-042)
+
+**Los detalles de este documento reflejan el estado pre-v1.9 (sesión 10). La reinterpretación de K-019 y degradación de K-026 en la sesión 24 cambian el mecanismo físico subyacente de la quiralidad SU(2)_L sin cambiar el contenido empírico.**
+
+**Lo que cambió:**
+- **Quiralidad SU(2)_L: topológica, no gravitacional.** La conexión autodual de Ashtekar con β = -i ya no es el origen literal de la quiralidad. En su lugar, SU(2)_L emerge como edge mode quiral de la frontera de una red Walker-Wang modular en 3+1D, vía mecanismo Kaplan 2024 (PRL 132 141603) + Wang-Wen 2018-2019 (arXiv:1809.11171).
+- **Sector gravitacional (Ashtekar-Barbero-Immirzi con β real, Randono 2006):** sigue valiendo, pero es sector puramente gravitacional sin quiralidad fenomenológica directa.
+- **K-026 degradada:** la dicotomía "gravedad quiral / red no-quiral por Nielsen-Ninomiya" ya no se sostiene — la red WW modular *puede* ser quiral en su frontera.
+
+**Lo que NO cambió:**
+- SU(2)_L sigue siendo el único factor gauge quiral del SM.
+- Los fermiones L siguen siendo los únicos que acoplan.
+- La fenomenología observacional (violación P, masas W/Z, confinamiento electrodébil via Higgs-Fradkin-Shenker) se preserva.
+- El grupo gauge completo SU(3) × SU(2) × U(1) sigue derivado de la red SCG.
+- Las secciones "U(1) desde modos transversales" y "Z₃ desde trivalencia" siguen válidas sin cambio.
+
+**Pendiente (Q-043, prioridad alta):** construir UBFC modular específica para SCG con contenido SO(10) que cancele anomalías y produzca asimetría SM máxima. Si Q-043 cierra constructivamente, K-030 → confirmado limpio, P-11 → ✅ resuelto.
+
+**Ver:** `notes/Q-042_mecanismo_amplificacion_P.md`, `journal/2026-04-21_snapshot_v1.9.md`, `journal/reportes/24_la_quiralidad_es_topologica.md`.
+
+---
 
 ## Enunciado
 

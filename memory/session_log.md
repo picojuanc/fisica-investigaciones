@@ -944,3 +944,47 @@ Formato:
     - **Ruta B parcial** (masas desde defectos WW): exploratorio.
     - **Q-030** (unicidad punto fijo): formal, cierre de objeción epistémica.
 
+---
+
+## 2026-04-21 — Sesión 24: Ruta A — Q-042 (amplificación P de Randono). Resultado positivo con caveat.
+
+- **Qué se hizo:**
+  - Ataque a Q-042: identificación de mecanismo SCG que amplifique violación P de Randono (β real) hasta asimetría máxima del SM.
+  - Revisión sistemática de los 4 candidatos de Q-040: (1) UBFC con simetría L; (2) condensación Higgs (K-021); (3) Kaplan 2024 (PRL 132 141603); (4) β → ∞ especulativo.
+  - **Literatura consultada:** Kaplan 2024 (PRL 132 141603, arXiv:2312.01494); Kaplan-Sen 2024 (PRL 132 141604, arXiv:2312.04012); Wang-Wen 2018-2019 (arXiv:1807.05998 + 1809.11171); Walker-Wang 2011 (arXiv:1104.2632); Kawagoe-Gorantla-Williamson 2023 (PRB 107 085134, arXiv:2208.03397).
+  - **Hallazgo central:** el mecanismo Kaplan 2024 + Wang-Wen 2018-2019 + modular Walker-Wang provee conjuntamente una ruta conceptual completa:
+    - **Kaplan 2024:** fermiones quirales sin mirror partners emergen en frontera d-dimensional de bulk (d+1)-dimensional topológico. Condiciones: anomalías gauge canceladas + volumen grande.
+    - **Wang-Wen 2018-2019:** SM completo desde SO(10)-GUT definible no-perturbativamente en lattice 3+1D vía cobordismo (Ω^5 = ℤ₂, clase trivial) + gap del mirror sector.
+    - **Modular Walker-Wang (2208.03397):** bulk 3+1D invertible/SPT trivial; frontera (2+1)D quiral. Aplicable a la red WW de SCG (H-003).
+  - **Aplicabilidad a SCG:** los fermiones del SM como defectos topológicos (H-003) actúan localmente como fronteras donde emergen edge modes quirales. El mecanismo es independiente de β de Ashtekar. Anomalías SM canceladas automáticamente.
+  - **Análisis completo** en `notes/Q-042_mecanismo_amplificacion_P.md`. Veredicto: **(D) Mecanismo conceptual completo, independiente de β, aplicable, pero requiere construcción técnica específica (Q-043 nueva).**
+  - **K-030 promovido** de "candidato con reservas mayores" (post-Q-040) a "confirmado con ruta identificada pendiente de construcción técnica (Q-043)".
+  - **P-11 rebajada** de 🟡 media a 🟡 baja con caveat de dependencia en Q-043.
+  - **K-019 tercera reinterpretación:** SU(2)_L quiralidad es topológica (frontera WW modular), no gravitacional. Contenido empírico preservado; mecanismo físico distinto.
+  - **K-026 degradada significativamente:** la dicotomía "gravedad quiral / red no-quiral por Nielsen-Ninomiya" ya no se sostiene bajo modular WW + Kaplan mechanism. Pasa de "confirmado estructural" a "observación heurística sin dualidad limpia".
+  - **K-033 candidato potencial (no promovido):** SCG + WW modular + Wang-Wen = marco natural para SO(10)-GUT no-perturbativo en 3+1D. Apertura mayor hacia gran unificación.
+  - **Q-043 nueva:** ¿existe UBFC modular específica para SCG con contenido SO(10) que cancele anomalías y dé asimetría SM máxima?
+
+- **Qué se descubrió / refinó:**
+  - **Primera promoción positiva de K-030 desde sesión 17.** Tras Q-039 negativo y Q-040 parcial, K-030 estaba más débil que al inicio. Q-042 lo fortalece con ruta independiente de β basada en literatura sólida reciente (2018-2024).
+  - **La quiralidad SM resulta ser topológica, no gravitacional.** Cambio conceptual en SCG: el origen de SU(2)_L pasa de Ashtekar autodual (K-019 literal) a frontera WW modular. Los sectores gravitacional y quiral-SM se desacoplan estructuralmente.
+  - **Apertura SO(10)-GUT.** Wang-Wen usa explícitamente 16n fermiones en spinor de SO(10). SCG puede adoptar este marco; conexión con gran unificación no disponible previamente.
+  - **Aplicación de K-005** ("teoría más modesta"): Kaplan-Wang-Wen son mecanismos establecidos; SCG adopta sin postular nuevos principios. Consistente.
+  - **Aplicación de Regla 9** ("destruir resultado propio"): K-019 sufre tercera reinterpretación; K-026 se degrada significativamente. Cambios aceptados honestamente en vez de defender por inercia.
+  - **Ruta A tras sesión 24:** 2 promovidos (K-031 limpio; K-030 con Q-043), 1 negativo (Q-039), 1 parcial (Q-040), 2 pendientes (K-028, K-032). **Progreso neto positivo.**
+
+- **Qué quedó abierto:**
+  - **Q-043 (prioridad alta):** construcción UBFC modular específica para SCG con contenido SO(10). Decide promoción final de K-030 a confirmado limpio. 5-10 sesiones estimadas si se emprende.
+  - **K-033 (candidato potencial, no abordado):** programa SO(10)-GUT en SCG. 10+ sesiones si se emprende. Fuera del scope de Q-042.
+  - **Revisión de K-019 y K-026 en documentos de framework:** las reinterpretaciones necesitan reflejarse en hypotheses/active/H-003, framework/ontology, etc. Pendiente.
+  - **K-032, K-028 siguen pendientes.** Matching II→IV + redshift riguroso P-15'.
+  - **Q-030** (unicidad punto fijo dimensional): pendiente desde sesión 11.
+  - **Mirror sector específico para SCG:** Wang-Wen provee esquema; SCG necesita aplicación.
+
+- **Próximo paso sugerido:**
+  - **Prioridad 1 — Q-043:** construcción UBFC modular SCG. Si parcial, K-030 → confirmado limpio, P-11 → ✅ resuelto. Impacto máximo en la mitigación P-11.
+  - **Prioridad 2 — K-032:** matching II→IV explícito. Alto impacto cuantitativo (derivación formal de α_gauge). 3-5 sesiones.
+  - **Prioridad 3 — K-028 riguroso:** P-15' técnico. 2-3 sesiones.
+  - **Prioridad 4 — K-033:** exploratorio SO(10)-GUT. Requiere compromiso estratégico.
+  - **Actualización documental:** reflejar reinterpretación de K-019 y K-026 en H-003 y framework files.
+

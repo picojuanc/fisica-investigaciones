@@ -394,13 +394,37 @@ Análisis completo en `notes/Tarea_5.3_kodama_P-11.md`.
 
 **K-030 candidato** (en `memory/key_insights.md`): P-11 admite mitigación estructural.
 
-**Severidad:** ~~🟡 alta~~ → **🟡 media.** Riesgo manejable con dos rutas alternativas + mitigantes.
+**Severidad (sesión 17):** ~~🟡 alta~~ → **🟡 media.** Riesgo manejable con dos rutas alternativas + mitigantes.
 
 **Lo que queda:**
 - Cuantificar Λ_efectiva en régimen I de SCG (Q-039 nueva) — si ≳ 400 M_P², K-030 se promueve.
 - Formalizar HK-SCG (inner product ABKP restringido al sector geométrico SCG).
 - Leer Randono 0611074 en detalle; aclarar compatibilidad K-019 ↔ β real (Q-040 nueva).
 - No-perturbativo: ninguna ruta aborda el problema globalmente.
+
+### Estado (2026-04-21, sesión 24): REBAJADA A 🟡 BAJA con caveat (Q-043)
+
+Análisis completo en `notes/Q-042_mecanismo_amplificacion_P.md`.
+
+**Tras 3 sesiones adicionales (Q-039 sesión 21, Q-040 sesión 22, Q-042 sesión 24):**
+
+- **Q-039 negativo:** ABKP 2025 no aplica en régimen I de SCG (Λ_UV ≪ Λ_c = 384 M_P²). Ruta A de K-030 cerrada como insuficiente.
+- **Q-040 parcial:** Randono β real preserva viabilidad + CPT + violación P-T cualitativa, pero no la asimetría máxima del SM automáticamente. K-019 debilitada.
+- **Q-042 positivo con caveat:** Kaplan 2024 (PRL 132 141603) + Wang-Wen 2018-2019 (arXiv:1809.11171) + modular Walker-Wang (2208.03397) proveen **mecanismo completo independiente de β** para asimetría máxima SM en lattice 3+1D. Aplicable a SCG vía fermiones SM como defectos topológicos en WW (actuando como fronteras locales).
+
+**Consecuencia:** los dos sectores (gravitacional via Randono β real; quiral-SM via topología WW modular + Wang-Wen) son **estructuralmente desacoplados**. El sector gravitacional tiene Kodama normalizable (β real). El sector quiral-SM tiene asimetría máxima (topológica). **Ambas mitigaciones concurrentes** resuelven P-11 conceptualmente.
+
+**K-030 promovido** a "confirmado con ruta identificada" (pendiente Q-043 para promoción a "confirmado limpio").
+
+**Costos asumidos:**
+- K-019 sufre tercera reinterpretación: "SU(2)_L quiralidad emerge de frontera WW modular, no de conexión gravitacional".
+- K-026 degradada: "gravedad quiral / red no-quiral" ya no se sostiene (red WW con frontera topológica *puede* ser quiral).
+
+**Severidad:** ~~🟡 media~~ → **🟡 baja (con caveat Q-043).** Si Q-043 falla (UBFC modular SCG con SO(10) no construible), P-11 regresa a 🟡 media. Si Q-043 cierra constructivamente, P-11 → ✅ resuelto.
+
+**Q-043 nueva (prioridad alta):** ¿existe UBFC modular específica para SCG que (a) sea trivalente (compatible con SCG + D-004); (b) modular (bulk invertible); (c) frontera hospede 16 Weyl spinoriales de SO(10); (d) cancele anomalías 't Hooft por cobordismo? Esfuerzo estimado 5-10 sesiones si se emprende.
+
+**Apertura colateral:** K-033 candidato potencial (SCG + WW modular + Wang-Wen = SO(10)-GUT no-perturbativo lattice 3+1D). No promovido, apertura para futuras sesiones.
 
 ---
 
