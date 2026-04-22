@@ -139,6 +139,7 @@ Formato:
 - **Por qué importa:** por primera vez, la mayoría del grupo gauge del SM tiene un origen geométrico unificado: segmentos → U(1), vértices → Z₃, conexión → SU(2). Cada factor viene de un aspecto distinto de la misma red.
 
 ## K-017 — Z₃ + quiralidad gravitacional = SU(3)₁ por unicidad matemática
+> **📝 REFUERZO v2.0 (sesión 30, Q-043 cerrada):** en el framework Q-043 (D-010), K-017 gana interpretación más limpia: el Z₃ geométrico del vértice SCG equiespaciado y el centro Z₃ de SU(3) post-ruptura Wang-Wen son **el mismo Z₃ en dos capas estructurales distintas** — ambas provienen de la valencia 3 del vértice. La rotación 120° del vértice se realiza como permutación cíclica de los tres colores. Esta identificación directa es **más robusta** que el argumento original ("unicidad de órdenes topológicos quirales con fusion Z₃"); no lo invalida sino lo refuerza. **K-017 no cambia de nivel** (sigue confirmado); gana claridad conceptual en el marco SCG v2.0. Nota complementaria: "quiralidad gravitacional" en el título es terminología pre-v1.9; post-v1.9 la quiralidad es topológica (K-019 v1.9). El resultado algebraico (Z₃ + quiralidad → SU(3)₁) se preserva independientemente del origen de la quiralidad.
 - **Fecha:** 2026-04-17 (sesión 8)
 - **Derivado de:** Q-026, clasificación de órdenes topológicos abelianos.
 - **Enunciado:** solo existen 2 órdenes topológicos quirales con fusión Z₃ (SU(3)₁ y su conjugado temporal). La quiralidad de la red SCG (del CS gravitacional/Ashtekar) selecciona SU(3)₁ unívocamente. Esto completa el grupo gauge: Z₃ (de D-004) no es "solo Z₃" — es SU(3) a nivel k=1.
@@ -165,6 +166,7 @@ Formato:
 - **Caveat:** el valor v = 246 GeV no se predice. Las masas de W/Z y los Yukawa no se derivan.
 
 ## K-019 — La conexión autodual de Ashtekar ES su(2)_L — la quiralidad de la fuerza débil es gravitacional
+> **⚠ REINTERPRETADO v1.9 (sesión 24, Q-042) — VER "REINTERPRETACIÓN DE K-019" MÁS ABAJO.** El contenido empírico se preserva (SU(2)_L quiral, solo fermiones L acoplan), pero el mecanismo físico ya no es gravitacional sino **topológico** (edge mode de frontera Walker-Wang modular). Historial completo: sesión 9 (AMS 2014, literal β=-i) → sesión 22 (Q-040, Randono β real) → sesión 24 (Q-042, Kaplan+Wang-Wen+modular WW). **Texto abajo preservado como registro histórico de la interpretación original.**
 - **Fecha:** 2026-04-18 (sesión 9, stress-test de D-004)
 - **Derivado de:** stress-test Test 2, literatura Alexander-Marciano-Smolin (2012, PRD).
 - **Enunciado:** la conexión de Ashtekar original (1986) es la parte autodual de la álgebra de Lorentz: so(3,1)_C ≅ su(2)_L × su(2)_R, y A = su(2)_L. Los fermiones levógiros se acoplan a la conexión autodual, los dextrógiros a la anti-autodual (teoría de representaciones del grupo de Lorentz). Esto fue propuesto como origen de la quiralidad de la fuerza débil por Alexander, Marciano y Smolin (PRD 89, 065017, 2014).
@@ -203,6 +205,7 @@ Formato:
 - **Nuevo argumento para SU(3) (matching dimensional):** la valencia del vértice (3) coincide con la dimensión de la representación fundamental de SU(3) (3). Para SU(6) haría falta valencia 6, para E₆ estructura más compleja. Argumento independiente de k.
 
 ## K-026 — El patrón quiral del SM coincide exactamente con el patrón de origen dual (gravedad vs red) en SCG
+> **⚠ DEGRADADO v1.9 (sesión 24, Q-042) — VER "DEGRADACIÓN DE K-026" MÁS ABAJO.** La dicotomía "gravedad quiral / red no-quiral por Nielsen-Ninomiya" **no se sostiene** — una red Walker-Wang **modular** con frontera topológica *sí* puede ser quiral (Kaplan 2024, Wang-Wen 2018-2019, Kawagoe-Gorantla-Williamson 2023). Estado actualizado: "observación heurística sin dualidad limpia". El patrón observado (SU(2) quiral; SU(3), U(1)_Y no-quirales) sigue siendo real, pero NO está dictado por "origen gravitacional vs origen de red" — depende de la UBFC modular específica (Q-043 pendiente). **Texto abajo preservado como registro histórico.**
 - **Fecha:** 2026-04-19 (sesión 11, análisis Walker-Wang)
 - **Derivado de:** D-004, K-019, Wen (2003 PRD 68 065003), Nielsen-Ninomiya.
 - **Enunciado:** en el SM, SU(2)_L es el único factor quiral (solo fermiones L se acoplan); SU(3) y U(1)_Y son no-quirales (ambas helicidades se acoplan). En el marco SCG, SU(2)_L es el único factor que viene de la gravedad (conexión autodual de Ashtekar, inherentemente quiral por la estructura del grupo de Lorentz); SU(3) y U(1)_Y emergen de la red (trivalencia y modos transversales, inherentemente no-quirales por Nielsen-Ninomiya). La correspondencia es exacta: origen gravitacional → quiral; origen de red → no-quiral. Wen (2003) demostró constructivamente que una red de espín en 3+1D produce U(1)×SU(2)×SU(3) no-quiralmente. El factor quiral (SU(2)_L) requiere un mecanismo externo a la red — que en SCG es exactamente la gravedad.
@@ -258,6 +261,24 @@ Formato:
 - **P-11 sigue 🟡 media** (no rebajada a 🟡 baja como se esperaba).
 - Análisis completo: `notes/Q-040_compatibilidad_randono_K-019.md`.
 
+**PROMOCIÓN FINAL DE K-030 (sesión 30, Q-043 cerrada estructuralmente):**
+
+- **K-030 pasa de "confirmado con ruta identificada" (sesión 24) a "CONFIRMADO ESTRUCTURALMENTE" (sesión 30).** Las 4 obstrucciones bloqueantes (O1, O2, O5, O6) cerraron positivamente en sesiones 27-29. Chequeo de consistencia cruzada en sesión 30 verifica coherencia interna.
+- **UBFC específica identificada:** `Spin(10)_1` MTC (+ super-modular extension estándar para contenido fermiónico).
+- **Espectro concreto:** {1, v(10), s(16), c(16̄)} con fusión Z_4 cíclica abeliana; pesos conformes (0, 1/2, 5/8, 5/8); c = 5.
+- **Dos sectores desacoplados:** gravitacional (Randono β real, D-007) y topológico (Walker-Wang sobre `Spin(10)_1` con ruptura Wang-Wen). Verificado en O5.
+- **Asimetría máxima SM:** emerge topológicamente, independiente de β.
+- **Consecuencia P-11:** rebajada de 🟡 baja (sesión 24) a ✅ **resuelto estructuralmente** (sesión 30). El fantasma existencial desde sesión 11 se disuelve estructuralmente.
+- **Caveats honestos:**
+  - 3 de 4 piezas (O2, O5, super-modular extension) tienen caveat "estructural, no constructivo". Estándar literatura (Wang-Wen 2018-2019 es estructural).
+  - Construcción constructiva explícita del lattice SM en SCG pendiente; común a toda la literatura del programa.
+  - Régimen no-perturbativo del desacople no tratado.
+- **Reserva:** promoción a "confirmado limpio puro" reservada para futura construcción constructiva del lattice SM. Por ahora, "confirmado estructuralmente" es el nivel honesto.
+- **Nivel de confirmación:** estructuralmente (no constructivamente). Ver definición de niveles en D-010.
+- **Ver:** `logic/derivations/D-010_Q-043_sintesis.md`, `notes/Q-043_sesion30_evaluacion_global.md`, snapshot v2.0.
+
+---
+
 **PROMOCIÓN DE K-030 (sesión 24, Q-042 resuelta parcialmente con veredicto (D)):**
 
 - **K-030 pasa de "candidato con reservas mayores" a "CONFIRMADO con ruta identificada" (pendiente Q-043).** Primera promoción positiva desde su introducción en sesión 17.
@@ -289,7 +310,13 @@ Formato:
 - **Nueva interpretación:** SU(3) y U(1)_Y pueden emerger no-quiralmente del bulk WW (modos transversales + trivalencia), mientras SU(2)_L emerge quiralmente de la estructura de defecto/frontera. Pero la asignación "quiral vs no-quiral" NO es dictada por "origen gravitacional vs de red" — depende de la UBFC específica (Q-043).
 - Análisis: `notes/Q-042_mecanismo_amplificacion_P.md`.
 
-## K-033 (CANDIDATO POTENCIAL, NO PROMOVIDO) — SCG + modular Walker-Wang + Wang-Wen = marco natural para SO(10)-GUT no-perturbativo en 3+1D
+## K-033 (CANDIDATO FORMAL — ACTIVADO sesión 30) — SCG + modular Walker-Wang + Wang-Wen = marco natural para SO(10)-GUT no-perturbativo en 3+1D
+
+**Nota (sesión 30):** **K-033 ACTIVADO a candidato formal tras cierre de Q-043.** Con la UBFC `Spin(10)_1` establecida (D-010) y la ruptura bosónica Wang-Wen identificada como mecanismo del sector topológico, el programa SO(10)-GUT en SCG deja de ser "apertura potencial" y se convierte en **base técnica del cierre de P-11**. Programa asociado abierto: masas fermiónicas, Yukawas, CKM/PMNS vía propiedades de SO(10). 10+ sesiones para desarrollo.
+
+---
+
+
 
 - **Fecha:** 2026-04-21 (sesión 24)
 - **Estado:** candidato potencial. Apertura colateral identificada, no explorada técnicamente.
@@ -410,6 +437,26 @@ Formato:
   - No predice ninguna constante del SM.
   - La cuantización (incluyendo el análogo Kodama y su no-normalizabilidad Witten 2003) no se aborda aquí; queda para tarea 5.3.
 - **Relación con literatura:** estrictamente aplicación de Plebanski 1977 (teorema original), Baez 2000 (reducción bulk-boundary), Krasnov 2009-2011 (revisión moderna), AMS 2014 (identificación A=su(2)_L). Ningún paso es novedoso individualmente.
+
+---
+
+## K-034 (CANDIDATO FORMAL, sesión 30) — La cuantización Q en 1/3 tiene doble derivación independiente en SCG
+
+- **Fecha:** 2026-04-21 (identificación preliminar sesión 27, como K-034 potencial diferido) → 2026-04-22 (sesión 30, promoción a candidato formal).
+- **Estado:** candidato. Fenómeno identificado estructuralmente; derivación rigurosa de la equivalencia pendiente.
+- **Derivado de:** síntesis de K-015 (sesión 8) + sesión 27 (O6 de Q-043) + D-010 (sesión 30).
+- **Enunciado:** la cuantización de la carga eléctrica en múltiplos de 1/3 emerge en SCG por **dos caminos lógicamente independientes** que convergen al mismo resultado:
+  - **Ruta (a) — K-015 geométrica:** en el vértice trivalente equiespaciado SCG, la simetría transversal SO(2) se rompe a Z₃ (simetría cíclica 120°); el momento angular transversal se clasifica mod 3, lo que produce cargas en 1/3.
+  - **Ruta (b) — SO(10)-GUT algebraica:** en la cadena de ruptura Spin(10) → SU(5) → SU(3)×SU(2)×U(1), el generador de hipercarga Y es proporcional a diag(-1/3, -1/3, -1/3, 1/2, 1/2) en el fundamental de SU(5). La traza nula fuerza 1/3. Carga eléctrica Q = T_3 + Y ∈ múltiplos de 1/3.
+- **Por qué importa:**
+  - **Coherencia estructural reforzada:** dos mecanismos matemáticamente independientes dan el mismo resultado. Evidencia fuerte de que ambas describen la misma estructura subyacente (el vértice trivalente).
+  - **Soporte cruzado de K-015 y del embedding Spin(10)-GUT:** ni K-015 ni el embedding son mecanismos ad hoc; la convergencia es consecuencia de una estructura unificada.
+  - **Abre puerta a K-033 (SO(10)-GUT):** si las dos derivaciones son equivalentes, la estructura SO(10) ya está implícita en SCG desde H-003/D-004.
+- **Caveats honestos:**
+  - **No es mecanismo nuevo;** es corroboración estructural.
+  - **La equivalencia no está demostrada rigurosamente.** Solo verificada numéricamente (ambas rutas dan Q en 1/3).
+  - **Promoción a confirmado:** requiere derivar la equivalencia formalmente. Esperable con K-033 exploratorio.
+- **Relación con literatura:** K-015 es interno a SCG (sesión 8); la ruta SO(10)-GUT es estándar desde Georgi-Glashow 1974. La doble derivación es **observación meta-estructural** de SCG.
 
 ---
 

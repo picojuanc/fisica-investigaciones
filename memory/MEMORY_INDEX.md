@@ -18,7 +18,8 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 
 | Snapshot | Estado capturado | Fecha |
 |---|---|---|
-| [`../journal/2026-04-21_snapshot_v1.9.md`](../journal/2026-04-21_snapshot_v1.9.md) | **v1.9 — Post-Q-042: K-030 promovido a "confirmado con ruta identificada" (Kaplan 2024 + Wang-Wen 2018-2019 + modular WW). P-11 rebajada a 🟡 baja. K-019 tercera reinterpretación (quiralidad topológica, no gravitacional). K-026 degradada. Q-043 nueva (UBFC modular SCG con SO(10)). K-033 potencial (SO(10)-GUT). Balance Ruta A: 2 promovidos + 1 negativo + 1 parcial + 2 pendientes.** | 2026-04-21 (sesión 24) |
+| [`../journal/2026-04-22_snapshot_v2.0.md`](../journal/2026-04-22_snapshot_v2.0.md) | **v2.0 — Post-Q-043: K-030 CONFIRMADO ESTRUCTURALMENTE. UBFC específica = `Spin(10)_1` MTC. P-11 RESUELTO ESTRUCTURALMENTE. K-033 activado (SO(10)-GUT). K-034 candidato (doble derivación Q=1/3). K-017 refuerzo. D-010 nueva. Bosquejo Lagrangiana 4/5 cerradas. Sin eslabones rojos; P-11 resuelto.** | 2026-04-22 (sesión 30) |
+| [`../journal/2026-04-21_snapshot_v1.9.md`](../journal/2026-04-21_snapshot_v1.9.md) | v1.9 — Post-Q-042: K-030 promovido a "confirmado con ruta identificada" (Kaplan 2024 + Wang-Wen 2018-2019 + modular WW). P-11 rebajada a 🟡 baja. K-019 tercera reinterpretación (quiralidad topológica, no gravitacional). K-026 degradada. Q-043 nueva (UBFC modular SCG con SO(10)). K-033 potencial (SO(10)-GUT). Balance Ruta A: 2 promovidos + 1 negativo + 1 parcial + 2 pendientes. (histórico) | 2026-04-21 (sesión 24) |
 | [`../journal/2026-04-21_snapshot_v1.8.md`](../journal/2026-04-21_snapshot_v1.8.md) | v1.8 — Consolidación post-Ruta A. D-009 añadida; K-031 promovido. Q-039 negativo + Q-040 parcial (K-030 con reservas mayores). Q-042 nueva. OVERVIEW.md externo (histórico) | 2026-04-21 (sesión 23) |
 | [`../journal/2026-04-21_snapshot_v1.7.md`](../journal/2026-04-21_snapshot_v1.7.md) | v1.7 — Bosquejo estructuralmente completo. D-007, D-008. K-029 confirmado, K-030/K-031/K-032 candidatos. P-11 rebajada 🟡 alta → 🟡 media. Ciclo II→III cerrado. Patrón α₂≈α₃≠α₁ estructural (histórico) | 2026-04-21 (sesión 19) |
 | [`../journal/2026-04-20_snapshot_v1.6.md`](../journal/2026-04-20_snapshot_v1.6.md) | v1.6 — Reducción axiomática (A-003 → D-006) + K-027 + bosquejo Lagrangiana + K-007 preservado + Casimir curvo + K-028 candidato (histórico) | 2026-04-20 (sesión 15) |
@@ -58,7 +59,19 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 - Preguntas abiertas: `Q-001` (físicas), `QM-001` (metodológicas)
 - Problemas identificados en una hipótesis: `P-1`, `P-2`, ... dentro del archivo de debilidades
 
-## Inventario actual (2026-04-21, sesión 24 — Q-042 resuelta positivamente)
+## Inventario actual (2026-04-22, sesión 30 — Q-043 CERRADA estructuralmente; P-11 RESUELTO)
+
+**Sesión 25:** integración de la reinterpretación v1.9 en el cuerpo de H-003, framework/axioms.md (premisa operativa v1.9) y marcadores en memory/key_insights.md (K-019, K-026). Ningún descubrimiento técnico; consistencia documental recuperada. Sin snapshot nuevo.
+
+**Sesión 26:** primera iteración sobre Q-043. Planteamiento formal + reducción analítica (4 condiciones → 2 efectivas: modularidad + espectro SO(10)) + criba de candidatos. **Candidato principal identificado: `Spin(10)_k` MTC** (k tentativo = 1). C1 y C2 descartados. Obstrucciones O1-O6 listadas; bloqueantes (O1, O2, O5). Roadmap sesiones 27-30 trazado. Ver `notes/Q-043_UBFC_modular_SCG.md`.
+
+**Sesión 27:** O1 + O6 confirmados. Cálculo Kac-Moody: rep 16 (λ=ω_4) integrable en `Spin(10)_1` pues (ω_4, θ)=1. Espectro MTC explicitado: 4 objetos simples {1, v(10), s(16), c(16̄)}, fusión Z_4 cíclica, c=5. Cuantización Q en 1/3 verificada por doble derivación (K-015 trivalente ↔ ruptura SU(5) algebraica); **K-034 candidato potencial** registrado (promoción diferida). UBFC candidata específicamente = `Spin(10)_1` (+ super-modular extension). Caveat: fermionic extension pendiente. K-030 NO se promueve (requiere O2+O5). Ver `notes/Q-043_sesion27_O1_O6.md`.
+
+**Sesión 28:** O2 confirmada con caveat estructural. Tres sub-tareas: (1) Z_4 fusion compatible con lattice trivalente (10 triples admisibles mod 4); (2) Z_4 y Z₃ geométrico coprimos → capas estructurales independientes; (3) cadena de ruptura SO(10)→SU(5)→SM realiza Z₃_geom ≡ centro SU(3) via Wang-Wen. **K-017 gana interpretación más limpia** en Q-043 framework (identificación geométrica directa; ya no requiere unicidad de órdenes topológicos). Segunda "doble derivación" sugerente (tras K-015/K-034). Caveat: argumento estructural, no constructivo — estándar literatura, no específico SCG. K-030 NO se promueve (pendiente O5). Ver `notes/Q-043_sesion28_O2.md`.
+
+**Sesión 29:** O5 confirmada con caveat estructural. Formalización del desacople sector gravitacional (Σ, A_BI, ψ, e + simplicidad, torsión, Randono, ADM) / sector topológico SM (λ_e, μ_v, ν_p + fusión, modularidad, cobordismo, condensación). Variables disjuntas; restricciones disjuntas; lagrangianas aditivas S_total = S_grav + S_top + S_int con S_int suave (QFT curvo). Chequeo Regla 9: ningún resultado previo refutado. K-017 refuerzo acumulado. **TODAS las obstrucciones bloqueantes (O1, O2, O5, O6) cerradas por primera vez.** K-030 NO se promueve (disciplina Regla 5; esperar evaluación global). P-11 🟡 baja estable. Ver `notes/Q-043_sesion29_O5.md`.
+
+**Sesión 30:** Q-043 **CERRADA estructuralmente**. Evaluación global (sin trabajo técnico nuevo): chequeo cruzado de consistencia, evaluación de caveats agregados, decisiones de promoción. **K-030 promovido** a "confirmado estructuralmente"; **P-11 ✅ RESUELTO ESTRUCTURALMENTE**; **K-033 activado** a candidato formal (SO(10)-GUT en SCG); **K-034 promovido** a candidato formal (doble derivación Q=1/3); **K-017 refuerzo** documentado. **D-010 escrita** — síntesis formal del cierre. **Snapshot v2.0** publicado (autocontenido, cubre sesiones 0-30). **Reporte narrativo #25** publicado. Actualización documental completa (H-003, axioms.md, debilidades_H-001.md, key_insights.md, MEMORY_INDEX.md, session_log.md, open_questions.md). El fantasma existencial desde sesión 11 se disuelve **sin agregar axiomas nuevos**. Ver `notes/Q-043_sesion30_evaluacion_global.md`, `logic/derivations/D-010_Q-043_sintesis.md`, `journal/2026-04-22_snapshot_v2.0.md`, `journal/reportes/25_cierre_Q-043.md`.
 
 ### Axiomas activos (v1.2, post-sesión 13)
 - A-001: corte Planck (válido)
@@ -91,6 +104,7 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 - **D-007: Ecuaciones de movimiento de S_Plebanski-autodual + Λ → E-H + Λ autodual on-shell; A = su(2)_L; frontera CS(k=2π/κΛ) (promueve K-029; tarea 5.2 del bosquejo Lagrangiana cerrada)** (2026-04-21, sesión 16)
 - **D-008: Reducción dimensional S_PA → acción efectiva 2D de cuerda SCG en fondo BH. K-007 recuperado (segunda derivación); D-001/D-003/D-006/D-007 integrados bajo S_SCG-2D. Tarea 5.4 parcial. K-031 candidato.** (2026-04-21, sesión 18)
 - **D-009: Llenado volumétrico L·d²=V_BH emerge variacionalmente bajo minimización de E_Casimir + E_tens sujeta a restricción de confinamiento geométrico. Promueve K-031 a confirmado estructuralmente. D-008 deja de depender de ansatz A2.** (2026-04-21, sesión 20)
+- **D-010: Síntesis formal del cierre Q-043. UBFC específica = `Spin(10)_1` MTC (+ super-modular extension estándar) + desacople sector gravitacional/topológico + cadena de ruptura SO(10) → SU(5) → SM. Promueve K-030 a "confirmado estructuralmente"; rebaja P-11 a ✅ resuelto estructuralmente; activa K-033 a candidato formal; promueve K-034 a candidato formal; documenta refuerzo K-017. Define terminología de 3 niveles de confirmación (limpio/estructural/candidato).** (2026-04-22, sesión 30)
 
 ### Simulaciones
 - sim001_cuerda_basica.js (+ sim001_resultados.md)
@@ -129,13 +143,14 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 
 - **K-027: A-003 = efecto Casimir de modos transversales de Polyakov con corte Planck → axioma removido, D-006 deriva la forma** (2026-04-20, sesión 13, promovido de candidato a confirmado estructuralmente)
 - **K-029: núcleo gravitacional de S_madre (Plebanski-autodual + Λ) on-shell ≡ E-H + Λ autodual; A = su(2)_L; frontera CS(k=2π/κΛ) — reconfirma K-019 desde primeros principios clásicos** (2026-04-21, sesión 16, confirmatorio/estructural vía D-007)
+- **K-030 (CONFIRMADO ESTRUCTURALMENTE sesión 30): SCG + Walker-Wang modular sobre `Spin(10)_1` + ruptura Wang-Wen + sector gravitacional desacoplado con Randono β real cierra estructuralmente P-11. UBFC específica y espectro identificados.** (sesión 17 candidato → sesión 24 con ruta → sesión 30 confirmado estructuralmente via D-010)
+- **K-031: reducción S_PA → S_SCG-2D por reducción dimensional; D-008 + D-009 (variacional)** (2026-04-21, sesión 18+20)
 
-### Insights candidatos (pendientes)
+### Insights candidatos (pendientes v2.0)
 - **K-028 (candidato, 2026-04-20, sesión 15):** redshift gravitacional promedio del interior de un BH-SCG es ⟨f⟩ ≈ 1/(3π²). Obtenido por consistencia ADM; rigorización pendiente (P-15').
-- ~~K-030 (candidato)~~ **K-030 PROMOVIDO A "CONFIRMADO CON RUTA IDENTIFICADA" (sesión 24, Q-042):** Kaplan 2024 + Wang-Wen 2018-2019 + modular WW proveen mecanismo conceptual completo para asimetría máxima SM independiente de β. Aplicable a SCG vía defectos WW como fronteras locales. P-11 rebajada a 🟡 baja. Q-043 pendiente (UBFC modular SCG específica) para promoción a "confirmado limpio".
-- ~~K-031 (candidato)~~ **K-031 CONFIRMADO (sesión 20):** la acción efectiva 2D de cuerda SCG emerge por reducción dimensional de S_PA. D-009 deriva A2 (llenado volumétrico) variacionalmente. La promoción del candidato es efectiva. Ciclo Régimen II → III del bosquejo cerrado con base sólida.
-- **K-032 (candidato, 2026-04-21, sesión 19):** el patrón α₂(M_P)≈α₃(M_P)≠α₁(M_P) emerge estructuralmente de "gauge de vértice (SU(2)_L, SU(3)) vs gauge de segmento (U(1)_Y)" en la red WW 3+1D. Coincidencia numérica α_3(M_P) ≈ γ_Immirzi/(4π) al 1% sugiere que γ fija el acoplamiento gauge de vértice a escala Planck. Flujo RG II→IV preserva grupo gauge (K-024) + level shifting. Primera predicción cuantitativa estructural de SCG. Promoción requiere derivar α = γ/(4π) formalmente + verificar discrepancia α_2 vs α_3 via 2-loops.
-- **K-033 (candidato potencial, sesión 24, Q-042):** SCG + modular Walker-Wang + Wang-Wen 2018-2019 = marco natural para SO(10)-GUT no-perturbativo en lattice 3+1D. Apertura colateral identificada, no explorada técnicamente. Requiere Q-043 constructiva + programa 10+ sesiones si se emprende.
+- **K-032 (candidato, 2026-04-21, sesión 19):** el patrón α₂(M_P)≈α₃(M_P)≠α₁(M_P) emerge estructuralmente de "gauge de vértice (SU(2)_L, SU(3)) vs gauge de segmento (U(1)_Y)" en la red WW 3+1D. Coincidencia numérica α_3(M_P) ≈ γ_Immirzi/(4π) al 1%. **Prioridad A post-v2.0.** Promoción requiere derivar α = γ/(4π) formalmente + 2-loops.
+- **K-033 (CANDIDATO FORMAL — ACTIVADO sesión 30):** SCG + `Spin(10)_1` modular Walker-Wang + Wang-Wen 2018-2019 = marco natural para SO(10)-GUT no-perturbativo en lattice 3+1D. Base técnica del cierre de P-11. Programa asociado abierto: masas fermiónicas, Yukawas, CKM/PMNS. 10+ sesiones si se emprende.
+- **K-034 (CANDIDATO FORMAL — PROMOVIDO sesión 30):** la cuantización Q en 1/3 tiene doble derivación en SCG: (a) K-015 desde trivalencia Z₃ geométrica; (b) ruptura algebraica SO(10) → SU(5) → SM. Convergencia estructural; corroboración cruzada. Promoción a confirmado requiere demostrar equivalencia rigurosamente.
 
 ### Tensiones identificadas
 - T-1: k topológico (CY) vs k dinámico (α ~ 0.02) (sesión 12, alta)
@@ -145,10 +160,10 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 - ~~T-5: forma de E_info~~ **RESUELTA (sesión 13, D-006 + K-027):** E_info = efecto Casimir de Polyakov transversal.
 - ~~T-6~~ **CERRADA HEURÍSTICAMENTE (sesión 15):** E_Casimir plano absorbe su exceso en redshift gravitacional promedio ⟨f⟩ = 1/(3π²). K-028 candidato propuesto. Cálculo riguroso como P-15'.
 
-### Debilidades (actualizado 2026-04-21, sesión 24)
+### Debilidades (actualizado 2026-04-22, sesión 30)
 - ~~P-10: 🔴~~ → **P-10: 🟡 parcialmente resuelto** (Wen 2003, Walker-Wang, Crane-Yetter, K-026) (sesión 11)
-- ~~P-11: 🟡 media~~ → **P-11: 🟡 BAJA (rebajada sesión 24 post-Q-042).** K-030 promovido a "confirmado con ruta identificada" via Kaplan 2024 + Wang-Wen 2018-2019 + modular WW. Asimetría máxima SM independiente de β establecida conceptualmente. Caveat: promoción a "confirmado limpio" depende de Q-043 (UBFC modular SCG específica). Si Q-043 falla, P-11 regresa a 🟡 media.
-- **P-8: 🟡 arquitectura completa, 3/5 confirmadas estructuralmente + 2/5 parciales** (sesiones 12-24). Confirmadas: 5.1 (D-006), 5.2 (D-007), 5.4 (D-008 + D-009, K-031 promovido). 5.3 **refinada sesión 24**: K-030 promovido via Q-042; Q-043 pendiente. 5.5 parcial: K-032 candidato. Piezas cuantitativas pendientes: matching II→IV explícito (→ promueve K-032), K-028 riguroso, Q-043 constructiva.
+- ~~P-11: 🟡 baja~~ → **P-11: ✅ RESUELTO ESTRUCTURALMENTE (sesión 30, D-010).** Q-043 cerrada estructuralmente; UBFC específica `Spin(10)_1` identificada; sector gravitacional (Randono β real) y sector topológico (Walker-Wang sobre `Spin(10)_1`) desacoplables. Las 4 patologías de Witten 2003 mitigadas. Reserva de "resuelto limpio puro" para futura construcción constructiva explícita del lattice SM.
+- **P-8: 🟡 baja (rebajada v2.0). Arquitectura completa, 4/5 sub-tareas cerradas estructuralmente** (sesiones 12-30). Confirmadas: 5.1 (D-006), 5.2 (D-007), **5.3 cerrada via D-010 sesión 30** (K-030 confirmado estructuralmente), 5.4 (D-008 + D-009, K-031 promovido). 5.5 parcial: K-032 candidato (última pieza cuantitativa pendiente).
 - **P-14 🟡 (sesión 13):** consistencia cuántica de Polyakov 4D no-crítica como teoría efectiva WW. Plausible pero sin demostración formal.
 - **P-15' 🟡 baja (sesión 14 → rebajada 15):** cálculo riguroso de redshift interior BH; T-6 cerrada heurísticamente vía K-028 candidato.
 - ✅ **P-1 resuelto mayor (sesión 13):** A-003 derivado como Casimir de Polyakov (D-006). K-027 confirmado.

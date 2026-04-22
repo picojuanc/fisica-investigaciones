@@ -424,6 +424,32 @@ Análisis completo en `notes/Q-042_mecanismo_amplificacion_P.md`.
 
 **Q-043 nueva (prioridad alta):** ¿existe UBFC modular específica para SCG que (a) sea trivalente (compatible con SCG + D-004); (b) modular (bulk invertible); (c) frontera hospede 16 Weyl spinoriales de SO(10); (d) cancele anomalías 't Hooft por cobordismo? Esfuerzo estimado 5-10 sesiones si se emprende.
 
+### Estado (2026-04-22, sesión 30): ✅ RESUELTO ESTRUCTURALMENTE
+
+**Q-043 CERRADA estructuralmente** en 4 sesiones (26-29) + evaluación global (sesión 30). Análisis completo en `notes/Q-043_sesion30_evaluacion_global.md` y `logic/derivations/D-010_Q-043_sintesis.md`.
+
+**Resumen del cierre:**
+- **UBFC específica identificada:** `Spin(10)_1` MTC (+ super-modular extension estándar para contenido fermiónico).
+- **4 obstrucciones bloqueantes cerradas:** O1 (rep 16 integrable a k=1 vía cálculo Kac-Moody exacto); O2 (trivalencia + Z₃ compatible — Z_4 fusion y Z₃ geométrico coprimos en capas distintas; Z₃_geom ≡ centro SU(3) post-ruptura); O5 (desacople sector gravitacional / sector topológico — variables y restricciones disjuntas, lagrangianas aditivas); O6 (cuantización Y en 1/6, Q en 1/3 con doble derivación K-015/SO(10)-GUT).
+- **Chequeo cruzado:** los 4 resultados son mutuamente consistentes; compatibilidad total con el marco amplio SCG (H-001, H-002, H-003, D-001-D-009, K-001-K-031).
+- **Caveats honestos:** 3 de 4 piezas (O2, O5, super-modular extension) tienen argumento estructural, no constructivo. Estándar literatura del programa "SM desde topología" (Wang-Wen 2018-2019 mismo es estructural). Construcción constructiva explícita del lattice SM en SCG queda como tarea futura de la literatura; no específica de SCG.
+
+**Consecuencias:**
+- **K-030 promovido** a "confirmado estructuralmente" (sesión 30, D-010).
+- **K-033 activado** a candidato formal (SO(10)-GUT en SCG).
+- **K-034 promovido** a candidato formal (doble derivación Q=1/3).
+- **K-017 refuerzo** documentado (interpretación geométrica más limpia).
+- **Snapshot v2.0** consolida el estado.
+
+**Severidad:** ~~🟡 baja (con caveat)~~ → ✅ **RESUELTO ESTRUCTURALMENTE.** Debilidad gestionada dentro de estándares de literatura. El fantasma existencial desde sesión 11 se disuelve.
+
+**Reserva de "resuelto limpio puro":** se reserva para cuando construcción constructiva explícita del lattice SM en SCG sea realizable técnicamente. Por ahora, "resuelto estructuralmente" es el nivel honesto — consistente con el nivel de promoción de K-030.
+
+**Lo que queda:**
+- Super-modular extension fermionic: explicitación técnica (pendiente, no bloqueante).
+- Régimen no-perturbativo del desacople (problema abierto general).
+- K-032 (matching II→IV), K-028 (redshift riguroso), Q-030 (unicidad punto fijo) — estos eran independientes de P-11 y siguen abiertos como trabajo futuro.
+
 **Apertura colateral:** K-033 candidato potencial (SCG + WW modular + Wang-Wen = SO(10)-GUT no-perturbativo lattice 3+1D). No promovido, apertura para futuras sesiones.
 
 ---

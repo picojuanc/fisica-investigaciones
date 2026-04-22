@@ -316,19 +316,41 @@ Las preguntas que la investigación debe responder, o al menos abordar. Numerada
 - **Consecuencias:** K-030 **promovido** a "confirmado con ruta identificada". P-11 rebajada a 🟡 baja (con caveat Q-043).
 - **Ver:** `notes/Q-042_mecanismo_amplificacion_P.md`.
 
-## Q-043 — ¿Existe UBFC modular específica para SCG con contenido SO(10) que cancele anomalías y dé asimetría SM máxima?
+## Q-043 — ¿Existe UBFC modular específica para SCG con contenido SO(10)? [✅ CERRADA ESTRUCTURALMENTE, sesión 30]
 - **Abierta desde:** 2026-04-21 (sesión 24).
+- **Primer ataque:** 2026-04-21 (sesión 26).
+- **Segundo ataque:** 2026-04-21 (sesión 27, O1 + O6 confirmados).
+- **Tercer ataque:** 2026-04-22 (sesión 28, O2 confirmada con caveat estructural).
+- **Cuarto ataque:** 2026-04-22 (sesión 29, O5 confirmada con caveat estructural — todas las bloqueantes cerradas).
+- **CERRADA estructuralmente:** 2026-04-22 (sesión 30, D-010 + evaluación global + snapshot v2.0).
+- **Respuesta:** SÍ. UBFC específica = **`Spin(10)_1` MTC** (+ super-modular extension estándar).
+- **Consecuencias:** K-030 promovido a "confirmado estructuralmente". P-11 rebajado a ✅ resuelto estructuralmente. K-033 activado. K-034 promovido. K-017 refuerzo.
+- **Caveat honesto:** cierre estructural, no constructivo (estándar literatura).
+- **Ver:** `logic/derivations/D-010_Q-043_sintesis.md`, `notes/Q-043_sesion30_evaluacion_global.md`, snapshot v2.0.
 - **Relevancia:** ALTA. Decide promoción final de K-030 a confirmado limpio.
 - **Contexto:** Q-042 estableció que el mecanismo Kaplan 2024 + Wang-Wen + modular WW es aplicable a SCG en principio. Q-043 pregunta si la UBFC concreta existe.
-- **Condiciones:**
-  - (a) Categoría de fusión trivalente (compatible con SCG, H-003, D-004).
-  - (b) Modular (bulk invertible).
-  - (c) Frontera hospeda 16 Weyl spinoriales de SO(10).
-  - (d) Anomalías 't Hooft canceladas por cobordismo (clase trivial en Ω^5).
-- **Candidatos naturales:** Drinfeld center de SU(3)×SU(2)×U(1); Witt classes generadas por Ising MTC (2208.03397); UBFCs derivadas de SO(10) holografía.
-- **Esfuerzo estimado:** 5-10 sesiones.
+- **Condiciones (formalizadas sesión 26):**
+  - (a) Categoría de fusión trivalente (compatible con SCG, H-003, D-004) — trivialmente satisfacible.
+  - (b) Modular (bulk invertible) — restricción fuerte.
+  - (c) Frontera hospeda 16 Weyl spinoriales de SO(10) — restricción crítica.
+  - (d) Anomalías 't Hooft canceladas por cobordismo (clase trivial en Ω⁵) — consecuencia de (c) por Wang-Wen 2018.
+- **Reducción analítica (sesión 26):** las 4 condiciones se reducen efectivamente a (b) + (c).
+- **Criba de candidatos (sesión 26):**
+  - C1 Drinfeld center Z(Rep(SU(3)×SU(2)×U(1))): **falla (c)** — grupo incorrecto, no hay rep 16.
+  - C2 Witt classes generadas por Ising MTC (Kawagoe et al. 2208.03397): **falla (c)** — contenido mínimo 3F, no SO(10).
+  - C3 **`Spin(10)_k` MTC**: **cumple todas las condiciones estructuralmente.** Candidato principal.
+- **Candidato específico:** `Spin(10)_1` MTC (confirmado sesión 27; k=1 suficiente). Espectro: {1, v (10), s (16), c (16̄)}; fusión Z_4 cíclica; d=1 todos; h=(0, 1/2, 5/8, 5/8); c=5.
+- **Obstrucciones principales** (sesión 26, actualizado sesión 27):
+  - ~~O1 (bloqueante): nivel k mínimo suficiente para rep 16 integrable — 1 sesión.~~ **✅ RESUELTA (sesión 27): k=1 suficiente.**
+  - ~~O2 (bloqueante): compatibilidad trivalencia + Z₃ del vértice SCG — 1-2 sesiones.~~ **✅ RESUELTA (sesión 28) con caveat estructural: Z_4 y Z₃ coprimos en capas distintas; Z₃_geom ≡ centro SU(3) post-ruptura.**
+  - ~~O5 (bloqueante): consistencia con sector gravitacional (β real Randono) — 1 sesión.~~ **✅ RESUELTA (sesión 29) con caveat estructural: variables/restricciones disjuntas; lagrangianas aditivas con S_int suave.**
+  - O3 (no bloqueante): 3 generaciones desde 1 via Z₃_dual — 2-3 sesiones.
+  - O4 (fuera de scope): Yukawas y valores numéricos.
+  - ~~O6 (no bloqueante): cuantización Y post-ruptura Spin(10)→SU(5)→SM — 1 sesión.~~ **✅ RESUELTA (sesión 27): Y en 1/6, Q en 1/3; doble derivación con K-015.**
+- **Esfuerzo restante:** 1 sesión para cerrar Q-043 en forma mínima (evaluación global; todas las bloqueantes resueltas).
 - **Si Q-043 afirmativa:** K-030 → confirmado limpio; P-11 → ✅ resuelto; K-033 candidato potencial (SO(10)-GUT en SCG) activable.
 - **Si Q-043 negativa o muy parcial:** K-030 sigue confirmado con ruta identificada pero con limitaciones; P-11 permanece 🟡 baja con caveat.
+- **Ver:** `notes/Q-043_UBFC_modular_SCG.md` (análisis completo sesión 26, actualizado sesiones 27, 28, 29); `notes/Q-043_sesion27_O1_O6.md`; `notes/Q-043_sesion28_O2.md`; `notes/Q-043_sesion29_O5.md`.
 
 ---
 

@@ -149,3 +149,35 @@ Posible fundamento metafísico, pero no necesario para H-001. Archivado.
 **Depende de:** H-001 v1.1 (p = 1).
 
 **Problema abierto:** ¿es A-004 un axioma genuino o una consecuencia derivable de A-001 + A-002 + A-003 + algún principio de estabilidad? Si se puede derivar, no es axioma — es teorema.
+
+---
+
+## Premisa operativa v2.0 (2026-04-22, tras Q-043 cerrada estructuralmente)
+
+**Estado consolidado:** la v1.9 ha alcanzado su cierre estructural mayor con Q-043 resuelta en sesión 30. Premisa operativa v2.0 **confirma y especifica** v1.9:
+
+- **Sector gravitacional:** Ashtekar-Barbero-Immirzi con β real (típicamente γ_Immirzi ≈ 0.2375), formulación Plebanski-autodual + Λ (D-007), Kodama normalizable vía Randono 2006.
+- **Sector topológico SM:** Walker-Wang modular sobre UBFC **`Spin(10)_1` MTC** (D-010). Ruptura bosónica SO(10) → SU(5) → SU(3)×SU(2)×U(1) provee contenido SM vía Wang-Wen 2018-2019 (clase invertible trivial Ω⁵_Spin(BSpin(10)) = ℤ₂).
+- **Desacople estructural** entre los dos sectores (D-010, verificado en O5): variables canónicas disjuntas, restricciones disjuntas, lagrangianas aditivas con acoplamiento suave QFT-curvo.
+- **P-11 resuelto estructuralmente** (sesión 30). K-030 "confirmado estructuralmente". K-033 activado a candidato formal. K-034 candidato formal.
+- **Caveat honesto:** 3 de 4 verificaciones son estructurales, no constructivas (estándar de literatura "SM desde topología"; Wang-Wen 2018-2019 es estructural). Construcción constructiva explícita del lattice SM en SCG queda como tarea futura de la literatura (no específica de SCG).
+
+**Ver:** `logic/derivations/D-010_Q-043_sintesis.md`, `journal/2026-04-22_snapshot_v2.0.md`.
+
+---
+
+## Premisa operativa v1.9 (2026-04-21, tras Q-042) — HISTÓRICA
+
+**Formulación de la gravedad cuántica:** Ashtekar-Barbero-Immirzi con **β real** (probablemente γ_Immirzi ≈ 0.2375 si K-032 se promueve). **No** la conexión autodual compleja original (β = -i).
+
+**Origen de la quiralidad del Modelo Estándar:** topológico, no gravitacional. Emerge de edge modes quirales en la frontera de una red Walker-Wang **modular**, con anomalías canceladas vía cobordismo SO(10) (Kaplan 2024 + Wang-Wen 2018-2019 + modular WW 2208.03397).
+
+**Desacople estructural:** el sector puramente gravitacional (β real, Barbero-Immirzi estándar LQG) y el sector quiral-SM (topología WW modular) son estructuralmente independientes. Esta separación:
+- Mitiga P-11 (normalizabilidad de Kodama) vía Randono 2006 (β real).
+- Preserva la asimetría máxima del SM (solo fermiones L acoplan a SU(2)_L) independientemente de β (Kaplan + Wang-Wen + modular WW).
+- Condiciona K-019 a una tercera reinterpretación: la quiralidad SU(2)_L es topológica, no gravitacional. Contenido empírico preservado; mecanismo físico distinto.
+- Degrada K-026: la dicotomía "red no-quiral por Nielsen-Ninomiya" no se sostiene — una red WW modular con frontera *sí* puede ser quiral.
+
+**Estado de dependencia:** esta premisa sustituye la "decisión forzada" pre-v1.9 de usar conexión autodual compleja. **P-11 rebajada de 🟡 alta (pre-sesión 17) → 🟡 media (post-sesión 17) → 🟡 baja (post-sesión 24)**. Caveat: dependencia en Q-043 (construcción explícita de UBFC modular SCG con contenido SO(10)). Si Q-043 falla, P-11 regresa a 🟡 media.
+
+**Ver:** `notes/Q-042_mecanismo_amplificacion_P.md`, `journal/2026-04-21_snapshot_v1.9.md`, `journal/reportes/24_la_quiralidad_es_topologica.md`.

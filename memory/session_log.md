@@ -995,3 +995,249 @@ Formato:
   - **Nombre histórico en español:** "Fase de Cuerda Gravitacional Estabilizada" se mantiene como descripción fenomenológica del régimen III (interior de BH), no como definición del acrónimo. El acrónimo SCG nombra ahora el marco completo.
   - **Archivos actualizados:** README.md, OVERVIEW.md, journal/2026-04-21_snapshot_v1.9.md, hypotheses/active/H-001_cuerda_gravitacional_estabilizada.md, memory/session_log.md (esta entrada).
 
+---
+
+## 2026-04-21 — Sesión 25: Saneamiento documental — integración v1.9 en H-003, axioms.md y key_insights.md
+
+- **Qué se hizo:**
+  - Decisión estratégica: antes de invertir en Q-043 (5-10 sesiones técnicas, costosas) o K-032 (3-5 sesiones de loops formales), cerrar la deuda documental acumulada tras sesión 24. CLAUDE.md es explícito: "No acumular deuda de documentación. Documentar al momento, no después."
+  - Verificación: reporte narrativo #24 (`journal/reportes/24_la_quiralidad_es_topologica.md`) ya existía — creado en sesión 24. No hay deuda narrativa.
+  - **Actualización de `hypotheses/active/H-003_particulas_topologicas_SCG.md`:** integrada la reinterpretación v1.9 en el cuerpo del documento (hasta ahora solo había nota al tope):
+    - Tabla de niveles de confianza — eslabón 6c reformulado como "edge mode quiral de frontera WW modular" con referencias Kaplan 2024 + Wang-Wen 2018-2019 + modular WW.
+    - Sección "SU(2)_L — de la conexión gravitacional" → renombrada y reescrita como "SU(2)_L — edge mode quiral de frontera Walker-Wang modular (REINTERPRETADO v1.9)" con historial completo de las tres interpretaciones (sesiones 9 → 22 → 24).
+    - "Nota sobre quiralidad (K-026)" actualizada: degradada con interpretación v1.9 (origen quiral no dictado por gravedad vs red).
+    - "Origen geométrico unificado" diagrama actualizado: SU(2)_L como edge mode de frontera, no como conexión autodual.
+    - Consecuencia C3 (violación de paridad) reformulada en dos capas: paridad discreta (K-013 preservada) + asimetría máxima (topológica via Wang-Wen, no identidad del Lorentz).
+    - Tabla "Relación con la literatura" extendida: añadidos Walker-Wang modular (Kawagoe 2023), Kaplan 2024, Kaplan-Sen 2024, Wang-Wen 2018-2019, Randono 2006. AMS 2014 marcado como "desplazado v1.9". LQG con β real actualizada.
+    - Sección "Problemas abiertos" reformulada: problema (3) de constantes de acoplamiento ya no es tensión de unificación directa (sectores desacoplados); añadido problema (6) Q-043 (UBFC modular SCG específica); problema (11) D_tiempo=1 marcado como resuelto por D-005.
+    - Sección "Logra" actualizada: violación de paridad como fenómeno topológico de frontera (no identidad del Lorentz); añadido punto sobre desacople gravitacional-quiral.
+    - Historial completado con entradas sesiones 11, 22, 24, 25.
+  - **Actualización de `framework/axioms.md`:** añadida sección "Premisa operativa v1.9 (2026-04-21, tras Q-042)" al final, documentando:
+    - Formulación gravedad = Ashtekar-Barbero-Immirzi con β real (no autodual compleja).
+    - Quiralidad SM = topológica (Kaplan + Wang-Wen + modular WW), no gravitacional.
+    - Desacople estructural entre sector gravitacional y sector quiral-SM.
+    - K-019 tercera reinterpretación + K-026 degradación documentadas.
+    - Estado P-11: 🟡 alta → 🟡 media (sesión 17) → 🟡 baja (sesión 24) con caveat Q-043.
+  - **Actualización de `memory/key_insights.md`:** añadidos marcadores prominentes "⚠ REINTERPRETADO v1.9" y "⚠ DEGRADADO v1.9" al inicio de las entradas K-019 y K-026, para evitar que un lector que lee solo el bloque aislado sea engañado. Las refinaciones completas (ya existentes desde sesión 24) permanecen más abajo en el archivo; el texto histórico de cada entrada se preserva intacto.
+
+- **Qué se descubrió / refinó:**
+  - **Ningún descubrimiento técnico nuevo.** Sesión operativa de mantenimiento documental.
+  - **Consistencia recuperada:** los documentos principales (H-003, axioms.md, key_insights.md) ahora reflejan coherentemente el estado v1.9. Ya no hay páginas donde se lea "SU(2)_L = conexión autodual" sin contexto de que esta es la interpretación pre-v1.9 superseded.
+  - **Observación metodológica:** el protocolo de CLAUDE.md (regla 13, "no acumular deuda de documentación") ha sido útil. Detectar las inconsistencias tras sesión 24 (antes de emprender Q-043 o K-032) previno construir nuevas derivaciones sobre documentos que decían una cosa mientras los insights decían otra.
+  - **K-005 aplicada tangencialmente:** al describir el mecanismo v1.9 en H-003, se observa que el marco **es más modesto** que el pre-v1.9 — ya no "fuerza" la conexión autodual compleja con sus costos técnicos; usa Barbero-Immirzi real (LQG mainstream) y delega la quiralidad al sector topológico. La reinterpretación no es complicación — es simplificación ontológica.
+
+- **Qué quedó abierto:**
+  - Todas las preguntas técnicas de sesión 24 siguen pendientes: Q-043 (UBFC modular SCG), K-032 (matching II→IV), K-028 (P-15' riguroso), K-033 (SO(10)-GUT), Q-030 (unicidad punto fijo).
+  - **Framework/ontology.md** sigue siendo stub (candidatos a nivel 0 sin decisión). No se tocó esta sesión — no era deuda v1.9, era deuda más antigua.
+  - Decisión estratégica sesión 26: Q-043 (máximo impacto estructural) vs K-032 (impacto cuantitativo) vs K-028 (acotado técnico) vs Q-030 (formal cerrado).
+
+- **Próximo paso sugerido:**
+  - **Prioridad 1 — Q-043:** construcción UBFC modular SCG con contenido SO(10). 5-10 sesiones. Si parcial, K-030 → confirmado limpio, P-11 → ✅ resuelto.
+  - **Prioridad 2 — K-032:** matching II→IV explícito. 3-5 sesiones. Alto impacto cuantitativo.
+  - **Prioridad 3 — Q-030:** unicidad punto fijo dimensional. 1-2 sesiones, formal. Cierre de objeción epistémica sesión 11.
+  - **Prioridad 4 — K-028 riguroso (P-15'):** 2-3 sesiones técnicas.
+
+---
+
+## 2026-04-21 — Sesión 26: Q-043 — Primer ataque, mapa del problema + criba de candidatos
+
+- **Qué se hizo:**
+  - Primera iteración sobre Q-043 (construcción UBFC modular específica para SCG con contenido SO(10)).
+  - **Planteamiento formal:** pregunta reescrita en lenguaje matemático preciso; 4 condiciones (a)-(d) desempaquetadas.
+  - **Reducción analítica:** las 4 condiciones se reducen efectivamente a 2: (b) modularidad + (c) espectro SO(10) en frontera. (a) trivialmente satisfacible; (d) consecuencia de (c) por Wang-Wen 2018.
+  - **Criba preliminar de los 3 candidatos:**
+    - C1 Drinfeld center Z(Rep(SU(3)×SU(2)×U(1))): **falla (c)** — grupo equivocado, no SO(10).
+    - C2 Witt classes generadas por Ising MTC (Kawagoe et al. 2208.03397): **falla (c)** — contenido mínimo 3F, no hay rep 16 natural.
+    - C3 UBFCs de SO(10) holográfico — específicamente **`Spin(10)_k` MTC**: **cumple todas las condiciones estructuralmente**.
+  - **Candidato principal identificado:** `Spin(10)_k` MTC (k a determinar; conjetura tentativa k=1 mínimo suficiente).
+  - **Obstrucciones principales listadas:** O1 (k mínimo), O2 (trivalencia + Z₃), O3 (3 generaciones), O4 (Yukawas, fuera de scope), O5 (consistencia gravitacional), O6 (cuantización Y). Bloqueantes: O1, O2, O5. No bloqueantes: O3, O4, O6.
+  - **Roadmap trazado para sesiones 27-30:** O1+O6 → O2 → O5 → evaluación global. Estimación: Q-043 cerrable en 3-5 sesiones en forma mínima (1 generación).
+  - **Documento completo:** `notes/Q-043_UBFC_modular_SCG.md`.
+
+- **Qué se descubrió / refinó:**
+  - **Ningún descubrimiento técnico nuevo sobre SCG per se.** Lo que se produjo es un **mapa sólido** del problema técnico — condiciones claras, criba honesta, candidato específico, obstrucciones identificadas.
+  - **Reducción formal** (4 condiciones → 2 efectivas) es útil: simplifica el criterio de éxito.
+  - **Candidato C3 identificado como `Spin(10)_k`** es una especificación importante. Hasta ahora "UBFC modular con SO(10)" era una descripción vaga; ahora es una MTC concreta en literatura clásica (Kac-Moody WZW).
+  - **Descarte honesto de C1 y C2:** evita semanas de trabajo en direcciones improductivas. C2 sirve como marco pedagógico (2208.03397 modelo) pero no como construcción directa.
+  - **K-030 no se promueve ni se degrada.** Q-043 sigue abierta; progreso es estructural (plan + candidato), no técnico (construcción).
+
+- **Qué quedó abierto:**
+  - **Q-043 sigue abierta.** Obstrucciones O1-O5 son trabajo pendiente para sesiones 27-30.
+  - **K-030 sigue "confirmado con ruta identificada"** (sin cambio desde sesión 24).
+  - **P-11 sigue 🟡 baja** con caveat Q-043 (sin cambio desde sesión 24).
+  - **Todas las demás preguntas** (K-032, K-028, Q-030, K-033) siguen pendientes.
+
+- **Próximo paso sugerido:**
+  - **Sesión 27 — O1 + O6:** verificar que la rep 16 de Spin(10) es integrable en `Spin(10)_1` (pesos máximos; Kac); verificar cuantización de U(1)_Y post-ruptura Spin(10) → SU(5) → SM. 1 sesión.
+  - **Sesión 28 — O2:** compatibilidad trivalente + Z₃ del vértice SCG con `Spin(10)_1`. 1-2 sesiones.
+  - **Sesión 29 — O5:** consistencia sector gravitacional (β real Randono) con sector topológico SM (`Spin(10)_1` WW). 1 sesión.
+  - **Sesión 30 — evaluación global:** Q-043 cierra, cierra parcial, o negativo.
+
+- **Observación metodológica:**
+  - Primera sesión técnica post-saneamiento documental. El documento Q-043 arrancó desde un estado documental coherente — sesión 25 era indispensable para esto.
+  - Aplicación de regla meta: atacar **una sola obstrucción por sesión** en las siguientes. No intentar resolver Q-043 de un golpe.
+
+---
+
+## 2026-04-21 — Sesión 27: Q-043 — Verificación O1 (integrabilidad rep 16) + O6 (cuantización Y)
+
+- **Qué se hizo:**
+  - Ataque a las dos obstrucciones más tratables del roadmap Q-043: O1 (nivel mínimo k para que la rep 16 sea integrable en `Spin(10)_k`) y O6 (cuantización de hipercarga Y post-ruptura Spin(10) → SU(5) → SM).
+  - **O1 — verificación Kac-Moody:**
+    - Álgebra D_5: pesos fundamentales (ω_1 vector 10, ω_2 adjunto 45, ω_3 120, ω_4 spinor 16, ω_5 conj. spinor 16̄).
+    - Raíz más alta θ = α_1 + 2α_2 + 2α_3 + α_4 + α_5; marks (a_1,...,a_5) = (1, 2, 2, 1, 1). h∨ = 8.
+    - Condición integrabilidad: (λ, θ) = ∑ a_i n_i ≤ k para λ = ∑ n_i ω_i.
+    - Para rep 16: λ = ω_4 ⇒ (ω_4, θ) = a_4 = 1 ⇒ **k=1 suficiente**. ✓
+    - Espectro `Spin(10)_1`: 4 objetos simples {1, v (10), s (16), c (16̄)}. Fusion Z_4 cíclica. Quantum dims = 1 (abeliana). Pesos conformes (0, 1/2, 5/8, 5/8). Central charge c = 5 = 10 Majoranas libres.
+    - **Caveat técnico:** el modelo Wang-Wen 2018-2019 usa SPT fermionic con spin structure; hace falta extensión super-modular de `Spin(10)_1` (Bruillard-Galindo-Plavnik-Rowell-Wang 2017, arXiv:1603.09294). Paso estándar, no bloqueante.
+  - **O6 — cuantización Y:**
+    - Cadena SO(10) → SU(5) → SU(3)×SU(2)×U(1): descomposición 16 = 10 ⊕ 5̄ ⊕ 1 bajo SU(5); luego estándar SM.
+    - Valores Y en la rep 16: {0, ±1/6, ±1/3, ±1/2, ±2/3, ±1} — todos múltiplos de 1/6.
+    - Carga eléctrica Q = T_3 + Y ∈ {0, ±1/3, ±2/3, ±1} — múltiplos de 1/3. ✓
+    - **Observación elegante (doble derivación):** la cuantización Q en 1/3 emerge de (a) K-015 SCG (trivalencia Z₃ geométrica) y (b) SO(10)-GUT (ruptura SU(5) algebraica). **Dos caminos lógicamente independientes convergen al mismo resultado.** Refuerzo estructural de consistencia SCG ↔ Spin(10).
+  - **Escritura de `notes/Q-043_sesion27_O1_O6.md`:** documento técnico ~200 líneas con cálculos Kac-Moody, espectro, decomposiciones SU(5) → SM, caveats.
+  - **Actualización de `notes/Q-043_UBFC_modular_SCG.md`:** status O1/O6 resueltos; UBFC candidata pasa de genérica `Spin(10)_k` a específica `Spin(10)_1` con espectro listado.
+
+- **Qué se descubrió / refinó:**
+  - **UBFC candidata específicamente identificada:** `Spin(10)_1` MTC (con super-modular extension estándar) es ahora el candidato concreto para Q-043. Pasa de "candidato plausible" a "candidato con espectro algebraico explícito."
+  - **Doble derivación de cuantización 1/3:** insight candidato potencial **K-034** identificado. *"La cuantización en 1/3 de la carga eléctrica emerge de dos caminos independientes: K-015 (trivalencia Z₃ geométrica) y SO(10)-GUT (ruptura algebraica SU(5))."* **No promovido a candidato formal** — esperar cierre Q-043 para decidir si es independiente de K-030/K-033.
+  - **Progreso neto:** 2/3 obstrucciones bloqueantes resueltas (O1 ✓, O6 ✓; pendiente O2, O5). 2/3 no bloqueantes tocadas (O6 ✓; pendiente O3; O4 fuera de scope).
+  - **Aplicación Regla 5 ("no refutado ≠ confirmado"):** K-030 NO se promueve por O1+O6. La verificación es de "plausibilidad técnica", no "cierre constructivo". P-11 sigue 🟡 baja con caveat.
+
+- **Qué quedó abierto:**
+  - **O2 (bloqueante):** compatibilidad trivalencia + Z₃ vértice SCG con `Spin(10)_1`. Próxima sesión 28. Herramientas: Drinfeld centers, automorfismos de MTCs, sub-MTCs.
+  - **O5 (bloqueante):** consistencia sector gravitacional (β real Randono) con sector topológico SM (`Spin(10)_1` WW). Sesión 29.
+  - **O3 (no bloqueante):** 3 generaciones desde 1 via Z₃_dual. Sesión 30+.
+  - **K-034 candidato potencial:** promoción diferida.
+  - **Super-modular extension técnica:** pendiente explicitación; no bloqueante para el mapa estructural.
+
+- **Próximo paso sugerido:**
+  - **Sesión 28 — O2:** trivalencia + Z₃ compatible. Análisis estructural de cómo el Z₃ del centro de SU(3) (K-017) emerge del embedding SO(10) ⊃ SU(5) ⊃ SU(3) × SU(2) × U(1) dentro de la MTC `Spin(10)_1`. Esperado: compatibilidad estructural (SU(3) es subálgebra de SO(10); Z₃ del centro se preserva).
+  - **Contingencia:** si O2 revela obstrucción técnica, evaluar si admite trabajo en sesión 29 o si requiere modificar la UBFC (e.g., producto `Spin(10)_1 ⊠ Something`).
+  - **Observación metodológica:** sesiones 26-27 han mostrado que el roadmap era realista. Si O2+O5 cierran en sesiones 28-29, Q-043 se cierra en sesión 30 como anticipado.
+
+---
+
+## 2026-04-22 — Sesión 28: Q-043 — Verificación O2 (trivalencia + Z₃ del vértice SCG compatibles con `Spin(10)_1`)
+
+- **Qué se hizo:**
+  - Ataque a O2 descompuesto en tres sub-tareas:
+    - **(1) Compatibilidad Z_4 fusion con lattice trivalente:** verificar que las reglas N_{ab}^c de `Spin(10)_1` (Z_4 cíclica) admiten realización trivalente. Resultado: 10 triples (a,b,c) ∈ {0,1,2,3}³ satisfacen a+b+c ≡ 0 mod 4 — conjunto rico, sin obstrucción.
+    - **(2) Identificación del Z₃ de SCG en la estructura:** Z_4 fusion (orden 4) y Z₃ geométrico (orden 3) son coprimos (gcd=1); viven en **capas estructurales independientes**. Z_4 = fusion topológica bulk; Z₃ geométrico = simetría rotacional 120° del vértice equiespaciado + centro de SU(3) emergente.
+    - **(3) Cadena de ruptura SO(10) → SU(5) → SM + realización del Z₃:** argumento estructural de que la condensación Wang-Wen produce el centro Z₃ de SU(3) como simetría no rota post-ruptura. Identificación natural con el Z₃ geométrico del vértice SCG: la rotación 120° del vértice se realiza como permutación cíclica de los tres colores de quark.
+  - **Escritura de `notes/Q-043_sesion28_O2.md`:** documento técnico ~280 líneas con las 3 sub-tareas, análisis de obstrucciones, veredicto.
+  - **Actualización de `notes/Q-043_UBFC_modular_SCG.md`:** status O2 resuelto con caveat estructural.
+
+- **Qué se descubrió / refinó:**
+  - **O2 ✅ positiva con caveat estructural.** No hay obstrucción algebraica ni topológica a realizar `Spin(10)_1` WW en un lattice trivalente SCG con Z₃ geométrico identificable como centro de SU(3) post-ruptura.
+  - **Refuerzo de K-017:** en el framework Q-043, K-017 (Z₃ + quiralidad → SU(3)₁) adquiere **interpretación física más limpia**: el mismo vértice trivalente produce Z₃ en dos capas (geométrica y gauge-efectiva), y se identifican porque *ambos son el mismo vértice*. Ya no requiere invocar unicidad de órdenes topológicos; basta identificación geométrica directa. **K-017 NO cambia de nivel** (sigue confirmado), pero gana claridad conceptual.
+  - **Caveat honesto aplicado:** el argumento es estructural, no constructivo — ningún paper de la literatura (ni Wang-Wen 2018-2019) construye el lattice SM explícitamente. SCG hereda este nivel de precisión, que es estándar en la comunidad condensed matter / QG. Aplicación Regla 5: O2 "cumplida" en el sentido estándar, pero con disciplina epistémica sobre qué tipo de resultado es.
+  - **Segunda "doble derivación" sugerente:** tras K-015/K-034 (sesión 27: Q en 1/3 por dos rutas), K-017 es otra estructura que emerge por rutas independientes — (a) SCG-only desde trivalencia + quiralidad; (b) Wang-Wen framework desde centro SU(3) post-ruptura SO(10). Registrar como **observación meta** para consolidar en cierre Q-043.
+  - **Progreso Q-043:** 3/3 bloqueantes "tratables" cerradas (O1, O2, O6); solo O5 queda pendiente.
+
+- **Qué quedó abierto:**
+  - **O5 (bloqueante final):** consistencia sector gravitacional (β real Randono) con sector topológico SM (`Spin(10)_1` WW). Formalizar el desacople estructural que Q-042 postuló implícitamente. Sesión 29.
+  - **O3 (no bloqueante):** 3 generaciones via Z₃_dual. Post-Q-043.
+  - **Super-modular extension** para contenido fermiónico: pendiente explicitación técnica; no bloqueante.
+  - **K-030 sigue "confirmado con ruta identificada"** — NO se promueve. Disciplina epistémica: esperar O5 + evaluación global.
+  - **P-11 🟡 baja** sin cambio.
+
+- **Próximo paso sugerido:**
+  - **Sesión 29 — O5:** formalizar desacople sector gravitacional (β real) / sector topológico SM (`Spin(10)_1` WW).
+  - **Preguntas centrales:** ¿la cuantización Ashtekar-Barbero-Immirzi con β real impone restricciones sobre la MTC del sector SM? ¿Las dos estructuras lagrangianas (gravedad + topológica) son desacoplables? ¿La restricción de simplicidad de Plebanski (D-007) es compatible con el bulk `Spin(10)_1` WW?
+  - **Punto crítico:** Q-042 (sesión 24) postuló el desacople estructural. O5 formaliza este postulado.
+  - **Esfuerzo estimado:** 1-2 sesiones.
+  - **Si O5 positiva:** Q-043 evaluación global sesión 30 con alta probabilidad de cierre afirmativo; K-030 promovido a confirmado limpio; P-11 → ✅ resuelto.
+  - **Si O5 negativa:** buscar reparación estructural (restricción adicional sobre UBFC; modificación del sector gravitacional; etc.) o reformular Q-043.
+
+- **Observación metodológica:**
+  - Las tres sesiones técnicas consecutivas (26, 27, 28) han mantenido el roadmap. El patrón es: cada sesión ataca una obstrucción, la cierra (o no), y prepara la siguiente. Sin anticipar promociones.
+  - Regla 9 ("preferir destruir resultado propio") no ha encontrado en qué aplicarse esta sesión — no se han descubierto problemas con los resultados previos. Si O5 produce obstrucción, aplicar Regla 9 con ecuanimidad.
+
+---
+
+## 2026-04-22 — Sesión 29: Q-043 — Verificación O5 (desacople sector gravitacional / sector topológico SM)
+
+- **Qué se hizo:**
+  - Ataque a O5 (última obstrucción bloqueante): formalización del desacople estructural entre el sector gravitacional SCG (Ashtekar-Barbero-Immirzi con β real, D-007) y el sector topológico SM (Walker-Wang sobre `Spin(10)_1` con ruptura bosónica a SM via Wang-Wen).
+  - **Sub-tarea 1 — Variables y restricciones gravitacionales:** listadas (Σ, A_BI, ψ, e) + restricciones (G1 simplicidad, G2 torsión nula, G3 curvatura, G4 realidad Randono, G5 ADM). Todas continuas 4D, no categóricas.
+  - **Sub-tarea 2 — Variables y restricciones topológicas:** listadas (λ_e etiquetas, μ_v intertwiners, ν_p plaquetas) + restricciones (T1 fusión en vértice, T2 flatness plaquetas, T3 modularidad, T4 cobordismo Ω⁵, T5 condensación). Todas categóricas/combinatoriales, no geométricas.
+  - **Sub-tarea 3 — Análisis de acoplamientos forzados:** ninguna restricción gravitacional impone condiciones sobre variables topológicas; ninguna restricción topológica impone sobre gravitacionales. Chequeo cruzado en tabla: todas las entradas "no".
+  - **Conclusión:** `S_total = S_grav + S_top + S_int`, con S_int suave — acoplamiento gravedad-matter estándar (QFT curvo, suprimido por ℓ_P) + backreaction del condensado de red sobre métrica (D-006, D-008). No restricciones estructurales.
+  - **Escritura de `notes/Q-043_sesion29_O5.md`:** documento técnico ~330 líneas con las 3 sub-tareas, análisis completo de acoplamientos posibles, aplicación sistemática Regla 9 (ningún resultado previo se refuta), veredicto, plan sesión 30.
+  - **Actualización de `notes/Q-043_UBFC_modular_SCG.md`:** status O5 resuelto; **todas las bloqueantes (O1, O2, O5, O6) cerradas.**
+
+- **Qué se descubrió / refinó:**
+  - **O5 ✅ positiva con caveat estructural.** Los dos sectores son estructuralmente desacoplables. Consolida el postulado implícito de Q-042 (sesión 24).
+  - **Chequeo sistemático Regla 9 pasado:** ningún resultado previo (K-019 v1.9, K-026 degradada, K-027, D-007, D-008, D-009, K-030 sesión 24) es refutado por O5. Todos consistentes o reforzados.
+  - **K-017 refuerzo acumulado:** tras sesiones 28 + 29, K-017 tiene interpretación geométrica directa + coherente con desacople estructural. Sin cambio de nivel; mayor claridad.
+  - **Patrón de caveats estructurales:** 3 de 4 resultados (O2, O5, más parcialmente O6) tienen caveat "argumento estructural, no constructivo". Este es el estándar de la literatura en el programa "SM desde topología" (Wang-Wen incluido). La sesión 30 debe evaluar si el caveat agregado compromete la promoción de K-030.
+  - **Q-043 — todas las bloqueantes cerradas (primera vez):** O1 (k=1), O2 (trivalencia+Z₃ coprimos en capas), O5 (desacople grav/top), O6 (Y cuantizada con doble derivación).
+  - **K-030 NO se promueve aún.** Regla 5 disciplinaria: promoción requiere evaluación global consolidada, no suma mecánica de resultados positivos. P-11 🟡 baja estable.
+
+- **Qué quedó abierto:**
+  - **Sesión 30 — evaluación global:** chequeo cruzado de consistencia, evaluación de caveats agregados, decisión sobre promoción K-030 / K-033 / K-034, decisión sobre P-11, posible snapshot v2.0, reporte narrativo #25.
+  - **O3 (3 generaciones):** post-Q-043, programa colateral.
+  - **Super-modular extension fermionic:** pendiente explicitación técnica; no bloqueante para Q-043 mínimo.
+  - **Régimen no-perturbativo del desacople:** O5 es perturbativa. Extensión no-perturbativa es problema abierto general (no específico SCG).
+
+- **Próximo paso sugerido:**
+  - **Sesión 30 — evaluación global + decisiones:** 1 sesión. Sin trabajo técnico nuevo.
+  - **Expectativa honesta:** dado que O1, O2, O5, O6 han cerrado positivamente, la promoción de K-030 a "confirmado limpio" es altamente esperable. P-11 → ✅ resuelto. K-033 activable. K-034 (doble derivación Q=1/3) podría promoverse a candidato formal. K-017 refuerzo documentado.
+  - **Contingencia:** si chequeo cruzado revela incompatibilidad, abrir Q-044. Baja probabilidad.
+
+- **Observación metodológica (meta):**
+  - **Cuatro sesiones técnicas consecutivas** (26, 27, 28, 29) sin promociones. Esta disciplina es excepcional — en la práctica, hay tentación de promover cuando cada sub-paso pasa. La sesión 30 es el único lugar apropiado para decisión.
+  - **El patrón de trabajo ha sido:** ataque incremental a obstrucciones discretas, con resultados positivos que **no se aceleran en promociones prematuras**. Aplicación consistente de Regla 5.
+  - **K-005** ("teoría más modesta") aplicada sistemáticamente: SCG adopta mecanismos Kac-Moody, Wang-Wen, Randono, Plebanski-Baez sin inventar nada. Todos los resultados son consistencia con literatura establecida.
+  - **Riesgo identificado:** acumulación de caveats estructurales. Cada uno individualmente es aceptable (estándar literatura); agregados, ¿son evidencia de que el programa es "estructural pero vacío"? La sesión 30 debe ser honesta sobre esta posibilidad.
+
+---
+
+## 2026-04-22 — Sesión 30: Q-043 CERRADA estructuralmente — Consolidación + D-010 + snapshot v2.0
+
+- **Qué se hizo:**
+  - **Evaluación global de Q-043** tras cierre de O1, O2, O5, O6 en sesiones 26-29. Sin trabajo técnico nuevo; consolidación y decisiones.
+  - **Chequeo de consistencia cruzada:** los 4 resultados son mutuamente coherentes; compatibilidad total con marco amplio SCG (H-001-003, D-001-009, K-001-031).
+  - **Evaluación de caveats agregados:** 3 de 4 verificaciones son estructurales (no constructivas). Análisis honesto: estándar literatura "SM desde topología" (Wang-Wen 2018-2019 es estructural). Decisión: promover K-030 a "**confirmado estructuralmente**" (no "confirmado limpio puro"), reservando el nivel más alto para construcción constructiva explícita futura. Terminología formalizada de tres niveles: confirmado limpio / confirmado estructuralmente / candidato.
+  - **Escritura de `notes/Q-043_sesion30_evaluacion_global.md`:** documento de evaluación ~280 líneas con chequeo cruzado, evaluación de caveats, decisiones de promoción, plan post-Q-043.
+  - **Escritura de `logic/derivations/D-010_Q-043_sintesis.md`:** derivación formal del cierre Q-043 (nivel estructural confirmatorio). Integra O1-O2-O5-O6 bajo una sola estructura; especifica UBFC = `Spin(10)_1`; documenta promociones.
+  - **Actualización de `memory/key_insights.md`:** K-030 promovido a "confirmado estructuralmente"; K-033 activado de potencial a candidato formal; K-034 promovido de potencial diferido a candidato formal; K-017 refuerzo documentado (interpretación más limpia).
+  - **Actualización de `hypotheses/active/H-003_particulas_topologicas_SCG.md`:** estado derivacional a v2.0; Q-043 cerrada; nueva nota de cierre v2.0 al inicio (antes de la nota v1.9 histórica).
+  - **Actualización de `framework/axioms.md`:** nueva sección "Premisa operativa v2.0" con UBFC `Spin(10)_1` especificada y P-11 resuelto; sección v1.9 marcada como histórica.
+  - **Actualización de `logic/refutations/debilidades_H-001.md`:** P-11 de 🟡 baja a ✅ **resuelto estructuralmente**; sección de historial completa con trayectoria 11→17→22→24→30.
+  - **Escritura de `journal/2026-04-22_snapshot_v2.0.md`:** snapshot autocontenido ~460 líneas cubriendo sesiones 0-30. Cambios: promociones, D-010, rebaja P-11, bosquejo Lagrangiana 4/5 cerradas.
+  - **Escritura de `journal/reportes/25_cierre_Q-043.md`:** reporte narrativo accesible ~180 líneas; estilo diario; documenta el tramo completo 25-30 con honestidad epistémica.
+  - **Actualización de `memory/open_questions.md`:** Q-043 marcada como CERRADA estructuralmente.
+  - **Actualización de `memory/MEMORY_INDEX.md`:** inventario sesión 30.
+
+- **Qué se descubrió / refinó:**
+  - **Ningún descubrimiento técnico nuevo.** Sesión de consolidación + documentación + decisiones.
+  - **Q-043 CERRADA estructuralmente.** Primer cierre mayor de pregunta abierta con consecuencias cascada (P-11 + 3 promociones).
+  - **P-11 resuelto estructuralmente.** El fantasma existencial desde sesión 11 se disuelve. Trayectoria 7 sesiones (24-30): 🟡 alta → 🟡 media → 🟡 baja con caveat → ✅ resuelto estructuralmente.
+  - **Terminología formalizada (D-010 sección 3.3):** tres niveles de confirmación — "confirmado limpio", "confirmado estructuralmente", "candidato". Abre espacio para decisiones honestas futuras.
+  - **Bosquejo Lagrangiana:** 4/5 sub-tareas cerradas estructuralmente (5.1, 5.2, 5.3 via D-010, 5.4). Solo 5.5 (K-032 cuantitativo) pendiente.
+  - **Inventario v2.0:** 30 insights confirmados + 3 candidatos (K-028, K-032, K-033 activado). 10 derivaciones (D-001 a D-010). 3 hipótesis. 2 axiomas (sin ningún axioma nuevo agregado en toda la trayectoria v1.2 → v2.0).
+
+- **Qué quedó abierto:**
+  - **K-032 (matching II→IV explícito):** última sub-tarea cuantitativa del bosquejo Lagrangiana. 3-5 sesiones. Prioridad A post-Q-043.
+  - **K-033 (programa SO(10)-GUT en SCG):** activado a candidato formal. 10+ sesiones para desarrollo. Masas fermiónicas, Yukawas, CKM/PMNS.
+  - **K-028 (redshift riguroso P-15'):** 2-3 sesiones técnicas.
+  - **Q-030 (unicidad punto fijo):** 1-2 sesiones formales.
+  - **Super-modular extension fermionic:** explicitación técnica (Bruillard et al. 2017) pendiente.
+  - **Régimen no-perturbativo del desacople:** problema abierto general.
+  - **Construcción constructiva explícita del lattice SM en SCG:** pendiente (común a toda la literatura "SM desde topología").
+
+- **Próximo paso sugerido:**
+  - **Sesión 31 — K-032 (matching II→IV explícito):** 3-5 sesiones. Prioridad A. Derivación formal α_gauge = γ_Immirzi/(4π). Alto impacto cuantitativo (primera predicción numérica fuerte).
+  - **Alternativas estratégicas:**
+    - Sesión 31 ataca K-028 riguroso si se prefiere consolidación técnica antes que ambición predictiva.
+    - Programa K-033 (SO(10)-GUT) si se quiere explorar mayor escala inmediatamente. Compromiso 10+ sesiones.
+    - Q-030 si se prefiere cerrar objeción vieja primero (1-2 sesiones).
+
+- **Observación meta (trayectoria completa v1.9 → v2.0):**
+  - **7 sesiones** (24-30) para cerrar P-11. Disciplina sostenida: ataque incremental, caveats honestos, promociones solo en consolidación.
+  - **Aplicación ejemplar K-005:** SCG v2.0 no agrega ningún principio nuevo respecto a v1.0; **resta** estructura (A-003 derivada, autodual compleja reemplazada por real+topología). Teoría más modesta, más conservadora, más predictiva.
+  - **Reglas meta aplicadas 7/7:** K-005 consistentemente; Regla 5 estrictamente en sesiones 26-29, relajada apropiadamente en 30; Regla 9 en sesiones 22 y 24 (reinterpretaciones honestas); ningún resultado defendido por inercia.
+  - **Documento v2.0 marca un punto mayor en el arco de la investigación.** La teoría pasa de "arquitectura estructural con piezas pendientes" (v1.9) a "marco consistente con P-11 resuelto y rutas claras para refinamiento cuantitativo + expansión GUT" (v2.0).
+

@@ -3,9 +3,26 @@
 - **ID:** H-003
 - **Fecha de propuesta:** 2026-04-18 (sesión 10; material acumulado en sesiones 7–9)
 - **Estado:** activa
-- **Estado derivacional (actualizado v1.9, sesión 24):** U(1) derivado; Z₃ derivado; **SU(2)_L reinterpretado como edge mode quiral de frontera WW modular** (ya no importado literalmente de Ashtekar autodual; ver nota v1.9 abajo); SU(3) argumentado por 5 vías; generaciones propuesto; Higgs mecanismo establecido. Asimetría máxima del SM: emerge de Kaplan 2024 + Wang-Wen 2018-2019 + modular Walker-Wang (Q-042, veredicto (D); Q-043 pendiente).
-- **Depende de:** H-001 v1.2 (objetos 1D), H-002 (D=3), A-003 (presión de degeneración), D-004 (reglas de fusión), **UBFC modular WW compatible con SO(10) (Q-043, pendiente)**.
+- **Estado derivacional (actualizado v2.0, sesión 30):** U(1) derivado; Z₃ derivado; **SU(2)_L como edge mode quiral de frontera WW modular** (v1.9, consolidado v2.0 via D-010); SU(3) argumentado por 5 vías + refuerzo Z₃_geom ≡ centro SU(3) (K-017 v2.0); generaciones propuesto; Higgs mecanismo establecido. **Asimetría máxima del SM: emerge de Kaplan 2024 + Wang-Wen 2018-2019 + modular Walker-Wang sobre `Spin(10)_1` (Q-043 CERRADA estructuralmente, D-010, sesión 30).**
+- **Depende de:** H-001 v1.2 (objetos 1D), H-002 (D=3), A-003 (presión de degeneración), D-004 (reglas de fusión), **UBFC modular `Spin(10)_1` (Q-043 cerrada estructuralmente, D-010)**.
 - **Contradice a:** — (extiende H-001 y H-002 al sector de materia)
+
+---
+
+## ✅ Nota de cierre v2.0 (sesión 30, post-Q-043)
+
+**Q-043 CERRADA ESTRUCTURALMENTE (sesión 30). UBFC específica identificada: `Spin(10)_1` MTC (+ super-modular extension estándar para contenido fermiónico).**
+
+- Las 4 obstrucciones bloqueantes (O1, O2, O5, O6) cerraron positivamente en sesiones 27-29.
+- Chequeo de consistencia cruzada en sesión 30 verifica coherencia interna.
+- D-010 documenta la síntesis formal.
+- K-030 **promovido a "confirmado estructuralmente"**.
+- P-11 (el fantasma existencial desde sesión 11) **rebajado a ✅ resuelto estructuralmente**.
+- K-033 activado a candidato formal (SO(10)-GUT en SCG); K-034 promovido a candidato formal (doble derivación Q=1/3); K-017 refuerzo documentado.
+- Caveats honestos: argumentos estructurales (no constructivos) en 3 de 4 piezas; estándar literatura; construcción constructiva explícita del lattice SM pendiente.
+- **Snapshot v2.0** captura el estado consolidado.
+
+**Ver:** `logic/derivations/D-010_Q-043_sintesis.md`, `notes/Q-043_sesion30_evaluacion_global.md`, `journal/2026-04-22_snapshot_v2.0.md`, `journal/reportes/25_cierre_Q-043.md`.
 
 ---
 
@@ -25,7 +42,7 @@
 - El grupo gauge completo SU(3) × SU(2) × U(1) sigue derivado de la red SCG.
 - Las secciones "U(1) desde modos transversales" y "Z₃ desde trivalencia" siguen válidas sin cambio.
 
-**Pendiente (Q-043, prioridad alta):** construir UBFC modular específica para SCG con contenido SO(10) que cancele anomalías y produzca asimetría SM máxima. Si Q-043 cierra constructivamente, K-030 → confirmado limpio, P-11 → ✅ resuelto.
+**~~Pendiente (Q-043)~~** **✅ CERRADA estructuralmente (sesión 30):** UBFC modular específica identificada como `Spin(10)_1` MTC (+ super-modular extension). K-030 promovido a "confirmado estructuralmente"; P-11 rebajado a ✅ resuelto estructuralmente. Ver D-010.
 
 **Ver:** `notes/Q-042_mecanismo_amplificacion_P.md`, `journal/2026-04-21_snapshot_v1.9.md`, `journal/reportes/24_la_quiralidad_es_topologica.md`.
 
@@ -94,9 +111,9 @@ RESULTADO: SU(3) × SU(2) × U(1)
 
 **Nota sobre dimensionalidad (sesión 11):** la versión original de esta cadena citaba Levin-Wen (2+1D) y Chern-Simons (3D TQFT). El stress-test de sesión 11 identificó la incompatibilidad dimensional (P-10). La corrección: en 3+1D, el mecanismo constructivo es Wen (2003)/Walker-Wang (2011), y la TQFT efectiva es Crane-Yetter (4D), cuya teoría de frontera es CS. Los resultados sobre grupo gauge se transfieren porque las reglas de fusión (D-004) son propiedades de la red independientes de la dimensionalidad del espacio-tiempo. Las excitaciones en 3+1D son bosones y fermiones convencionales (no anyones; los anyones existen solo en fronteras/defectos 2D).
 
-**Nota sobre quiralidad (K-026, sesión 11):** el patrón quiral del SM (SU(2) quiral, SU(3) y U(1) no-quirales) coincide con el patrón de origen en SCG: SU(2)_L viene de la gravedad (Ashtekar autodual, inherentemente quiral), mientras que U(1) y SU(3) emergen de la red (inherentemente no-quiral por Nielsen-Ninomiya).
+**Nota sobre quiralidad (K-026 — DEGRADADA v1.9, sesión 24):** el patrón cualitativo sigue siendo real (SU(2)_L quiral; SU(3), U(1)_Y no-quirales) y sigue exigiendo explicación. Lo que **ya no se sostiene** es la dicotomía originalmente propuesta — "SU(2)_L es quiral *porque* viene de la gravedad autodual (K-019), mientras que SU(3) y U(1) son no-quirales *porque* vienen de la red (Nielsen-Ninomiya)". El teorema de Nielsen-Ninomiya se aplica a fases de bulk puro; una red Walker-Wang **modular** con frontera topológica **sí puede alojar quiralidad** (Kaplan 2024, Wang-Wen 2018-2019). Interpretación v1.9: SU(3) y U(1)_Y emergen no-quiralmente del bulk WW, mientras que SU(2)_L emerge quiralmente de la estructura de defecto/frontera; pero la asignación quiral vs no-quiral no está dictada por "origen gravitacional vs origen de red" — depende de la UBFC modular específica (Q-043, pendiente).
 
-### Niveles de confianza por eslabón
+### Niveles de confianza por eslabón (v1.9)
 
 | Eslabón | Contenido | Nivel |
 |---|---|---|
@@ -107,7 +124,7 @@ RESULTADO: SU(3) × SU(2) × U(1)
 | 5 | TQFT 4D = Crane-Yetter (frontera = CS) | **Demostrado** (Crane-Yetter 1993; motivado por Ashtekar) |
 | 6a | U(1)_Y | **Derivado** (D-004 Parte I) |
 | 6b | Z₃ → carga en 1/3 | **Derivado** (D-004 Parte II) |
-| 6c | SU(2)_L | **Fuertemente motivado** (D-004 Parte III + stress-test K-019) |
+| 6c (v1.9) | SU(2)_L como edge mode quiral de frontera WW modular | **Identificado conceptualmente** (Kaplan 2024 + Wang-Wen 2018-2019 + modular WW 2208.03397); pendiente Q-043 para construcción UBFC específica |
 | 6d | SU(3) | **Argumentado** (D-004 Parte V, 5 vías convergentes) |
 
 ---
@@ -134,22 +151,32 @@ m ≡ 2 (mod 3) → trialidad 2 → antiquarks
 
 Z₃ es el centro de SU(3). La cuantización de la carga eléctrica en unidades de 1/3 — un dato sin explicación en el SM — se deriva de D=3 → trivalencia.
 
-### SU(2)_L — de la conexión gravitacional (FUERTEMENTE MOTIVADO)
+### SU(2)_L — edge mode quiral de frontera Walker-Wang modular (REINTERPRETADO v1.9)
 
-La conexión autodual de Ashtekar (1986) es literalmente su(2)_L del grupo de Lorentz:
+> **Historial de interpretaciones** (sesiones 9 → 22 → 24): la identificación de SU(2)_L ha recorrido tres formulaciones sucesivas, cada una más desacoplada del sector gravitacional que la anterior.
+> - **(i) Sesión 9 (AMS 2014):** SU(2)_L = conexión autodual de Ashtekar (β = -i) literalmente. Identidad matemática del grupo de Lorentz. Asimetría máxima automática.
+> - **(ii) Sesión 22 (Q-040, Randono 2006):** β real preserva violación P cualitativa pero no garantiza asimetría máxima automáticamente.
+> - **(iii) Sesión 24 (Q-042):** **la quiralidad de SU(2)_L es topológica, no gravitacional.** Emerge de edge modes quirales en la frontera de una red Walker-Wang modular (Kaplan 2024 + Wang-Wen 2018-2019 + modular WW 2208.03397). **Independiente de β de Ashtekar.**
 
-```
-so(3,1)_C ≅ su(2)_L × su(2)_R
-Conexión de Ashtekar = su(2)_L
-```
+**Formulación v1.9 — mecanismo topológico.** Una red Walker-Wang 3+1D construida sobre una UBFC **modular** es una fase topológica *invertible* en el bulk (SPT-like). Su frontera (2+1)D hospeda una teoría quiral — edge modes sin *mirror partners* (Kaplan 2024, PRL 132 141603). Los fermiones del Modelo Estándar, que en SCG son defectos topológicos de la red (H-003), actúan localmente como fronteras: el tubo de Gauss alrededor de cada defecto es una "frontera interna" donde emergen estados de borde quirales.
 
-Los fermiones levógiros se acoplan a ella, los dextrógiros a su(2)_R. La quiralidad de la fuerza débil no se postula — es una identidad matemática del grupo de Lorentz (Alexander-Marciano-Smolin, PRD 89, 065017, 2012).
+La cancelación de anomalías que permite gapear el sector *mirror* sin romper la simetría on-site es el resultado de Wang-Wen 2018-2019 (arXiv:1809.11171): para Spin(N) con N ≥ 7, el grupo de cobordismo Ω⁵ admite clase invertible trivial. El caso canónico es SO(10)-GUT con 16 fermiones en la representación spinorial — exactamente la cadena de inclusiones SO(10) ⊃ SU(5) ⊃ SU(3) × SU(2)_L × U(1)_Y que ya reproduce el grupo gauge derivado en SCG (D-004).
 
-Cada segmento de la red porta la holonomía g_e = P exp(∫_e A) ∈ SU(2). Las reglas de fusión son las de Clebsch-Gordan. Por Levin-Wen → campo gauge SU(2) emergente.
+**Sector gravitacional, sector quiral-SM: desacoplados.** El sector puramente gravitacional usa la conexión Ashtekar-Barbero-Immirzi con **β real** (Randono 2006). Este β real **resuelve** el problema de normalizabilidad de Kodama / realidad de la conexión compleja (antiguo costo forzado de la interpretación literal AMS 2014). Pero **no aporta** la asimetría máxima — no hace falta que lo haga. La asimetría máxima del SM emerge del sector topológico, no del gravitacional.
 
-**Nota importante:** SU(2) no se deriva de A-003 directamente — se **importa** de la formulación de Ashtekar de GR. Esto es legítimo (GR es un input del marco) pero hace que SU(2) sea el factor con peor derivación interna.
+**Lo que se preserva del K-019 original:**
+- SU(2)_L sigue siendo el único factor gauge quiral del SM.
+- Los fermiones L siguen siendo los únicos que se acoplan.
+- La fenomenología observacional (violación P, masas W/Z, confinamiento electrodébil) no cambia.
+- Cada segmento de la red sigue portando holonomía SU(2) (ahora entendida como edge mode, no como proyección de conexión autodual).
 
-**Decisión forzada:** el marco SCG debe usar la conexión autodual (compleja), no la de Barbero-Immirzi. La formulación real pierde la quiralidad. **Costo:** la conexión compleja presenta problemas técnicos (normalización del estado de Kodama, condiciones de realidad — Witten 2003). Estos problemas no están resueltos en LQG ni en nuestro marco.
+**Lo que cambia:**
+- SU(2)_L ya no se **importa** de la formulación de Ashtekar de GR.
+- La "decisión forzada" de usar conexión autodual compleja **se levanta**. Barbero-Immirzi con β real es la formulación operativa.
+- El costo técnico (Kodama no normalizable, condiciones de realidad) **se mitiga** vía Randono 2006.
+- El precio conceptual (Q-043 pendiente): construcción explícita de la UBFC modular SCG con contenido SO(10) que cancele anomalías. Si Q-043 cierra constructivamente → K-030 pasa a confirmado limpio, P-11 → ✅ resuelto.
+
+**Ver:** `notes/Q-042_mecanismo_amplificacion_P.md`, `journal/reportes/24_la_quiralidad_es_topologica.md`, `journal/2026-04-21_snapshot_v1.9.md`.
 
 ### SU(3) — de Z₃ + quiralidad (ARGUMENTADO)
 
@@ -159,17 +186,17 @@ A bajas energías, k_eff crece por integración de modos masivos (mecanismo QFT 
 
 Cinco argumentos convergentes: (1) unicidad matemática, (2) parsimonia (K-005), (3) level-shifting estándar, (4) confinamiento = Z₃ preservada (lattice QCD), (5) anomalías (sugerente).
 
-### Origen geométrico unificado
+### Origen geométrico unificado (v1.9)
 
 ```
-Red SCG en D=3
-    ├── Segmentos (edges): 2 modos transversales → U(1)_Y
-    ├── Vértices trivalentes: SO(2) → Z₃ → centro de SU(3)
-    ├── Vértices + quiralidad: Z₃ quiral → SU(3)₁ por unicidad
-    └── Holonomías de la conexión autodual → SU(2)_L
+Red SCG en D=3 (Walker-Wang modular sobre UBFC con contenido SO(10))
+    ├── Bulk — Segmentos (edges): 2 modos transversales → U(1)_Y [no-quiral]
+    ├── Bulk — Vértices trivalentes: SO(2) → Z₃ → centro de SU(3) [no-quiral]
+    ├── Bulk — Vértices + matching dim.: Z₃ + valencia 3 → SU(3)₁ [no-quiral]
+    └── Frontera/defectos — edge modes quirales (Kaplan 2024) → SU(2)_L [quiral]
 ```
 
-Cada factor gauge tiene un origen geométrico **distinto** en la misma red.
+Cada factor gauge tiene un origen geométrico **distinto** en la misma red. El contraste v1.9 con la versión pre-v1.9 es que **SU(2)_L ya no se deriva del sector gravitacional** (conexión Ashtekar autodual) sino de la estructura topológica de la red Walker-Wang con frontera modular. La quiralidad del SM es un teorema del lattice, no un regalo del Lorentz.
 
 ---
 
@@ -183,11 +210,15 @@ La carga eléctrica cuantizada en tercios no es un postulado — es una consecue
 
 El confinamiento = preservación de la simetría Z₃ del centro de SU(3) (parámetro de orden: lazo de Polyakov ⟨L⟩ = 0). En el marco SCG, Z₃ tiene origen geométrico UV (trivalencia del vértice). Los quarks (trialidad ≠ 0) no pueden existir aislados porque la geometría del vértice impone m₁ + m₂ + m₃ ≡ 0 (mod 3). Solo estados con trialidad total 0 se propagan libremente (K-018).
 
-### C3. Violación de paridad
+### C3. Violación de paridad (reinterpretada v1.9)
 
-La acción de Chern-Simons cambia de signo bajo paridad (S_CS → −S_CS). La red SCG con conexión autodual tiene descripción efectiva CS quiral → viola paridad automáticamente (K-013, K-019).
+La violación de paridad tiene dos capas en SCG v1.9:
 
-La violación es además **máxima** para SU(2)_L: solo los fermiones levógiros se acoplan a la conexión autodual. No se postula — se hereda de la estructura de representaciones del grupo de Lorentz.
+**(a) Paridad discreta (K-013):** la acción de Chern-Simons cambia de signo bajo paridad (S_CS → −S_CS). Cualquier descripción efectiva CS quiral viola paridad automáticamente. Esto sigue valiendo y es independiente del mecanismo de origen.
+
+**(b) Asimetría máxima (solo L acoplan a SU(2)):** la afirmación original — "solo los fermiones levógiros se acoplan a la conexión autodual; heredado de la estructura del grupo de Lorentz" — **se reemplaza** por el mecanismo topológico de la sección "SU(2)_L — edge mode quiral" arriba. La asimetría máxima emerge del *gap del sector mirror* en la construcción Wang-Wen 2018-2019, que es consecuencia de la cancelación de anomalías via cobordismo SO(10) (Ω⁵ clase trivial). No es una identidad del Lorentz — es un teorema del lattice 3+1D con frontera topológica.
+
+Contenido empírico preservado; mecanismo físico distinto.
 
 ### C4. Tres generaciones (PROPUESTO, especulativo)
 
@@ -261,19 +292,25 @@ Esto evita el problema de Kelvin (1867): no hay "éter" sobre el cual viven los 
 
 ---
 
-## Relación con la literatura
+## Relación con la literatura (v1.9)
 
-| Programa | Relación con H-003 |
-|---|---|
-| **Levin-Wen (2005)** | H-003 es una realización física del marco Levin-Wen. Diferencia: las reglas de fusión se derivan (D-004), no se postulan |
-| **Chern-Simons/Witten (1988)** | Teoría efectiva de la red SCG en 3D |
-| **Bilson-Thompson (2005)** | Los "3 ribbons" se motivan por D=3 → trivalencia. H-003 da origen físico a las trenzas |
-| **Alexander-Marciano-Smolin (2012)** | Proponen SU(2)_gravedad = SU(2)_L. H-003 lo incorpora como identidad, no analogía |
-| **Bais-Slingerland (2009)** | Condensación de anyones = mecanismo de Higgs. H-003 lo aplica a la red SCG |
-| **Fradkin-Shenker (1979)** | Higgs = confinamiento para SU(2) fundamental. Consecuencia directa en H-003 |
-| **LQG (redes de espín)** | H-003 usa la misma estructura (SU(2) en edges, intertwiners en vértices). Diferencia: H-003 usa Ashtekar autodual (compleja), no Barbero-Immirzi |
-| **Kelvin (1867)** | Misma visión (nudos = partículas), pero sin éter: las cuerdas SON el espacio-tiempo |
-| **Finkelstein (SLq(2))** | Cuantización de cargas desde grupos cuánticos. Conexión posible pero no explorada |
+| Programa | Relación con H-003 | Status v1.9 |
+|---|---|---|
+| **Levin-Wen (2005)** | H-003 es una realización física del marco Levin-Wen. Diferencia: las reglas de fusión se derivan (D-004), no se postulan | Base |
+| **Walker-Wang (2011)** | Framework sistemático de fases topológicas 3+1D con UBFC. Red SCG = modelo WW | Base |
+| **Walker-Wang modular (Kawagoe-Gorantla-Williamson 2023, PRB 107 085134)** | Bulk 3+1D invertible/SPT con frontera (2+1)D quiral | **Ruta primaria quiralidad v1.9** |
+| **Kaplan 2024 (PRL 132 141603)** | Fermiones quirales en frontera entre fases topológicas, sin mirror partners | **Mecanismo quiralidad SU(2)_L v1.9** |
+| **Kaplan-Sen 2024 (PRL 132 141604)** | Weyl edge states en lattice finito con Wilson fermion; caso concreto | Ejemplo técnico v1.9 |
+| **Wang-Wen 2018-2019 (arXiv:1809.11171)** | SM completo desde SO(10)-GUT no-perturbativo en lattice 3+1D via cobordismo | **Base K-033 v1.9; cancelación de anomalías** |
+| **Chern-Simons/Witten (1988)** | Teoría efectiva de la red SCG en 3D; frontera de Crane-Yetter | Base |
+| **Bilson-Thompson (2005)** | Los "3 ribbons" se motivan por D=3 → trivalencia. H-003 da origen físico a las trenzas | Complementario |
+| **Alexander-Marciano-Smolin (2014, PRD 89 065017)** | Proponen SU(2)_gravedad = SU(2)_L (β=-i) | **Desplazado v1.9**: quiralidad es topológica, no gravitacional |
+| **Randono (2006, gr-qc/0504010 + 0611073 + 0611074)** | Kodama con β real, CPT invariante | **Sector gravitacional v1.9** |
+| **Bais-Slingerland (2009)** | Condensación de anyones = mecanismo de Higgs. H-003 lo aplica a la red SCG | Base K-021 |
+| **Fradkin-Shenker (1979)** | Higgs = confinamiento para SU(2) fundamental. Consecuencia directa en H-003 | Base K-021 |
+| **LQG (redes de espín)** | H-003 usa estructura similar (holonomías en edges, intertwiners en vértices). **v1.9:** SCG usa Barbero-Immirzi con β real como mainstream LQG; la quiralidad SM no viene de la conexión gravitacional | Actualizado v1.9 |
+| **Kelvin (1867)** | Misma visión (nudos = partículas), pero sin éter: las cuerdas SON el espacio-tiempo | Complementario |
+| **Finkelstein (SLq(2))** | Cuantización de cargas desde grupos cuánticos. Conexión posible pero no explorada | Pendiente |
 
 ---
 
@@ -295,44 +332,47 @@ Esto evita el problema de Kelvin (1867): no hay "éter" sobre el cual viven los 
 
 ---
 
-## Problemas abiertos
+## Problemas abiertos (actualizado v1.9)
 
 ### Problemas derivacionales (cómo completar lo que falta)
 
-1. **Acción Lagrangiana de la red SCG (P-8).** Sin ella, no se pueden calcular amplitudes de scattering ni masas. Es el paso de "marco conceptual" a "teoría predictiva".
+1. **Acción Lagrangiana de la red SCG (P-8).** Arquitectura completa (bosquejo sesión 12). 3/5 sub-tareas con derivación cerrada (D-006, D-007, D-008+D-009); 2/5 parciales con candidatos (K-030 confirmado con Q-043 pendiente, K-032 candidato). Ver snapshot v1.9 sección 6.
 
 2. **Niveles de Chern-Simons k para cada factor gauge (Q-027).** k determina qué representaciones existen (truncación). A k=1 solo hay 3 anyones → espectro mínimo. A k grande → espectro del SM completo. El flujo k(E) no está calculado.
 
-3. **Constantes de acoplamiento.** Si SU(2)_L es gravedad, G_Newton y g_weak deben converger a M_Planck. El flujo de renormalización que los separa no está derivado.
+3. **Constantes de acoplamiento (reformulado v1.9).** Con SU(2)_L desacoplado del sector gravitacional (v1.9), el problema "G_Newton vs g_weak" deja de ser una tensión de unificación directa — son acoplamientos de sectores estructuralmente distintos. Queda abierta la predicción cuantitativa del patrón α₂ ≈ α₃ ≠ α₁ a M_P (K-032 candidato; matching II→IV explícito pendiente).
 
-4. **Masas de fermiones.** El mecanismo de generación de masa (Yukawa) no está derivado. Los acoplamientos de Yukawa dependen de la geometría detallada de la red, que no conocemos.
+4. **Masas de fermiones.** El mecanismo de generación de masa (Yukawa) no está derivado. Los acoplamientos de Yukawa dependen de la geometría detallada de la red, que no conocemos. **v1.9:** posible apertura vía estructura SO(10)-GUT (K-033 candidato potencial, Wang-Wen 2018-2019).
 
 5. **Ángulo de Weinberg θ_W.** Requiere la relación entre los acoplamientos g y g' de SU(2)_L y U(1)_Y. En principio derivable si se conoce la estructura de la red, pero no calculado.
 
+6. **UBFC modular SCG específica (Q-043, NUEVA v1.9).** Construcción explícita de una categoría de fusión trenzada unitaria modular, compatible con SCG (trivalente, H-003, D-004), cuya frontera hospede 16 Weyl spinoriales de SO(10) con anomalías 't Hooft canceladas por cobordismo (clase trivial en Ω⁵). Si cierra constructivamente: K-030 → confirmado limpio, P-11 → ✅ resuelto, K-033 potencial activable.
+
 ### Problemas conceptuales (qué no entendemos bien)
 
-6. **Z₃ dual → generaciones.** La conexión entre la cara del grafo dual y los modos de generación necesita formalización. ¿La Z₃ dual se conserva realmente como número cuántico? ¿Cómo se acopla a los otros sectores?
+7. **Z₃ dual → generaciones.** La conexión entre la cara del grafo dual y los modos de generación necesita formalización. ¿La Z₃ dual se conserva realmente como número cuántico? ¿Cómo se acopla a los otros sectores?
 
-7. **Red SCG densa (BH) vs red SCG diluida (vacío).** H-001 describe el interior de un BH como red densa. H-003 describe el vacío como red ordenada. ¿Cómo se conectan las dos fases? ¿Hay una transición de fase?
+8. **Red SCG densa (BH) vs red SCG diluida (vacío).** H-001 describe el interior de un BH como red densa. H-003 describe el vacío como red ordenada. ¿Cómo se conectan las dos fases? ¿Hay una transición de fase?
 
-8. **Fermiones emergentes vs fundamentales.** En Levin-Wen, los fermiones emergen como compuestos de excitaciones topológicas (diones = carga + flujo). ¿Son los fermiones del SM compuestos en este sentido?
+9. **Fermiones emergentes vs fundamentales.** En Levin-Wen, los fermiones emergen como compuestos de excitaciones topológicas (diones = carga + flujo). ¿Son los fermiones del SM compuestos en este sentido?
 
-9. **Espectro bosónico.** Los bosones gauge (γ, W±, Z, gluones) deben emerger como excitaciones colectivas de la red. El mecanismo para el fotón (sin masa, U(1)_EM) vs W/Z (masivos, SU(2)_L confinado) requiere la condensación de anyones. ¿Es consistente con todos los datos del SM?
+10. **Espectro bosónico.** Los bosones gauge (γ, W±, Z, gluones) deben emerger como excitaciones colectivas de la red. El mecanismo para el fotón (sin masa, U(1)_EM) vs W/Z (masivos, SU(2)_L confinado) requiere la condensación de anyones. ¿Es consistente con todos los datos del SM? **v1.9:** el confinamiento de SU(2)_L = Higgs (K-021) sigue operativo, pero la SU(2)_L confinada es ahora la emergente del edge mode de frontera WW, no la gravitacional de Ashtekar.
 
-10. **D_tiempo = 1.** H-002 explica D_espacio = 3 pero no D_tiempo = 1. H-003 hereda este problema.
+11. **D_tiempo = 1.** ~~H-002 explica D_espacio = 3 pero no D_tiempo = 1. H-003 hereda este problema.~~ **RESUELTO (D-005, sesión 10, K-022):** so(4,C) única factorización de Dynkin + signatura fijada por espinores de Weyl + H-002. **Nota v1.9:** uno de los cuatro argumentos convergentes de D-005 era K-019 literal (que se debilita). Los otros tres (Dynkin, Hodge, espinores) siguen válidos. El resultado se preserva como "auto-consistente" (punto fijo K-025).
 
 ---
 
 ## Lo que H-003 logra y lo que no
 
-### Logra (por primera vez, desde QM + GR solamente)
+### Logra (por primera vez, desde QM + GR solamente) — v1.9
 
 - Deriva por qué el grupo gauge tiene 3 factores (3 aspectos geométricos distintos de la red)
 - Deriva por qué la carga se cuantiza en 1/3 (trivalencia → Z₃)
 - Explica el confinamiento como geometría UV (K-018)
-- Explica la violación de paridad como identidad matemática (K-019)
+- Explica la violación de paridad como **fenómeno topológico de frontera** (v1.9, Kaplan + Wang-Wen + modular WW), no como identidad del grupo de Lorentz
 - Identifica un mecanismo de Higgs (condensación de anyones, demostrado en materia condensada)
 - Propone una explicación para N_gen = 3 = N_color (Z₃ × Z₃ de la dualidad)
+- **v1.9:** desacopla sector gravitacional (Barbero-Immirzi β real, Randono) de sector quiral-SM (topología WW modular), mitigando P-11 (Kodama) sin renunciar a la asimetría máxima
 
 ### No logra (aún)
 
@@ -360,3 +400,9 @@ H-003 es una **hipótesis con soporte estructural**, no una teoría cerrada. La 
 - **2026-04-17 (sesión 8):** E-008 establece la cadena de 6 eslabones. D-004 deriva parcialmente el grupo gauge. Q-026 resuelta conceptualmente (SU(3)).
 - **2026-04-18 (sesión 9):** stress-test de D-004 (todos los eslabones pasan, SU(2) upgradeado). E-009: propuesta de generaciones (Z₃ dual) y Higgs (condensación de anyones). K-019 a K-021.
 - **2026-04-18 (sesión 10):** formalización como hipótesis independiente H-003.
+- **2026-04-19 (sesión 11):** K-026 propuesta — dicotomía "gravedad quiral / red no-quiral".
+- **2026-04-21 (sesión 22, Q-040):** K-019 segunda reinterpretación — Randono β real, violación P cualitativa pero asimetría máxima no automática.
+- **2026-04-21 (sesión 24, Q-042):** **K-019 tercera reinterpretación — quiralidad topológica vía Kaplan 2024 + Wang-Wen 2018-2019 + modular WW; independiente de β de Ashtekar. K-026 degradada (dicotomía no se sostiene). Q-043 nueva: construcción UBFC modular SCG con SO(10).**
+- **2026-04-21 (sesión 25, saneamiento documental):** cuerpo de H-003 integrado con reinterpretación v1.9 (ya no solo nota al tope).
+- **2026-04-21/22 (sesiones 26-29, ataque técnico Q-043):** O1 (k=1 integrable), O6 (Y cuantizada doble derivación), O2 (trivalencia+Z₃ coprimos), O5 (desacople grav/top) — 4 obstrucciones bloqueantes cerradas.
+- **2026-04-22 (sesión 30, Q-043 CERRADA):** UBFC específica `Spin(10)_1` identificada; D-010 síntesis; K-030 confirmado estructuralmente; P-11 resuelto estructuralmente; K-033 activado; K-034 candidato; K-017 refuerzo. Snapshot v2.0.
