@@ -60,7 +60,7 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 - Preguntas abiertas: `Q-001` (físicas), `QM-001` (metodológicas)
 - Problemas identificados en una hipótesis: `P-1`, `P-2`, ... dentro del archivo de debilidades
 
-## Inventario actual (2026-04-22, sesión 30 — Q-043 CERRADA estructuralmente; P-11 RESUELTO)
+## Inventario actual (2026-04-23, sesión 37 — K-028 REFUTADO heurísticamente; Q-045 abierta)
 
 **Sesión 25:** integración de la reinterpretación v1.9 en el cuerpo de H-003, framework/axioms.md (premisa operativa v1.9) y marcadores en memory/key_insights.md (K-019, K-026). Ningún descubrimiento técnico; consistencia documental recuperada. Sin snapshot nuevo.
 
@@ -83,6 +83,10 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 **Sesión 34:** Edge modes `Spin(10)_1` + CS-WZW. **Retreat honesto (Regla 9)** a K-032.M. Hipótesis C = 4π·c NO se sostiene (c es densidad de estados, no multiplica coupling). Embedding canónico + RG running no cierran K-032.S al 1%. **K-032.M formalizada como veredicto final.** Ver `notes/K-032_sesion34_edge_modes.md`.
 
 **Sesión 35:** Evaluación global tramo K-032 + consolidación. **K-032 promovido** a "confirmado estructuralmente con caveat cuantitativo" (nuevo nivel epistémico, definido en D-011). **P-8 ✅ cerrado con caveat cuantitativo**; bosquejo Lagrangiana 5/5 cerradas (4 limpias + 5.5 con caveat). **D-011 escrita** — síntesis formal K-032.M. **Snapshot v2.1** publicado. **Reporte narrativo #26** publicado. Actualización documental: key_insights.md, debilidades_H-001.md, H-003, MEMORY_INDEX.md. Disciplina K-005 + Regla 5 + Regla 9 aplicadas ejemplarmente. Ver `logic/derivations/D-011_K-032_sintesis.md`, `journal/2026-04-22_snapshot_v2.1.md`, `journal/reportes/26_matching_II_IV_K-032.md`.
+
+**Sesión 36:** (1) **Q-044 abierta** como ancla foundational-meta (origen de magnitudes físicas, estructura ℤⁿ de dimensiones, conservación en régimen emergente). Opción liviana: sin sesión dedicada, consolidación en snapshot v2.2+ o `framework/ontology.md`. Registrada en `open_questions.md`. (2) **SETUP formal de K-028** (P-15' redshift riguroso interior BH). **Reformulación crítica:** el problema NO es "Casimir en fondo Schwarzschild fijo" (framing sesión 15) sino "interior auto-consistente vía TOV + EOS derivada de Casimir". **EOS del string gas SCG derivada por primera vez:** p_∥ = -ρ, p_⊥ = +ρ; isotropic averaging → ⟨p⟩ = ρ/3 (RADIACIÓN, w=1/3). Resultado estructural nuevo. **TOV con p=ρ/3 analizado:** uniforme imposible; singular isothermal da compacidad 3/7 (no alcanza horizonte); alcanzar r_s requiere ρ→∞ (divergencia natural cuando d→ℓ_P). Concentración holográfica emerge como consecuencia del cálculo, no postulado. 4 escenarios del veredicto identificados (B más probable, análogo a K-032.M). Plan Fase I-II para sesiones 37-38. Ver `notes/K-028_sesion36_setup.md`.
+
+**Sesión 37:** **Fase I ejecutada: K-028 REFUTADO heurísticamente.** (1) **Identidad geométrica $1/(3\pi^2)$ derivada analíticamente** sin QFT+GR: sigue del coeficiente 4/3 de K-007 + $V_{BH}$ definición. (2) **TOV radiación integrada numéricamente** con RK4 manual (scipy no disponible). Barrido $y_c \in [0.1, 10^4]$ muestra **patrón universal**: compactness satura en **3/7** en $x=1$ para todo $y_c$. Singular isothermal $y(x) = 1/(7x^2)$ es atractor global del bulk (coincidencia numérica-analítica < 2%). **El horizonte NUNCA se forma con EOS radiación pura.** (3) **Dos refutaciones:** (a) factor $1/(3\pi^2)$ es identidad geométrica, no redshift físico; (b) uniformidad $\rho = \rho_{K007}$ es GR-inconsistente. (4) **Obstrucción estructural mayor:** EOS radiación solo puede cargar **3/7 de masa ADM**; **4/7 restantes requieren física adicional** (anisotropy, shell gravastar, transición de fase). (5) **K-028 degradado** de candidato a observación matemática; no cuenta en inventario físico. (6) **K-007 aclarado:** escala característica válida, NO densidad uniforme. Fue el error raíz del framing sesión 15. (7) **Q-045 abierta** (reemplaza P-15'): mecanismo SCG para los 4/7 de masa ADM. Opción A (TOV anisotrópica) recomendada para sesión 38. Ver `notes/K-028_sesion37_TOV.md`, `experiments/simulations/sim002_*`.
 
 ### Axiomas activos (v1.2, post-sesión 13)
 - A-001: corte Planck (válido)
@@ -120,6 +124,7 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 
 ### Simulaciones
 - sim001_cuerda_basica.js (+ sim001_resultados.md)
+- **sim002_tov_radiacion.py** (+ sim002_resultados.md, sim002_profile.dat) — TOV radiación p=ρ/3, RK4 manual, sesión 37, refuta hipótesis trabajo uniforme-alcanza-horizonte
 
 ### Bosquejos estructurales
 - **`notes/R_lagrangiana_bosquejo.md`** — bosquejo arquitectónico de la Lagrangiana SCG (sesión 12): 4 regímenes, acción madre candidata (Plebanski-autodual + Λ + defectos), 5 tensiones, 5 tareas propuestas.
@@ -159,7 +164,7 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 - **K-031: reducción S_PA → S_SCG-2D por reducción dimensional; D-008 + D-009 (variacional)** (2026-04-21, sesión 18+20)
 
 ### Insights candidatos (pendientes v2.0)
-- **K-028 (candidato, 2026-04-20, sesión 15):** redshift gravitacional promedio del interior de un BH-SCG es ⟨f⟩ ≈ 1/(3π²). Obtenido por consistencia ADM; rigorización pendiente (P-15').
+- ~~K-028 (candidato, 2026-04-20, sesión 15): redshift gravitacional promedio ⟨f⟩ ≈ 1/(3π²)~~ **REFUTADO heurísticamente (sesión 37): el factor 1/(3π²) es identidad geométrica pura (razón ρ_K007/⟨ρ⟩_V), NO redshift. La interpretación operacional subyacente (uniformidad del interior) es GR-inconsistente con TOV + radiación. Degradado a observación matemática; no cuenta en inventario. Ver `notes/K-028_sesion37_TOV.md`.**
 - ~~K-032 (candidato, 2026-04-21, sesión 19)~~ **PROMOVIDO a "CONFIRMADO ESTRUCTURALMENTE CON CAVEAT CUANTITATIVO" (sesión 35, D-011).** Ver sección `### Insights confirmados` al final. Resumen: forma funcional α_gauge ∝ γ_Immirzi derivada estructuralmente desde Plebanski-Holst + frontera CS + `Spin(10)_1` edge modes. Valor numérico en rango [0.005, 0.1] consistente con α_SM; identidad α_3 ≈ γ/(4π) al 1% sugerente pero no derivada. Regla 9 aplicada.
 - **K-033 (CANDIDATO FORMAL — ACTIVADO sesión 30):** SCG + `Spin(10)_1` modular Walker-Wang + Wang-Wen 2018-2019 = marco natural para SO(10)-GUT no-perturbativo en lattice 3+1D. Base técnica del cierre de P-11. Programa asociado abierto: masas fermiónicas, Yukawas, CKM/PMNS. 10+ sesiones si se emprende.
 - **K-034 (CANDIDATO FORMAL — PROMOVIDO sesión 30):** la cuantización Q en 1/3 tiene doble derivación en SCG: (a) K-015 desde trivalencia Z₃ geométrica; (b) ruptura algebraica SO(10) → SU(5) → SM. Convergencia estructural; corroboración cruzada. Promoción a confirmado requiere demostrar equivalencia rigurosamente.
@@ -177,7 +182,7 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 - ~~P-11: 🟡 baja~~ → **P-11: ✅ RESUELTO ESTRUCTURALMENTE (sesión 30, D-010).** Q-043 cerrada estructuralmente; UBFC específica `Spin(10)_1` identificada; sector gravitacional (Randono β real) y sector topológico (Walker-Wang sobre `Spin(10)_1`) desacoplables. Las 4 patologías de Witten 2003 mitigadas. Reserva de "resuelto limpio puro" para futura construcción constructiva explícita del lattice SM.
 - **P-8: ✅ CERRADO CON CAVEAT CUANTITATIVO (sesión 35, D-011). Arquitectura completa, 5/5 sub-tareas cerradas** (4 limpias + 5.5 con caveat). Confirmadas: 5.1 (D-006), 5.2 (D-007), 5.3 cerrada via D-010 sesión 30 (K-030 confirmado estructuralmente), 5.4 (D-008 + D-009, K-031), **5.5 cerrada con caveat cuantitativo via D-011 sesión 35 (K-032 confirmado estructuralmente con caveat cuantitativo).** Residual: refinamiento cuantitativo K-032.M → K-032.S (opcional, 3-5 sesiones técnicas adicionales).
 - **P-14 🟡 (sesión 13):** consistencia cuántica de Polyakov 4D no-crítica como teoría efectiva WW. Plausible pero sin demostración formal.
-- **P-15' 🟡 baja (sesión 14 → rebajada 15):** cálculo riguroso de redshift interior BH; T-6 cerrada heurísticamente vía K-028 candidato.
+- ~~P-15' 🟡 baja (sesión 14 → rebajada 15): cálculo riguroso de redshift interior BH~~ **CERRADA con resultado negativo (sesión 37): el redshift no existía como cantidad física rigurosa; la heurística sesión 15 usaba premisa GR-inconsistente. Sustituida por Q-045 (mecanismo para 4/7 de masa ADM).**
 - ✅ **P-1 resuelto mayor (sesión 13):** A-003 derivado como Casimir de Polyakov (D-006). K-027 confirmado.
 - P-3: camino abierto (horizonte macro + cuerda interior)
 - P-5: parcialmente resuelto (D=1 derivada); sub-problema P-5.1 abierto
@@ -214,7 +219,9 @@ Los snapshots son documentos autocontenidos de la teoría en un estado dado. Lee
 - **Q-040: compatibilidad Randono β real ↔ K-019** — **PARCIALMENTE RESUELTA con veredicto (C) (sesión 22):** preserva viabilidad pero NO asimetría máxima SM. K-019 debilitado.
 - **Q-041: llenado volumétrico variacional** — **PARCIALMENTE RESUELTA (sesión 20, D-009):** A2 deriva bajo KKT. K-031 promovido.
 - **Q-042: mecanismo amplificación P** — **PARCIALMENTE RESUELTA con veredicto (D) (sesión 24):** Kaplan 2024 + Wang-Wen 2018-2019 + modular WW. K-030 promovido a "confirmado con ruta identificada"; P-11 rebajada a 🟡 baja. K-019 tercera reinterpretación; K-026 degradada. Ver `notes/Q-042_mecanismo_amplificacion_P.md`.
-- **Q-043 nueva (sesión 24, prioridad alta):** ¿UBFC modular específica para SCG con contenido SO(10) que cancele anomalías y dé asimetría SM máxima? Decide promoción final de K-030 a confirmado limpio.
+- **Q-043 nueva (sesión 24, prioridad alta):** ¿UBFC modular específica para SCG con contenido SO(10) que cancele anomalías y dé asimetría SM máxima? Decide promoción final de K-030 a confirmado limpio. **✅ CERRADA ESTRUCTURALMENTE (sesión 30, D-010): UBFC = `Spin(10)_1`.**
+- **Q-044 nueva (sesión 36, foundational-meta):** ¿qué es una "magnitud física" y por qué las dimensiones forman ℤⁿ? Incluye origen individual de M/L/T/Q/espín/color en SCG (ya disperso en el marco) + estatus de conservación con tiempo emergente. **Baja urgencia técnica**, ancla conceptual. Consolidación en snapshot v2.2+ o `framework/ontology.md`.
+- **Q-045 nueva (sesión 37, prioridad alta):** ¿qué mecanismo SCG carga los 4/7 de masa ADM que la EOS radiación pura no acomoda? Reemplaza efectivamente a P-15' (cerrada con resultado negativo). Tres candidatos: (a) anisotropic stress macroscópica — preferente tangencial near-horizon, (b) shell delgada gravastar-invertido cerca de $r_s$, (c) transición de fase EOS near-horizon. Opción A recomendada para sesión 38 (TOV anisotrópica). Ver `notes/K-028_sesion37_TOV.md`.
 
 ## Cómo actualizar este índice
 Cada vez que:

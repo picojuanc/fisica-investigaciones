@@ -354,6 +354,79 @@ Las preguntas que la investigación debe responder, o al menos abordar. Numerada
 
 ---
 
+## Preguntas nuevas de la sesión 36 (foundational / meta-estructura)
+
+## Q-044 — ¿Qué es una "magnitud física" y por qué las dimensiones forman ℤⁿ?
+- **Abierta desde:** 2026-04-23 (sesión 36)
+- **Relevancia:** foundational-meta. **Baja urgencia técnica, alta coherencia conceptual.** No requiere sesión dedicada: ancla para consolidar en próximo snapshot v2.2 o al escribir `framework/ontology.md`.
+- **Origen:** pregunta del usuario (2026-04-23): las cantidades físicas parecen venir como "valor + dimensión", casi como vectores en un espacio de magnitudes. ¿Es metafísica o puede decirse algo físicamente?
+- **Contenido:** tres sub-preguntas apiladas.
+  - (a) ¿Por qué las cantidades físicas son "valor × vector de dimensiones"?
+  - (b) ¿Por qué ESTAS magnitudes (M, L, T, Q, espín, color) y no otras?
+  - (c) ¿Por qué se conservan? Con énfasis: en SCG el espacio-tiempo es emergente (Q-001) y el tiempo en particular (D-005/K-022), por lo que la conservación de energía (Noether sobre ∂_t) tiene estatus distinto del estándar.
+
+### Ya en el marco (parcial, disperso)
+- **(a) Respuesta formal conocida:** las dimensiones forman un grupo abeliano libre ℤⁿ sobre las dimensiones base; los exponentes son las coordenadas. Buckingham π theorem (1914). En unidades de Planck (ℏ=c=G=1), el espacio se colapsa a dimensión 0 (todo adimensional). La "elección" de base (M, L, T) es convencional, no física.
+- **(b) SCG ya tiene respuestas estructurales dispersas:**
+
+  | Magnitud | Origen en SCG | Referencia |
+  |---|---|---|
+  | L (longitud) | lattice spacing ℓ_P | A-001 |
+  | T (tiempo) | factorización Dynkin única → D_tiempo=1 | D-005, K-022 |
+  | E, M | tensión + modos Polyakov transversales | H-001, D-006 |
+  | Q (carga) | momento angular transversal + cuantización 1/3 | K-014, K-015 |
+  | Espín | codimensión 2 (nudos en D=3) | K-011 |
+  | Color | Z₃ trivalente → SU(3) | K-016, K-017 |
+
+- **(c) Noether estándar en régimen IV.** No articulado: el tiempo emerge junto con la estructura gauge (H-002 + D-005), así que la invariancia temporal es una propiedad del régimen macroscópico, no dada desde el principio. Consecuencia: conservación de E es un **hecho emergente**, no un postulado.
+
+### Huecos auténticos
+1. **Origen geométrico del rango ℤⁿ** (¿es n = rango del álgebra gauge + núcleo gravitacional? ¿coincide con el número de Casimires independientes? ¿con el número de constantes universales no-removibles?).
+2. **Estatus de la conservación de energía en régimen emergente** (si el tiempo emerge, ¿la conservación es exacta o aproximada? ¿hay corrección O(E/M_P)?).
+3. **Valores numéricos de ℏ, c, G** (ya abierto como Q-005; naturalmente vinculado).
+4. **Jerarquía de masas SM** (K-033, postergado; parte del mismo nudo).
+
+### Plan
+- **NO abrir sesión dedicada.** Registrar y seguir trabajo técnico.
+- Consolidar cuando:
+  - Se escriba `framework/ontology.md` (actualmente esqueleto).
+  - Se haga snapshot v2.2 o superior.
+  - Se cierre K-033 (da información sobre masas y su origen).
+- Mientras tanto: cualquier trabajo sobre Q-005, K-028, K-033 alimenta naturalmente este ángulo.
+
+### Relacionada con
+- Q-001 (espacio-tiempo emergente)
+- Q-003 (información como ontología)
+- Q-005 (constantes fundamentales)
+- Q-014 (grados de libertad gravitacionales)
+
+---
+
+## Preguntas nuevas de la sesión 37 (TOV auto-consistente, K-028 refutado)
+
+## Q-045 — ¿Qué mecanismo SCG carga los 4/7 de masa ADM que la EOS radiación no acomoda?
+- **Abierta desde:** 2026-04-23 (sesión 37)
+- **Relevancia:** alta. Estructural para H-001. Reemplaza efectivamente a P-15' (ahora cerrado con resultado negativo).
+- **Contexto:** la Fase I del plan K-028 (sesión 37) mostró que TOV con $p = \rho/3$ (EOS derivada sesión 36 del string gas SCG con isotropic averaging) satura en compactness $3/7$ en $r = r_s$ para cualquier densidad central $y_c$. Por lo tanto la radiación pura solo puede cargar $3/7 \approx 43\%$ de la masa ADM; el $4/7 \approx 57\%$ restante requiere física adicional.
+- **Diagnóstico del origen:** el isotropic averaging asume orientación aleatoria del string a todas las escalas. Near-horizon, razones holográficas (entropía ∝ área) sugieren orientación tangencial preferente → EOS anisotrópica.
+- **Candidatos principales:**
+  - **(a) Anisotropic stress macroscópica:** $p_r(r) \neq p_t(r)$ con $p_r$ decreciendo near-horizon, $p_t$ enhanced. TOV anisotrópica conocida puede evadir Buchdahl-like bound de 3/7. Tratable con técnica estándar (Herrera-Santos 1997). **Recomendada como primera opción.**
+  - **(b) Shell delgada cerca de $r_s$ (gravastar-invertido):** bulk singular isothermal + capa delgada con EOS exótica (posible $p = -\rho$ de Sitter local). Matching Israel junction conditions. Mazur-Mottola 2001.
+  - **(c) Transición de fase near-horizon:** la fórmula Casimir $\rho = 2\pi\hbar c/d^4$ se rompe cuando $d \to \ell_P$. Posible nuevo régimen EOS ($p$ ultra-stiff? $p = -\rho$?) cargando los 4/7.
+- **Relacionada con:**
+  - P-15' (cerrada con resultado negativo; sustituida por Q-045).
+  - H-001 interior (requiere caveat "no uniforme").
+  - D-009 (variacional con $d$ constante; requiere generalización para $d(r)$).
+  - K-007 (escala, no densidad uniforme — aclaración documentada).
+  - K-031 (llenado volumétrico; requiere revisión bajo $d(r)$ variable).
+- **Plan:**
+  - **Sesión 38:** ejecutar Opción A (TOV anisotrópica) con techo 1 sesión. Si no cierra: Opción C (consolidación conservadora).
+  - Si Opción A cierra: reemplaza K-028 por insight rigurosamente derivado sobre el perfil SCG.
+  - Si Opción A NO cierra: documentar obstrucción, abrir programa más largo (Opción B gravastar o exploración más ambiciosa).
+- **Ver:** `notes/K-028_sesion37_TOV.md`, `experiments/simulations/sim002_resultados.md`.
+
+---
+
 ## Cerradas
 
 ## Q-024 — ¿Por qué hay exactamente 1 dimensión temporal? [RESUELTA — sesión 10]

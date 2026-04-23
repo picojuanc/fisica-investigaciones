@@ -362,21 +362,33 @@ Por severidad actual:
 
 ---
 
-## P-15 — Balance energético interior del BH: E_Casimir plano excede Mc² [REBAJADA Y REFINADA A P-15']
+## P-15 — Balance energético interior del BH: E_Casimir plano excede Mc² [CERRADA CON RESULTADO NEGATIVO — sustituida por Q-045]
 
 **La objeción original (sesión 14):** al sustituir las escalas K-007 (L = π r_s²/ℓ_P, d² = (4/3) r_s ℓ_P) en la fórmula del Casimir de D-006, se obtiene E_Casimir = 3π² M c² ≈ 30 Mc². Excede la masa-energía del BH por factor O(30).
 
-### Estado (2026-04-20, sesión 15): REBAJADA A P-15'
+### Estado (2026-04-20, sesión 15): REBAJADA A P-15' [histórico]
 
-Análisis en `notes/Q-037-038_casimir_fondo_curvo.md`.
+Análisis heurístico en `notes/Q-037-038_casimir_fondo_curvo.md`. Propuesta: ⟨f⟩ = 1/(3π²) como redshift promedio. K-028 candidato. P-15 rebajada a 🟡 baja.
 
-**Resolución heurística (Q-038):** el factor ~30 es absorbido por el redshift gravitacional promedio del interior del BH. Consistencia con la masa ADM requiere ⟨f⟩ = 1/(3π²) ≈ 0.034. El redshift volumétrico naïve (⟨f⟩_vol = 3π/16 ≈ 0.59) difiere por factor ~17, atribuible a la concentración holográfica de la cuerda cerca del horizonte (S ∝ A, no V).
+### Estado (2026-04-23, sesión 37): ✅ **CERRADA con resultado negativo — SUSTITUIDA POR Q-045**
 
-**P-15 → P-15':** "calcular rigurosamente el prefactor de redshift en QFT en fondo Schwarzschild interior, y verificar que el valor 1/(3π²) emerge de primeros principios."
+**Refutación del framing heurístico:**
 
-**Severidad:** 🟡 media → 🟡 baja. La tensión ya no es conceptual; es un cálculo técnico en QFT en fondo curvo que, cuando se haga rigurosamente, debe producir un factor consistente con los ~30 requeridos. Esperable.
+1. **El factor $1/(3\pi^2)$ es identidad geométrica**, NO redshift físico. Derivación analítica directa (Planck units): $\rho_{K007}/\langle\rho\rangle_V = 3\pi^2$ sigue del coeficiente 4/3 de K-007 y $V_{BH}$. No hay física curva.
 
-**K-028 candidato** registrado en key_insights.md.
+2. **La hipótesis subyacente (interior uniforme con radiación Casimir) es GR-inconsistente.** Integración numérica TOV con $p = \rho/3$ (EOS derivada sesión 36 por isotropic averaging del string gas SCG) satura en compactness **3/7** para cualquier $y_c$. El horizonte no se forma como superficie de estrella.
+
+**Implicación mayor:** radiación pura solo puede cargar **3/7 ≈ 43%** de la masa ADM dentro de $r_s$. Los **4/7 ≈ 57% restantes** requieren física adicional (anisotropy, shell, transición de fase near-horizon).
+
+**Consecuencias:**
+- P-15' **cerrado** (el cálculo riguroso mostró que no había cantidad física a calcular con el framing original).
+- **Q-045 nueva** (abierta sesión 37): ¿mecanismo SCG para los 4/7 de masa ADM? Opción A recomendada: TOV anisotrópica.
+- K-028 candidato **degradado** a observación matemática; no cuenta en inventario.
+- **K-007 aclarado:** escala característica válida, no densidad uniforme.
+
+**Ver:** `notes/K-028_sesion37_TOV.md`, `experiments/simulations/sim002_*`.
+
+**Severidad final:** ✅ cerrada con resultado negativo productivo (refinamiento positivo disfrazado de refutación; abre Q-045 como programa concreto).
 
 ---
 

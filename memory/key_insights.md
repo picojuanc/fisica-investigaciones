@@ -383,20 +383,26 @@ Formato:
   - Ninguna ruta aborda el problema no-perturbativo global.
 - **Promoción a confirmado** si: (i) Λ_UV en régimen I de SCG se cuantifica >Λ_c vía cálculo de S_madre; o (ii) se demuestra que los modos descartados por ABKP a Λ < Λ_c coinciden con configuraciones excluidas por los defectos WW de SCG.
 
-## K-028 (CANDIDATO, PENDIENTE DE RIGORIZACIÓN) — El redshift gravitacional promedio del interior de un BH-SCG es ⟨f⟩ ≈ 1/(3π²)
-- **Fecha:** 2026-04-20 (sesión 15)
-- **Estado:** candidato. Obtenido por consistencia (no por cálculo formal QFT+GR).
-- **Derivado de:** Q-037+Q-038 (`notes/Q-037-038_casimir_fondo_curvo.md`).
-- **Enunciado:** el redshift gravitacional promedio de los modos cuánticos internos de un BH-SCG, medido desde el infinito, es ⟨f⟩ = 1/(3π²) ≈ 0.034. Este factor se determina por consistencia entre el Casimir local de los modos transversales de Polyakov (plano: 3π² Mc²) y la masa ADM observable del BH (Mc²).
-- **Comparación con redshift volumétrico naïve:** ⟨f⟩_vol = 3π/16 ≈ 0.59 para distribución uniforme en V_BH. La discrepancia (factor ~17) refleja que la cuerda está efectivamente concentrada cerca del horizonte por holografía (S ∝ A, no V).
-- **Por qué importa:**
-  - Resuelve la tensión T-6 a nivel de orden-de-magnitud. Permite que D-006 (Casimir plano) y GR (masa ADM) coexistan consistentemente.
-  - Cuantifica cómo la holografía "comprime" la cuerda cerca del horizonte.
-  - Posible firma observacional en el espectro modulado de Hawking.
-- **Caveats honestos:**
-  - No derivado rigurosamente — el cálculo formal en QFT en fondo Schwarzschild interior queda pendiente (P-15').
-  - El factor exacto podría ajustarse (1/(4π²), 1/π², etc.) al hacer el cálculo riguroso; el orden de magnitud ~1/30 es robusto.
-  - Depende de la elección de vacío cuántico (Boulware vs Unruh vs Hartle-Hawking).
+## ~~K-028~~ [REFUTADO HEURÍSTICAMENTE — sesión 37] — El factor 1/(3π²) es identidad geométrica, NO redshift físico
+
+- **Fecha original:** 2026-04-20 (sesión 15, propuesto como candidato).
+- **Fecha refutación:** 2026-04-23 (sesión 37).
+- **Estado:** refutado en su interpretación heurística. Degradado de candidato a observación matemática. NO cuenta en inventario físico.
+- **Enunciado original (refutado):** ⟨f⟩ = 1/(3π²) ≈ 0.034 es el redshift gravitacional promedio del interior BH-SCG, derivado por consistencia Casimir ↔ ADM.
+- **Enunciado revisado (K-028.R, identidad geométrica):** el factor $1/(3\pi^2)$ es la razón $\langle\rho\rangle_V / \rho_{K007}$ entre la densidad ADM-consistente uniforme y la densidad Casimir implícita en el coeficiente 4/3 de K-007. Identidad geométrica pura, derivable sin QFT+GR.
+- **Por qué se refutó:**
+  1. **Identidad, no redshift:** la derivación analítica en Planck units (sesión 37) muestra que $\rho_{K007}/\langle\rho\rangle_V = 3\pi^2$ sigue directamente de $d^2 = (4/3) r_s \ell_P$ + $V_{BH} = (4\pi/3) r_s^3$. No hay física curva involucrada.
+  2. **Framing uniforme GR-inconsistente:** la integración numérica de TOV con $p = \rho/3$ (EOS derivada sesión 36 del string gas SCG) muestra que para CUALQUIER densidad central $y_c$, la compactness satura en **3/7**, nunca 1. El horizonte no se forma. La materia radiación isotrópica solo puede cargar 3/7 de la masa ADM dentro de $r_s$. Ver `experiments/simulations/sim002_resultados.md`.
+- **Consecuencias:**
+  - K-007 aclarado: escala característica válida, NO densidad uniforme. (La densidad del singular isothermal en $x \approx r_s/20$ coincide con $\rho_{K007}$; K-007 marca un punto específico, no el promedio.)
+  - T-6 (sesión 14) **NO** se cierra como originalmente propuesto (heurística falsa). Queda parcialmente abierta como Q-045.
+  - P-15' **cerrado con resultado negativo:** no había cantidad física rigurosa a calcular.
+  - **Q-045 nueva:** ¿qué mecanismo SCG carga los 4/7 restantes de masa ADM? Tres candidatos (anisotropy, shell, phase transition).
+- **Lecciones meta:**
+  - Regla 9 aplicada ejemplarmente: "preferir destruir un resultado propio a defenderlo por inercia".
+  - K-005 aplicada: no se inventa física exótica; el numérico dice lo que dice.
+  - Patrón recurrente: coincidencias numéricas atractivas requieren filtro auto-consistente. Aplicable también a K-032.M (ya con caveat) y futuros K-033/K-034.
+- **Ver:** `notes/K-028_sesion37_TOV.md`, `experiments/simulations/sim002_*`.
 
 ## K-027 — A-003 es la presión de Casimir de los modos transversales de Polyakov con corte Planck — no un axioma independiente
 - **Fecha:** 2026-04-20 (sesión 13, resolución de Q-032 / tarea 5.1)

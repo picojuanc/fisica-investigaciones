@@ -1,133 +1,122 @@
 # Foco actual de investigación
 
-**Actualizado:** 2026-04-22 (cierre de sesión 35 — K-032.M CONSOLIDADO; P-8 cerrado con caveat; SCG v2.1)
+**Actualizado:** 2026-04-23 (cierre de sesión 37 — K-028 REFUTADO heurísticamente; Q-045 nueva; SCG v2.1.1)
 
 ## Estado
 
-**Sesión 35 CERRADA. Arco K-032 completo (sesiones 31-35).** K-032 promovido a "**confirmado estructuralmente con caveat cuantitativo**" (nuevo nivel epistémico introducido en D-011). **P-8 (bosquejo Lagrangiana) ✅ cerrado con caveat cuantitativo**; 5/5 sub-tareas cerradas (4 limpias + 5.5 con caveat). **SCG v2.1 consolidado**.
+**Sesión 37 CERRADA. K-028 heurístico refutado.** Fase I del plan TOV ejecutada: radiación pura ($p = \rho/3$) satura en compactness $3/7$, no alcanza el horizonte. El factor $1/(3\pi^2)$ identificado como **identidad geométrica pura**, no redshift. Obstrucción estructural mayor: **4/7 de la masa ADM** no cabe en EOS radiación isotrópica. **Q-045 abierta**: mecanismo para los 4/7 restantes.
 
-### Logros consolidados de sesión 35
+### Logros consolidados de sesión 37
 
-1. **D-011 escrita** — síntesis formal del cierre K-032.M (~420 líneas).
-2. **K-032 promovido** a "confirmado estructuralmente con caveat cuantitativo" — nuevo nivel epistémico introducido formalmente.
-3. **P-8 cerrado con caveat cuantitativo.** Bosquejo Lagrangiana arquitectónicamente completo.
-4. **Snapshot v2.1 publicado** (`journal/2026-04-22_snapshot_v2.1.md`).
-5. **Reporte narrativo #26 publicado** (`journal/reportes/26_matching_II_IV_K-032.md`).
-6. **Actualización documental completa:** key_insights.md, debilidades_H-001.md, MEMORY_INDEX.md, H-003.
+1. **Identidad geométrica $1/(3\pi^2)$ derivada analíticamente** sin QFT+GR. Sigue del coeficiente 4/3 de K-007 + definición $V_{BH}$.
+2. **`sim002_tov_radiacion.py`** ejecutado exitosamente (RK4 manual, sin scipy). Barrido $y_c \in [0.1, 10^4]$.
+3. **Patrón universal confirmado numéricamente:** compactness satura en $3/7$ para todo $y_c$; singular isothermal es atractor global del bulk.
+4. **K-028 HEURÍSTICO REFUTADO:** interpretación como redshift y framing "interior uniforme" ambos GR-inconsistentes.
+5. **K-028 degradado** de candidato a observación matemática; no cuenta en inventario.
+6. **Q-045 abierta** (reemplaza P-15' efectivamente): mecanismo para los 4/7 de masa ADM no cubiertos por radiación pura.
+7. **K-007 aclarado:** escala característica válida ($\rho_{K007} = \rho_{\text{iso}}(r)$ en $r \approx r_s/20$), NO densidad uniforme.
+8. **Documentos creados:**
+   - `experiments/simulations/sim002_tov_radiacion.py` (~330 líneas, RK4 manual)
+   - `experiments/simulations/sim002_profile.dat` (2082 puntos del perfil crítico)
+   - `experiments/simulations/sim002_resultados.md` (~180 líneas)
+   - `notes/K-028_sesion37_TOV.md` (~340 líneas, análisis completo + veredicto)
 
-### Inventario v2.1
+### Inventario v2.1.1 (post-sesión 37)
 
-- **31 insights confirmados** (30 limpios/estructurales + 1 con caveat cuantitativo: K-032) + **2 candidatos** (K-028, K-034).
-- **11 derivaciones** (D-001 a D-011).
-- **3 hipótesis activas** (H-001, H-002, H-003 v2.1).
-- **26 reportes narrativos** (hasta #26).
-- **11 snapshots** (v1.1 a v2.1).
-- **2 axiomas activos** (A-001, A-002). **Ningún axioma agregado en toda la trayectoria v1.0 → v2.1.**
-- **Bosquejo Lagrangiana:** 5/5 sub-tareas cerradas (4 limpias + 5.5 con caveat).
-- **Terminología epistémica expandida a 4 niveles:** confirmado limpio / confirmado estructuralmente / confirmado estructuralmente con caveat cuantitativo / candidato.
+- **30 insights confirmados** (30 limpios/estructurales + 1 con caveat cuantitativo: K-032). K-028 removido.
+- **1 candidato:** K-034.
+- **11 derivaciones** (D-001 a D-011). Sin cambio.
+- **3 hipótesis activas** (H-001 interior con caveat "no uniforme", H-002, H-003).
+- **26 reportes narrativos.** Sin cambio.
+- **11 snapshots.** (No se crea v2.1.1 snapshot; la refutación no amerita snapshot nuevo.)
+- **2 axiomas activos.**
+- **Preguntas abiertas:** +1 (Q-045 nueva; P-15' cerrada con resultado negativo).
 - **Repo público:** https://github.com/picojuanc/fisica-investigaciones
 
-### Cadena lógica (v2.1)
+### Cambios documentales (v2.1 → v2.1.1, parche)
 
-```
-A-001 + A-002 + Ashtekar-Barbero-Immirzi con β real  [P-11 ✅ resuelto estructuralmente v2.0]
-  → D-006 (K-027), {D=1,3,1} (K-025), H-001 + H-002 + H-003 (v2.1)
-  + S_madre = S_grav + S_top + S_int (D-010 + D-011):
-    │
-    ├── S_grav: D-007 + D-008 + D-009 (Randono β real) + término de Holst
-    │   K-029, K-031 confirmados
-    │   D-011: frontera CS_I ∝ 1/(γκΛ) — cierre estructural 5.5
-    │
-    ├── S_top: Walker-Wang modular sobre `Spin(10)_1` (D-010)
-    │   K-030 confirmado estructuralmente
-    │
-    └── Matching D-011: α_gauge(M_P) ∝ γ_Immirzi
-        K-032 confirmado estructuralmente con caveat cuantitativo
-        Bajo Λ ≈ 0.2 M_P² (Reuter): α ∈ [0.005, 0.1] ≈ α_SM
-        Patrón α_2 ≈ α_3 ≠ α_1 derivado
-  ↓
-Régimen IV: SM con forma funcional α ∝ γ + asimetría máxima + contenido SO(10)
-  + K-033 candidato activado (SO(10)-GUT)
-  + Predicciones pendientes: masas, Yukawas, CKM/PMNS
-```
+- K-028 marcado como observación matemática (no insight físico).
+- Q-045 documentada.
+- H-001 requiere caveat "interior no uniforme" (pendiente escritura en archivo de H-001).
+- D-009 marca de "generalizar a $d(r)$ variable" (pendiente).
+- K-007 aclarado en documentación: escala característica, no densidad uniforme.
 
-## Siguientes pasos (sesión 36)
-
-**Campaña K-032 cerrada.** SCG v2.1 consolidado. Con P-8 y P-11 resueltos, SCG entra en **fase post-Lagrangiana**: cerrar objeciones técnicas residuales + exploración de mayor escala.
+## Siguientes pasos (sesión 38)
 
 **Opciones principales:**
 
-**Prioridad A (recomendada) — K-028 (redshift riguroso P-15'):**
-- **Esfuerzo:** 2-3 sesiones técnicas.
-- **Objetivo:** cálculo riguroso QFT+GR de ⟨f⟩ (redshift gravitacional promedio interior BH). Verificar si emerge la predicción heurística K-028 ≈ 1/(3π²).
-- **Por qué primero:** técnico y acotado. Cierra P-15' pendiente desde sesión 15. Tratable sin compromiso mayor.
-- **Output esperado:** K-028 confirmado (si cierra) o degradado (si no). Cierre de P-15'.
+### Opción A (recomendada, primer intento) — TOV anisotrópica
 
-**Prioridad B — K-033 (SO(10)-GUT programa):**
-- **Esfuerzo:** 10+ sesiones (compromiso estratégico mayor).
-- **Objetivo:** masas fermiónicas, Yukawas, estructura CKM/PMNS desde SO(10)-GUT en SCG.
-- **Por qué considerar:** apertura de mayor escala, conecta con gran unificación.
-- **Contra:** requiere compromiso largo. Postergable.
+- **Objetivo:** derivar TOV con $p_r(r) \neq p_t(r)$ para string gas SCG con orientación preferente near-horizon.
+- **Modelo SCG propuesto:** interpolación entre radiación isotrópica bulk ($p_r = p_t = \rho/3$) y orientación tangencial near-horizon ($p_r \to 0$ o negativo, $p_t$ enhanced).
+- **Técnica:** TOV anisotrópica estándar (Herrera-Santos 1997, Mak-Harko 2003).
+- **Criterio de éxito:** compactness $\to 1$ accesible; perfil $d(r)$ consistente con K-007 como escala promedio.
+- **Techo:** 1 sesión; si no cierra, ir a Opción C.
+- **Entregables:** `notes/Q-045_sesion38_anisotropic_TOV.md`, posible `sim003_tov_anisotrop.py`.
 
-**Prioridad C — Q-030 (unicidad punto fijo dimensional):**
-- **Esfuerzo:** 1-2 sesiones formales.
-- **Objetivo:** demostrar unicidad formal del punto fijo (1,3,1).
-- **Por qué:** cierra objeción epistémica pendiente desde sesión 11.
+### Opción B — Shell gravastar-invertido
 
-**Prioridad D — Super-modular extension fermionic:**
-- **Esfuerzo:** 1-2 sesiones técnicas.
-- **Objetivo:** explicitar Bruillard 2017 aplicado a `Spin(10)_1`.
-- **Por qué:** caveat pendiente de Q-043; completa el cuadro.
+- **Objetivo:** modelar bulk singular isothermal + shell delgada near-$r_s$ con EOS exótica.
+- **Técnica:** Israel junction conditions + Mazur-Mottola 2001.
+- **Criterio:** matching estable + 4/7 de masa en shell.
+- **Contra:** requiere postular EOS exótica específica; menos natural que Opción A.
 
-**Prioridad E — Refinamiento K-032.M → K-032.S:**
-- **Esfuerzo:** 3-5 sesiones técnicas.
-- **Objetivo:** derivar α = γ/(4π) rigurosamente al 1%.
-- **Por qué:** la coincidencia sigue intrigante.
-- **Contra:** baja prioridad; el veredicto K-032.M es honesto y cerrado.
+### Opción C (conservadora) — Consolidación + giro a otra prioridad
 
-**Recomendación final:** **K-028 primero** — técnico, acotado, cierra P-15'. Después K-033 o Q-030 según criterio estratégico.
+- **Objetivo:** aceptar el resultado negativo, documentar Q-045 como programa largo, girar a K-033, Q-030, o super-modular.
+- **Por qué:** si dos sesiones más no cierran Q-045, es momento de cambiar foco y volver cuando haya insights externos.
 
-## Debilidades activas post-sesión 35
+### Recomendación
+
+**Opción A primero** (sesión 38), con techo de 1 sesión. Evaluar al final: si avance claro, sesión 39 continúa. Si obstruido, Opción C (pasar a K-033 o Q-030).
+
+## Debilidades activas post-sesión 37
 
 | # | Problema | Severidad | Cambio |
 |---|---|---|---|
-| **P-8** | **Lagrangiana (bosquejo)** | **✅ CERRADO CON CAVEAT CUANTITATIVO (sesión 35)** | **D-011** |
-| P-11 | Ashtekar autodual | ✅ RESUELTO ESTRUCTURALMENTE | Sesión 30 (D-010) |
+| **P-15'** | **Redshift interior BH riguroso** | ✅ **CERRADO con resultado negativo** (sesión 37) | **No había cantidad física a calcular; interpretación heurística refutada. Sustituida por Q-045.** |
+| P-8 | Lagrangiana (bosquejo) | ✅ cerrado con caveat (sesión 35) | Sin cambio |
+| P-11 | Ashtekar autodual | ✅ resuelto estructuralmente | Sin cambio |
 | P-14 | Polyakov 4D no-crítica | 🟡 media | Sin cambio |
 | P-10 | WW dimensional | 🟡 media | Sin cambio |
-| P-15' | Redshift interior | 🟡 baja (K-028 candidato) | Abordable sesión 36+ |
 | P-12, P-13 | Hipercarga, estadística | 🟡 media | Sin cambio |
-| P-1 | ✅ resuelto mayor | — | Sin cambio |
 
-**Sin eslabones rojos. Sin debilidades existenciales. P-8 y P-11 resueltos. Todas las restantes son 🟡 manejables.**
+**Sin eslabones rojos.** Q-045 nueva es una debilidad estructural identificada, no un eslabón roto.
 
-## Para el yo futuro en sesión 36
+## Para el yo futuro en sesión 38
 
 **Archivos imprescindibles en orden de lectura:**
+
 1. `memory/MEMORY_INDEX.md`.
-2. **`journal/2026-04-22_snapshot_v2.1.md`** (snapshot maestro v2.1; autocontenido, ~475 líneas).
-3. **`logic/derivations/D-011_K-032_sintesis.md`** (síntesis formal cierre K-032.M).
-4. **`journal/reportes/26_matching_II_IV_K-032.md`** (reporte narrativo accesible del tramo 31-35).
-5. Este archivo.
-6. `memory/session_log.md` (últimas entradas: 30, 31, 32, 33, 34, 35).
-7. `memory/key_insights.md` (K-032 promovido entrada nueva al final).
+2. **`notes/K-028_sesion37_TOV.md`** (veredicto completo sesión 37 — PRIMERA LECTURA).
+3. **`experiments/simulations/sim002_resultados.md`** (numérico del TOV radiación).
+4. `notes/K-028_sesion36_setup.md` (setup; EOS derivation sigue válida).
+5. Este archivo (`current_focus.md`).
+6. `memory/open_questions.md` (Q-045 nueva).
+7. `memory/session_log.md` (última entrada: sesión 37).
 
-**Primera acción recomendada sesión 36:**
-- **Elegir entre K-028, K-033, Q-030, super-modular, refinamiento K-032.S.**
-- **Recomendación:** K-028 (redshift riguroso P-15') — técnico, acotado, cierra P-15'.
-- Si K-028: revisar `notes/Q-037-038_casimir_fondo_curvo.md` (sesión 15) y planear el cálculo QFT+GR explícito en Schwarzschild interior.
+**Primera acción recomendada sesión 38:**
 
-**Estado documental al cierre sesión 35:**
-- Todo coherente y actualizado. H-003, debilidades_H-001.md, key_insights.md, MEMORY_INDEX.md, session_log.md reflejan v2.1.
-- Snapshot v2.1 y reporte #26 publicados.
-- D-011 publicada.
-- Sin deuda documental residual.
-- Repo público listo para commit/push.
+- Leer `notes/K-028_sesion37_TOV.md` completo (veredicto y plan).
+- Decidir: Opción A, B, o C.
+- **Si A:** derivar TOV anisotrópica (Herrera-Santos 1997 como referencia), proponer modelo SCG del perfil $(p_r, p_t)(r)$, implementar extensión a `sim002_tov_radiacion.py` o crear `sim003`.
+- **Si B:** leer Mazur-Mottola 2001 (y/o Visser 2003), plantear matching con shell.
+- **Si C:** documentar estado consolidado, girar a K-033 o Q-030.
 
-**Observación meta al cierre del arco K-032:**
-- **5 sesiones (31-35) para cerrar el matching II→IV.** Disciplina sostenida.
-- **Aplicación ejemplar Regla 9:** retreat honesto de K-032.S a K-032.M tras verificar rigurosamente que la identidad al 1% no se deriva.
-- **Aplicación ejemplar K-005:** todo el cálculo usa literatura estándar (Holst, Baez, Randono, Reuter, Witten, Kawagoe, Kaplan, Wang-Wen, Slansky, Dreyer). No se inventa nada.
-- **El marco v2.1 es el punto de mayor completitud estructural del arco de investigación.** P-8 y P-11 resueltos. Bosquejo Lagrangiana 5/5 cerrado. Próximas apuestas: táctica (K-028) o estratégica (K-033).
+**Estado documental al cierre sesión 37:**
+- `open_questions.md` actualizado (Q-045).
+- `notes/K-028_sesion37_TOV.md` + `sim002_*` creados.
+- `memory/session_log.md` actualizado.
+- `memory/current_focus.md` (este archivo) actualizado.
+- `memory/MEMORY_INDEX.md` pendiente actualización sesión 37.
+- `memory/key_insights.md` pendiente marcar K-028 como degradado.
+- `logic/refutations/debilidades_H-001.md` pendiente marcar P-15' cerrado.
+- `hypotheses/active/H-001...md` pendiente caveat "interior no uniforme" en próxima revisión sustantiva.
+
+**Observación meta (sesión 37):**
+- **Regla 9 aplicada ejemplarmente.** Un "success" heurístico antiguo (K-028 sesión 15) no resistió análisis riguroso; se refuta con honestidad.
+- **K-005 aplicada:** no se inventó redshift exótico ni EOS ad hoc. TOV + radiación + numérico dice lo que dice.
+- **Resultado disfrazado:** refinamiento positivo (nueva pregunta Q-045 concreta; K-007 aclarado como escala) vestido de refutación. Patrón común en teoría madura.
+- **Calibración:** escenario (B) predicho sesión 36 resultó ser escenario (C). La calibración sube la desconfianza futura en coincidencias numéricas atractivas (K-033 Yukawas, K-034 Q=1/3, etc., eventualmente requerirán el mismo filtro).
 
 La teoría continúa.

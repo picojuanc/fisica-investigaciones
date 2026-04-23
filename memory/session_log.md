@@ -1471,3 +1471,91 @@ Formato:
   - **Próximo modo de la investigación:** post-P-8 completo, la teoría entra en "modo táctico" — cerrar objeciones técnicas residuales (K-028), explorar programas de mayor escala (K-033), sin el drama existencial de P-11. La arquitectura estructural está concluida.
 
 ---
+
+
+## 2026-04-23 — Sesión 36: Q-044 abierta (origen de magnitudes) + SETUP K-028 (P-15')
+
+- **Qué se hizo:**
+  - **Pregunta foundational del usuario:** ¿qué son las magnitudes físicas, por qué tienen "dimensión como vector", por qué se conservan? Análisis inicial conjunto y decisión de registrar como ancla liviana (no abrir sesión dedicada).
+  - **Q-044 registrada** en `open_questions.md` como pregunta foundational-meta. Contenido: tres sub-preguntas apiladas (estructura ℤⁿ de dimensiones; origen de M/L/T/Q/espín/color en SCG; estatus de conservación con tiempo emergente). Tabla de orígenes individuales ya articulados dispersamente en el marco. Huecos auténticos identificados (origen geométrico del rango ℤⁿ, conservación en régimen emergente). Plan: consolidar en próximo snapshot v2.2 o al escribir `framework/ontology.md`.
+  - **Decisión estratégica post-v2.1:** seguir prioridad A (K-028 / P-15') recomendada en sesión 35.
+  - **Reformulación crítica del problema K-028:** el framing original (Q-037/038 sesión 15) trata el interior del BH como Schwarzschild puro + cuerda test. Esto es **físicamente incorrecto en SCG**: la cuerda IS el contenido del interior; la métrica debe ser auto-consistente con la T_μν de la cuerda. Reformulación: problema TOV (Tolman-Oppenheimer-Volkoff) anisotrópico con EOS derivada de Casimir.
+  - **Derivación nueva: EOS del string gas SCG.** Componentes locales del tensor de stress: p_∥ = -ρ (tensión de cuerda), p_⊥ = +ρ (Casimir outward). Isotropic averaging sobre orientaciones aleatorias del string plegado: ⟨p⟩ = (p_∥ + 2p_⊥)/3 = ρ/3. **El string gas es efectivamente RADIACIÓN (w = 1/3).** Resultado no trivial, consistente con "Casimir = fotones virtuales".
+  - **TOV con p = ρ/3 analizado:**
+    - Densidad uniforme inconsistente (TOV fuerza ρ o p variables).
+    - Solución auto-similar singular isothermal: ρ ∝ 1/r², compacidad uniforme 2Gm/(c²r) = 3/7 ≈ 0.429. No alcanza horizonte.
+    - Para alcanzar r = r_s con 2Gm/(c²r) = 1: ρ debe divergir en el horizonte. Ocurre naturalmente porque Casimir ρ ∼ ℏc/d⁴ diverge cuando d → ℓ_P.
+    - **Concentración holográfica (S ∝ A) emerge como consecuencia matemática, NO postulado ad hoc.**
+  - **Escritura de `notes/K-028_sesion36_setup.md` (~400 líneas):** formulación completa del problema auto-consistente, derivación EOS, estructura TOV, estrategia Fase I (sesión 37) + Fase II (sesión 38), 4 escenarios posibles del veredicto, referencias (TOV, Buchdahl, gravastar, Mazur-Mottola).
+
+- **Qué se descubrió / refinó:**
+  - **El problema K-028 es más rico de lo que la sesión 15 sugería.** No es "Casimir en fondo fijo" (ambiguo por vacua) sino "interior auto-consistente" (bien definido vía TOV).
+  - **EOS del string gas = radiación:** resultado estructural nuevo y articulado formalmente por primera vez. Conecta con intuición de "zero-point fluctuations transversales ≡ gas de fotones virtuales". Fortaleza para el marco.
+  - **La concentración holográfica NO es postulado; emerge del cálculo.** Resolución físicamente natural del factor 17 de discrepancia identificado en §3.5 de Q-037/038.
+  - **Regularización UV en d = ℓ_P:** la fórmula Casimir se rompe exactamente donde se necesita divergencia para cerrar la geometría al horizonte. Coherencia estructural del marco.
+  - **Nueva pregunta potencial (no abrir aún):** ¿el perfil d(r) near-horizon reproduce Hawking T_H = ℏc/(8πGMk_B) como temperatura Casimir? Postergar hasta K-028 completo.
+  - **Escenarios a priori:** (B) K-028 confirmado estructuralmente con caveat cuantitativo — análogo a K-032.M — es el más probable (~50%). (A) confirmado al 1% (~15%), (D) inconcluso (~25%), (C) refutado (~10%).
+
+- **Qué quedó abierto:**
+  - **Fase I (sesión 37):** resolver TOV con p = ρ/3 + regularización UV. Obtener ρ(r), m(r), Φ(r) explícitos. Posiblemente simulación numérica.
+  - **Fase II (sesión 38):** cálculo ADM + comparación con E_plano = 3π² Mc². Veredicto K-028.
+  - **D-009 generalización potencial:** si K-028 requiere d(r) variable, D-009 debe generalizarse desde "d constante, L·d²=V_BH" a "d(r), ∫... = V_BH". No destructivo pero revisable.
+  - Q-044 pendiente de consolidación en snapshot v2.2+.
+
+- **Próximo paso sugerido:**
+  - **Sesión 37: ejecutar Fase I de K-028.** Resolver TOV con regularización UV. Escribir `notes/K-028_sesion37_TOV.md`. Posiblemente `experiments/simulations/sim002_tov_radiacion.{js,py}` si integración numérica.
+  - Input necesario: notas sesiones 15 (Q-037/038) y 36 (setup).
+  - Tiempo estimado: 1 sesión técnica.
+
+- **Observación metodológica (meta):**
+  - **Primer ejemplo de sesión de setup puro en SCG**: no se ejecuta cálculo, se reformula el problema. Útil cuando el framing heurístico original tenía un error conceptual disimulado.
+  - **Aplicación de K-005:** en lugar de inventar QFT en Schwarzschild interior (pantano técnico sin payoff rápido), se usa TOV + EOS (infraestructura GR clásica conocida).
+  - **Disciplina Regla 9 anticipada:** se declara el escenario (B) como el más probable, aceptando de antemano que la coincidencia 1/(3π²) puede ser aproximada. Evita invertir en defender un valor numérico exacto que emerjó heurísticamente.
+  - **Q-044 es un recordatorio saludable:** las preguntas foundational no siempre requieren sesión dedicada. Un ancla bien escrita en `open_questions.md` es suficiente cuando el ángulo ya permea el marco.
+
+---
+
+
+## 2026-04-23 — Sesión 37: K-028 refutado heurísticamente — Fase I TOV ejecutada
+
+- **Qué se hizo:**
+  - **Ejecución Fase I del plan K-028** (setup sesión 36): integración numérica de TOV con $p = \rho/3$ para identificar perfil $\rho(r)$ auto-consistente del interior BH-SCG.
+  - **Análisis analítico previo:** identificación del factor $1/(3\pi^2)$ como **identidad geométrica pura** (no redshift). Derivación directa: $\rho_{K007}/\langle\rho\rangle_V = 3\pi^2$ sigue del coeficiente 4/3 de K-007 + definición $V_{BH}$. No requiere QFT+GR.
+  - **Código:** `experiments/simulations/sim002_tov_radiacion.py` (~330 líneas). RK4 manual sin scipy (no disponible). Integración TOV adimensional con bisección sobre $y_c$ (densidad central).
+  - **Barrido $y_c \in [0.1, 10^4]$:** verificación de que **la compactness satura en 3/7 = 0.4286 en $x=1$ para todo $y_c$**. El horizonte NUNCA se forma; el singular isothermal ($y = 1/(7x^2)$) es atractor universal del bulk.
+  - **Validación con solución analítica:** el perfil numérico coincide con $y_{\text{iso}}(x) = 1/(7x^2)$ al < 2% en el bulk ($0.1 \leq x \leq 0.999$).
+  - **Escritura de `experiments/simulations/sim002_resultados.md`** (~180 líneas) y **`notes/K-028_sesion37_TOV.md`** (~340 líneas) con el análisis completo + veredicto + plan sesión 38.
+
+- **Qué se descubrió / refutó:**
+  - **K-028 HEURÍSTICO REFUTADO** en su interpretación como factor de redshift:
+    1. El valor $1/(3\pi^2) \approx 0.0338$ es una identidad geométrica (razón entre densidades uniformes hipotéticas), NO una cantidad física de redshift.
+    2. El marco operativo subyacente (uniformidad $\rho = \rho_{K007}$ en $V_{BH}$) es GR-inconsistente: TOV con radiación pura NUNCA produce interior uniforme reaching horizon.
+  - **Obstrucción estructural mayor descubierta:** EOS radiación pura ($p = \rho/3$, isotropic averaging) puede acumular solo **3/7 ≈ 43% de la masa ADM** dentro de $r_s$. Los 4/7 restantes (57%) requieren física adicional.
+  - **El singular isothermal es universal para TOV radiación.** Independiente de $y_c$, el bulk converge a $y(x) = 1/(7x^2)$ con compactness constante 3/7.
+  - **Interpretación física del déficit 4/7:** el isotropic averaging que derivó $p = \rho/3$ asume orientación aleatoria del string plegado a TODAS las escalas. Esta asunción es demasiado fuerte: holografía sugiere orientación tangencial preferente near-horizon.
+  - **K-007 aclarado:** sigue válido como **escala característica** (coincide con densidad del singular isothermal en $x \approx 1/(\pi\sqrt{42}) \approx 0.05 r_s$), pero NO era una densidad uniforme. La confusión K-007-escala vs K-007-densidad-uniforme fue el error raíz del framing sesión 15.
+
+- **Qué quedó abierto:**
+  - **Q-045 nueva (sesión 37, prioridad alta):** ¿qué mecanismo SCG carga los 4/7 restantes de masa ADM? Tres candidatos: (a) anisotropic stress macroscópica (preferente tangencial near-horizon), (b) shell delgada cerca $r_s$ tipo gravastar-invertido, (c) transición de fase de EOS near-horizon (Casimir → nueva física al $d \to \ell_P$).
+  - **Sesión 38:** Opción A recomendada — TOV anisotrópica con $p_r(r) \neq p_t(r)$. Techo de esfuerzo: 1 sesión; si no cierra, ir a Opción C (consolidación conservadora).
+  - **D-009 marca para generalización** a $d(r)$ variable. No urgente.
+  - **H-001 interior** requiere caveat "no uniforme" en documentación.
+
+- **Estatus epistémico post-sesión 37:**
+  - **K-028 degradado** de candidato a observación matemática (identidad geométrica, no insight físico). No cuenta en inventario confirmado.
+  - **Inventario K ajustado:** 31 → 30 confirmados + 1 candidato (K-034). (K-028 removido como candidato.)
+  - **P-15' cerrado con resultado negativo:** no había cantidad física $\langle f \rangle$ rigurosa que calcular; el framing era operativo incorrecto.
+  - **Sin cambios existenciales en H-001/H-002/H-003.** K-007, D-003, D-009 siguen válidos con caveat de escala vs uniformidad.
+
+- **Próximo paso sugerido:**
+  - **Sesión 38: Opción A — TOV anisotrópica.** Derivar TOV con $p_r, p_t$ independientes. Modelo SCG: $p_r(r), p_t(r)$ interpolando entre radiación ($\alpha = \beta = 1/3$) en el bulk y exótico near-horizon. Verificar si compactness → 1 accesible. Extraer $d(r)$ efectivo.
+  - **Alternativa conservadora:** consolidar resultado negativo, abrir Q-045 formalmente, pasar a K-033 o Q-030.
+
+- **Observación metodológica (meta):**
+  - **Regla 9 aplicada ejemplarmente:** el "success" K-028 de sesión 15 era atractivo pero heurístico; análisis honesto lo refuta. Celebración disciplinada: se identificó un error conceptual que habría propagado a v2.2+.
+  - **K-005 aplicada también:** la teoría es más modesta — $1/(3\pi^2)$ es identidad geométrica, no predicción física. No inventamos redshift; reconocemos lo que el cálculo dice.
+  - **Nuevo tipo de veredicto productivo:** refinamiento disfrazado de refutación. K-028 "pierde" como predicción heurística, pero el marco "gana" en claridad (escala vs uniformidad) y abre pregunta nueva concreta.
+  - **Disciplina anticipatoria confirmada:** el escenario (B) predicho en sesión 36 fue demasiado optimista. El resultado real cayó en (C). Esto calibra la brújula para sesiones futuras.
+  - **Patrón recurrente:** como K-032.M (caveat cuantitativo) y K-019 (tres reinterpretaciones), K-028 es otro caso de "identidad formal ≠ predicción física". El marco SCG tiene varias coincidencias numéricas que deben ser sometidas al mismo filtro.
+
+---
