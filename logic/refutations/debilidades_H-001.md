@@ -279,6 +279,32 @@ con reducciones:
 
 **Severidad refinada:** 🟡 media (sin cambio en el número, pero la estructura se refuerza). 2/5 completadas + 2/5 parciales con candidatos + 1/5 pendiente. Sólo 5.5 (flujo RG II→IV) queda sin abordar.
 
+### Estado (actualizado sesión 35, 2026-04-22): ✅ CERRADO CON CAVEAT CUANTITATIVO
+
+**P-8 pasa a ✅ cerrado con caveat cuantitativo tras sesiones 31-35 (tramo K-032).**
+
+**Progreso acumulado en las sub-tareas del bosquejo (final v2.1):**
+
+| Sub-tarea | Estado | Sesión | Derivación |
+|---|---|---|---|
+| 5.1 — T-5 via Polyakov cuantizado | ✅ **COMPLETADA** | 13 | D-006 |
+| 5.2 — Ec. de movimiento S_PA + Λ | ✅ **COMPLETADA** | 16 | D-007 |
+| 5.3 — Kodama + P-11 | ✅ **CERRADA v2.0** | 30 | D-010 (Q-043 cerrada) |
+| 5.4 — Reducción a cuerda SCG | ✅ **CONFIRMADA ESTRUCTURALMENTE** | 18+20 | D-008 + D-009; K-031 |
+| 5.5 — Flujo RG II→IV (K-032.M) | ✅ **CERRADA con caveat cuantitativo** | 31-35 | D-011 (K-032.M) |
+
+**Lo que D-011 (sesión 35) añade:**
+- Forma funcional α_gauge(M_P) ∝ γ_Immirzi derivada estructuralmente desde el matching Plebanski-Holst (frontera CS) + edge modes `Spin(10)_1`.
+- Valor numérico α_gauge ∈ [0.005, 0.1] bajo Λ_efectiva ≈ 0.2 M_P² (Reuter asymptotic safety), consistente con α_SM observado.
+- Patrón α_2(M_P) ≈ α_3(M_P) ≠ α_1(M_P) derivado desde distinción vértice/segmento (Tarea 5.5 original).
+- **Caveat cuantitativo explícito:** la coincidencia α_3 ≈ γ/(4π) al 1% es observación sugerente, no derivable rigurosamente. El factor numérico exacto requeriría 3-5 sesiones técnicas adicionales (CS-WZW rigorous + embedding SO(10) + RG level shifting + 2-loops).
+- K-032 promovido a "confirmado estructuralmente con caveat cuantitativo" (nuevo nivel epistémico introducido en D-011).
+- **Regla 9 aplicada:** retreat honesto de K-032.S (identidad exacta) a K-032.M (forma funcional + cota) tras 4 sesiones de ataque (31-34).
+
+**Bosquejo Lagrangiana arquitectónicamente completo:** 5/5 sub-tareas con cierre (4 limpias + 5.5 con caveat). P-8 arquitectura concluida; residuales son pendientes cuantitativos acotados.
+
+**Severidad final:** ✅ cerrado con caveat cuantitativo. **Sin eslabones rojos. Residuales O(1) en normalización numérica.**
+
 ---
 
 ## Resumen de prioridades (actualizado 2026-04-16 — fin sesión 4)

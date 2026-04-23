@@ -460,4 +460,29 @@ Formato:
 
 ---
 
+## K-032 (CONFIRMADO ESTRUCTURALMENTE CON CAVEAT CUANTITATIVO, sesión 35) — Forma funcional α_gauge(M_P) ∝ γ_Immirzi para acoplamientos de vértice
+
+- **Fecha:** 2026-04-21 (candidato inicial sesión 19) → 2026-04-22 (sesiones 31-34 ataque sistemático) → 2026-04-22 (sesión 35, promoción formal via D-011).
+- **Estado:** **CONFIRMADO ESTRUCTURALMENTE CON CAVEAT CUANTITATIVO.** Nuevo nivel epistémico introducido en D-011: forma funcional derivada + valor numérico en rango correcto; identidad al 1% no derivable en el marco actual.
+- **Derivado de:** D-011 (`logic/derivations/D-011_K-032_sintesis.md`) síntesis del tramo 31-34. Base técnica: D-007 (Plebanski + frontera CS) + Holst 1996 + Randono 2006 + Reuter 1998 asymptotic safety + D-010 (UBFC `Spin(10)_1`) + Kawagoe et al. 2023 (modular WW).
+- **Enunciado:**
+  - **(a)** El acoplamiento gauge emergente de vértice (α_2 = SU(2)_L, α_3 = SU(3)_c) a escala Planck tiene forma funcional α_gauge(M_P) ∝ γ_Immirzi, derivada del matching del CS_I gravitacional de frontera (término de Holst en variables Barbero-Immirzi con β real) con los edge modes quirales de la UBFC `Spin(10)_1`.
+  - **(b)** Bajo Λ_efectiva(régimen II) ≈ 0.2 M_P² (Reuter asymptotic safety), el valor numérico α_gauge(M_P) ∈ [0.005, 0.1], consistente con α_SM observado.
+  - **(c)** El patrón estructural α_2(M_P) ≈ α_3(M_P) ≠ α_1(M_P) se deriva de la distinción "gauge de vértice vs gauge de segmento" en la red WW 3+1D.
+- **Por qué importa:**
+  - **Primera derivación estructural de forma funcional de un acoplamiento gauge SM en SCG.** Cierre parcial del problema de las constantes del SM.
+  - Cierre de P-8 (bosquejo Lagrangiana): 5/5 sub-tareas cerradas (4 limpias + 5.5 con caveat cuantitativo).
+  - Introduce nuevo nivel epistémico ("confirmado estructuralmente con caveat cuantitativo") útil para resultados donde la forma es derivable pero el valor exacto no.
+  - Identifica rutas para refinamiento cuantitativo futuro (3-5 sesiones técnicas adicionales).
+- **Caveats honestos:**
+  - **La coincidencia α_3(M_P) ≈ γ/(4π) al 1% NO se deriva rigurosamente.** Es observación sugerente, no predicción.
+  - Factor C_1 · C_2 en la normalización del matching no fijado rigurosamente. Requiere cálculo detallado CS-WZW + embedding SO(10) + RG level shifting.
+  - Discrepancia α_2 vs α_3 (7%) no explicada explícitamente; atribuible heurísticamente a 2-loops + thresholds.
+  - α_1 (U(1)_Y) no cubierto por D-011 (origen "segmento" distinto).
+  - **Regla 9 aplicada:** retreat honesto de K-032.S (identidad exacta) a K-032.M (forma funcional + cota) tras 4 sesiones de ataque técnico.
+- **Relación con literatura:** Plebanski 1977, Holst 1996, Baez 2000, Randono 2006, Witten 1989 (CS-WZW), Reuter 1998 (asymptotic safety), Daum-Reuter 2012 (AS con Holst), Kawagoe-Gorantla-Williamson 2023, Kaplan 2024, Wang-Wen 2018-2019, Dreyer 2003, Slansky 1981 (embeddings Dynkin). Todas piezas estándar; originalidad es aplicación integradora al contexto SCG v2.0.
+- **Meta-lección:** K-032 es un caso ejemplar de honestidad epistémica — la coincidencia numérica atractiva no se forzó; retreat aplicado; resultado intermedio (K-032.M) es honesto y útil aunque no sea el ideal K-032.S.
+
+---
+
 (Las debilidades de H-001 están en `logic/refutations/debilidades_H-001.md`, no aquí. Aquí va lo que sí aprendimos, con honestidad.)

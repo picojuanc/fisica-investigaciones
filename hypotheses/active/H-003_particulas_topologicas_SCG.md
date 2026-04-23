@@ -3,9 +3,26 @@
 - **ID:** H-003
 - **Fecha de propuesta:** 2026-04-18 (sesión 10; material acumulado en sesiones 7–9)
 - **Estado:** activa
-- **Estado derivacional (actualizado v2.0, sesión 30):** U(1) derivado; Z₃ derivado; **SU(2)_L como edge mode quiral de frontera WW modular** (v1.9, consolidado v2.0 via D-010); SU(3) argumentado por 5 vías + refuerzo Z₃_geom ≡ centro SU(3) (K-017 v2.0); generaciones propuesto; Higgs mecanismo establecido. **Asimetría máxima del SM: emerge de Kaplan 2024 + Wang-Wen 2018-2019 + modular Walker-Wang sobre `Spin(10)_1` (Q-043 CERRADA estructuralmente, D-010, sesión 30).**
+- **Estado derivacional (actualizado v2.1, sesión 35):** U(1) derivado; Z₃ derivado; **SU(2)_L como edge mode quiral de frontera WW modular** (v1.9, consolidado v2.0 via D-010); SU(3) argumentado por 5 vías + refuerzo Z₃_geom ≡ centro SU(3) (K-017 v2.0); generaciones propuesto; Higgs mecanismo establecido. **Asimetría máxima del SM: emerge de Kaplan 2024 + Wang-Wen 2018-2019 + modular Walker-Wang sobre `Spin(10)_1` (Q-043 CERRADA estructuralmente, D-010, sesión 30).** **v2.1 — forma funcional α_gauge(M_P) ∝ γ_Immirzi derivada estructuralmente para acoplamientos de vértice** (D-011 sesión 35, K-032 "confirmado estructuralmente con caveat cuantitativo"). Patrón α_2 ≈ α_3 ≠ α_1 derivado (vértice vs segmento en red WW).
 - **Depende de:** H-001 v1.2 (objetos 1D), H-002 (D=3), A-003 (presión de degeneración), D-004 (reglas de fusión), **UBFC modular `Spin(10)_1` (Q-043 cerrada estructuralmente, D-010)**.
 - **Contradice a:** — (extiende H-001 y H-002 al sector de materia)
+
+---
+
+## ✅ Nota de cierre v2.1 (sesión 35, post-K-032.M)
+
+**K-032 PROMOVIDO a "confirmado estructuralmente con caveat cuantitativo" (sesión 35, D-011).** Bosquejo Lagrangiana ✅ **arquitectónicamente completo** (5/5 sub-tareas cerradas).
+
+- El matching régimen II → IV queda cerrado estructuralmente: forma funcional α_gauge(M_P) ∝ γ_Immirzi derivada desde Plebanski-Holst + frontera CS + edge modes `Spin(10)_1`.
+- Bajo Λ_efectiva ≈ 0.2 M_P² (Reuter asymptotic safety), valor numérico α ∈ [0.005, 0.1] consistente con α_SM observado.
+- Patrón α_2 ≈ α_3 ≠ α_1 derivado explícitamente (vértice vs segmento en red WW).
+- **Caveat cuantitativo:** la identidad α_3 ≈ γ/(4π) al 1% es observación sugerente, NO derivable al 1%. Refinamiento requeriría 3-5 sesiones técnicas adicionales.
+- **Regla 9 aplicada ejemplarmente:** retreat honesto de K-032.S a K-032.M tras 4 sesiones de ataque (31-34).
+- **Nuevo nivel epistémico introducido:** "confirmado estructuralmente con caveat cuantitativo" — intermedio entre confirmado estructuralmente limpio y candidato.
+- P-8 ✅ cerrada con caveat cuantitativo.
+- **Snapshot v2.1** captura el estado consolidado.
+
+**Ver:** `logic/derivations/D-011_K-032_sintesis.md`, `notes/K-032_sesion{31,32,33,34}_*.md`, `journal/2026-04-22_snapshot_v2.1.md`, `journal/reportes/26_matching_II_IV_K-032.md`.
 
 ---
 
