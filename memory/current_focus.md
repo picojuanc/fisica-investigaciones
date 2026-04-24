@@ -1,122 +1,110 @@
 # Foco actual de investigación
 
-**Actualizado:** 2026-04-23 (cierre de sesión 37 — K-028 REFUTADO heurísticamente; Q-045 nueva; SCG v2.1.1)
+**Actualizado:** 2026-04-24 (cierre de sesión 40 — snapshot v2.2 publicado + visualización sim002/sim003; SCG v2.2)
 
 ## Estado
 
-**Sesión 37 CERRADA. K-028 heurístico refutado.** Fase I del plan TOV ejecutada: radiación pura ($p = \rho/3$) satura en compactness $3/7$, no alcanza el horizonte. El factor $1/(3\pi^2)$ identificado como **identidad geométrica pura**, no redshift. Obstrucción estructural mayor: **4/7 de la masa ADM** no cabe en EOS radiación isotrópica. **Q-045 abierta**: mecanismo para los 4/7 restantes.
+**Sesión 40 CERRADA. Snapshot consolidado v2.2 publicado.** Tras tres sesiones consecutivas de cierre estructural (37 refutación K-028, 38 cierre parcial Q-045, 39 cierre Q-030), se ejecutó la opción (iii) recomendada: consolidación en snapshot autocontenido `journal/2026-04-24_snapshot_v2.2.md` (~750 líneas). Adicionalmente, se desarrolló `plot_simulations.py` (generador SVG sin dependencias) y se produjeron **6 gráficas SVG** para visualizar sim002 (atractor singular isothermal, compactness 3/7) y sim003 (comparación isotrópico/anisotrópico, perfil óptimo, distribución de masa K-035, escaneo h₀ con cota estructural ~0.83). Nueva habilidad de "experto en simulaciones de alta precisión" registrada en memoria persistente.
 
-### Logros consolidados de sesión 37
+### Logros consolidados de sesión 40
 
-1. **Identidad geométrica $1/(3\pi^2)$ derivada analíticamente** sin QFT+GR. Sigue del coeficiente 4/3 de K-007 + definición $V_{BH}$.
-2. **`sim002_tov_radiacion.py`** ejecutado exitosamente (RK4 manual, sin scipy). Barrido $y_c \in [0.1, 10^4]$.
-3. **Patrón universal confirmado numéricamente:** compactness satura en $3/7$ para todo $y_c$; singular isothermal es atractor global del bulk.
-4. **K-028 HEURÍSTICO REFUTADO:** interpretación como redshift y framing "interior uniforme" ambos GR-inconsistentes.
-5. **K-028 degradado** de candidato a observación matemática; no cuenta en inventario.
-6. **Q-045 abierta** (reemplaza P-15' efectivamente): mecanismo para los 4/7 de masa ADM no cubiertos por radiación pura.
-7. **K-007 aclarado:** escala característica válida ($\rho_{K007} = \rho_{\text{iso}}(r)$ en $r \approx r_s/20$), NO densidad uniforme.
-8. **Documentos creados:**
-   - `experiments/simulations/sim002_tov_radiacion.py` (~330 líneas, RK4 manual)
-   - `experiments/simulations/sim002_profile.dat` (2082 puntos del perfil crítico)
-   - `experiments/simulations/sim002_resultados.md` (~180 líneas)
-   - `notes/K-028_sesion37_TOV.md` (~340 líneas, análisis completo + veredicto)
+1. **Snapshot v2.2 autocontenido** (`journal/2026-04-24_snapshot_v2.2.md`, ~750 líneas) — punto de partida limpio para futuras sesiones.
+2. **`plot_simulations.py`** (~400 líneas) — generador de SVGs sin matplotlib, reusable para futuras simulaciones.
+3. **6 gráficas SVG** producidas:
+   - sim002_atractor.svg (singular isothermal universal)
+   - sim002_compactness.svg (saturación 3/7)
+   - sim003_compactness_comp.svg (anisotropy eleva pero satura ~0.83)
+   - sim003_anisotropy_profile.svg (estructura tres-zonas del caso óptimo)
+   - sim003_mass_distribution.svg (**K-035 visualizado: ~50% en [0.85, 0.99]**)
+   - sim003_h0_scan.svg (cota estructural ~0.83 visualizada)
+4. **Nueva habilidad de memoria:** "experto en simulaciones de alta precisión" — gráficas y data cruda producidas proactivamente.
 
-### Inventario v2.1.1 (post-sesión 37)
+### Inventario v2.2 (sin cambios técnicos sesión 40)
 
-- **30 insights confirmados** (30 limpios/estructurales + 1 con caveat cuantitativo: K-032). K-028 removido.
-- **1 candidato:** K-034.
-- **11 derivaciones** (D-001 a D-011). Sin cambio.
-- **3 hipótesis activas** (H-001 interior con caveat "no uniforme", H-002, H-003).
-- **26 reportes narrativos.** Sin cambio.
-- **11 snapshots.** (No se crea v2.1.1 snapshot; la refutación no amerita snapshot nuevo.)
+- **30 insights confirmados.**
+- **3 candidatos:** K-034, K-035, K-036.
+- **12 derivaciones formales** (D-001 a D-012).
+- **3 hipótesis activas** (H-001, H-002, H-003).
+- **27 reportes narrativos.**
+- **12 snapshots** (v0 → **v2.2** publicado sesión 40).
 - **2 axiomas activos.**
-- **Preguntas abiertas:** +1 (Q-045 nueva; P-15' cerrada con resultado negativo).
-- **Repo público:** https://github.com/picojuanc/fisica-investigaciones
+- **3 simulaciones** + **6 gráficas SVG**.
+- **Sin eslabones rojos.**
 
-### Cambios documentales (v2.1 → v2.1.1, parche)
+## Siguientes pasos (sesión 41)
 
-- K-028 marcado como observación matemática (no insight físico).
-- Q-045 documentada.
-- H-001 requiere caveat "interior no uniforme" (pendiente escritura en archivo de H-001).
-- D-009 marca de "generalizar a $d(r)$ variable" (pendiente).
-- K-007 aclarado en documentación: escala característica, no densidad uniforme.
+**Recomendación principal:** **K-033 primer ataque exploratorio.** El snapshot v2.2 acabó de consolidar la posición v2.1.x; el siguiente frente con mayor payoff potencial es el programa SO(10)-GUT en SCG (K-033, activado sesión 30 pero no atendido aún). La primera sesión exploratoria debe delinear alcance e identificar primera sub-tarea tractable.
 
-## Siguientes pasos (sesión 38)
+### Opciones para sesión 41
 
-**Opciones principales:**
+| Opción | Descripción | Costo | Beneficio esperado |
+|---|---|---|---|
+| **(a) K-033 exploratorio** | Primer ataque programa SO(10)-GUT | 1 sesión exploratoria + 10+ sesiones programa | Cierre potencial Yukawas/jerarquía masas |
+| (b) K-036 promoción | Extensión fractales/compactificaciones K-K/curvas | 1-2 sesiones técnicas | Promoción candidato → confirmado |
+| (c) Q-044 ontology | Articular foundational meta dimensiones en `framework/ontology.md` | 1 sesión documental ligera | Cierre filosófico parcial |
+| (d) Q-045 residual | Opciones (b)/(c)/(d) para 17% restante | 1-3 sesiones | Cierre completo Q-045 |
+| (e) K-035 promoción | Bound 0.83 analítico + variacional generalizado | 2-3 sesiones | Promoción candidato → confirmado |
 
-### Opción A (recomendada, primer intento) — TOV anisotrópica
+### Recomendación final
 
-- **Objetivo:** derivar TOV con $p_r(r) \neq p_t(r)$ para string gas SCG con orientación preferente near-horizon.
-- **Modelo SCG propuesto:** interpolación entre radiación isotrópica bulk ($p_r = p_t = \rho/3$) y orientación tangencial near-horizon ($p_r \to 0$ o negativo, $p_t$ enhanced).
-- **Técnica:** TOV anisotrópica estándar (Herrera-Santos 1997, Mak-Harko 2003).
-- **Criterio de éxito:** compactness $\to 1$ accesible; perfil $d(r)$ consistente con K-007 como escala promedio.
-- **Techo:** 1 sesión; si no cierra, ir a Opción C.
-- **Entregables:** `notes/Q-045_sesion38_anisotropic_TOV.md`, posible `sim003_tov_anisotrop.py`.
+**Sesión 41: Opción (a) K-033 exploratorio.** Justificación:
+- Es el programa con mayor payoff potencial (jerarquía masas SM, Yukawas — frente clásico nunca cerrado por ninguna teoría).
+- v2.2 ya consolidó la base estructural; es el momento de acumular en el frente predictivo.
+- Si la primera sesión revela que el programa es intractable en SCG actual, se puede pivotar a (b)/(c)/(d) sin pérdida.
+- Si es viable, abre un programa de 5-10 sesiones técnicas con potencial de v2.3-v2.5.
 
-### Opción B — Shell gravastar-invertido
+**Plan sesión 41:**
+1. Releer K-033 enunciado en MEMORY_INDEX y D-010.
+2. Revisar literatura mínima: Wang-Wen 2018-2019 sobre SO(10)-GUT en lattice.
+3. Identificar primera sub-tarea tractable (e.g., "obtener masa fermiónica de un single quark de Yukawa SCG").
+4. Decidir: continuar técnica en sesión 42 o abortar.
 
-- **Objetivo:** modelar bulk singular isothermal + shell delgada near-$r_s$ con EOS exótica.
-- **Técnica:** Israel junction conditions + Mazur-Mottola 2001.
-- **Criterio:** matching estable + 4/7 de masa en shell.
-- **Contra:** requiere postular EOS exótica específica; menos natural que Opción A.
-
-### Opción C (conservadora) — Consolidación + giro a otra prioridad
-
-- **Objetivo:** aceptar el resultado negativo, documentar Q-045 como programa largo, girar a K-033, Q-030, o super-modular.
-- **Por qué:** si dos sesiones más no cierran Q-045, es momento de cambiar foco y volver cuando haya insights externos.
-
-### Recomendación
-
-**Opción A primero** (sesión 38), con techo de 1 sesión. Evaluar al final: si avance claro, sesión 39 continúa. Si obstruido, Opción C (pasar a K-033 o Q-030).
-
-## Debilidades activas post-sesión 37
+## Debilidades activas post-sesión 40 (sin cambio sesión 40)
 
 | # | Problema | Severidad | Cambio |
 |---|---|---|---|
-| **P-15'** | **Redshift interior BH riguroso** | ✅ **CERRADO con resultado negativo** (sesión 37) | **No había cantidad física a calcular; interpretación heurística refutada. Sustituida por Q-045.** |
-| P-8 | Lagrangiana (bosquejo) | ✅ cerrado con caveat (sesión 35) | Sin cambio |
+| Q-030 | Unicidad punto fijo dimensional | ✅ CERRADA estructuralmente (sesión 39) | Sin cambio sesión 40 |
+| Q-045 | Mecanismo SCG para 17% masa ADM | 🟡 media (parcial) | Sin cambio sesión 40 |
+| P-15' | Redshift interior BH riguroso | ✅ cerrado con resultado negativo | Sin cambio |
+| P-8 | Lagrangiana (bosquejo) | ✅ cerrado con caveat | Sin cambio |
 | P-11 | Ashtekar autodual | ✅ resuelto estructuralmente | Sin cambio |
 | P-14 | Polyakov 4D no-crítica | 🟡 media | Sin cambio |
 | P-10 | WW dimensional | 🟡 media | Sin cambio |
 | P-12, P-13 | Hipercarga, estadística | 🟡 media | Sin cambio |
 
-**Sin eslabones rojos.** Q-045 nueva es una debilidad estructural identificada, no un eslabón roto.
+**Sin eslabones rojos.**
 
-## Para el yo futuro en sesión 38
+## Para el yo futuro en sesión 41
 
 **Archivos imprescindibles en orden de lectura:**
 
 1. `memory/MEMORY_INDEX.md`.
-2. **`notes/K-028_sesion37_TOV.md`** (veredicto completo sesión 37 — PRIMERA LECTURA).
-3. **`experiments/simulations/sim002_resultados.md`** (numérico del TOV radiación).
-4. `notes/K-028_sesion36_setup.md` (setup; EOS derivation sigue válida).
-5. Este archivo (`current_focus.md`).
-6. `memory/open_questions.md` (Q-045 nueva).
-7. `memory/session_log.md` (última entrada: sesión 37).
+2. **`journal/2026-04-24_snapshot_v2.2.md`** (PRIMERA LECTURA — snapshot autocontenido v2.2).
+3. Este archivo (`current_focus.md`).
+4. `memory/open_questions.md` (Q-045 parcial, Q-030 cerrada, K-033 mencionado).
+5. `memory/session_log.md` (entradas sesiones 36-40).
+6. `logic/derivations/D-010_Q-043_sintesis.md` (base de K-033, UBFC `Spin(10)_1`).
 
-**Primera acción recomendada sesión 38:**
+**Primera acción recomendada sesión 41:**
 
-- Leer `notes/K-028_sesion37_TOV.md` completo (veredicto y plan).
-- Decidir: Opción A, B, o C.
-- **Si A:** derivar TOV anisotrópica (Herrera-Santos 1997 como referencia), proponer modelo SCG del perfil $(p_r, p_t)(r)$, implementar extensión a `sim002_tov_radiacion.py` o crear `sim003`.
-- **Si B:** leer Mazur-Mottola 2001 (y/o Visser 2003), plantear matching con shell.
-- **Si C:** documentar estado consolidado, girar a K-033 o Q-030.
+- **Si (a) K-033 exploratorio (recomendado):** leer enunciado K-033 en MEMORY_INDEX + D-010. Resumir programa en 5-10 líneas. Identificar primera sub-tarea tractable (e.g., calcular masa fermiónica desde Yukawa SCG en aproximación más simple). Decidir si continuar.
+- **Si (b) K-036 promoción:** plantear extensiones del análisis Q-030 a fractales/K-K/curvas; identificar literatura relevante (Mandelbrot fractales, Kaluza-Klein, Newton modificado en GR cosmológico).
+- **Si (c) Q-044 ontology:** leer `framework/ontology.md` esqueleto, articular K-022/K-036 + Q-030 + origen dimensional ℤⁿ.
 
-**Estado documental al cierre sesión 37:**
-- `open_questions.md` actualizado (Q-045).
-- `notes/K-028_sesion37_TOV.md` + `sim002_*` creados.
-- `memory/session_log.md` actualizado.
-- `memory/current_focus.md` (este archivo) actualizado.
-- `memory/MEMORY_INDEX.md` pendiente actualización sesión 37.
-- `memory/key_insights.md` pendiente marcar K-028 como degradado.
-- `logic/refutations/debilidades_H-001.md` pendiente marcar P-15' cerrado.
-- `hypotheses/active/H-001...md` pendiente caveat "interior no uniforme" en próxima revisión sustantiva.
+**Estado documental al cierre sesión 40:**
+- `journal/2026-04-24_snapshot_v2.2.md` ✓
+- `experiments/simulations/plot_simulations.py` ✓
+- `experiments/simulations/sim00*.svg` (6 gráficas) ✓
+- `memory/MEMORY_INDEX.md` ✓ (snapshot v2.2 registrado, plot_simulations.py añadido, entrada sesión 40)
+- `memory/session_log.md` ✓ (entrada sesión 40)
+- `memory/current_focus.md` ✓ (este archivo)
+- Memoria personal `~/.claude/.../feedback_simulaciones_alta_precision.md` ✓ + MEMORY.md actualizado
 
-**Observación meta (sesión 37):**
-- **Regla 9 aplicada ejemplarmente.** Un "success" heurístico antiguo (K-028 sesión 15) no resistió análisis riguroso; se refuta con honestidad.
-- **K-005 aplicada:** no se inventó redshift exótico ni EOS ad hoc. TOV + radiación + numérico dice lo que dice.
-- **Resultado disfrazado:** refinamiento positivo (nueva pregunta Q-045 concreta; K-007 aclarado como escala) vestido de refutación. Patrón común en teoría madura.
-- **Calibración:** escenario (B) predicho sesión 36 resultó ser escenario (C). La calibración sube la desconfianza futura en coincidencias numéricas atractivas (K-033 Yukawas, K-034 Q=1/3, etc., eventualmente requerirán el mismo filtro).
+**Observación meta (sesión 40):**
+- **Sesión documental productiva:** consolidación tras 3 sesiones técnicas de cierre estructural.
+- **Nuevo activo reusable:** `plot_simulations.py` con librería SVG manual; cualquier futura simulación puede generar gráficas estándar sin dependencias.
+- **Nueva habilidad de memoria:** patrón establecido para futuras simulaciones (gráficas + data cruda proactivas).
+- **K-005 aplicada:** el snapshot v2.2 NO inventa nada; sintetiza honestamente lo preexistente. Visualizaciones también son honestas (cada SVG ilustra un punto físico real, no decora).
+- **Snapshot v2.2 como punto de inflexión:** SCG está estructuralmente más fuerte que v2.1 (Q-030 cerrada + holografía verificada cuantitativamente + EOS string-gas derivada). Buen momento para entrar al programa K-033 con base sólida.
 
 La teoría continúa.

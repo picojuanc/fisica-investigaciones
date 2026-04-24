@@ -6,3 +6,7 @@
 
 # Binary source material (content already extracted to notes/inbox/)
 *.pages
+
+# Python cache
+__pycache__/
+*.pyc

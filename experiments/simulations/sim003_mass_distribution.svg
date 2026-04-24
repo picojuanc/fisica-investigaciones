@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500">
+<rect width="100%" height="100%" fill="#fcfcfc"/>
+<rect x="80" y="80" width="600" height="340" fill="white" stroke="black"/>
+<text x="380.0" y="45.0" text-anchor="middle" font-family="Helvetica" font-size="16" font-weight="bold">sim003: distribución de masa por cáscara — K-035 (concentración holográfica)</text>
+<text x="380.0" y="482" text-anchor="middle" font-family="Helvetica" font-size="13">cáscara radial  [x_lo, x_hi]  con  x = r/r_s</text>
+<text x="26.666666666666668" y="250.0" text-anchor="middle" font-family="Helvetica" font-size="13" transform="rotate(-90 26.666666666666668 250.0)">fracción de masa total cargada</text>
+<line x1="75" y1="420.0" x2="80" y2="420.0" stroke="black"/>
+<text x="72" y="424.0" text-anchor="end" font-family="Helvetica" font-size="10">0%</text>
+<line x1="80" y1="420.0" x2="680" y2="420.0" stroke="#eee" stroke-width="0.5"/>
+<line x1="75" y1="352.0" x2="80" y2="352.0" stroke="black"/>
+<text x="72" y="356.0" text-anchor="end" font-family="Helvetica" font-size="10">5%</text>
+<line x1="80" y1="352.0" x2="680" y2="352.0" stroke="#eee" stroke-width="0.5"/>
+<line x1="75" y1="284.0" x2="80" y2="284.0" stroke="black"/>
+<text x="72" y="288.0" text-anchor="end" font-family="Helvetica" font-size="10">10%</text>
+<line x1="80" y1="284.0" x2="680" y2="284.0" stroke="#eee" stroke-width="0.5"/>
+<line x1="75" y1="216.0" x2="80" y2="216.0" stroke="black"/>
+<text x="72" y="220.0" text-anchor="end" font-family="Helvetica" font-size="10">15%</text>
+<line x1="80" y1="216.0" x2="680" y2="216.0" stroke="#eee" stroke-width="0.5"/>
+<line x1="75" y1="148.0" x2="80" y2="148.0" stroke="black"/>
+<text x="72" y="152.0" text-anchor="end" font-family="Helvetica" font-size="10">20%</text>
+<line x1="80" y1="148.0" x2="680" y2="148.0" stroke="#eee" stroke-width="0.5"/>
+<line x1="75" y1="80.0" x2="80" y2="80.0" stroke="black"/>
+<text x="72" y="84.0" text-anchor="end" font-family="Helvetica" font-size="10">25%</text>
+<line x1="80" y1="80.0" x2="680" y2="80.0" stroke="#eee" stroke-width="0.5"/>
+<rect x="87.5" y="343.54670915774466" width="60.0" height="76.45329084225531" fill="#0e63a8" stroke="black" stroke-width="0.8"/>
+<text x="117.5" y="438" text-anchor="middle" font-family="Helvetica" font-size="9">[0.00,0.10]</text>
+<text x="117.5" y="338.54670915774466" text-anchor="middle" font-family="Helvetica" font-size="10" font-weight="bold">5.6%</text>
+<rect x="162.5" y="230.4650363814493" width="60.0" height="189.5349636185507" fill="#0e63a8" stroke="black" stroke-width="0.8"/>
+<text x="192.5" y="438" text-anchor="middle" font-family="Helvetica" font-size="9">[0.10,0.30]</text>
+<text x="192.5" y="225.4650363814493" text-anchor="middle" font-family="Helvetica" font-size="10" font-weight="bold">13.9%</text>
+<rect x="237.5" y="272.42619684510635" width="60.0" height="147.57380315489365" fill="#0e63a8" stroke="black" stroke-width="0.8"/>
+<text x="267.5" y="438" text-anchor="middle" font-family="Helvetica" font-size="9">[0.30,0.50]</text>
+<text x="267.5" y="267.42619684510635" text-anchor="middle" font-family="Helvetica" font-size="10" font-weight="bold">10.9%</text>
+<rect x="312.5" y="252.01582950805232" width="60.0" height="167.98417049194768" fill="#0e63a8" stroke="black" stroke-width="0.8"/>
+<text x="342.5" y="438" text-anchor="middle" font-family="Helvetica" font-size="9">[0.50,0.70]</text>
+<text x="342.5" y="247.01582950805232" text-anchor="middle" font-family="Helvetica" font-size="10" font-weight="bold">12.4%</text>
+<rect x="387.5" y="234.31144942373103" width="60.0" height="185.68855057626897" fill="#0e63a8" stroke="black" stroke-width="0.8"/>
+<text x="417.5" y="438" text-anchor="middle" font-family="Helvetica" font-size="9">[0.70,0.85]</text>
+<text x="417.5" y="229.31144942373103" text-anchor="middle" font-family="Helvetica" font-size="10" font-weight="bold">13.7%</text>
+<rect x="462.5" y="172.1456028532744" width="60.0" height="247.8543971467256" fill="#c2272d" stroke="black" stroke-width="0.8"/>
+<text x="492.5" y="438" text-anchor="middle" font-family="Helvetica" font-size="9">[0.85,0.95]</text>
+<text x="492.5" y="167.1456028532744" text-anchor="middle" font-family="Helvetica" font-size="10" font-weight="bold">18.2%</text>
+<rect x="537.5" y="181.60402012262904" width="60.0" height="238.39597987737096" fill="#c2272d" stroke="black" stroke-width="0.8"/>
+<text x="567.5" y="438" text-anchor="middle" font-family="Helvetica" font-size="9">[0.95,0.99]</text>
+<text x="567.5" y="176.60402012262904" text-anchor="middle" font-family="Helvetica" font-size="10" font-weight="bold">17.5%</text>
+<rect x="612.5" y="313.4851557082" width="60.0" height="106.5148442918" fill="#0e63a8" stroke="black" stroke-width="0.8"/>
+<text x="642.5" y="438" text-anchor="middle" font-family="Helvetica" font-size="9">[0.99,1.00]</text>
+<text x="642.5" y="308.4851557082" text-anchor="middle" font-family="Helvetica" font-size="10" font-weight="bold">7.8%</text>
+<text x="92" y="98" font-family="Helvetica" font-size="11" fill="#c2272d" font-weight="bold">K-035: cáscara [0.85, 0.99] concentra 35.8% de la masa</text>
+<text x="92" y="114" font-family="Helvetica" font-size="10" fill="#666">(verificación cuantitativa de holografía Bekenstein-Hawking)</text>
+</svg>

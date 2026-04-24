@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500">
+<rect width="100%" height="100%" fill="#fcfcfc"/>
+<rect x="72" y="72" width="616" height="356" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="380.0" y="41.0" text-anchor="middle" font-family="Helvetica" font-size="16" font-weight="bold">sim003: escaneo h₀ vs max compactness — cota estructural ~0.83</text>
+<text x="380.0" y="476.0" text-anchor="middle" font-family="Helvetica" font-size="13">h₀  (anisotropy en el horizonte)</text>
+<text x="24.0" y="250.0" text-anchor="middle" font-family="Helvetica" font-size="13" transform="rotate(-90 24.0 250.0)">max compactness alcanzada</text>
+<line x1="72.0" y1="428" x2="72.0" y2="433" stroke="black" stroke-width="0.8"/>
+<text x="72.0" y="446" text-anchor="middle" font-family="Helvetica" font-size="10">0.0e+00</text>
+<line x1="195.2" y1="428" x2="195.2" y2="433" stroke="black" stroke-width="0.8"/>
+<text x="195.2" y="446" text-anchor="middle" font-family="Helvetica" font-size="10">0.2</text>
+<line x1="318.4" y1="428" x2="318.4" y2="433" stroke="black" stroke-width="0.8"/>
+<text x="318.4" y="446" text-anchor="middle" font-family="Helvetica" font-size="10">0.4</text>
+<line x1="441.59999999999997" y1="428" x2="441.59999999999997" y2="433" stroke="black" stroke-width="0.8"/>
+<text x="441.59999999999997" y="446" text-anchor="middle" font-family="Helvetica" font-size="10">0.6</text>
+<line x1="564.8" y1="428" x2="564.8" y2="433" stroke="black" stroke-width="0.8"/>
+<text x="564.8" y="446" text-anchor="middle" font-family="Helvetica" font-size="10">0.8</text>
+<line x1="688.0" y1="428" x2="688.0" y2="433" stroke="black" stroke-width="0.8"/>
+<text x="688.0" y="446" text-anchor="middle" font-family="Helvetica" font-size="10">1</text>
+<line x1="67" y1="428.0" x2="72" y2="428.0" stroke="black" stroke-width="0.8"/>
+<text x="64" y="432.0" text-anchor="end" font-family="Helvetica" font-size="10">0.4</text>
+<line x1="67" y1="356.8" x2="72" y2="356.8" stroke="black" stroke-width="0.8"/>
+<text x="64" y="360.8" text-anchor="end" font-family="Helvetica" font-size="10">0.52</text>
+<line x1="67" y1="285.6" x2="72" y2="285.6" stroke="black" stroke-width="0.8"/>
+<text x="64" y="289.6" text-anchor="end" font-family="Helvetica" font-size="10">0.64</text>
+<line x1="67" y1="214.4" x2="72" y2="214.4" stroke="black" stroke-width="0.8"/>
+<text x="64" y="218.4" text-anchor="end" font-family="Helvetica" font-size="10">0.76</text>
+<line x1="67" y1="143.2" x2="72" y2="143.2" stroke="black" stroke-width="0.8"/>
+<text x="64" y="147.2" text-anchor="end" font-family="Helvetica" font-size="10">0.88</text>
+<line x1="67" y1="72.0" x2="72" y2="72.0" stroke="black" stroke-width="0.8"/>
+<text x="64" y="76.0" text-anchor="end" font-family="Helvetica" font-size="10">1</text>
+<line x1="318.4" y1="72" x2="318.4" y2="428" stroke="#eee" stroke-width="0.5"/>
+<line x1="392.32" y1="72" x2="392.32" y2="428" stroke="#eee" stroke-width="0.5"/>
+<line x1="466.24" y1="72" x2="466.24" y2="428" stroke="#eee" stroke-width="0.5"/>
+<line x1="540.1600000000001" y1="72" x2="540.1600000000001" y2="428" stroke="#eee" stroke-width="0.5"/>
+<line x1="614.08" y1="72" x2="614.08" y2="428" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="356.8" x2="688" y2="356.8" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="285.6" x2="688" y2="285.6" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="214.4" x2="688" y2="214.4" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="143.2" x2="688" y2="143.2" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="411.0476190476191" x2="688" y2="411.0476190476191" stroke="#888" stroke-width="1.5" stroke-dasharray="3,3"/>
+<text x="683" y="407.0476190476191" text-anchor="end" font-family="Helvetica" font-size="11" fill="#888">3/7 (isotrópico)</text>
+<line x1="72" y1="172.8666666666667" x2="688" y2="172.8666666666667" stroke="#c2272d" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="683" y="168.8666666666667" text-anchor="end" font-family="Helvetica" font-size="11" fill="#c2272d">cota estructural ~0.83</text>
+<line x1="72" y1="72.0" x2="688" y2="72.0" stroke="#444" stroke-width="1.5" stroke-dasharray="2,3"/>
+<text x="683" y="68.0" text-anchor="end" font-family="Helvetica" font-size="11" fill="#444">horizonte</text>
+
+<path d="M 72.00,373.03 L 133.60,372.64 L 195.20,372.24 L 256.80,371.85 L 380.00,354.29 L 503.20,305.55 L 595.60,252.64 L 657.20,211.99 L 681.84,200.41 L 687.38,199.50" fill="none" stroke="#0e63a8" stroke-width="2.0"/>
+<path d="M 72.00,373.03 L 133.60,373.03 L 195.20,373.02 L 256.80,373.01 L 380.00,372.99 L 503.20,345.65 L 595.60,299.00 L 657.20,234.13 L 681.84,184.67 L 687.38,171.31" fill="none" stroke="#2ca02c" stroke-width="2.0"/>
+<path d="M 72.00,373.03 L 133.60,373.03 L 195.20,373.03 L 256.80,373.03 L 380.00,373.03 L 503.20,368.82 L 595.60,335.25 L 657.20,280.61 L 681.84,213.81 L 687.38,171.99" fill="none" stroke="#ff7f0e" stroke-width="2.0"/>
+<path d="M 72.00,373.03 L 133.60,373.03 L 195.20,373.03 L 256.80,373.03 L 380.00,373.03 L 503.20,373.03 L 595.60,356.70 L 657.20,314.25 L 681.84,252.96 L 687.38,193.44" fill="none" stroke="#9467bd" stroke-width="2.0"/>
+
+<line x1="87" y1="87" x2="112" y2="87" stroke="#0e63a8" stroke-width="2.5"/>
+<text x="119" y="91" font-family="Helvetica" font-size="11" fill="black">n = 2</text>
+<line x1="87" y1="105" x2="112" y2="105" stroke="#2ca02c" stroke-width="2.5"/>
+<text x="119" y="109" font-family="Helvetica" font-size="11" fill="black">n = 4</text>
+<line x1="87" y1="123" x2="112" y2="123" stroke="#ff7f0e" stroke-width="2.5"/>
+<text x="119" y="127" font-family="Helvetica" font-size="11" fill="black">n = 6</text>
+<line x1="87" y1="141" x2="112" y2="141" stroke="#9467bd" stroke-width="2.5"/>
+<text x="119" y="145" font-family="Helvetica" font-size="11" fill="black">n = 8</text>
+</svg>

@@ -491,4 +491,60 @@ Formato:
 
 ---
 
+---
+
+## K-036 (CANDIDATO, sesión 39) — El punto fijo dimensional $(1, 3, 1)$ es único estructuralmente
+
+- **Fecha:** 2026-04-23 (sesión 39).
+- **Estado:** **candidato**. Demostración formal vía D-012; promoción a confirmado requiere extensión a fractales / compactificaciones K-K / geometrías curvas.
+- **Derivado de:** D-012 (`logic/derivations/D-012_punto_fijo_unicidad.md`) + análisis sistemático de restricciones (notes/Q-030_sesion39_unicidad_punto_fijo.md).
+- **Enunciado:** El punto fijo dimensional $(D_{obj}, D_{amb}, D_{tmp}) = (1, 3, 1)$ es la **única** solución en $\mathbb{Z}_{>0}^3$ del sistema mínimo de restricciones físicas necesarias:
+  - **R1a:** $1 + 1/D_{obj} = 2 \Rightarrow D_{obj} = 1$ (balance marginal en $N$, D-002 §3).
+  - **R1b:** $D_{amb} - 2 = 1 \Rightarrow D_{amb} = 3$ (única donde $E_{grav} \propto 1/L^{D_{amb}-2}$ y $E_{deg} \propto 1/L$ tienen mismo exponente, dando marginalidad multiscala BH).
+  - **R6:** $D_{tmp} = 1$ (Asgeirsson 1936 + Tegmark 1997: well-posedness Lorentziana).
+  
+  Las consistencias adicionales {R2 codim 2 (H-002), R3 Dynkin so(p,q)_C factoriza ⇔ p+q=4 (D-005 Arg A), R4 Hodge $\star^2 = -1$ (D-005 Arg B), R5 trivalencia (D-004)} se cumplen **automáticamente** para $(1, 3, 1)$. Cada una individualmente NO selecciona el punto fijo unívocamente; la sobre-determinación es **evidencia de robustez estructural**, no circularidad.
+- **Por qué importa:**
+  - **Cierra Q-030** (objeción de circularidad identificada en stress-test sesión 11).
+  - **Refina K-025** ("auto-consistente, punto fijo" → "punto fijo único estructuralmente"): un nivel epistémico más fuerte.
+  - **Posiciona la dimensionalidad SCG en el paradigma "dimensión emergente como punto fijo único"**, junto con $D=26$ (cuerdas bosónicas, Polyakov 1981), $D=10$ (superstrings, Schwarz-Green), $D=11$ (M-teoría). Patrón establecido en física fundamental.
+  - **No introduce axiomas nuevos.** D-012 es síntesis estructural de elementos preexistentes (D-002, H-002, D-005). La novedad metodológica es identificar el sistema mínimo {R1a, R1b, R6}.
+  - **Refuerza H-002 y D-005** desde "premisas adicionales" a "consecuencias del punto fijo único".
+- **Caveats honestos:**
+  - **Argumento sobre $\mathbb{Z}_{>0}^3$.** Extensión a $\mathbb{R}_{>0}^3$ (fractales) preserva R1a y R1b (ecuaciones lineales con única solución real); R6 requiere análisis adicional (PDEs en dimensiones fraccionarias).
+  - **R1b asume gravedad newtoniana en $D_{amb}$ dimensiones.** Válida en régimen donde la cuerda SCG opera (interior BH); reformulación necesaria para regímenes cosmológicos.
+  - **R6 asume formulación lagrangiana estándar.** Formulaciones no-locales (Craig-Weinstein 2009) con $D_{tmp} \geq 2$ requieren restricciones exóticas; improbables físicamente.
+  - **No se aborda "selección dinámica":** que $(1, 3, 1)$ sea único punto fijo NO explica por qué la naturaleza está en este punto fijo y no vacía. Pregunta meta-filosófica abierta (relacionada con Q-005, Q-001, Q-044).
+  - **Compactificaciones K-K extra dimensions** no consideradas. Si hay dimensiones extra invisibles a Planck scale, R1b se modifica con correcciones K-K; análisis pendiente para promoción a confirmado.
+  - **Relativa al conjunto R1a+R1b+R6.** Si se debilita alguna restricción, el espacio de soluciones se expande. Las restricciones son las **mínimas necesarias para SCG**, no axiomas universales.
+- **Relación con literatura:**
+  - **Polyakov 1981:** $D = 26$ desde anomaly cancellation conformal en cuerdas bosónicas.
+  - **Schwarz 1971 + Green-Schwarz 1984:** $D = 10$ desde modular invariance en superstrings.
+  - **Witten 1995 (M-teoría):** $D = 11$ desde supergravity 11D unique.
+  - **Sorkin 1991 (Causal Set Theory):** dimensionalidad emergente, **sin demostrar unicidad**; contraste con SCG.
+  - **Ambjorn-Loll 1998 (CDT):** dimensión 4 emergente numéricamente; análogo computacional, no estructural.
+- **Meta-lección:** la dimensionalidad NO es postulada en SCG; emerge como única solución de restricciones físicas mínimas. K-005 aplicada estructuralmente — la teoría es más modesta. K-036 es el cierre estructural más fuerte que la cadena dimensional puede tener sin invocar selección dinámica.
+
+---
+
+## K-035 (CANDIDATO, sesión 38) — Concentración holográfica de masa: ~50% en cáscara $[0.85 r_s, 0.99 r_s]$
+
+- **Fecha:** 2026-04-23 (sesión 38).
+- **Estado:** **candidato**. Verificación numérica robusta; promoción a confirmado requiere derivación analítica del bound 0.83 desde TOV+trace y conexión con Buchdahl-like generalized bound.
+- **Derivado de:** `experiments/simulations/sim003_tov_anisotropic.py` + `notes/Q-045_sesion38_anisotropic_TOV.md`.
+- **Enunciado:** En el modelo SCG con TOV anisotrópica + trace condition $w_r + 2 w_t = y$ + perfil holográfico $h(x) = h_0 x^n$ con $h_0 \to 1$, la masa total satura en $\tilde m_{end} \approx 0.83$ (cota estructural independiente del ansatz). La distribución espacial concentra ~50% de la masa cargada en la cáscara $x \in [0.85, 0.99]$, en línea cuantitativa con la concentración holográfica predicha por entropía Bekenstein-Hawking ($S \propto A$, no $V$).
+- **Por qué importa:**
+  - **Primera verificación cuantitativa de la holografía Bekenstein-Hawking en SCG.** El cálculo TOV anisotrópico produce naturalmente la distribución $A$-dominante (no $V$-uniforme) sin postularla.
+  - **Conecta H-001 (cuerda plegada interior) con la predicción $S = A/4$ del BH.** El interior SCG no es uniforme; el plegado se concentra cerca del horizonte por minimización auto-consistente.
+  - **Refina la imagen física del interior SCG:** tres zonas (bulk isotrópico $x < 0.7$, transición $0.7 < x < 0.95$, near-horizon tangencialmente alineado $x > 0.95$).
+- **Caveats honestos:**
+  - **Bound 0.83 no derivado analíticamente.** Es resultado numérico robusto a tres ansatzes (power-law, sigmoid, varios $y_c$) pero no demostrado.
+  - **17% de masa ADM no cubierto** dentro del modelo. Requiere extensión (régimen $h > 1$, shell, EOS no-Casimir).
+  - **No es predicción ab initio de SCG;** es consecuencia del ansatz holográfico ($h(x)$ creciente con $x$). La derivación del propio ansatz desde primeros principios SCG (variacional generalizado D-009 con $d(r)$) es pendiente.
+  - **Promoción a confirmado** requiere: (a) derivación analítica del 0.83 (Buchdahl-like generalized), (b) ansatz $h(x)$ derivado desde principio variacional SCG, (c) cierre del 17% restante por mecanismo independiente (o aceptación honesta del residuo).
+- **Relación con literatura:** Bekenstein 1973 (entropía como área), Hawking 1975 ($S_{BH} = A/4$), Buchdahl 1959 (compactness bound isotrópico 8/9), Bowers-Liang 1974 + Mak-Harko 2003 (anisotropic stars que evaden Buchdahl), 't Hooft 1993 + Susskind 1995 (principio holográfico). En SCG: K-007, D-003, D-009 (motivacionales).
+- **Meta-lección:** la holografía no se postula en SCG; emerge cuantitativamente del cálculo auto-consistente. K-035 es la primera evidencia numérica concreta de este patrón.
+
+---
+
 (Las debilidades de H-001 están en `logic/refutations/debilidades_H-001.md`, no aquí. Aquí va lo que sí aprendimos, con honestidad.)

@@ -202,10 +202,16 @@ Las preguntas que la investigación debe responder, o al menos abordar. Numerada
 - **Resolución:** SÍ. Wen (2003, PRD 68 065003) construyó explícitamente un modelo de red en 3+1D con U(1)×SU(2)×SU(3) emergente. Walker-Wang (2011) es el framework sistemático (lattice trivalente = SCG). Crane-Yetter (1993) es la TQFT 4D (motivada por Ashtekar); CS es su frontera. Las reglas de fusión de D-004 son propiedades geométricas de la red, independientes de la dimensionalidad. K-026: el patrón quiral del SM coincide con el origen dual (gravedad=quiral, red=no-quiral). Eslabones [4],[5] de H-003 reformulados.
 - **Ver:** `notes/Q-029_walker_wang.md`.
 
-## Q-030 — ¿El punto fijo dimensional (1, 3, 1) es el único, y puede demostrarse formalmente?
+## Q-030 — ¿El punto fijo dimensional (1, 3, 1) es el único, y puede demostrarse formalmente? [✅ CERRADA ESTRUCTURALMENTE — sesión 39]
 - **Abierta desde:** 2026-04-19 (sesión 11)
-- **Relevancia:** alta — para cerrar la objeción de circularidad.
-- **Análisis preliminar (Test 1 del stress-test):** el balance de exponentes de N da D_object=1 independiente de D_ambient. El balance de potencias de L da D_ambient=3 (solo en 3D ambos términos escalan como 1/L). Combinado con H-002 (nudos solo en D=3) y D-005 (factorización solo para n=4): el punto fijo es probablemente único. Falta demostración formal.
+- **Cerrada estructuralmente:** 2026-04-23 (sesión 39) vía D-012.
+- **Relevancia:** alta — cierra objeción de circularidad identificada en stress-test sesión 11.
+- **Resolución:** El sistema mínimo {R1a balance N, R1b balance L marginal, R6 well-posedness Lorentziana} tiene única solución $(D_{obj}, D_{amb}, D_{tmp}) = (1, 3, 1)$ en $\mathbb{Z}_{>0}^3$. Las consistencias R2-R5 (codim 2 H-002, Dynkin so(p,q)_C, Hodge $\star^2$, trivalencia D-004) son **automáticamente satisfechas**, no restricciones independientes. La sobre-determinación es robustez estructural.
+- **Promueve K-036 (candidato):** unicidad formal del punto fijo dimensional. Refina K-025.
+- **Análogo metodológico:** $D=26$ (cuerdas bosónicas), $D=10$ (superstrings), $D=11$ (M-teoría). La dimensionalidad emerge como punto fijo único, no derivación lineal.
+- **Caveats honestos:** análisis sobre $\mathbb{Z}_{>0}^3$; extensión a fractales / compactificaciones K-K / geometrías curvas pendiente para promoción K-036 a confirmado. No se aborda "selección dinámica" (por qué la naturaleza está en este punto fijo).
+- **Ver:** `notes/Q-030_sesion39_unicidad_punto_fijo.md`, `logic/derivations/D-012_punto_fijo_unicidad.md`.
+- **Análisis preliminar (Test 1 del stress-test sesión 11):** el balance de exponentes de N da D_object=1 independiente de D_ambient. El balance de potencias de L da D_ambient=3 (solo en 3D ambos términos escalan como 1/L). Combinado con H-002 (nudos solo en D=3) y D-005 (factorización solo para n=4): el punto fijo es probablemente único. **Confirmado y formalizado en sesión 39.**
 
 ## Q-031 — ¿Existe una formulación de la conexión gravitacional que preserve la quiralidad sin las dificultades de la conexión compleja de Ashtekar? [PARCIALMENTE RESUELTA]
 - **Abierta desde:** 2026-04-19 (sesión 11)
@@ -404,26 +410,35 @@ Las preguntas que la investigación debe responder, o al menos abordar. Numerada
 
 ## Preguntas nuevas de la sesión 37 (TOV auto-consistente, K-028 refutado)
 
-## Q-045 — ¿Qué mecanismo SCG carga los 4/7 de masa ADM que la EOS radiación no acomoda?
+## Q-045 — ¿Qué mecanismo SCG carga los 4/7 → 17% de masa ADM que la EOS radiación no acomoda? [PARCIALMENTE CERRADA — sesión 38]
 - **Abierta desde:** 2026-04-23 (sesión 37)
-- **Relevancia:** alta. Estructural para H-001. Reemplaza efectivamente a P-15' (ahora cerrado con resultado negativo).
-- **Contexto:** la Fase I del plan K-028 (sesión 37) mostró que TOV con $p = \rho/3$ (EOS derivada sesión 36 del string gas SCG con isotropic averaging) satura en compactness $3/7$ en $r = r_s$ para cualquier densidad central $y_c$. Por lo tanto la radiación pura solo puede cargar $3/7 \approx 43\%$ de la masa ADM; el $4/7 \approx 57\%$ restante requiere física adicional.
-- **Diagnóstico del origen:** el isotropic averaging asume orientación aleatoria del string a todas las escalas. Near-horizon, razones holográficas (entropía ∝ área) sugieren orientación tangencial preferente → EOS anisotrópica.
-- **Candidatos principales:**
-  - **(a) Anisotropic stress macroscópica:** $p_r(r) \neq p_t(r)$ con $p_r$ decreciendo near-horizon, $p_t$ enhanced. TOV anisotrópica conocida puede evadir Buchdahl-like bound de 3/7. Tratable con técnica estándar (Herrera-Santos 1997). **Recomendada como primera opción.**
-  - **(b) Shell delgada cerca de $r_s$ (gravastar-invertido):** bulk singular isothermal + capa delgada con EOS exótica (posible $p = -\rho$ de Sitter local). Matching Israel junction conditions. Mazur-Mottola 2001.
-  - **(c) Transición de fase near-horizon:** la fórmula Casimir $\rho = 2\pi\hbar c/d^4$ se rompe cuando $d \to \ell_P$. Posible nuevo régimen EOS ($p$ ultra-stiff? $p = -\rho$?) cargando los 4/7.
+- **Parcialmente cerrada:** 2026-04-23 (sesión 38, Opción A ejecutada con resultado parcial positivo)
+- **Relevancia:** media (era alta; degradada por el resultado parcial robusto).
+- **Estatus actual:** **Q-045.A.parcial** — TOV anisotrópica con trace condition rígida + perfil holográfico cierra **43% → 83%** (mejora 37 puntos porcentuales). NO cierra al 100%. Bound ~0.83 es estructural (independiente del ansatz funcional y del cap numérico).
+- **Resolución parcial Opción A (sesión 38):**
+  - Derivación analítica TOV anisotrópica adimensional con trace condition $w_r + 2 w_t = y$ (campo Casimir generalizado) y parametrización $w_r = (y/3)(1-h(x)), w_t = (y/3)(1+h(x)/2)$.
+  - Perfil holográfico $h(x) = h_0 x^n$ con motivación entropía Bekenstein-Hawking.
+  - Simulación `sim003_tov_anisotropic.py` (RK4 manual, ~440 líneas).
+  - Barridos sistemáticos $(h_0, n, y_c, h_{max})$ + sigmoid alternativo. Todos convergen a max compactness ~0.83.
+  - **Distribución de masa cuantitativamente confirma concentración holográfica:** ~50% en $x \in [0.85, 0.99]$.
+  - **K-035 candidato registrado** (concentración holográfica numérica).
+  - Ver `notes/Q-045_sesion38_anisotropic_TOV.md`, `experiments/simulations/sim003_resultados.md`.
+- **Lo que falta (17% residual):**
+  - El régimen $h \leq 1$ (presión radial $\geq 0$) tiene cota estructural ~0.83.
+  - Para llegar al 100% se necesita o $h > 1$ (tensión radial), o shell delgada (Israel + EOS exótica), o relajar trace condition (EOS no-Casimir near-horizon).
+- **Caminos restantes (Q-045 residual):**
+  - **(b) Régimen $h > 1$ (tensión radial):** reformulación numérica con $w_r$ como variable primaria; condición de regularidad en $h = 1$. Probabilidad cierre ~60%, costo 1-2 sesiones.
+  - **(c) Shell delgada Israel + bulk anisotrópico:** matching Mazur-Mottola style. Probabilidad cierre ~70%, costo 2-3 sesiones.
+  - **(d) Relajar trace condition:** EOS no-Casimir near-horizon. Probabilidad cierre ~50%, costo 1 sesión + justificación física.
+  - **(e+) Aceptar parcial + giro:** documentar Q-045.A.parcial como veredicto estable (análogo K-032.M); girar a K-033 o Q-030. Recomendado para sesión 39.
+- **Decisión sesión 38 → 39:** Opción (e+) recomendada. Q-045 puede vivir como pregunta abierta (parcialmente respondida) sin urgencia mientras se exploran otros frentes con más payoff.
 - **Relacionada con:**
-  - P-15' (cerrada con resultado negativo; sustituida por Q-045).
-  - H-001 interior (requiere caveat "no uniforme").
-  - D-009 (variacional con $d$ constante; requiere generalización para $d(r)$).
-  - K-007 (escala, no densidad uniforme — aclaración documentada).
-  - K-031 (llenado volumétrico; requiere revisión bajo $d(r)$ variable).
-- **Plan:**
-  - **Sesión 38:** ejecutar Opción A (TOV anisotrópica) con techo 1 sesión. Si no cierra: Opción C (consolidación conservadora).
-  - Si Opción A cierra: reemplaza K-028 por insight rigurosamente derivado sobre el perfil SCG.
-  - Si Opción A NO cierra: documentar obstrucción, abrir programa más largo (Opción B gravastar o exploración más ambiciosa).
-- **Ver:** `notes/K-028_sesion37_TOV.md`, `experiments/simulations/sim002_resultados.md`.
+  - P-15' (cerrada con resultado negativo, sesión 37).
+  - H-001 interior (caveat: 3 zonas — bulk, transición, near-horizon).
+  - D-009 (marca de generalización a $d(r)$ confirmada).
+  - K-007 (escala efectiva del bulk).
+  - K-035 (candidato concentración holográfica).
+- **Ver:** `notes/Q-045_sesion38_anisotropic_TOV.md`, `experiments/simulations/sim003_resultados.md`, `notes/K-028_sesion37_TOV.md`.
 
 ---
 
