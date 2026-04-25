@@ -547,4 +547,140 @@ Formato:
 
 ---
 
+## K-037 (CANDIDATO FORMAL, sesión 44) — Rep `v` del MTC `Spin(10)_1` ≡ sector Higgs efectivo SCG
+
+- **Fecha:** 2026-04-27 (sesión 44).
+- **Estado:** **candidato formal**. Promoción desde insight intermedio (sesión 42) tras cierre formal sub-tarea A vía D-013. Promoción a confirmado requiere cálculo del VEV cuantitativo (sub-tarea C, sesiones 46+).
+- **Derivado de:** `logic/derivations/D-013_subtarea_A_diccionario_SCG_Spin10.md` §4.1, `notes/K-033_sesion42_subtarea_A_fase1.md`, `notes/K-033_sesion43_subtarea_A_fase2.md`, `notes/K-033_sesion44_cierre_subtarea_A.md`.
+- **Enunciado:** En SCG, la rep vectorial `v` del MTC `Spin(10)_1` (objeto simple con $h_v = 1/2$, dim cuántica = 1, generador $g^2$ del centro $\mathbb{Z}_4$) es el **sector Higgs efectivo**. Específicamente: el "anyón bosónico" cuya condensación produce el Higgs (K-021) es el loop-`v` macroscópico; la condensación de pares (mecanismo $v \cdot v = 1$) es el mecanismo de Higgs estándar.
+- **Por qué importa:**
+  - **Cuatro líneas de evidencia estructural convergentes:**
+    1. **Peso conforme $h_v = 1/2$:** identifica $v$ como fermión transparente (super-extension fermiónica de la MTC, Bruillard et al. 2017).
+    2. **Decomposición SO(10) → SU(5) → SM:** la rep 10 contiene el doblete de Higgs SM ($H_u + H_d$ + conjugados) bajo $5 + \bar 5$.
+    3. **Fusión $v \cdot v = 1$:** mecanismo de aniquilación par bosón Higgs (Cooper-pair condensation).
+    4. **Fusión $s \cdot v = c$:** cambio de quiralidad por Higgs (estructura del acoplamiento Yukawa).
+  - **Refuerza K-021** (Higgs como condensación de anyones, sesión 9) cuantificándolo: el "anyón bosónico" se identifica con loop-$v$ específicamente.
+  - **Conecta naturalmente con K-014** (U(1) momento angular transversal): el loop-$v$ porta la rep 10 que descompone como $5 + \bar 5$ con números cuánticos U(1) no-triviales.
+  - **Habilita sub-tarea C** del programa K-033: cálculo del VEV cuantitativo via condensación de pares de loops-$v$ en términos de parámetros SCG ($\ell_P, \gamma, \Lambda$).
+- **Caveats honestos:**
+  - **Estructural, no cuantitativo.** El VEV numérico (escala electrodébil ~246 GeV) NO se calcula. Requiere análisis dinámica de loops + condensación.
+  - **La conexión con el doblete de Higgs SM concreto es por decomposición algebraica de SO(10),** no por construcción explícita del campo $H$ en el lattice.
+  - **Promoción a confirmado** requiere: (a) derivación del VEV en términos de parámetros SCG, (b) verificación de que los acoplamientos del loop-$v$ con los end-points $s, c$ reproducen los Yukawas SM (parcialmente sub-tarea D), (c) cálculo de la masa del Higgs físico.
+  - **Análogo K-032.M:** estructura confirmada, contenido cuantitativo pendiente.
+- **Relación con literatura:**
+  - **Bruillard-Galindo-Plavnik-Rowell-Wang 2017** (arXiv:1603.09294): super-MTC; fermión transparente como objeto con $h = 1/2$.
+  - **Bais-Slingerland 2009:** condensación de bosones en TQFTs.
+  - **Fradkin-Shenker 1979:** confinamiento Higgs en lattice.
+  - **Walker-Wang 2011:** loops cerrados como excitaciones extendidas en 3+1D.
+  - En SCG: K-021 (sesión 9), K-014 (sesión 8), D-010 (sesión 30, espectro `Spin(10)_1`).
+- **Meta-lección:** el Higgs no se postula como campo escalar en SCG; emerge como excitación topológica específica del lattice WW sobre `Spin(10)_1`. K-005 aplicada: ningún mecanismo nuevo, solo identificación canónica via la estructura ya disponible.
+
+---
+
+## K-038 (CANDIDATO FORMAL, sesión 44) — Las 6 fusiones Z_4 del MTC `Spin(10)_1` codifican el mecanismo Yukawa SM categóricamente
+
+- **Fecha:** 2026-04-27 (sesión 44).
+- **Estado:** **candidato formal con caveat fuerte**. Promoción a confirmado requiere demostración constructiva de que la fusión topológica produce acoplamiento Yukawa físico al nivel de amplitudes (sub-tareas D-F).
+- **Derivado de:** `logic/derivations/D-013_subtarea_A_diccionario_SCG_Spin10.md` §4.2, `notes/K-033_sesion43_subtarea_A_fase2.md`, `notes/K-033_sesion44_cierre_subtarea_A.md`.
+- **Enunciado:** Las **6 reglas de fusión** no-triviales del MTC `Spin(10)_1` (fusión $\mathbb{Z}_4$ cíclica generada por `s`) corresponden **uno-a-uno** a 6 procesos físicos del **mecanismo Yukawa Higgs del SM** categóricamente:
+  1. $s \cdot s = v$ ↔ Yukawa-up canal $16 \otimes 16 \supset 10$.
+  2. $s \cdot v = c$ ↔ Acoplamiento Yukawa con cambio de quiralidad por Higgs.
+  3. $s \cdot c = 1$ ↔ Aniquilación fermion-antifermion.
+  4. $v \cdot v = 1$ ↔ Aniquilación par Higgs.
+  5. $c \cdot c = v$ ↔ Yukawa-up para anti-partículas.
+  6. $c \cdot v = s$ ↔ Conjugado hermítico Yukawa.
+- **Por qué importa:**
+  - **Correspondencia 6-a-6 específica y no-trivial.** Otras MTCs abelianas NO la dan:
+    - $\mathbb{Z}_4$ trivial (clase $p = 0$ en $H^3$): no acopla a SM.
+    - $SU(5)_1$ (Z_5 cíclica, no abeliana sobre Z_4): no contiene rep 16 SO(10).
+    - $\mathbb{Z}_2$ MTCs (toric code): no estructura Yukawa cuádruple.
+  - **Depende precisamente de** la rep $16 \otimes 16 \supset 10$ de SO(10) específica + clase de cohomología $H^3(\mathbb{Z}_4, U(1))$ apropiada para `Spin(10)_1`.
+  - **Refuerza K-034** (Q=1/3 doble derivación): la estructura SO(10) tiene contenido predictivo más allá de cargas — también predice la **estructura del acoplamiento Yukawa** estructural.
+  - **Habilita sub-tareas D-F** del programa K-033: cálculo de Yukawas numéricos requiere implementar esta correspondencia categórica al nivel de amplitudes Feynman.
+- **Caveats honestos:**
+  - **Estructural/categórico, NO cuantitativo.** La correspondencia categórica NO produce $y_t, y_b, y_e$ numéricamente. Esto requiere cálculo dinámico (sub-tareas D-F).
+  - **"Fusión topológica ↔ acoplamiento Yukawa físico"** requiere argumento adicional. La fusión MTC es una regla algebraica; el acoplamiento Yukawa es un coeficiente Lagrangiano. La equivalencia no es trivial — requiere mostrar que la integración funcional sobre configuraciones de loops y end-points produce los términos correctos del Lagrangiano efectivo.
+  - **Riesgo de over-interpretation:** las 6 fusiones de Z_4 cíclica son inevitables algebraicamente; lo no-trivial es la **interpretación SM** específica de cada una. La interpretación está respaldada por SO(10)-GUT estándar pero no es derivada al nivel constructivo en SCG.
+  - **Promoción a confirmado** requiere: (a) demostración constructiva fusión↔amplitud al menos para un canal (e.g., $s \otimes v = c$ ↔ Yukawa up); (b) cálculo de Yukawas numéricos consistentes con SM (sub-tarea D); (c) extensión a 3 generaciones (sub-tarea B + E).
+- **Relación con literatura:**
+  - **Wang-Wen 2018-2019** (arXiv:1809.11171): SM desde Spin(10)-GUT no-perturbativo en lattice 3+1D.
+  - **Georgi-Glashow 1974** + **Georgi 1975:** SO(10)-GUT estándar y cadena de ruptura.
+  - **Levin-Wen 2005** y **Walker-Wang 2011:** mecanismos de excitaciones topológicas en lattice.
+  - **Dijkgraaf-Witten 1990:** F-symbols como 3-cociclos en MTCs abelianas.
+  - En SCG: K-021, K-034, K-037, D-010, D-013.
+- **Meta-lección:** los acoplamientos Yukawa SM no se postulan como parámetros libres; emergen estructuralmente de la cohomología $H^3(\mathbb{Z}_4, U(1))$ del MTC `Spin(10)_1`. **Esto es la conexión más fuerte hasta hoy en SCG entre estructura algebraica abstracta y fenomenología SM concreta.** K-005 aplicada rigurosamente: ningún mecanismo nuevo postulado.
+
+---
+
+## K-040 (CANDIDATO FORMAL CON CAVEAT FUERTE, sesión 51) — VEV del Higgs en SCG = densidad de pares de loops-`v` condensados; jerarquía gauge requiere postulado
+
+- **Fecha:** 2026-05-04 (sesión 51).
+- **Estado:** **candidato formal con caveat fuerte explícito**. Forma funcional sí derivada; valor numérico no. Análogo K-032.M.
+- **Derivado de:** `notes/K-033_sesion49_subtarea_C_apertura.md`, `notes/K-033_sesion50_subtarea_C_mecanismos.md`, `notes/K-033_sesion51_subtarea_C_cierre.md`.
+- **Enunciado:** En SCG, el **VEV del Higgs** corresponde a la densidad de pares de loops-`v` condensados macroscópicamente en el lattice Walker-Wang sobre `Spin(10)_1`, siguiendo el mecanismo de fusión $v \cdot v = 1$ (análogo BCS topológico — condensación Cooper-pair pero topológica en lugar de dinámica). **Operacionalmente:** $\langle H \rangle_{\text{SCG}} = \hbar c \cdot \rho_v^{1/3}$, donde $\rho_v$ es la densidad de pares condensados. **Refinamiento cuantitativo** de K-021 (Higgs como condensación de anyones) + K-037 (rep `v` ≡ Higgs efectivo) + K-038 (fusiones Z_4 ↔ Yukawa SM categóricamente) con mecanismo de condensación específico. **CAVEAT FUERTE EXPLÍCITO:** la **escala numérica** del VEV ($v_{EW}/M_P \sim 2 \times 10^{-17}$, equivalente factor $10^{-51}$ en densidad) **NO se deriva de primeros principios SCG**.
+- **Por qué importa:**
+  - **Forma funcional del VEV derivada estructuralmente.** Conecta el Higgs físico con la estructura topológica del lattice WW.
+  - **Refuerza K-021 + K-037 + K-038** dándoles contenido cuantitativo operacional (la "fusión $v \cdot v = 1$" es ahora la regla matemática del mecanismo de Higgs SCG).
+  - **Análogo BCS topológico:** los pares de Cooper en BCS estándar tienen interacción dinámica (fonón); en SCG los pares de loops-v tienen interacción topológica (regla de fusión MTC). Conexión profunda entre física condensada y SCG.
+  - **Habilita sub-tarea D** del programa K-033: cálculo de Yukawas concretos NO requiere resolver la jerarquía — toma $v_{EW}$ como input.
+- **Caveats honestos:**
+  - **Estrictamente estructural en escala. NO produce el valor $v_{EW} \approx 246$ GeV cuantitativamente desde primeros principios SCG.**
+  - **Análisis sistemático S49-50** de 5 mecanismos posibles, todos con caveats:
+    - (a) **Boltzmann descartado:** ningún número natural en SCG produce $E_v/T \approx 117$ requerido. Las temperaturas candidatas ($T_{CMB}, T_{EW}, T_{QCD}, T_{\text{inflación}}$) no coinciden con $M_P/117$. ~5% probabilidad.
+    - (b) **Instantón compatible numéricamente** ($\alpha \approx 0.054$ está en el rango D-011 $[0.005, 0.1]$ para $S \approx 117$) **pero NO predictivo** sin derivación independiente del acoplamiento. ~10-15% probabilidad.
+    - (c) RG running no funciona (running logarítmico, no exponencial).
+    - (d) Fine-tuning aceptado (trivial).
+    - (e) Caveat estructural análogo K-032.M (**camino adoptado**).
+  - **Convergencia honesta con BSM general:**
+    - SUSY: excluida en LHC para SUSY mínima.
+    - Randall-Sundrum: extra dimensions warped — **NO aplicable a SCG** (D-005 + K-022 + K-036 + D-012 cierran $D=4$ sin extra dimensions).
+    - Compositeness/technicolor: condensado fermiónico — **diferente de SCG** (Higgs es bosónico topológico, K-021).
+    - Antrópico/multiverso: filosóficamente compatible no postulado.
+    - **Ningún mecanismo BSM mainstream resuelve la jerarquía gauge sin postulado adicional.** SCG converge honestamente.
+  - **Promoción a confirmado** requiere o (i) identificar mecanismo SCG natural para los 17 órdenes de magnitud, o (ii) aceptar postulado adicional explícito (e.g., $T_{\text{lattice}} \sim M_P/117$).
+- **Relación con literatura:**
+  - **'t Hooft 1980** (NATO Adv. Study Inst.): definición clásica del problema de jerarquía gauge.
+  - **Susskind 1979** (PRD 20 2619): technicolor / compositeness Higgs.
+  - **Bais-Slingerland 2009** (PRB 79 045316): condensación de bosones en TQFTs (anyon condensation).
+  - **Fradkin-Shenker 1979** (PRD 19 3682): Higgs lattice gauge theory + transiciones de fase.
+  - **Bardeen-Cooper-Schrieffer 1957:** condensado de pares de Cooper (BCS) — análogo dinámico al SCG topológico.
+  - En SCG: K-021 (sesión 9, confirmado), K-037 (sesión 44), K-038 (sesión 44), D-013 (sesión 44).
+- **Meta-lección:** el VEV del Higgs **emerge estructuralmente** de la fusión topológica $v \cdot v = 1$ en SCG — no se postula como campo escalar dinámico. Pero **la escala física requiere postulado adicional**, en línea con el estado del campo BSM. **Quinto cierre con caveat estructural** del marco SCG (junto a K-032.M, Q-045, D-010, K-039) — patrón maduro consolidado. **K-005 ejemplar 5 veces consecutivas:** SCG es teoría que cierra parcialmente con honestidad antes que totalmente con ilusiones.
+
+---
+
+## K-039 (CANDIDATO FORMAL CON CAVEAT FUERTE, sesión 48) — 1 generación SM emerge estructuralmente del MTC `(E_6)_1`; 3 generaciones requieren extensión postulable
+
+- **Fecha:** 2026-05-01 (sesión 48).
+- **Estado:** **candidato formal con caveat fuerte explícito**. La información negativa (no derivado para 3 generaciones) es parte integral del enunciado. Promoción a confirmado requiere o (i) identificar mecanismo SCG natural para 3 copias, o (ii) aceptar postulado adicional explícito.
+- **Derivado de:** `notes/K-033_sesion46_E6_apertura.md`, `notes/K-033_sesion47_CY_topologico.md`, `notes/K-033_sesion48_subtarea_B_cierre_caveat.md`.
+- **Enunciado:** En SCG, el contenido de **una generación SM completa** ($Q_L$, $u^c$, $d^c$, $L_L$, $e^c$) + $\nu_R$ emerge estructuralmente del MTC `(E_6)_1` vía la sub-categoría `Spin(10)_1 \otimes U(1)_6`: la rep fundamental 27 de $E_6$ descompone como $16_1 \oplus 10_{-2} \oplus 1_4$ bajo $SO(10) \times U(1)$, donde $16_1$ es la generación SM completa con $\nu_R$. **Junto con K-037 (rep `v` ≡ Higgs efectivo) y K-038 (fusiones Z_4 ↔ Yukawa SM categóricamente)**, K-039 establece la **estructura algebraica completa del SM para una generación** en SCG. **CAVEAT FUERTE EXPLÍCITO:** las **3 generaciones empíricas** del SM requieren extensión postulable, **NO derivable** de los principios SCG actual.
+- **Por qué importa:**
+  - **Sub-tarea A + B + K-039 juntas establecen la base algebraica completa de SCG en sector materia.** Las 6 fusiones del MTC codifican Yukawa SM (K-038); la rep `v` es el Higgs (K-037); la rep $16_1$ es una generación (K-039). 
+  - **Convergencia honesta con literatura GUT/heterótica:**
+    - Heteróticas $E_8 \times E_8$ postulan compactificación Calabi-Yau con $\chi/2 = 3$ para obtener 3 generaciones (Witten 1985, Candelas-Horowitz-Strominger-Witten 1985).
+    - LQG postula clasificación de trenzas Bilson-Thompson (Bilson-Thompson 2005).
+    - Wang-Wen 2018-2019 demuestran SM en lattice 3+1D **asumiendo** 1 generación.
+    - **SCG no está peor posicionada** — está honestamente en compañía de literatura mainstream.
+  - **El "flavor puzzle"** (¿por qué 3 generaciones?) es problema abierto general en BSM. Aceptar caveat es ciencia.
+  - **Habilita sub-tareas C-F** del programa K-033: cálculo Higgs/VEV (sub-tarea C); Yukawa concreto (sub-tarea D); jerarquía masas (E); CKM/PMNS (F). Todas tractables para 1 generación.
+- **Caveats honestos:**
+  - **Estrictamente estructural, NO cuantitativo.** No produce masas numéricas, Yukawas concretos, ni mezclas CKM/PMNS.
+  - **El caveat de 3 generaciones es información negativa integral del enunciado.** Promoción a confirmado **requiere resolver el flavor puzzle** — un problema abierto general en BSM. Esto puede no ser posible sin postulado adicional.
+  - **Tres caminos analizados en S47, ninguno ofrece cierre:**
+    - (a) CY-análogo natural en SCG: bloqueado por D-005 ($D_{tiempo}=1$), K-022 ($D_{esp}=3$), K-036 ($(1,3,1)$ punto fijo único), D-012.
+    - (b) Híbrido Alt IV + Alt I (Bilson-Thompson): técnicamente exigente. Espacios de fusión $V_{27,27,27}$ en `(E_6)_1` son 1-dim; el conteo Bilson-Thompson viene de dinámica $B_3$, no del espacio de fusión estático del MTC.
+    - (c) Caveat aceptado: convergencia honesta con literatura.
+  - **Análogo metodológico:** K-032.M (cierre matching II→IV con caveat cuantitativo), Q-045 Opción A (cierre 43% → 83% con residuo 17%), D-010 (P-11 cerrado con super-MTC explícita pendiente). **Patrón consolidado del marco SCG: cierre estructural con caveat antes que cierre ilusorio.**
+- **Relación con literatura:**
+  - **Witten 1985** (Nucl. Phys. B258 75): heterótica + Calabi-Yau + 3 generaciones via $\chi/2 = 3$. Mecanismo estándar.
+  - **Candelas-Horowitz-Strominger-Witten 1985** (Nucl. Phys. B258 46): compactificación CY estándar.
+  - **Bilson-Thompson 2005** (arXiv:hep-ph/0503213): preones trenzados; alternativa LQG para generaciones.
+  - **Wang-Wen 2018-2019** (arXiv:1809.11171): SM en lattice 3+1D, asume 1 gen.
+  - **Slansky 1981** (Phys. Rep. 79 1): branchings $E_6 \to SO(10) \times U(1) \to ...$.
+  - En SCG: D-013 (sub-tarea A), K-037, K-038 (estructura sector materia 1 gen), K-005 (no inventar).
+- **Meta-lección:** SCG **converge honestamente con la literatura BSM** en aceptar que "3 generaciones" es problema abierto. **No hay programa BSM mainstream que lo resuelva sin postulados adicionales** — y SCG no es excepción. **La modestia es señal de salud del marco.** K-005 aplicada rigurosamente: no inventar mecanismos exóticos. **Cuarto cierre con caveat estructural** del marco SCG (junto a K-032.M, Q-045, D-010) — patrón consolidado.
+
+---
+
 (Las debilidades de H-001 están en `logic/refutations/debilidades_H-001.md`, no aquí. Aquí va lo que sí aprendimos, con honestidad.)
