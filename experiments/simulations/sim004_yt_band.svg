@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460">
+<rect width="100%" height="100%" fill="#fcfcfc"/>
+<rect x="72" y="72" width="576" height="316" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="360.0" y="41.0" text-anchor="middle" font-family="Helvetica" font-size="16" font-weight="bold">sim004: banda y_t^(SCG) por sensibilidad de modelo  vs y_t^(SM)</text>
+<text x="360.0" y="436.0" text-anchor="middle" font-family="Helvetica" font-size="13">parámetro de modelo (forma de perfil, σ del condensado)</text>
+<text x="24.0" y="230.0" text-anchor="middle" font-family="Helvetica" font-size="13" transform="rotate(-90 24.0 230.0)">y_t^(SCG)</text>
+<line x1="72.0" y1="388" x2="72.0" y2="393" stroke="black" stroke-width="0.8"/>
+<text x="72.0" y="406" text-anchor="middle" font-family="Helvetica" font-size="10">0.0e+00</text>
+<line x1="187.2" y1="388" x2="187.2" y2="393" stroke="black" stroke-width="0.8"/>
+<text x="187.2" y="406" text-anchor="middle" font-family="Helvetica" font-size="10">1.2</text>
+<line x1="302.4" y1="388" x2="302.4" y2="393" stroke="black" stroke-width="0.8"/>
+<text x="302.4" y="406" text-anchor="middle" font-family="Helvetica" font-size="10">2.4</text>
+<line x1="417.59999999999997" y1="388" x2="417.59999999999997" y2="393" stroke="black" stroke-width="0.8"/>
+<text x="417.59999999999997" y="406" text-anchor="middle" font-family="Helvetica" font-size="10">3.6</text>
+<line x1="532.8" y1="388" x2="532.8" y2="393" stroke="black" stroke-width="0.8"/>
+<text x="532.8" y="406" text-anchor="middle" font-family="Helvetica" font-size="10">4.8</text>
+<line x1="648.0" y1="388" x2="648.0" y2="393" stroke="black" stroke-width="0.8"/>
+<text x="648.0" y="406" text-anchor="middle" font-family="Helvetica" font-size="10">6</text>
+<line x1="67" y1="388.0" x2="72" y2="388.0" stroke="black" stroke-width="0.8"/>
+<text x="64" y="392.0" text-anchor="end" font-family="Helvetica" font-size="10">0.85</text>
+<line x1="67" y1="324.79999999999995" x2="72" y2="324.79999999999995" stroke="black" stroke-width="0.8"/>
+<text x="64" y="328.79999999999995" text-anchor="end" font-family="Helvetica" font-size="10">0.9</text>
+<line x1="67" y1="261.5999999999999" x2="72" y2="261.5999999999999" stroke="black" stroke-width="0.8"/>
+<text x="64" y="265.5999999999999" text-anchor="end" font-family="Helvetica" font-size="10">0.95</text>
+<line x1="67" y1="198.40000000000003" x2="72" y2="198.40000000000003" stroke="black" stroke-width="0.8"/>
+<text x="64" y="202.40000000000003" text-anchor="end" font-family="Helvetica" font-size="10">1</text>
+<line x1="67" y1="135.20000000000002" x2="72" y2="135.20000000000002" stroke="black" stroke-width="0.8"/>
+<text x="64" y="139.20000000000002" text-anchor="end" font-family="Helvetica" font-size="10">1.05</text>
+<line x1="67" y1="72.0" x2="72" y2="72.0" stroke="black" stroke-width="0.8"/>
+<text x="64" y="76.0" text-anchor="end" font-family="Helvetica" font-size="10">1.1</text>
+<line x1="153.6" y1="72" x2="153.6" y2="388" stroke="#eee" stroke-width="0.5"/>
+<line x1="158.39999999999998" y1="72" x2="158.39999999999998" y2="388" stroke="#eee" stroke-width="0.5"/>
+<line x1="163.20000000000002" y1="72" x2="163.20000000000002" y2="388" stroke="#eee" stroke-width="0.5"/>
+<line x1="168.0" y1="72" x2="168.0" y2="388" stroke="#eee" stroke-width="0.5"/>
+<line x1="172.8" y1="72" x2="172.8" y2="388" stroke="#eee" stroke-width="0.5"/>
+<line x1="177.60000000000002" y1="72" x2="177.60000000000002" y2="388" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="324.79999999999995" x2="648" y2="324.79999999999995" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="261.5999999999999" x2="648" y2="261.5999999999999" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="198.40000000000003" x2="648" y2="198.40000000000003" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="135.20000000000002" x2="648" y2="135.20000000000002" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="198.40000000000003" x2="648" y2="198.40000000000003" stroke="#888" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="643" y="194.40000000000003" text-anchor="end" font-family="Helvetica" font-size="11" fill="#888">y_t = 1 (predicción central SCG)</text>
+<line x1="72" y1="211.04000000000005" x2="648" y2="211.04000000000005" stroke="#c2272d" stroke-width="1.5" stroke-dasharray="3,4"/>
+<text x="643" y="207.04000000000005" text-anchor="end" font-family="Helvetica" font-size="11" fill="#c2272d">y_t^(SM) = 0.99</text>
+
+<path d="M 168.00,198.40 L 264.00,199.66 L 360.00,205.98 L 456.00,213.57 L 552.00,228.74" fill="none" stroke="#0e63a8" stroke-width="0"/>
+<text x="168.0" y="198.40000000000003" font-family="Helvetica" font-size="11" fill="#0e63a8">●</text>
+<text x="168.0" y="198.40000000000003" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="168.0" y="198.40000000000003" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="129.6" y="375.36" font-family="Helvetica" font-size="11" fill="#444">gaussiano (analítico)</text>
+<text x="264.0" y="199.66400000000004" font-family="Helvetica" font-size="11" fill="#0e63a8">●</text>
+<text x="264.0" y="198.40000000000003" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="264.0" y="200.92800000000005" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="225.6" y="375.36" font-family="Helvetica" font-size="11" fill="#444">exponencial (numérico)</text>
+<text x="360.0" y="205.98400000000004" font-family="Helvetica" font-size="11" fill="#0e63a8">●</text>
+<text x="360.0" y="192.08000000000018" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="360.0" y="219.88800000000006" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="321.6" y="375.36" font-family="Helvetica" font-size="11" fill="#444">σ_condensado=0.05</text>
+<text x="456.0" y="213.56800000000007" font-family="Helvetica" font-size="11" fill="#0e63a8">●</text>
+<text x="456.0" y="185.76000000000008" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="456.0" y="241.3760000000001" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="417.59999999999997" y="375.36" font-family="Helvetica" font-size="11" fill="#444">σ_condensado=0.10</text>
+<text x="552.0" y="228.73600000000008" font-family="Helvetica" font-size="11" fill="#0e63a8">●</text>
+<text x="552.0" y="173.12000000000006" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="552.0" y="284.352" font-family="Helvetica" font-size="11" fill="#0e63a8">—</text>
+<text x="513.5999999999999" y="375.36" font-family="Helvetica" font-size="11" fill="#444">σ_condensado=0.20</text>
+<line x1="87" y1="87" x2="112" y2="87" stroke="#0e63a8" stroke-width="2.5"/>
+<text x="119" y="91" font-family="Helvetica" font-size="11" fill="black">y_t^(SCG) media</text>
+</svg>

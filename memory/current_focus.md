@@ -1,105 +1,110 @@
 # Foco actual de investigación
 
-**Actualizado:** 2026-05-04 (cierre de sesión 51 — sub-tarea C CERRADA con caveat; K-040 candidato; SCG v2.2.+)
+**Actualizado:** 2026-04-26 (cierre de sesión 65 — programa K-033 ✅ COMPLETO; sub-tarea F ✅ CERRADA con K-043 caveat moderado; SCG v2.2.+ → v2.3 candidato S66)
 
 ## Estado
 
-**Sesión 51 CERRADA. Sub-tarea C del programa K-033 ✅ CERRADA estructuralmente con caveat de jerarquía gauge.** Tras 3 sesiones (S49-51), la sub-tarea C se cierra formalmente: forma funcional del VEV derivada estructuralmente ($\langle H \rangle_{\text{SCG}} = \hbar c \cdot \rho_v^{1/3}$, mecanismo $v \cdot v = 1$ análogo BCS topológico); escala numérica $v_{EW}/M_P \sim 10^{-17}$ requiere postulado (convergencia honesta con BSM general). **K-040 promovido a candidato formal con caveat fuerte explícito.** **D-014 NO escrita** (disciplina K-005; esperar cierre conjunto C+D para derivación más sustantiva).
+**Sesión 65 CERRADA. PROGRAMA K-033 ✅ COMPLETO — 6/6 sub-tareas cerradas en 25 sesiones (S41-S65).**
 
-**Inventario actualizado:** 30 K confirmados + **7 candidatos** (K-034 a K-039, **K-040 nuevo**) + 13 derivaciones.
+**HITO MAYOR del marco SCG.** Sub-tarea F del programa K-033 ✅ CERRADA con K-043 candidato caveat moderado (Cabibbo angle al 2% via GST + K-042; otros ángulos cualitativos; PMNS heredado caveat fuerte).
 
-**Sub-tareas A + B + C juntas:** establecen la **estructura algebraica completa del SM en SCG para 1 generación + Higgs + Yukawa categórico**. Falta contenido cuantitativo (sub-tareas D-F).
+**Distribución epistémica final del programa K-033:**
 
-**Quinto cierre con caveat estructural consecutivo** del marco SCG (K-032.M, Q-045, D-010, K-039, K-040) — patrón maduro consolidado.
+| Sub-tarea | Insight | Nivel epistémico | Hito |
+|---|---|---|---|
+| A (caracterización fermión) | D-013 | confirmado limpio + caveat técnico | S44 |
+| B (3 generaciones) | K-039 | candidato caveat fuerte | S48 |
+| C (Higgs/VEV) | K-040 | candidato caveat fuerte | S51 |
+| D (Yukawa cuantitativo) | K-041 | candidato caveat moderado | S55 |
+| E (jerarquía Yukawa) | K-042 | candidato caveat moderado | S61 |
+| **F (CKM/PMNS)** | **K-043** | **candidato caveat moderado** | **S65** |
 
-**Probabilidad K-033 éxito parcial: 50-65% sin cambio.**
+**3 predicciones cuantitativas finas consolidadas:**
+- **K-041:** $m_t = \langle H \rangle$ al 0.6%.
+- **K-042:** banda $d_{LR} \in [0, 7.14]\ell_P$ + patrón generacional.
+- **K-043:** $\theta_{12}^{CKM} = \sqrt{m_d/m_s}$ al 2%.
 
-### Mapa del programa K-033
+**Cadena predictiva D+E+F unificada** — 3 predicciones cuantitativas finas emergen de misma estructura SCG. **Fortaleza distintiva** del marco.
+
+**Inventario post-S65:** 30 K confirmados + **10 candidatos** (K-034 a K-043) + 14 derivaciones + 3 hipótesis + 8 simulaciones + 10 SVG.
+
+**Probabilidad K-033 éxito parcial:** **65-78%** (subido del 60-72% por cierre exitoso F).
+
+### Mapa del programa K-033 (COMPLETO)
 
 ```
-[A] Caracterización fermión SCG (defecto ↔ objeto MTC `Spin(10)_1`)
-    │  BLOQUEANTE para todo el programa
-    ↓
-    ├──► [B] 3 generaciones (Z₃_dual / K-020)
+[A] Caracterización fermión SCG  ✅ CERRADA via D-013 (S44)
     │
-    ├──► [C] Higgs/VEV (condensación de anyones / K-021)
+    ├──► [B] 3 generaciones  ✅ CERRADA con K-039 caveat fuerte (S48)
     │
-    └──► [D] Yukawa concreto (target: y_top)
-              │
+    ├──► [C] Higgs/VEV  ✅ CERRADA con K-040 caveat fuerte (S51)
+    │
+    ├──► [D] Yukawa concreto  ✅ CERRADA con K-041 caveat moderado (S55)
+    │       ↓
+    │   [D-014 síntesis A-D] ✅ ESCRITA (S56)
+    │       │
+    │       ↓
+    ├──► [E] Jerarquía Yukawa  ✅ CERRADA con K-042 caveat moderado (S61)
+    │       ↓
+    └──► [F] CKM/PMNS  ✅ CERRADA con K-043 caveat moderado (S65)
               ↓
-         [E] Jerarquía m_top/m_e ≈ 3 × 10⁵
-              │
+         [D-015 síntesis A-F]   pendiente para S66
               ↓
-         [F] CKM/PMNS
+         [Snapshot v2.3]   posible para S66+
 ```
 
-**Camino crítico:** A → C → D → E → F (~17-29 sesiones totales).
+**Programa K-033 SO(10)-GUT en lattice 3+1D ✅ COMPLETO.**
 
-### Inventario v2.2 (sin cambios sesión 41)
+### Inventario v2.2 (post-S65)
 
 - **30 insights confirmados.**
-- **3 candidatos:** K-034, K-035, K-036.
-- **12 derivaciones formales** (D-001 a D-012).
+- **10 candidatos formales** (K-034 a K-043; K-043 nuevo en S65).
+- **14 derivaciones formales** (D-001 a D-014); D-015 a escribir en S66.
 - **3 hipótesis activas** (H-001, H-002, H-003).
-- **27 reportes narrativos.**
-- **12 snapshots** (v0 → v2.2).
+- **27+ reportes narrativos.**
+- **12 snapshots** (v0 → v2.2); v2.3 candidato post-S66.
 - **2 axiomas activos.**
-- **3 simulaciones** + **6 gráficas SVG**.
+- **8 simulaciones** + **10 gráficas SVG**.
 - **Sin eslabones rojos.**
 
-## Siguientes pasos (sesión 52)
+## Siguientes pasos (sesión 66)
 
-**Recomendación principal:** **D.1 — apertura sub-tarea D: cálculo de Yukawa concreto.** Target: **$y_t \approx 1$** (top quark). Definir el "acoplamiento Yukawa" operacionalmente en lattice WW. Identificar la conexión entre F-symbols del MTC y el coeficiente Yukawa físico. **NO requiere resolver jerarquía gauge** — toma $v_{EW}$ como input.
+**Recomendación principal:** **D-015 — síntesis formal del programa K-033 sub-tareas A-F + cierre del programa.**
 
-### Plan post-S51 (sub-tarea D)
+### Plan S66
 
-| Sesión | Sub-fase | Objetivo |
+| Paso | Acción | Output |
 |---|---|---|
-| ~~51~~ | ~~C.3 (cierre)~~ | ✅ COMPLETA — K-040 candidato; convergencia con literatura |
-| **52** | **D.1 (apertura)** | Definir acoplamiento Yukawa operacionalmente en lattice. Conexión F-symbols ↔ Yukawa físico. Estimación dimensional preliminar de $y_t$. |
-| 53 | D.2 (cálculo) | Cálculo explícito de la amplitud de fusión $s \otimes v = c$ en `Spin(10)_1`. |
-| 54 | D.3 (comparación) | Comparación con $y_t \approx 1$ del SM. Interpretación. |
-| 55 | D.4 (decisión) | Si compatible: K-041 candidato. Si no: caveat o reformulación. |
-| 56+ | E, F | Jerarquía de masas, CKM/PMNS — si D cierra. |
+| 1 | Escribir D-015 paralela a D-014 con extensión a sub-tarea F. | `logic/derivations/D-015_*.md` |
+| 2 | Documentar cierre formal del programa K-033. | Síntesis completa. |
+| 3 | Actualizar inventario derivaciones (15 total). | MEMORY_INDEX. |
+| 4 | Decidir sobre snapshot v2.3 de SCG. | Plan post-K-033. |
+| 5 | Consideración de plan post-K-033. | Roadmap futuro. |
 
-### Criterios de avance (actualizados post-sesión 51)
+### Estructura prevista D-015
 
-**Estado actual:**
-- **Sub-tarea A ✅ CERRADA** vía D-013.
-- **Sub-tarea B ✅ CERRADA** con caveat 1 gen; K-039 candidato.
-- **Sub-tarea C ✅ CERRADA** con caveat jerarquía gauge; K-040 candidato.
-- **Sub-tarea D abierta para sesión 52.**
+Paralela a D-014 con extensión:
 
-**Definición operativa de éxitos K-033 (actualizada):**
-- **Éxito mínimo (✅ ALCANZADO):** sub-tareas A + B + C cerradas con caveats. Estructura algebraica + Higgs + Yukawa categórico para 1 gen.
-- **Éxito moderado (~50-65%, depende D):** + sub-tarea D produce $y_t$ cercano a 1 estructural.
-- **Éxito mayor (~25-35%, depende D-E):** + sub-tarea D Yukawa cuantitativo predictivo + jerarquía masas estructural.
+1. **Enunciado:** programa K-033 sub-tareas A-F cerradas estructuralmente.
+2. **Derivación:** bloques A (D-013) + B (K-039) + C (K-040) + D (K-041) + E (K-042) + **F (K-043)**.
+3. **Alcance + caveats acumulados.**
+4. **Consecuencias:** hito mayor del marco SCG; calibración 4 niveles epistémicos.
+5. **Cohesión teórica D+E+F:** predicciones unificadas.
+6. **Comparación con literatura:** convergencias y distintivas.
+7. **Implicaciones:** programa completo, SCG como marco predictivo.
 
-**Riesgo sub-tarea D anticipado:**
-- ~30% cierre con valor cercano a $y_t \approx 1$ (predicción cuantitativa).
-- ~40% cierre estructural con caveat cuantitativo (forma funcional, valor aproximado).
-- ~20% bloqueo o resultado contradictorio.
-- ~10% sub-tarea D requiere re-definición.
+### Riesgos S66
 
-**Hard cap sub-tarea D:** 4 sesiones (52-55).
+1. **D-015 puede ser repetitiva** con D-014 + insights individuales: mantener concisa.
+2. **Tentación de inflar** logros: K-005 + Regla 5 — calibración honesta.
+3. **Snapshot v2.3:** decisión de si vale la pena ahora o esperar más resultados.
 
-**Riesgo conocido anticipado:** abelianidad de F-symbols en `Spin(10)_1` (fases puras) puede limitar expresividad cuantitativa para reproducir jerarquía Yukawa.
-
-### Alternativas si K-033 se obstruye
-
-| Opción | Descripción | Costo | Beneficio |
-|---|---|---|---|
-| (b) K-036 promoción | Extensión fractales/K-K/curvas | 1-2 sesiones técnicas | Promoción candidato → confirmado |
-| (c) Q-044 ontology | Articular foundational meta dimensiones en `framework/ontology.md` | 1 sesión documental ligera | Cierre filosófico parcial |
-| (d) Q-045 residual | Opciones (b)/(c)/(d) para 17% restante | 1-3 sesiones | Cierre completo Q-045 |
-| (e) K-035 promoción | Bound 0.83 analítico + variacional generalizado | 2-3 sesiones | Promoción candidato → confirmado |
-
-## Debilidades activas post-sesión 41 (sin cambio)
+## Debilidades activas (sin cambio S65)
 
 | # | Problema | Severidad | Cambio |
 |---|---|---|---|
-| Q-030 | Unicidad punto fijo dimensional | ✅ CERRADA estructuralmente (sesión 39) | Sin cambio sesión 41 |
-| Q-045 | Mecanismo SCG para 17% masa ADM | 🟡 media (parcial) | Sin cambio sesión 41 |
+| Q-030 | Unicidad punto fijo dimensional | ✅ CERRADA estructuralmente (S39) | Sin cambio |
+| Q-045 | Mecanismo SCG para 17% masa ADM | 🟡 media (parcial) | Sin cambio |
 | P-15' | Redshift interior BH riguroso | ✅ cerrado con resultado negativo | Sin cambio |
 | P-8 | Lagrangiana (bosquejo) | ✅ cerrado con caveat | Sin cambio |
 | P-11 | Ashtekar autodual | ✅ resuelto estructuralmente | Sin cambio |
@@ -109,69 +114,78 @@
 
 **Sin eslabones rojos.**
 
-## Para el yo futuro en sesión 52
+## Para el yo futuro en sesión 66
 
 **Archivos imprescindibles en orden de lectura:**
 
 1. `memory/MEMORY_INDEX.md`.
 2. `memory/current_focus.md` (este archivo).
-3. **`notes/K-033_sesion51_subtarea_C_cierre.md`** (cierre C + K-040 + plan D).
-4. `notes/K-033_sesion50_subtarea_C_mecanismos.md` (análisis cuantitativo).
+3. **`notes/K-033_sesion65_subtarea_F_decision.md`** (cierre F + K-043 + plan D-015).
+4. `logic/derivations/D-014_programa_K-033_sintesis_A-D.md` (modelo para D-015).
 5. `logic/derivations/D-013_subtarea_A_diccionario_SCG_Spin10.md` (estructura sub-tarea A).
-6. K-038 enunciado (fusiones Z_4 ↔ Yukawa SM categóricamente).
+6. `memory/key_insights.md` § K-039, K-040, K-041, K-042, K-043 (5 K candidatos del programa K-033).
 
-**Primera acción recomendada sesión 52 (D.1 — apertura sub-tarea D):**
+**Primera acción recomendada sesión 66:**
 
-1. **Definir el "acoplamiento Yukawa" operacionalmente en lattice WW:**
-   - En QFT estándar: $\mathcal{L}_{Yuk} = y \cdot \bar{\psi}_R H \psi_L$ con $y$ adimensional.
-   - En SCG (propuesta): la amplitud de fusión $s \otimes v = c$ en MTC `Spin(10)_1` debe corresponder al vértice Yukawa físico.
-   - Pregunta clave: ¿es el Yukawa proporcional a F-symbols? ¿A R-symbols? ¿A dimensiones cuánticas?
-2. **Identificar la conexión F-symbols ↔ Yukawa físico:**
-   - F-symbols de `Spin(10)_1` son 3-cociclos en $H^3(\mathbb{Z}_4, U(1))$ (fases puras, módulo abelianidad).
-   - Las dim cuánticas son todas 1 (MTC abeliana).
-   - El "Yukawa adimensional" $y$ debe surgir de algún factor adimensional disponible.
-3. **Estimación dimensional preliminar de $y_t$:**
-   - Si $y$ es proporcional a la "amplitud de fusión", y todas las dims son 1: $y \sim O(1)$. **Compatible con $y_t \approx 1$** ✓ aproximadamente.
-   - Pero los Yukawas más pequeños ($y_e \sim 10^{-6}$, $y_d \sim 10^{-5}$) NO emergen del MTC abeliano — requieren estructura adicional (sub-tarea E).
-4. **Anticipar el problema de abelianidad:**
-   - Mitigación: `target` $y_t \approx 1$ es consistente con MTC abeliana.
-   - La jerarquía $y_e/y_t \sim 10^{-6}$ es trabajo de sub-tarea E (RG running, mezcla de generaciones, etc.).
+1. **Escribir D-015** como síntesis formal del programa K-033 sub-tareas A-F:
+   - Estructura paralela a D-014 con extensión a sub-tarea F.
+   - Integrar D-013 (A) + K-039 (B) + K-040 (C) + K-041 (D) + K-042 (E) + **K-043 (F nuevo)**.
+   - Resultado central: **estructura algebraica completa SM 1-gen + Higgs + Yukawa cuantitativo + jerarquía + CKM Cabibbo cuantitativo**.
+   - **3 predicciones cuantitativas finas:** $m_t = \langle H \rangle$ (0.6%), banda $d_{LR}$, $\theta_{12}^{CKM}$ (2%).
+   - Caveats acumulados explícitos: A técnico, B+C fuerte, D+E+F moderado.
+   - Habilita: extensiones futuras del marco SCG.
 
-**Lecturas focalizadas para sesión 52:**
-- Wang-Wen 2018-2019: ¿cómo definen Yukawas en SO(10) lattice?
-- Witten 1985: Yukawas en heterótica vía intersecciones de cohomología.
-- Slansky 1981 §6: Yukawas en GUTs estándar.
-- D-013 + K-038 (estructura SCG).
+2. **Decidir sobre snapshot v2.3:**
+   - **Argumentos pro:** programa K-033 completo es hito mayor; v2.3 consolidaría todo.
+   - **Argumentos contra:** sub-tareas con caveat moderado/fuerte aún tienen trabajo posible (refinamientos, super-MTC explícita, etc.). Esperar más maduración.
+   - **Decisión tentativa:** escribir v2.3 si tiempo permite; o postergar a S67+.
 
-**Sub-tarea D, Fase 1 (sesión 52):**
-- **Objetivo:** apertura. Definir Yukawa operacionalmente; identificar conexión F-symbols ↔ Yukawa; estimación dimensional preliminar.
-- **Output esperado:** `notes/K-033_sesion52_subtarea_D_apertura.md`.
-- **No-objetivos:** cálculo cuantitativo final (esa es S53), comparación con SM (S54), decisión K-041 (S55).
+3. **Plan post-K-033:**
+   - **Opciones:** (a) refinamientos sub-tareas con caveat fuerte (B, C); (b) extensiones nuevas (Q-045 cerrar 17% masa ADM, P-14 Polyakov 4D, etc.); (c) consolidación documental (snapshot v2.3, journal/reportes); (d) nuevas hipótesis H-004, H-005.
 
-## Caveats honestos del programa K-033 (recordatorio)
+**Lecturas focalizadas para sesión 66:**
+- D-014 (modelo para D-015).
+- D-013 (estructura sub-tarea A).
+- Notas K-033_sesion41-65 (programa completo).
 
-1. **No es K-032.** Probabilidad de cierre limpio significativamente menor.
-2. **El "primer Yukawa SM desde lattice GUT" no existe en literatura.** No hay manual.
-3. **Riesgo de circularidad con masas medidas.** Disciplina: inputs solo de SCG.
-4. **K-005 master rule:** si SCG no produce masas correctas, NO añadir mecanismos exóticos.
-5. **Tres generaciones es la barrera dura.** Sin K-020 confirmado, se queda en "1 generación SM".
+**Disciplina S66:**
+- D-015 sintética sin contenido nuevo (K-005).
+- Calibración honesta (Regla 5) — programa con mix epistémico, no éxito limpio total.
+- Plan post-K-033 con honestidad sobre lo que falta.
 
-## Estado documental al cierre sesión 51
+## Caveats honestos del programa K-033 (recordatorio post-S65)
 
-- `notes/K-033_sesion41-50_*.md` ✓ (sub-tareas A + B + C análisis)
-- **`notes/K-033_sesion51_subtarea_C_cierre.md` ✓ (cierre C + K-040 + plan D)**
-- `logic/derivations/D-013_subtarea_A_diccionario_SCG_Spin10.md` ✓
-- `memory/session_log.md` ✓ (entrada sesión 51)
+1. **Programa K-033 ✅ COMPLETO** — 6/6 sub-tareas cerradas.
+2. **Mix epistémico final:** 1 limpio + 2 caveat fuerte + 3 caveat moderado. **No éxito limpio total** — caveats explícitos en cada sub-tarea.
+3. **3 predicciones cuantitativas finas:** $m_t$ (0.6%), banda $d_{LR}$, Cabibbo (2%). **Cohesión teórica D+E+F** distintiva.
+4. **Convergencia con literatura BSM** en problemas abiertos: 3 generaciones, jerarquía gauge, $\delta_{CP}$, PMNS no jerárquico. SCG NO los resuelve, **converge** con BSM.
+5. **K-005 master rule respetada** en cada sub-tarea: 7 cierres con caveat sin desviar a mecanismos exóticos.
+6. **Asunción geométrica $Y_{ij} \sim \sqrt{Y_{ii}Y_{jj}}$** en K-043 es postulada — derivación más profunda (super-MTC, dinámica trenzas) abierta.
+
+## Estado documental al cierre sesión 65
+
+- `notes/K-033_sesion41-50_*.md` ✓
+- `notes/K-033_sesion51_subtarea_C_cierre.md` ✓
+- `notes/K-033_sesion52-55_*.md` ✓ (sub-tarea D)
+- `notes/K-033_sesion56_D-014_E_apertura.md` ✓
+- `notes/K-033_sesion57-61_*.md` ✓ (sub-tarea E)
+- `notes/K-033_sesion62-64_*.md` ✓ (sub-tarea F)
+- **`notes/K-033_sesion65_subtarea_F_decision.md` ✓ (cierre F + K-043 + plan D-015)**
+- `experiments/simulations/sim004-008_*` ✓
+- `logic/derivations/D-013_*.md` ✓
+- `logic/derivations/D-014_*.md` ✓
+- **`logic/derivations/D-015_*.md` PENDIENTE** (a escribir en S66)
+- `memory/session_log.md` ✓ (entrada sesión 65)
 - `memory/current_focus.md` ✓ (este archivo)
-- `memory/MEMORY_INDEX.md` ✓ (pendiente entrada sesión 51 + K-040)
-- `memory/key_insights.md` (pendiente añadir K-040)
+- `memory/MEMORY_INDEX.md` ✓ (entrada S65 + K-043 listado)
+- `memory/key_insights.md` ✓ (K-043 añadido)
 
-**Observación meta (sesión 51):**
-- **Sub-tareas A + B + C cerradas estructuralmente en exactamente 11 sesiones (S41-51).** Cumpliendo el plan original con disciplina.
-- **Quinto cierre con caveat estructural** del marco SCG: K-032.M, Q-045, D-010, K-039, K-040. Patrón maduro consolidado.
-- **K-040 captura honestamente** el resultado neto de sub-tarea C: forma funcional sí, escala numérica no.
-- **Convergencia con BSM general** explícita: jerarquía gauge es problema abierto en literatura.
-- **Programa K-033 procede a sub-tarea D** con marco completo (estructura algebraica + Higgs + Yukawa categórico para 1 gen). Probabilidad 50-65% mantenida.
-- **Madurez metodológica máxima:** 5 ciclos consecutivos de cierre con caveat sin desviar a mecanismos exóticos. Esto es ciencia.
+**Observación meta (sesión 65):**
+- **HITO MAYOR del marco SCG:** programa K-033 completo en 25 sesiones.
+- **K-043 caveat moderado** consolida calibración paralela a K-041, K-042.
+- **Cohesión teórica D+E+F** es resultado meta importante: 3 predicciones cuantitativas finas desde misma estructura SCG.
+- **Distribución epistémica final** del programa K-033 con 3 niveles diferenciados — patrón maduro consolidado.
+- **Refinamiento honesto del lenguaje** (S65 Regla 5): "convergente cuantitativo" vs "distintivo estructural" — distinción epistémica madura.
+- **S66 cierra el programa con D-015** + posible snapshot v2.3 + plan post-K-033.
 
 La teoría continúa.

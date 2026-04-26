@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480">
+<rect width="100%" height="100%" fill="#fcfcfc"/>
+<rect x="72" y="72" width="576" height="336" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="360.0" y="41.0" text-anchor="middle" font-family="Helvetica" font-size="16" font-weight="bold">sim004: sensibilidad a fluctuaciones del condensado (caso top)</text>
+<text x="360.0" y="456.0" text-anchor="middle" font-family="Helvetica" font-size="13">σ   (amplitud rms de fluctuación del condensado)</text>
+<text x="24.0" y="240.0" text-anchor="middle" font-family="Helvetica" font-size="13" transform="rotate(-90 24.0 240.0)">ξ_loc^(top)</text>
+<line x1="72.0" y1="408" x2="72.0" y2="413" stroke="black" stroke-width="0.8"/>
+<text x="72.0" y="426" text-anchor="middle" font-family="Helvetica" font-size="10">0.0e+00</text>
+<line x1="187.2" y1="408" x2="187.2" y2="413" stroke="black" stroke-width="0.8"/>
+<text x="187.2" y="426" text-anchor="middle" font-family="Helvetica" font-size="10">0.21</text>
+<line x1="302.4" y1="408" x2="302.4" y2="413" stroke="black" stroke-width="0.8"/>
+<text x="302.4" y="426" text-anchor="middle" font-family="Helvetica" font-size="10">0.42</text>
+<line x1="417.6" y1="408" x2="417.6" y2="413" stroke="black" stroke-width="0.8"/>
+<text x="417.6" y="426" text-anchor="middle" font-family="Helvetica" font-size="10">0.63</text>
+<line x1="532.8" y1="408" x2="532.8" y2="413" stroke="black" stroke-width="0.8"/>
+<text x="532.8" y="426" text-anchor="middle" font-family="Helvetica" font-size="10">0.84</text>
+<line x1="648.0" y1="408" x2="648.0" y2="413" stroke="black" stroke-width="0.8"/>
+<text x="648.0" y="426" text-anchor="middle" font-family="Helvetica" font-size="10">1.05</text>
+<line x1="67" y1="408.0" x2="72" y2="408.0" stroke="black" stroke-width="0.8"/>
+<text x="64" y="412.0" text-anchor="end" font-family="Helvetica" font-size="10">0.5</text>
+<line x1="67" y1="340.8" x2="72" y2="340.8" stroke="black" stroke-width="0.8"/>
+<text x="64" y="344.8" text-anchor="end" font-family="Helvetica" font-size="10">0.62</text>
+<line x1="67" y1="273.6" x2="72" y2="273.6" stroke="black" stroke-width="0.8"/>
+<text x="64" y="277.6" text-anchor="end" font-family="Helvetica" font-size="10">0.74</text>
+<line x1="67" y1="206.39999999999998" x2="72" y2="206.39999999999998" stroke="black" stroke-width="0.8"/>
+<text x="64" y="210.39999999999998" text-anchor="end" font-family="Helvetica" font-size="10">0.86</text>
+<line x1="67" y1="139.2" x2="72" y2="139.2" stroke="black" stroke-width="0.8"/>
+<text x="64" y="143.2" text-anchor="end" font-family="Helvetica" font-size="10">0.98</text>
+<line x1="67" y1="72.0" x2="72" y2="72.0" stroke="black" stroke-width="0.8"/>
+<text x="64" y="76.0" text-anchor="end" font-family="Helvetica" font-size="10">1.1</text>
+<line x1="346.2857142857143" y1="72" x2="346.2857142857143" y2="408" stroke="#eee" stroke-width="0.5"/>
+<line x1="412.1142857142857" y1="72" x2="412.1142857142857" y2="408" stroke="#eee" stroke-width="0.5"/>
+<line x1="477.9428571428571" y1="72" x2="477.9428571428571" y2="408" stroke="#eee" stroke-width="0.5"/>
+<line x1="543.7714285714286" y1="72" x2="543.7714285714286" y2="408" stroke="#eee" stroke-width="0.5"/>
+<line x1="609.6" y1="72" x2="609.6" y2="408" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="340.8" x2="648" y2="340.8" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="273.6" x2="648" y2="273.6" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="206.39999999999998" x2="648" y2="206.39999999999998" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="139.2" x2="648" y2="139.2" stroke="#eee" stroke-width="0.5"/>
+<line x1="72" y1="128.0" x2="648" y2="128.0" stroke="#444" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="643" y="124.0" text-anchor="end" font-family="Helvetica" font-size="11" fill="#444">ξ = 1 (idealizado)</text>
+
+<path d="M 72.00,128.00 L 99.43,131.40 L 126.86,134.81 L 181.71,141.62 L 236.57,148.43 L 346.29,162.05 L 620.57,196.09" fill="none" stroke="#0e63a8" stroke-width="2.2"/>
+<path d="M 72.00,128.00 L 99.43,125.24 L 126.86,122.43 L 181.71,116.87 L 236.57,111.36 L 346.29,100.22 L 620.57,72.44" fill="none" stroke="#0e63a8" stroke-width="1.0" stroke-dasharray="3,3"/>
+<path d="M 72.00,128.00 L 99.43,137.56 L 126.86,147.19 L 181.71,166.37 L 236.57,185.50 L 346.29,223.87 L 620.57,319.74" fill="none" stroke="#0e63a8" stroke-width="1.0" stroke-dasharray="3,3"/>
+<text x="72.0" y="128.0" font-family="Helvetica" font-size="11" fill="#0e63a8">•</text>
+<text x="99.42857142857143" y="131.40457600000002" font-family="Helvetica" font-size="11" fill="#0e63a8">•</text>
+<text x="126.85714285714286" y="134.8091520000001" font-family="Helvetica" font-size="11" fill="#0e63a8">•</text>
+<text x="181.71428571428572" y="141.61830400000002" font-family="Helvetica" font-size="11" fill="#0e63a8">•</text>
+<text x="236.57142857142856" y="148.42745600000006" font-family="Helvetica" font-size="11" fill="#0e63a8">•</text>
+<text x="346.2857142857143" y="162.04570400000006" font-family="Helvetica" font-size="11" fill="#0e63a8">•</text>
+<text x="620.5714285714286" y="196.09140800000006" font-family="Helvetica" font-size="11" fill="#0e63a8">•</text>
+<line x1="87" y1="87" x2="112" y2="87" stroke="#0e63a8" stroke-width="2.5"/>
+<text x="119" y="91" font-family="Helvetica" font-size="11" fill="black">ξ_loc media (5 fases)</text>
+<line x1="87" y1="105" x2="112" y2="105" stroke="#0e63a8" stroke-width="2.5"/>
+<text x="119" y="109" font-family="Helvetica" font-size="11" fill="black">ξ_loc ± desv</text>
+</svg>
