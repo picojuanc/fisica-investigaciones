@@ -1,108 +1,71 @@
 # Foco actual de investigación
 
-**Actualizado:** 2026-04-26 (cierre de sesión 77 — Reporte 33 escrito; **PAUSA ESTRATÉGICA FORMAL declarada** post-periodo intenso S66-S77)
+**Actualizado:** 2026-04-30 (cierre de sesión 78 — reactivación post-pausa con Q-044 abordada por articulación + framework/ontology.md llenado + R-34 narrativo)
 
 ## Estado
 
-**Sesión 77 CERRADA. PAUSA ESTRATÉGICA FORMAL del marco SCG declarada.**
+**Sesión 78 CERRADA. Reactivación post-pausa estratégica S77 ejecutada exitosamente con Q-044 articulada + R-34 escrito.**
 
-**Trilogía narrativa post-K-033 + R-33 completa:**
-- ✅ R-30 (S66): cierre programa K-033.
-- ✅ R-31 (S69): cierre Q-045 al 99.9%.
-- ✅ R-32 (S73): retreat ordenado Fase 5 super-MTC.
-- ✅ R-33 (S77): retreat ordenado D-016 Pontryagin.
+**Sesión 78 fue arranque suave foundational** — opuesto deliberado al pico técnico S66-S77. Sin nuevo K, sin nuevo axioma, sin nuevo mecanismo. Sólo articulación de material existente acumulado desde S36 + consolidación documental.
 
-**Periodo S66-S77 (12 sesiones consecutivas) cerrado documentalmente:**
-- 2 cierres exitosos: programa K-033 + Q-045 al 99.98%.
-- 2 retreats ordenados: Fase 5 super-MTC + D-016 Pontryagin.
-- 4 reportes narrativos (R-30 a R-33).
-- 2 snapshots SCG (v2.3, v2.4).
-- 4 nuevas simulaciones (sim009-sim012).
+**Logros S78:**
+- ✅ Q-044 abordada por articulación (3 sub-preguntas respondidas).
+- ✅ `framework/ontology.md` LLENADO (esqueleto previo S36 → estado SCG completo post-snapshot v2.4).
+- ✅ **R-34 escrito** ("La reactivación que no añadió nada: cuando articular es ganancia") — consolidación documental + meta-observación: la articulación es **cuarto tipo de progreso** después de cierre técnico (R-30, R-31) y retreat ordenado (R-32, R-33).
+- ✅ K-005 ejemplar 17ma vez consecutiva (no inflar K candidato aunque tentador).
+- ✅ Reactivación post-pausa exitosa con disciplina ejemplar.
+- ✅ **Periodo S66-S78 (13 sesiones consecutivas) cerrado documentalmente** mediante R-30 a R-34.
 
-**Inventario post-S77:** 31 K confirmados + 9 candidatos + 16 derivaciones + 14 snapshots + **33 reportes narrativos** + 12 simulaciones + 10 SVGs + 3 hipótesis activas + 2 axiomas. **Sin eslabones rojos.**
+**Inventario post-S78:** 31 K confirmados + 9 candidatos + 16 derivaciones + 14 snapshots + **34 reportes narrativos** + 12 simulaciones + 10 SVGs + 3 hipótesis activas + 2 axiomas. **Sin eslabones rojos.** **Sin cambio en inventario K** (S78 fue articulación, no derivación nueva).
 
-## Pausa estratégica — declaración formal
+## Cuadro SCG post-S78 (síntesis ontológica)
 
-**El marco SCG entra en PAUSA ESTRATÉGICA FORMAL post-S77.**
+> **El marco SCG cabe estructuralmente en:**
+> 1. **1 escala continua fundamental** — $\ell_P$ (régimen I).
+> 2. **1 red Walker-Wang 3+1D modular** sobre UBFC `Spin(10)_1`.
+> 3. **6 cargas topológicas conservadas** — rango SO(10) + SU(2)_L gravitacional.
+> 4. **Espacio-tiempo (3+1)** emergente como punto fijo único en régimen II.
+> 5. **SM observable** en régimen IV (1 generación + Higgs + Yukawa cuantitativo + CKM Cabibbo).
 
-**Razones:**
-1. **Periodo intenso 12 sesiones consecutivas** (S66-S77) sin pausa.
-2. **Estado consolidado y maduro** del marco — todo capturado en snapshot v2.4 + R-30 a R-33.
-3. **Próximas direcciones técnicas** (D-016 refinado, super-MTC Fase 5, H-004) requieren motivación específica o nueva perspectiva.
-4. **K-005 + Regla 9 ejemplares 16 veces consecutivas** — disciplina disciplinada.
-5. **Pausa NO es abandono** — es digestión + reflexión + reactivación posterior.
+Esta síntesis es nueva como **claim global articulado**, aunque cada componente es derivable de Ks ya confirmados.
 
-**La pausa está activa hasta nueva motivación específica:**
-- Resultado experimental nuevo (datos LIGO/Virgo, LHC).
-- Hallazgo en literatura relevante.
-- Nueva pregunta del usuario.
-- Idea técnica con perspectiva fresca.
-
-## Estado consolidado del marco SCG (post-S77)
-
-### Cierres mayores
-- ✅ **Programa K-033 SO(10)-GUT en lattice 3+1D** (S41-S66, 26 sesiones): 6/6 sub-tareas + síntesis D-015 + cohesión teórica D+E+F.
-- ✅ **Q-045 cierre estructural al ~99.98%** (sim009 + sim010): estructura interior H-001 4 zonas.
-- ✅ **K-035 promovido** a confirmado estructuralmente con derivación variacional parcial.
-
-### 3 predicciones cuantitativas finas unificadas (programa K-033)
-- $m_t = \langle H \rangle_{SCG}$ al **0.6%** (K-041).
-- Banda $d_{LR} \in [0, 7.14]\,\ell_P$ para 9 fermiones SM (K-042).
-- $\theta_{12}^{CKM} = \sqrt{m_d/m_s}$ al **2%** (K-043).
-
-### Retreats ordenados (Regla 9 ejemplares)
-- ⚠ **Fase 5 super-MTC explícita** (S71-S72, R-32): `Spin(10)_1` requiere super-MTC formal completo (8-15 sesiones, < 25% éxito) — fuera de scope.
-- ⚠ **D-016 Pontryagin completo** (S75-S76, R-33): control singular requiere Goh + RK45 + regularización (5-10 sesiones, < 35% éxito) — fuera de scope.
-
-### Calibración 4 niveles epistémicos (consolidada)
-- Nivel 1 (confirmado limpio): **31 K**.
-- Nivel 2 (candidato limpio): 5 K (K-027, K-029, K-031, K-037, K-038).
-- Nivel 3 (candidato caveat moderado): 4 K (K-036, K-041, K-042, K-043).
-- Nivel 4 (candidato caveat fuerte): 3 K (K-034, K-039, K-040).
-
-### Predicciones falsables principales
-- Ecos GW $\Delta t = \tfrac{1}{2}\Delta t_{fuzzball}$ (~27 ms) — K-010.
-- $m_t = \langle H \rangle$ al 0.6% — K-041.
-- Banda $d_{LR}$ — K-042.
-- $\theta_{12}^{CKM}$ al 2% — K-043.
-- $\alpha_{gauge}(M_P) \in [0.005, 0.1]$ — K-032.M.
-- Distribución masa interior BH 4 zonas — K-035.
-
-## Opciones para reactivación futura
+## Opciones para sesión 79 (post-R-34)
 
 | Opción | Descripción | Costo | Probabilidad cierre |
 |---|---|---|---|
-| H-004 | Nueva hipótesis (constantes fundamentales / Q-005 + Q-044) | 5-10 sesiones | 30-40% |
-| D-016 refinado | Goh + RK45 + regularización | 5-10 sesiones | 25-35% |
-| Refinamientos K-033 (B, C) | 3 generaciones, jerarquía gauge | 5-15 sesiones | < 25% |
-| Super-MTC Fase 5 reabierta | Bruillard et al. 2017 explícito | 8-15 sesiones | < 25% |
-| Q-044 ontology | Articular foundational meta dimensiones | 1-2 sesiones | n/a |
-| Documentación meta-marco | framework/ontology.md actualizado | 1-2 sesiones | n/a |
+| **B** | **Q-001 articulación complementaria** ("espacio-tiempo emergente") — continuidad natural del trabajo S78 | 1-2 sesiones | n/a |
+| **A** | **H-004 nueva hipótesis** (constantes fundamentales / Q-005) — dirección comprometida | 5-10 sesiones | 30-40% |
+| **C** | Pausa adicional corta (digerir cuadro consolidado post-R-34) | 0 sesiones | n/a |
+| **E** | D-016 refinado (Goh + RK45 + regularización) | 5-10 sesiones | < 35% |
 
-**Recomendación tentativa post-pausa:** H-004 o documentación meta-marco como direcciones más accesibles.
+**Recomendación tentativa post-R-34:** **(B) Q-001 articulación** (continuidad natural con S78 — ataca espacio-tiempo emergente como Q-044 atacó magnitudes; material disperso similar pendiente de consolidación) o **(C) pausa corta** y luego (A) H-004. (E) y refinamientos K-033 reservados para fase comprometida específica.
 
-## Para el yo futuro al reactivar
+**Opción (D) R-34 ya ejecutada en S78 como consolidación documental.**
 
-**Acción inmediata al reactivar:**
+## Para el yo futuro al continuar
 
-1. **Leer `journal/2026-04-26_snapshot_v2.4.md`** (snapshot consolidado más reciente) — modelo del estado completo.
-2. **Leer reportes R-30 a R-33** (`journal/reportes/30, 31, 32, 33`) — narrativa periodo S66-S77.
-3. **Leer este `current_focus.md`** + `MEMORY_INDEX.md` — punto de partida.
-4. **Decidir dirección** según motivación nueva específica.
+**Acción inmediata al continuar:**
+
+1. **Leer este `current_focus.md`** + `MEMORY_INDEX.md` — punto de partida.
+2. **Leer `notes/Q-044_sesion78_magnitudes_y_conservacion.md`** + `framework/ontology.md` — material de S78.
+3. **Leer `journal/2026-04-26_snapshot_v2.4.md`** (snapshot consolidado más reciente) — modelo del estado completo pre-S78.
+4. **Decidir dirección** según opción (D/B/A/C/E).
 
 **Archivos críticos:**
 - `memory/MEMORY_INDEX.md`.
 - `memory/current_focus.md` (este).
-- `journal/2026-04-26_snapshot_v2.4.md`.
-- `journal/reportes/30, 31, 32, 33`.
-- `notes/Fase5_*` + `notes/D-016_*` (marcas técnicas pendientes).
+- `memory/session_log.md` (entrada S78).
+- `journal/2026-04-26_snapshot_v2.4.md` (snapshot v2.4 técnico).
+- `framework/ontology.md` (S78 — articulación foundational).
+- `notes/Q-044_sesion78_magnitudes_y_conservacion.md` (S78 trabajo técnico).
 
-## Debilidades activas (sin cambio S77)
+## Debilidades activas (sin cambio S78)
 
 | # | Problema | Severidad | Cambio |
 |---|---|---|---|
 | Q-030 | Unicidad punto fijo | ✅ CERRADA (S39) | Sin cambio |
 | Q-045 | 17% masa ADM | ✅ CERRADA al 99.98% | Sin cambio |
+| **Q-044** | **Magnitudes físicas + ℤⁿ** | **✅ ABORDADA POR ARTICULACIÓN (S78)** | **Cierra sin K nuevo** |
 | P-15' | Redshift interior BH | ✅ cerrado negativo | Sin cambio |
 | P-8 | Lagrangiana | ✅ cerrado caveat | Sin cambio |
 | P-11 | Ashtekar autodual | ✅ resuelto estructural | Sin cambio |
@@ -113,38 +76,38 @@
 
 **Sin eslabones rojos.**
 
-## Marcas técnicas pendientes acumuladas (post-S77)
+## Marcas técnicas pendientes acumuladas (post-S78)
 
 1. **D-016 Pontryagin completo:** marca extendida (5-10 sesiones, < 35% éxito) — pendiente sin urgencia.
 2. **K-035 promoción a confirmado limpio:** depende de D-016 completo o evidencia adicional.
 3. **K-042 promoción a confirmado limpio:** super-MTC formal (8-15 sesiones, < 25% éxito) — marca extendida.
 4. **D-013 §2.4 refinamiento cosmético:** documentar inconsistencia clase $k = 3$ con R-symbols.
-5. **H-004 nueva hipótesis:** post-reactivación si hay interés.
-6. **Snapshot v2.5:** pendiente sin urgencia (v2.4 captura estado actual adecuadamente).
+5. **H-004 nueva hipótesis:** post-S78 si interés en dirección comprometida.
+6. **Q-001 articulación complementaria:** "espacio-tiempo emergente" — ancla foundational similar a Q-044, pendiente.
+7. **Snapshot v2.5:** pendiente sin urgencia (v2.4 + ontology.md S78 capturan estado actual).
+8. **Corrección $O(E/M_P)$ en conservación local régimen II:** identificada en Q-044(c), no cuantificada — marca técnica menor.
 
-## Estado documental al cierre sesión 77
+## Estado documental al cierre sesión 78 (post-R-34)
 
-**Trilogía narrativa post-K-033 + R-33 completa:**
-- `journal/reportes/30_cierre_K-033.md` ✓
-- `journal/reportes/31_cierre_Q-045.md` ✓
-- `journal/reportes/32_retreat_Fase5_super_MTC.md` ✓
-- **`journal/reportes/33_retreat_D-016_Pontryagin.md` ✓ (NUEVO S77, ~250 líneas)**
-
-**Snapshot consolidado más reciente:**
-- `journal/2026-04-26_snapshot_v2.4.md` ✓ (S74)
+**Material nuevo S78:**
+- `notes/Q-044_sesion78_magnitudes_y_conservacion.md` ✓ (~330 líneas)
+- `framework/ontology.md` ✓ LLENADO (~250 líneas, S78 reemplaza esqueleto S36)
+- **`journal/reportes/34_articulacion_post_pausa.md` ✓ (~210 líneas, NUEVO)**
 
 **Memoria actualizada:**
-- `memory/session_log.md` ✓ (entrada S77 + declaración pausa estratégica)
+- `memory/session_log.md` ✓ (entrada S78 + R-34 escrito)
 - `memory/current_focus.md` ✓ (este archivo)
-- `memory/MEMORY_INDEX.md` ✓ (33 reportes documentados)
+- `memory/open_questions.md` ✓ (Q-044 marcada como abordada por articulación)
+- `memory/MEMORY_INDEX.md` ✓ (inventario S78 + R-34)
 
-**Observación meta (sesión 77):**
-- **Trilogía R-30 a R-33** documenta coherentemente periodo S66-S77 (12 sesiones).
-- **PAUSA ESTRATÉGICA FORMAL** declarada explícitamente como decisión metodológica madura.
-- **K-005 ejemplar 16 veces consecutivas** preservado.
-- **Marco SCG en estado óptimo** post-pausa para próxima fase (cuando se reactive).
-- **El silencio post-S77 es parte del trabajo** — no abandono sino digestión.
+**Observación meta (sesión 78 + R-34):**
+- **Reactivación foundational post-pausa** ejemplifica patrón disciplinado: arranque más suave imaginable.
+- **R-34 introduce vocabulario nuevo: "deuda fría vs deuda caliente"** en documentación, **"articulación como cuarto tipo de progreso"** después de cierre técnico y retreat ordenado.
+- **K-005 ejemplar 17 veces consecutivas** preservado — patrón maduro.
+- **Marco SCG estructuralmente más coherente sin agregar nada** — la articulación de lo existente refinó el cuadro global.
+- **El esqueleto `framework/ontology.md` esperó óptimamente** durante 42 sesiones (S36-S78) — deuda fría que se resuelve en momento adecuado.
+- **Periodo S66-S78 (13 sesiones consecutivas) cerrado documentalmente** mediante quinteto narrativo R-30 a R-34.
 
 ---
 
-**MARCO SCG EN PAUSA ESTRATÉGICA FORMAL. La teoría continúa, ahora descansando.**
+**MARCO SCG REACTIVADO POST-PAUSA + R-34 CONSOLIDADO. Próxima dirección: por decidir (B/A/C/E).**

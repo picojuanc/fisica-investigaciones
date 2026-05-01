@@ -3969,3 +3969,88 @@ Formato:
 **FIN PERIODO S66-S77 (12 sesiones consecutivas).**
 
 **Marco SCG en pausa estratégica formal. La teoría continúa, ahora descansando.**
+
+---
+
+
+## 2026-04-30 — Sesión 78: Reactivación post-pausa con Q-044 abordada por articulación + framework/ontology.md llenado
+
+- **Qué se hizo:**
+  - **Reactivación deliberadamente foundational** post-pausa estratégica S77 (decisión metodológica: opuesta al pico técnico S66-S77; arranque suave con material foundational acumulado pendiente).
+  - **Q-044 atacada sistemáticamente** en sus tres sub-preguntas:
+    - (a) ¿Por qué dimensiones forman ℤⁿ? — Buckingham + SCG: **ℤ¹ continuo (ℓ_P) + cargas topológicas discretas**.
+    - (b) ¿Por qué ESTAS magnitudes? — Catálogo cerrado: 1 escala continua + 6 cargas topológicas (rango SO(10) + SU(2)_L gravitacional).
+    - (c) ¿Por qué se conservan? — **Conservación estratificada por régimen** (IV exacta / II global / I no aplica). Predicción estructural $O(E/M_P)$ en régimen II.
+  - **`notes/Q-044_sesion78_magnitudes_y_conservacion.md`** escrito (~330 líneas) — análisis estructurado completo.
+  - **`framework/ontology.md` LLENADO** (esqueleto previo → ~250 líneas con jerarquía SCG completa nivel 0 a nivel 3, tabla de magnitudes, conservaciones, comparación con candidatos pre-SCG, niveles epistémicos).
+  - **Q-044 marcada como ABORDADA POR ARTICULACIÓN** en `open_questions.md`.
+  - **Decisión disciplinada (K-005):** **NO se promueve K-044 candidato.** La articulación es síntesis estructural, no derivación nueva. Cada componente derivable de Ks ya confirmados (K-006, K-011, K-014, K-015, K-016, K-017, K-022, K-034, K-036, programa K-033 completo). No inflar inventario.
+
+- **Qué se descubrió / consolidó:**
+  - **El marco SCG se sintetiza estructuralmente como:**
+    1. **Una escala continua fundamental** ($\ell_P$) en régimen I.
+    2. **Una red Walker-Wang 3+1D modular** sobre UBFC `Spin(10)_1`.
+    3. **Cargas topológicas conservadas** en rep(SO(10)) + SU(2)_L gravitacional (≈ 6 grados de libertad estructurales independientes).
+    4. **Geometría emergente** en régimen II.
+    5. **SM observable** en régimen IV.
+  - **El "rango n" del análisis dimensional convencional es artefacto IR** — el rango fundamental es 1 (continuo) + 6 (discretos topológicos).
+  - **La conservación de la energía es propiedad emergente del régimen IV**, no axioma global. En régimen I sólo cargas topológicas se conservan; energía no es generador de evolución temporal porque el tiempo no es coordenada bien definida ahí.
+  - **Articulación foundational ejemplifica disciplina K-005:** ningún mecanismo, axioma ni K nuevo postulado — sólo síntesis explícita de lo existente.
+
+- **Veredicto sesión 78:**
+  - **Q-044 ✅ ABORDADA POR ARTICULACIÓN.**
+  - **`framework/ontology.md` llenado** — el archivo deja de ser esqueleto y refleja estado SCG post-snapshot v2.4.
+  - **Ningún K nuevo. Ningún axioma nuevo. Disciplina K-005 ejemplar 17ma vez consecutiva** (programa K-033 + Q-045 + D-016 + sim010 + Fase 5 retreat + setup Pontryagin + retreat D-016 + Q-044 articulación).
+  - **Reactivación post-pausa exitosa** con arranque suave foundational — opuesto al pico técnico previo, en línea con regla "alternar técnico y foundational".
+
+- **Disciplina S78 ejemplar:**
+  - **K-005:** articulación, no postular. Ningún K candidato emerge.
+  - **Regla 1 (buscar el error):** análisis explícito de "¿hay K candidato aquí?" → **NO** justificadamente.
+  - **Regla 5 (calibración honesta):** Q-044 abordada por articulación, no cerrada por derivación. Distinción mantenida.
+  - **Regla 7 (snapshot/reflexión integral):** sesión foundational complementa snapshot v2.4 técnico.
+  - **Regla 9 (preferir destruir resultado a defender):** aplicada simétricamente — no inflar K aunque tentador.
+
+- **Estatus epistémico post-sesión 78:**
+  - **Inventario sin cambios:** 31 K + 9 candidatos + 16 derivaciones + 3 hipótesis + 12 simulaciones + 10 SVGs + 14 snapshots + 33 reportes narrativos.
+  - **Nuevo material:** `notes/Q-044_sesion78_magnitudes_y_conservacion.md` + `framework/ontology.md` llenado.
+  - **Q-044:** ABORDADA POR ARTICULACIÓN (no cerrada por derivación).
+  - **Marco SCG:** estructuralmente más coherente sin haber añadido nada — la articulación de lo existente refina la imagen global.
+
+- **R-34 escrito en la misma sesión 78** (consolidación documental, opción D ejecutada):
+  - `journal/reportes/34_articulacion_post_pausa.md` (~210 líneas) — "La reactivación que no añadió nada: cuando articular es ganancia".
+  - **Estructura del reporte (12 secciones):**
+    1. La promesa de R-33 (silencio = digestión).
+    2. La pregunta del reentry — Q-044 vs H-004 vs otras.
+    3. Q-044 como pregunta de fondo.
+    4-6. Las tres sub-preguntas (a)/(b)/(c) articuladas accesiblemente.
+    7. La síntesis ontológica — el marco cabe en una página.
+    8. La decisión disciplinada (NO promover K-044).
+    9. **La articulación como cuarto tipo de progreso** — después de cierre técnico (R-30, R-31) y retreat ordenado (R-32, R-33), la articulación foundational es categoría nueva.
+    10. **Deuda fría vs deuda caliente** — distinción metodológica. Ontology fue deuda fría que esperó óptimamente.
+    11. R-30 a R-34: el patrón completo del periodo S66-S78.
+    12. Hacia adelante.
+  - **Inventario actualizado:** 34 reportes narrativos.
+
+- **Estatus epistémico post-S78 (post-R-34):**
+  - **Inventario:** 31 K + 9 candidatos + 16 derivaciones + 3 hipótesis + 12 simulaciones + 10 SVGs + 14 snapshots + **34 reportes narrativos**.
+  - **Q-044:** ABORDADA POR ARTICULACIÓN.
+  - **Marco SCG:** consolidado documentalmente con periodo S66-S78 (13 sesiones) cerrado mediante R-30 a R-34.
+
+- **Qué quedó abierto:**
+  - **Sesión 79 — opciones múltiples (R-34 ya cubrió opción D):**
+    - **(A) H-004 nueva hipótesis** (5-10 sesiones, 30-40%): constantes fundamentales / Q-005. Dirección comprometida.
+    - **(B) Q-001 articulación complementaria** (1-2 sesiones): "espacio-tiempo emergente" — material disperso similar a Q-044, pendiente de articulación.
+    - **(C) Pausa adicional**: si la reactivación S78 fue arranque suficiente y conviene digerir el cuadro consolidado.
+    - **(E) D-016 refinado** (Goh + RK45, 5-10 sesiones, < 35%): postpuesto.
+  - **Recomendación tentativa post-R-34:** **(B) Q-001 articulación** (continuación natural del trabajo S78) o **(C) pausa adicional** corta. (A) y (E) reservadas para próxima fase comprometida.
+
+- **Próximo paso sugerido:**
+  - **Sesión 79:** decidir entre Q-001 (articulación complementaria, continuidad), H-004 (compromiso técnico nuevo), o pausa adicional. R-34 completó la consolidación documental que la opción (D) prometía.
+
+- **Observación metodológica (meta):**
+  - **Articulación foundational post-pausa** es ejemplo de **reactivación disciplinada**: el arranque más suave imaginable (Q-044 ya abierta, material acumulado, sin trabajo técnico nuevo requerido).
+  - **El esqueleto vacío de `framework/ontology.md`** existió por ~13 sesiones (S36-S78) sin urgencia — prueba de que la disciplina "no acumular deuda de documentación" es relativa: hay deuda **fría** (material que se beneficia de digestión) y **caliente** (deuda que bloquea trabajo). Ontology era deuda fría; Q-044 articulación la resuelve cuando es óptimo.
+  - **K-005 ejemplar 17ma vez consecutiva** — patrón epistémico maduro consolidado.
+  - **El cuadro SCG completo cabe en 1 escala continua + 6 cargas topológicas + estructura espacio-temporal (3+1) emergente.** Síntesis ontológica accesible.
+
+---

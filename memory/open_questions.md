@@ -362,9 +362,15 @@ Las preguntas que la investigación debe responder, o al menos abordar. Numerada
 
 ## Preguntas nuevas de la sesión 36 (foundational / meta-estructura)
 
-## Q-044 — ¿Qué es una "magnitud física" y por qué las dimensiones forman ℤⁿ?
+## Q-044 — ¿Qué es una "magnitud física" y por qué las dimensiones forman ℤⁿ? [ABORDADA POR ARTICULACIÓN — sesión 78]
 - **Abierta desde:** 2026-04-23 (sesión 36)
+- **Abordada por articulación:** 2026-04-30 (sesión 78), reactivación post-pausa estratégica S77.
 - **Relevancia:** foundational-meta. **Baja urgencia técnica, alta coherencia conceptual.** No requiere sesión dedicada: ancla para consolidar en próximo snapshot v2.2 o al escribir `framework/ontology.md`.
+- **Resolución (S78):** las tres sub-preguntas se responden por **articulación de material existente**, no derivación nueva. **No se promueve K nuevo** (disciplina K-005). La articulación se consolida en `framework/ontology.md` (nivel 0 régimen I + niveles 1-3 emergentes).
+  - **(a) Estructura ℤⁿ:** consecuencia de escalas discretas + acciones polinómicas + homogeneidad dimensional (Buckingham). En SCG: **ℤ¹ continuo (ℓ_P) + cargas topológicas discretas en rep($G_{\text{topológico}}$)**. La $n>1$ del análisis dimensional convencional es artefacto IR (unidades base MKS, MKSC).
+  - **(b) Catálogo SCG:** 1 escala continua ($\ell_P$) + 6 cargas topológicas (rango SO(10) ≈ 5 + SU(2)_L gravitacional ≈ 1). Catálogo cerrado relativo a SM 1-generación. SO(10) emerge como UBFC mínima compatible (D-010, Q-043 ✅).
+  - **(c) Conservación estratificada:** **Régimen IV (SM observable)** exacta (Noether asintótico); **Régimen II (Planck)** global, no local; **Régimen I (UV)** no aplica — reemplazada por conservación de cargas topológicas. Corrección estructural $O(E/M_P)$ en régimen II (no cuantificada — marca técnica menor).
+- **Ver:** `notes/Q-044_sesion78_magnitudes_y_conservacion.md`, `framework/ontology.md` (llenado S78).
 - **Origen:** pregunta del usuario (2026-04-23): las cantidades físicas parecen venir como "valor + dimensión", casi como vectores en un espacio de magnitudes. ¿Es metafísica o puede decirse algo físicamente?
 - **Contenido:** tres sub-preguntas apiladas.
   - (a) ¿Por qué las cantidades físicas son "valor × vector de dimensiones"?
@@ -392,13 +398,11 @@ Las preguntas que la investigación debe responder, o al menos abordar. Numerada
 3. **Valores numéricos de ℏ, c, G** (ya abierto como Q-005; naturalmente vinculado).
 4. **Jerarquía de masas SM** (K-033, postergado; parte del mismo nudo).
 
-### Plan
-- **NO abrir sesión dedicada.** Registrar y seguir trabajo técnico.
-- Consolidar cuando:
-  - Se escriba `framework/ontology.md` (actualmente esqueleto).
-  - Se haga snapshot v2.2 o superior.
-  - Se cierre K-033 (da información sobre masas y su origen).
-- Mientras tanto: cualquier trabajo sobre Q-005, K-028, K-033 alimenta naturalmente este ángulo.
+### Plan (original S36, ejecutado S78)
+- ~~NO abrir sesión dedicada.~~ **Sesión 78 ejecutó articulación dedicada** post-pausa estratégica S77.
+- ~~Consolidar cuando se escriba framework/ontology.md.~~ **`framework/ontology.md` llenado en S78.**
+- ~~Consolidar cuando K-033 cierre.~~ **K-033 ✅ CERRADO en S66.**
+- Articulación incorporó cierres acumulados desde S37: K-033, Q-045, D-016 setup + retreat, super-MTC retreat.
 
 ### Relacionada con
 - Q-001 (espacio-tiempo emergente)
