@@ -1,113 +1,156 @@
 # Foco actual de investigación
 
-**Actualizado:** 2026-04-30 (cierre de sesión 78 — reactivación post-pausa con Q-044 abordada por articulación + framework/ontology.md llenado + R-34 narrativo)
+**Actualizado:** 2026-05-01 (cierre de sesión 87 — TRIGGER D5 ACTIVADO + RETREAT PARCIAL CAMINO B + CAMINO C PRIMARIO)
 
 ## Estado
 
-**Sesión 78 CERRADA. Reactivación post-pausa estratégica S77 ejecutada exitosamente con Q-044 articulada + R-34 escrito.**
+**Sesión 87 CERRADA. Programa H-004 PIVOTADO disciplinadamente:** camino B cerrado con caveats fuertes acumulados tras 4 auditorías imparciales sistemáticas. Camino C eleva a dirección primaria. SCG operativo intacto.
 
-**Sesión 78 fue arranque suave foundational** — opuesto deliberado al pico técnico S66-S77. Sin nuevo K, sin nuevo axioma, sin nuevo mecanismo. Sólo articulación de material existente acumulado desde S36 + consolidación documental.
+**Logros S87:**
+- ✅ **2 auditorías retrospectivas en paralelo** (β + γ) — ambas recalibradas a CAVEAT FUERTE.
+- ✅ **Patrón sistemático consolidado:** 4 auditorías = 4 recalibraciones. Auto-evaluación tiende a inflación; auditoría imparcial detecta consistentemente.
+- ✅ **TRIGGER D5 ACTIVADO** — 4 sub-tareas consecutivas con caveat fuerte.
+- ✅ **DECISIÓN Regla 9 EJEMPLAR:** retreat ordenado parcial camino B + pivote camino C primario.
+- ✅ **`framework/axioms.md` actualizado:** A-001 + A-002 con CAVEAT FUERTE explícito.
+- ✅ **`notes/H-004_sesion87_auditorias_retrospectivas_y_decision.md`** (~280 líneas).
+- ✅ **`journal/reportes/37_auditoria_sistematica_retreat_parcial.md`** (~280 líneas) — R-37 narrativo.
+- ✅ **`journal/2026-05-01_snapshot_v2.6.md`** (~270 líneas) — 16ª snapshot.
+- ✅ Disciplina K-005 ejemplar **26ma vez consecutiva** preservada.
 
-**Logros S78:**
-- ✅ Q-044 abordada por articulación (3 sub-preguntas respondidas).
-- ✅ `framework/ontology.md` LLENADO (esqueleto previo S36 → estado SCG completo post-snapshot v2.4).
-- ✅ **R-34 escrito** ("La reactivación que no añadió nada: cuando articular es ganancia") — consolidación documental + meta-observación: la articulación es **cuarto tipo de progreso** después de cierre técnico (R-30, R-31) y retreat ordenado (R-32, R-33).
-- ✅ K-005 ejemplar 17ma vez consecutiva (no inflar K candidato aunque tentador).
-- ✅ Reactivación post-pausa exitosa con disciplina ejemplar.
-- ✅ **Periodo S66-S78 (13 sesiones consecutivas) cerrado documentalmente** mediante R-30 a R-34.
+**Inventario post-S87:** 31 K confirmados + 9 candidatos + 16 derivaciones + **16 snapshots** (v2.6 nuevo) + **37 reportes** (R-37 nuevo) + 12 simulaciones + 10 SVGs + 4 hipótesis activas + A-005 propuesto + 2 derivados con CAVEAT FUERTE acumulados (A-001, A-002). **Sin eslabones rojos.**
 
-**Inventario post-S78:** 31 K confirmados + 9 candidatos + 16 derivaciones + 14 snapshots + **34 reportes narrativos** + 12 simulaciones + 10 SVGs + 3 hipótesis activas + 2 axiomas. **Sin eslabones rojos.** **Sin cambio en inventario K** (S78 fue articulación, no derivación nueva).
+## Estado del programa H-004 post-S87
 
-## Cuadro SCG post-S78 (síntesis ontológica)
+| Sub-tarea | Estado | Caveat post-auditoría |
+|---|---|---|
+| **α** Apertura | ✅ CERRADA (S80-S81) | n/a |
+| **β** Re-derivar A-001 | ✅ CERRADA (S82) | **FUERTE** (recalibrado S87 retrospectiva) |
+| **γ** Re-derivar A-002 | ✅ CERRADA (S83) | **FUERTE** (recalibrado S87 retrospectiva) |
+| **δ** Re-derivar `Spin(10)_1` | ✅ CERRADA (S84) | **FUERTE** (recalibrado S84) |
+| **ε** Re-derivar (1, 3, 1) + signatura | ✅ CERRADA (S86) | **FUERTE** (recalibrado S86) |
+| **ζ** Re-derivar K-033 | **NO SE EJECUTARÁ (decisión S87)** | — |
+| **η** Camino C exploración | η.α apertura ✅ | **PRIMARIO post-S87** |
 
-> **El marco SCG cabe estructuralmente en:**
-> 1. **1 escala continua fundamental** — $\ell_P$ (régimen I).
-> 2. **1 red Walker-Wang 3+1D modular** sobre UBFC `Spin(10)_1`.
-> 3. **6 cargas topológicas conservadas** — rango SO(10) + SU(2)_L gravitacional.
-> 4. **Espacio-tiempo (3+1)** emergente como punto fijo único en régimen II.
-> 5. **SM observable** en régimen IV (1 generación + Higgs + Yukawa cuantitativo + CKM Cabibbo).
+**Camino B CERRADO con caveats fuertes acumulados.** Camino C primario.
 
-Esta síntesis es nueva como **claim global articulado**, aunque cada componente es derivable de Ks ya confirmados.
+## Recomendación operativa para próxima sesión (S88)
 
-## Opciones para sesión 79 (post-R-34)
+**C.β: explorar hypergraphs Wolfram como estructura informacional pre-categorial.**
 
-| Opción | Descripción | Costo | Probabilidad cierre |
-|---|---|---|---|
-| **B** | **Q-001 articulación complementaria** ("espacio-tiempo emergente") — continuidad natural del trabajo S78 | 1-2 sesiones | n/a |
-| **A** | **H-004 nueva hipótesis** (constantes fundamentales / Q-005) — dirección comprometida | 5-10 sesiones | 30-40% |
-| **C** | Pausa adicional corta (digerir cuadro consolidado post-R-34) | 0 sesiones | n/a |
-| **E** | D-016 refinado (Goh + RK45 + regularización) | 5-10 sesiones | < 35% |
+**Hipótesis técnica:**
+- Hypergraph mínimo con causal invariance (Wolfram Physics Project 2020+).
+- ¿Pueden hypergraphs evolutivos generar UBFC modular emergente con contenido SM (rep 16 de SO(10)) **a priori**, o reproducen el mismo patrón de B (renaming + herencias)?
+- Conexión categorial-combinatoria.
 
-**Recomendación tentativa post-R-34:** **(B) Q-001 articulación** (continuidad natural con S78 — ataca espacio-tiempo emergente como Q-044 atacó magnitudes; material disperso similar pendiente de consolidación) o **(C) pausa corta** y luego (A) H-004. (E) y refinamientos K-033 reservados para fase comprometida específica.
+**Tareas concretas S88:**
+1. C.β.1: revisar literatura Wolfram Physics Project (multiway systems + causal invariance).
+2. C.β.2: identificar criterio para "hypergraph genera UBFC modular como invariante".
+3. C.β.3: análisis preliminar — ¿hay precedente concreto para rep 16 + SO(10)?
+4. C.β.4: **AUDITORÍA IMPARCIAL OBLIGATORIA** (Patrón B post-derivación).
 
-**Opción (D) R-34 ya ejecutada en S78 como consolidación documental.**
+**Probabilidad cierre estructural:** 30-50% (más optimista para C.β que para δ/ε retrospectivamente).
+
+**Decisión post-C.β:**
+- **Si éxito:** continuar C.γ (NCG Connes).
+- **Si fracaso:** considerar saltar a C.γ directamente o retreat ordenado completo.
+
+## Si C también fracasa (planeación contingente)
+
+**Retreat ordenado completo del programa H-004:**
+- Reservar A-005 como conjetura abierta (no refutada).
+- Mantener SCG estándar como marco operativo.
+- Documentar honestamente como R-32/R-33/R-37 trilogía expandida.
+
+**SCG operativo se preserva en cualquier escenario.** La inversión S1-S79 está protegida.
+
+## Patrón meta-metodológico consolidado S87
+
+**Sexto tipo de progreso del marco:** auditoría imparcial sistemática como motor de honestidad estructural.
+
+**Hallazgo mayor:** el agente principal de Claude tiende a auto-evaluación inflada — **propiedad estructural** detectada tras 4 recalibraciones consecutivas. La asimetría informacional autor vs auditor produce diagnósticos sistemáticamente más honestos.
+
+**Disciplina permanente post-S87:** auditoría imparcial **OBLIGATORIA** en todo cierre futuro de sub-tarea. Sin excepción.
 
 ## Para el yo futuro al continuar
 
 **Acción inmediata al continuar:**
 
-1. **Leer este `current_focus.md`** + `MEMORY_INDEX.md` — punto de partida.
-2. **Leer `notes/Q-044_sesion78_magnitudes_y_conservacion.md`** + `framework/ontology.md` — material de S78.
-3. **Leer `journal/2026-04-26_snapshot_v2.4.md`** (snapshot consolidado más reciente) — modelo del estado completo pre-S78.
-4. **Decidir dirección** según opción (D/B/A/C/E).
+1. **Leer este `current_focus.md`** + `MEMORY_INDEX.md`.
+2. **Leer `journal/2026-05-01_snapshot_v2.6.md`** — snapshot consolidado post-pivote.
+3. **Leer `journal/reportes/37_auditoria_sistematica_retreat_parcial.md`** — narrativa S84-S87.
+4. **Leer `notes/H-004_sesion87_auditorias_retrospectivas_y_decision.md`** — decisión técnica.
+5. **Leer `notes/H-004_sesion85_camino_C_apertura.md`** — apertura camino C (donde C.β arranca).
+6. **Arrancar C.β** o reconsiderar si pasaron días.
 
 **Archivos críticos:**
 - `memory/MEMORY_INDEX.md`.
 - `memory/current_focus.md` (este).
-- `memory/session_log.md` (entrada S78).
-- `journal/2026-04-26_snapshot_v2.4.md` (snapshot v2.4 técnico).
-- `framework/ontology.md` (S78 — articulación foundational).
-- `notes/Q-044_sesion78_magnitudes_y_conservacion.md` (S78 trabajo técnico).
+- `memory/session_log.md` (entradas S80-S87).
+- `framework/axioms.md` (A-001 + A-002 con CAVEAT FUERTE recalibrado S87).
+- `framework/epistemology.md` (criterio 6 + D1-D5).
+- **`journal/2026-05-01_snapshot_v2.6.md` (snapshot consolidado)**.
+- **`journal/reportes/37_auditoria_sistematica_retreat_parcial.md` (R-37 narrativo)**.
+- **`notes/H-004_sesion87_auditorias_retrospectivas_y_decision.md` (decisión retreat parcial)**.
+- `notes/H-004_sesion85_camino_C_apertura.md` (plan camino C).
+- `notes/H-004_sesion80_*.md` + `notes/H-004_sesion81_*.md` (apertura H-004 + $\mathcal{C}_0$ definición).
+- `notes/H-004_sesion82_*.md` (β recalibrada) + `notes/H-004_sesion83_*.md` (γ recalibrada).
+- `notes/H-004_sesion84_*.md` (δ recalibrada + auditoría) + `notes/H-004_sesion86_*.md` (ε recalibrada + auditoría).
+- `.claude/README.md` (3 patrones de invocación).
+- `.claude/agents/theory-auditor.md` + `.claude/skills/audit/SKILL.md`.
 
-## Debilidades activas (sin cambio S78)
+## Debilidades y preguntas activas (post-S87)
 
-| # | Problema | Severidad | Cambio |
-|---|---|---|---|
-| Q-030 | Unicidad punto fijo | ✅ CERRADA (S39) | Sin cambio |
-| Q-045 | 17% masa ADM | ✅ CERRADA al 99.98% | Sin cambio |
-| **Q-044** | **Magnitudes físicas + ℤⁿ** | **✅ ABORDADA POR ARTICULACIÓN (S78)** | **Cierra sin K nuevo** |
-| P-15' | Redshift interior BH | ✅ cerrado negativo | Sin cambio |
-| P-8 | Lagrangiana | ✅ cerrado caveat | Sin cambio |
-| P-11 | Ashtekar autodual | ✅ resuelto estructural | Sin cambio |
-| P-14, P-10, P-12, P-13 | (sin cambio) | 🟡 media | Sin cambio |
-| Programa K-033 | 6/6 ✅ + síntesis | ✅ CONSOLIDADO | Sin cambio |
-| Fase 5 super-MTC | Aborted | ✅ Documentado R-32 | Sin cambio |
-| D-016 Pontryagin completo | Aborted | ✅ Documentado R-33 | Sin cambio |
+| # | Estatus | Cambio S87 |
+|---|---|---|
+| **A-001** | DERIVADO con CAVEAT FUERTE (β + ε auditorías recalibran) | **Cambio mayor S87** |
+| **A-002** | DERIVADO con CAVEAT FUERTE (γ + ε auditorías recalibran) | **Cambio mayor S87** |
+| **`Spin(10)_1`** | Re-derivada con CAVEAT FUERTE (δ S84) | Sin cambio |
+| **(1, 3, 1) + signatura (3, 1)** | Re-derivado con CAVEAT FUERTE (ε S86) | Sin cambio |
+| **Programa H-004 camino B** | **CERRADO con caveats fuertes acumulados** | **CAMBIO MAYOR S87** |
+| **Programa H-004 camino C** | **PRIMARIO post-S87** | **CAMBIO MAYOR S87** |
+| **Trigger D5** | **ACTIVADO S87** | **CAMBIO MAYOR S87** |
+| **Programa K-033** | ✅ COMPLETO + sub-tarea ζ NO se ejecuta | Sin cambio |
 
 **Sin eslabones rojos.**
 
-## Marcas técnicas pendientes acumuladas (post-S78)
+## Marcas técnicas pendientes acumuladas (post-S87)
 
-1. **D-016 Pontryagin completo:** marca extendida (5-10 sesiones, < 35% éxito) — pendiente sin urgencia.
-2. **K-035 promoción a confirmado limpio:** depende de D-016 completo o evidencia adicional.
-3. **K-042 promoción a confirmado limpio:** super-MTC formal (8-15 sesiones, < 25% éxito) — marca extendida.
-4. **D-013 §2.4 refinamiento cosmético:** documentar inconsistencia clase $k = 3$ con R-symbols.
-5. **H-004 nueva hipótesis:** post-S78 si interés en dirección comprometida.
-6. **Q-001 articulación complementaria:** "espacio-tiempo emergente" — ancla foundational similar a Q-044, pendiente.
-7. **Snapshot v2.5:** pendiente sin urgencia (v2.4 + ontology.md S78 capturan estado actual).
-8. **Corrección $O(E/M_P)$ en conservación local régimen II:** identificada en Q-044(c), no cuantificada — marca técnica menor.
+1. **Sub-tarea C.β H-004:** próxima sesión — hypergraphs Wolfram + auditoría imparcial obligatoria.
+2. **Sub-tarea C.γ H-004:** post-C.β — NCG Connes.
+3. **Sub-tarea C.δ H-004:** síntesis honesta + decisión final H-004.
+4. **Marca técnica β.4:** cálculo $\alpha(\mathcal{C}_0)$ (Q-005, sin urgencia, **caveat fuerte heredado**).
+5. **Marca técnica γ.4:** cálculo $\beta(\mathcal{C}_0)$ (Q-005, sin urgencia, **caveat fuerte heredado**).
+6. **Marca técnica δ.5:** clasificación exhaustiva UBFCs modulares.
+7. **Marca técnica ε.4:** análisis punto fijo bajo extensiones exóticas.
+8. **D-016 Pontryagin completo:** marca extendida.
+9. **K-035 + K-042 promociones** a confirmado limpio.
+10. **D-013 §2.4 refinamiento.**
+11. **Snapshot v2.7 o v3.0:** post-decisión final H-004 (si C éxito o retreat completo).
+12. **Corrección $O(E/M_P)$.**
+13. **Revisión periódica `.claude/`:** S88 pendiente.
 
-## Estado documental al cierre sesión 78 (post-R-34)
+## Estado documental al cierre sesión 87
 
-**Material nuevo S78:**
-- `notes/Q-044_sesion78_magnitudes_y_conservacion.md` ✓ (~330 líneas)
-- `framework/ontology.md` ✓ LLENADO (~250 líneas, S78 reemplaza esqueleto S36)
-- **`journal/reportes/34_articulacion_post_pausa.md` ✓ (~210 líneas, NUEVO)**
+**Material nuevo S87:**
+- `notes/H-004_sesion87_auditorias_retrospectivas_y_decision.md` ✓ (~280 líneas)
+- `journal/reportes/37_auditoria_sistematica_retreat_parcial.md` ✓ (~280 líneas)
+- `journal/2026-05-01_snapshot_v2.6.md` ✓ (~270 líneas)
+- `framework/axioms.md` actualizado ✓ (A-001 + A-002 caveat fuerte explícito)
 
 **Memoria actualizada:**
-- `memory/session_log.md` ✓ (entrada S78 + R-34 escrito)
+- `memory/session_log.md` ✓ (entrada S87)
 - `memory/current_focus.md` ✓ (este archivo)
-- `memory/open_questions.md` ✓ (Q-044 marcada como abordada por articulación)
-- `memory/MEMORY_INDEX.md` ✓ (inventario S78 + R-34)
+- `memory/MEMORY_INDEX.md` ✓ (snapshot v2.6 + entrada S87)
 
-**Observación meta (sesión 78 + R-34):**
-- **Reactivación foundational post-pausa** ejemplifica patrón disciplinado: arranque más suave imaginable.
-- **R-34 introduce vocabulario nuevo: "deuda fría vs deuda caliente"** en documentación, **"articulación como cuarto tipo de progreso"** después de cierre técnico y retreat ordenado.
-- **K-005 ejemplar 17 veces consecutivas** preservado — patrón maduro.
-- **Marco SCG estructuralmente más coherente sin agregar nada** — la articulación de lo existente refinó el cuadro global.
-- **El esqueleto `framework/ontology.md` esperó óptimamente** durante 42 sesiones (S36-S78) — deuda fría que se resuelve en momento adecuado.
-- **Periodo S66-S78 (13 sesiones consecutivas) cerrado documentalmente** mediante quinteto narrativo R-30 a R-34.
+**Observación meta-mayor (sesión 87):**
+- **El sexto tipo de progreso del marco consolidado:** auditoría imparcial sistemática como motor de honestidad estructural. CRÍTICO, no overhead.
+- **Validaciones críticas múltiples:** criterio (6) S80 + infraestructura S83.
+- **Trilogía retreats ordenados R-32 + R-33 + R-37** — patrón maduro: el marco sabe abandonar lo que no funciona.
+- **K-005 ejemplar 26ma vez consecutiva** — patrón maduro consolidado por 22 sesiones (S66-S87).
+- **El marco aprende a evitar auto-engaño** — quizás contribución más durable del programa H-004.
+- **SCG operativo intacto.** La inversión S1-S79 protegida.
+- **Próxima sesión S88:** arrancar C.β con disciplina máxima + auditoría imparcial obligatoria.
 
 ---
 
-**MARCO SCG REACTIVADO POST-PAUSA + R-34 CONSOLIDADO. Próxima dirección: por decidir (B/A/C/E).**
+**TRIGGER D5 ACTIVADO. RETREAT PARCIAL CAMINO B. CAMINO C PRIMARIO. PRÓXIMA SESIÓN: C.β HYPERGRAPHS WOLFRAM + AUDITORÍA IMPARCIAL OBLIGATORIA.**

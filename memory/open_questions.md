@@ -4,20 +4,33 @@ Las preguntas que la investigación debe responder, o al menos abordar. Numerada
 
 ---
 
-## Q-001 — ¿Es el espacio-tiempo fundamental o emergente?
+## Q-001 — ¿Es el espacio-tiempo fundamental o emergente? [ABORDADA POR ARTICULACIÓN — sesión 79]
 - **Abierta desde:** 2026-04-15
+- **Abordada por articulación:** 2026-04-30 (sesión 79), continuación natural post-S78 de articulación foundational.
 - **Relevancia:** muy alta. Toda ToE moderna se juega aquí.
 - **Pistas conocidas:** holografía, AdS/CFT, gravedad entrópica, redes de tensores.
 - **Relación con H-001:** si H-001 es correcta, el horizonte de eventos es macroscópicamente emergente, no fundamental.
+- **Resolución (S79):** las cuatro sub-preguntas se responden por **articulación de material existente**, no derivación nueva. **No se promueve K nuevo** (disciplina K-005, 18ma vez consecutiva). La articulación se consolida en `framework/ontology.md` sección 10 (emergencia espacio-temporal).
+  - **(a) Sentido de emergencia:** **estratificada por régimen**. Régimen I: no existe (sólo lattice WW + UBFC `Spin(10)_1`). Régimen II: emerge como métrica curva fluctuante (variables Ashtekar, β real). Régimen IV: GR clásica + Killing temporal asintótico. NO es emergencia ontológica fuerte tipo AdS/CFT.
+  - **(b) Selección de dimensionalidad (3+1):** **punto fijo único** del sistema {R1a balance N + R1b balance L + R6 well-posedness Lorentziana} en $\mathbb{Z}_{>0}^3$ (D-012, K-036). NO es input ni dato empírico — output del cierre estructural. Análogo metodológico con $D=26/10/11$ en cuerdas + sin compactificación K-K.
+  - **(c) Tipo de emergencia:** **III estructural categorial**. Cadena: lattice WW → Crane-Yetter TQFT 4D → frontera (2+1)D = CS (Baez 2000) → Plebanski-autodual + Λ → E-H + Λ + variables Ashtekar → métrica $g_{ab}$. Distinta de AdS/CFT (tipo I), Verlinde (tipo II), CDT (tipo II numérica), LQG (tipo III estructural genérica), cuerdas (tipo III con compactificación).
+  - **(d) Signatura (3,1):** **output de consistencia múltiple**. Convergencia de tres argumentos: Hodge $\star^2 = -1$ (q impar) + espinores Weyl complejos conjugados + well-posedness Lorentziana (Asgeirsson + Tegmark). Robusta a las tres reinterpretaciones de K-019 (v1.0 → v1.1 Randono → v2.0 Wang-Wen).
+- **Ver:** `notes/Q-001_sesion79_espacio_tiempo_emergente.md`, `framework/ontology.md` sección 10 (S79).
+- **Cierre conceptual:** Q-001 + Q-044 forman **dípolo foundational** ahora cerrado por articulación complementaria en S78-S79.
 
 ## Q-002 — ¿Qué es el "colapso" de la función de onda, si es que existe?
 - **Abierta desde:** 2026-04-15
 - **Relevancia:** alta. Conexión con medición, observador, tiempo.
 
-## Q-003 — ¿Puede la información ser la entidad ontológica básica?
+## Q-003 — ¿Puede la información ser la entidad ontológica básica? [REACTIVADA — sesión 80, programa H-004]
 - **Abierta desde:** 2026-04-15
-- **Relevancia:** alta. "It from bit" (Wheeler). ¿O bit from it?
-- **Relación con H-001:** A-003 postula coste energético de la información, lo cual es compatible con (pero más débil que) la primacía informacional.
+- **Reactivada formalmente:** 2026-05-01 (sesión 80) — apertura del programa H-004.
+- **Relevancia:** **MÁXIMA actual** — eje del programa H-004 abierto en S80.
+- **Pistas conocidas:** "It from bit" (Wheeler), MUH (Tegmark), Wolfram Physics Project, QBism, Verlinde gravedad entrópica, NCG Connes, ∞-categorías Lurie, HoTT Voevodsky.
+- **Relación con H-001 / SCG:** A-003 postula coste energético de la información (compatible pero más débil que primacía informacional). El lattice WW + UBFC `Spin(10)_1` ES estructura informacional categorial pura — A-005 propone que es **primitiva**, no emergente.
+- **Programa formal:** H-004 (abierto S80). Sub-tareas α-ζ planeadas para 14-25 sesiones. Camino B (preservativo SCG) primario; camino C (matemática propia) condicional.
+- **Estatus de respuesta:** **EN INVESTIGACIÓN ACTIVA** — A-005 propuesto (no adoptado); criterio epistémico (6) auto-consistencia derivable activo.
+- **Ver:** `hypotheses/active/H-004_primacia_informacional.md`, `framework/axioms.md` (A-005 + premisa v2.5), `framework/epistemology.md` (criterio 6 + D1-D5), `notes/H-004_sesion80_*.md`.
 
 ## Q-004 — ¿Por qué hay tres generaciones de fermiones?
 - **Abierta desde:** 2026-04-15

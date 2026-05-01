@@ -210,10 +210,91 @@ A energías LHC ($E \sim$ TeV): $\sim 10^{-15}$. Inobservable directamente. Marc
 
 ## 9. Pendiente
 
-- **H-004:** nueva hipótesis posible (constantes fundamentales / Q-005). Decidir tras Q-044 cierre.
-- **Q-001:** "espacio-tiempo emergente" — ya tocada parcialmente por D-005, K-022, D-012, K-036. Articulación complementaria a Q-044 pendiente.
+- **H-004:** nueva hipótesis posible (constantes fundamentales / Q-005). Decidir tras Q-044 + Q-001 cierre (post-S79).
 - **Q-005:** valores numéricos $\hbar, c, G$ — puntos abiertos del marco. Naturalmente vinculados con H-004.
 - **Marca técnica menor:** corrección cuantitativa $O(E/M_P)$ en conservación local régimen II (sin urgencia).
+
+---
+
+## 10. Emergencia espacio-temporal (sección S79)
+
+> **Resultado de Q-001 (S79):** el espacio-tiempo en SCG es **emergente estratificado por régimen, tipo III estructural categorial**. NO es input. NO es promediación. NO es holografía AdS/CFT-like.
+
+### 10.1 Estatus por régimen
+
+| Régimen | Espacio-tiempo | Status |
+|---|---|---|
+| **I (UV)** | Sólo lattice WW + UBFC `Spin(10)_1`. Sin métrica, sin foliación temporal, sin causalidad. | **No existe** |
+| **II (Planck)** | Métrica curva fluctuante. Variables Ashtekar $(E^I_a, A_a^I)$ canónicas. Foliación local. | **Emergente activa** |
+| **III (transición)** | Geometría clasicalizándose. SM gauge fields desacoplándose. | Estabilización |
+| **IV (IR / SM)** | Asintóticamente Minkowski. Killing temporal asintótico. ADM bien definido. | **Emergente clásica** |
+
+### 10.2 Mecanismo de emergencia (cadena categorial)
+
+```
+Lattice Walker-Wang 3+1D modular sobre UBFC `Spin(10)_1`
+                    ↓
+        Crane-Yetter TQFT 4D (invariante topológico)
+                    ↓
+        Frontera (2+1)D = Chern-Simons (Baez 2000)
+                    ↓
+        Plebanski-autodual + Λ con $k_{CS} = 2\pi/(\kappa\Lambda)$  [D-007]
+                    ↓
+        E-H + Λ on-shell con conexión autodual                      [D-007, K-029]
+                    ↓
+        Variables Ashtekar $E^I_a$ → métrica $g_{ab} = \delta_{IJ} E^I_a E^J_b/|E|$
+                    ↓
+        Régimen IV: Killing temporal asintótico, GR clásica, SM observable
+```
+
+**Cada paso es construcción matemática específica**, no promediación ni dualidad holográfica. El espacio-tiempo emerge como **producto de derivación** desde estructura categorial pre-geométrica.
+
+### 10.3 Selección de dimensionalidad (3+1) como punto fijo único
+
+**D-012 (Q-030 ✅ cerrada):** $(D_{obj}, D_{amb}, D_{tmp}) = (1, 3, 1)$ es la única solución en $\mathbb{Z}_{>0}^3$ del sistema mínimo:
+
+| Restricción | Origen |
+|---|---|
+| $1 + 1/D_{obj} = 2$ | D-002 §3, balance N (estabilidad SCG) |
+| $D_{amb} - 2 = 1$ | D-002 §4, balance L (gravedad Newtoniana) |
+| $D_{tmp} = 1$ | Asgeirsson + Tegmark (well-posedness Lorentziana) |
+
+Las consistencias R2-R5 (codim 2 H-002, Dynkin so(p+q)_C, Hodge $\star^2 = -1$, trivalencia D-004) se cumplen automáticamente — **sobre-determinación robusta**, no circularidad. La dimensionalidad NO es input ni dato empírico — es **output del cierre estructural** (K-036 candidato).
+
+**Análogo metodológico:** $D=26$ (cuerda bosónica), $D=10$ (superstring), $D=11$ (M-teoría) — toda dimensión predicha emerge como punto fijo. SCG sigue el patrón con $(1, 3, 1)$ + sin compactificación K-K.
+
+### 10.4 Selección de signatura (3,1) por consistencia múltiple
+
+**(3,1) es output de la convergencia de tres argumentos independientes:**
+
+1. **Hodge:** $\star^2 = -1$ en 2-formas requiere $q$ impar → quiralidad intrínseca irreducible (D-005 Arg B).
+2. **Espinores Weyl:** sólo (3,1) admite Weyl complejos conjugados → asimetría máxima SM (D-005 Arg C).
+3. **Well-posedness:** Asgeirsson 1936 + Tegmark 1997 descartan q ≥ 2 (D-012 R6).
+
+**(3,1) NO es postulada como axioma** — es seleccionada estructuralmente. Robusta a las tres reinterpretaciones de K-019 (v1.0 → v1.1 Randono → v2.0 Wang-Wen).
+
+### 10.5 Tipo de emergencia: III estructural categorial
+
+| Marco | Tipo | Capa subyacente | Mecanismo |
+|---|---|---|---|
+| AdS/CFT | I (ontológica fuerte) | CFT 4D (espacio-tiempo) | Holografía |
+| Verlinde 2010 | II (descriptiva) | Bits holográficos | Termodinámica |
+| Causal sets | I/III mixta | Conjunto causal | Promedio estadístico |
+| CDT | II numérica | Triangulaciones | Path integral discreto |
+| LQG | III estructural | Spin networks | Cuantización canónica |
+| **SCG** | **III estructural categorial** | **Lattice WW + UBFC `Spin(10)_1`** | **WW → CS → Plebanski → E-H** |
+
+SCG es **más específica** que LQG (UBFC concreta), **más estructural** que CDT (no requiere promedio numérico), **distinta** de cuerdas (sin compactificación K-K).
+
+### 10.6 Resumen ontológico (post-Q-001)
+
+> **El espacio-tiempo en SCG es output**, no input.
+> - **No existe** en régimen I (capa categorial pre-geométrica).
+> - **Emerge categorialmente** en régimen II vía cadena WW → CS → Plebanski → E-H.
+> - **Recupera GR clásica + SM** en régimen IV.
+> - **Dimensionalidad (1, 3, 1)** es punto fijo único.
+> - **Signatura (3,1)** es output de consistencia múltiple.
+> - **Tipo III estructural categorial** — distinto de holografía y termodinámica.
 
 ---
 
@@ -221,7 +302,8 @@ A energías LHC ($E \sim$ TeV): $\sim 10^{-15}$. Inobservable directamente. Marc
 
 - **2026-04-15:** archivo creado como esqueleto.
 - **2026-04-30 (S78):** llenado en respuesta a Q-044 abordada por articulación. Refleja estado SCG post-snapshot v2.4 (S74) + pausa estratégica S77.
+- **2026-04-30 (S79):** sección 10 añadida (emergencia espacio-temporal) en respuesta a Q-001 abordada por articulación. Cierra dípolo foundational Q-044 + Q-001.
 
 ---
 
-**Fin de la ontología SCG (estado S78).**
+**Fin de la ontología SCG (estado S79).**
