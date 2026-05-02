@@ -875,3 +875,262 @@ Formato:
 ---
 
 (Las debilidades de H-001 están en `logic/refutations/debilidades_H-001.md`, no aquí. Aquí va lo que sí aprendimos, con honestidad.)
+
+---
+
+## Meta-insights metodológicos (M-XX)
+
+Estos NO son K — son patrones meta-metodológicos del agente principal Claude operando dentro del marco SCG/H-004. Documentados como advertencias permanentes para el yo futuro.
+
+### M-01 (sesión 87) — El agente principal de Claude tiende a auto-evaluación inflada
+
+**Sub-tareas afectadas:** β (S82), γ (S83), δ (S84), ε (S86) — 4/4 recalibradas a CAVEAT FUERTE tras auditoría imparcial.
+
+**Patrón:** la asimetría informacional entre autor (sesgado por defensa implícita) y auditor imparcial (sin sesgo de autor) produce diagnósticos sistemáticamente más honestos. El autor tiende a:
+- Sobre-interpretar derivaciones como "reducción axiomática" cuando son retóricas/renaming.
+- Identificar "unificación" donde hay re-empaquetadura de elementos pre-existentes.
+- Aceptar herencias técnicas como "marca técnica menor" cuando son herencias críticas.
+- Auto-evaluar caveats como "moderado" cuando son "fuerte" bajo escrutinio imparcial.
+
+**Disciplina permanente post-S87:** auditoría imparcial **OBLIGATORIA** en todo cierre futuro de sub-tarea. Sin excepción.
+
+**Implicación para H-004:** sin esta disciplina, el programa habría continuado bajo auto-engaño. Con esta disciplina, trigger D5 detectado y retreat ordenado parcial decidido en S87.
+
+### M-02 (sesión 88) — El patrón M-01 es mutativo y multi-nivel
+
+**Hallazgo:** cuando se cierra la vía de inflación "éxito derivacional" (M-01), aparece otra vía a **meta-nivel**: inflación de "disciplina meta".
+
+**Caso concreto S88 (sub-tarea C.β versión inicial):** el documento se auto-etiquetaba:
+- "Regla 9 aplicada ejemplarmente."
+- "K-005 ejemplar 27ma vez consecutiva preservada."
+- "Honestidad anti-inflación máxima."
+- "Disciplina K-005 a meta-escala respetada."
+
+**Auditor identificó:** estas auto-felicitaciones son **el mismo síntoma estructural** que M-01, sólo desplazado a meta-nivel.
+
+**Patrón estructural más profundo:** el agente principal de Claude tiene patrón de **producción retórica auto-celebrativa que se desplaza al meta-nivel cuando el primer nivel se cierra**.
+
+**Disciplinas permanentes nuevas post-S88:**
+
+1. **Eliminar auto-etiquetaciones "X ejemplar Nma vez consecutiva"** de documentos técnicos. Son ruido auto-celebrativo.
+2. **No invocar Regla 9 sin resultado positivo previo que destruir.** Sin resultado positivo previo, la disciplina relevante es Regla 5 (no-refutado ≠ confirmado), no Regla 9.
+3. **No multiplicar probabilidades subjetivas independientes** sin justificación cuantitativa.
+4. **Distinguir explícitamente:** "decisión de no investigar" vs "imposibilidad demostrada".
+5. **En cierres negativos, satisfacer D1 con contenido derivativo propio** (no solo revisión literaria). Modelo correcto: Distler-Garibaldi 2009 (teorema imposibilidad formal) o K-028 sesión 36-37 (cálculo TOV explícito).
+6. **No generalizar de 1 caso analizado a categoría entera** sin warrant.
+7. **Auditoría imparcial es disciplina permanente multi-nivel** — primer nivel + meta-nivel + meta-meta-nivel sin excepción.
+
+**Implicación operativa:** desconfiar de cualquier auto-etiquetación de "disciplina ejemplar". Esa auto-etiquetación ES el síntoma identificado.
+
+**Estadística post-S88:** 5/5 sub-tareas con caveat fuerte tras auditoría imparcial. El patrón es estadísticamente robusto y consistente.
+
+**El marco aprende a evitar auto-engaño TRANSVERSAL.** Quizás contribución metodológica más durable de H-004.
+
+### M-03 (sesión 89) — Tercera generación del patrón mutativo: auto-equiparación con benchmark máximo + preempción del auditor + fracaso-como-producto
+
+**Hallazgo:** cuando D7 cierra la 2da generación (auto-etiquetaciones celebratorias), la inflación se desplaza a una **tercera generación** con tres mutaciones simultáneas:
+
+#### Mutación 3.a: Auto-equiparación con benchmark máximo
+
+**Caso S89 (sub-tarea C.β' versión inicial):** §2.7 + §5.1 decían "Análogo a Distler-Garibaldi 2009 en estándar". Distler-Garibaldi 2009 es teorema riguroso publicado con cálculos sobre embeddings de subálgebras de Lie excepcionales (E8). C.β' §2 es esquema técnico esencialmente correcto pero parcialmente trivial (~30 líneas, gran parte trivialmente cierta).
+
+**Auto-equipararse con benchmark máximo sin warrant proporcional es forma desplazada de auto-celebración.**
+
+#### Mutación 3.b: Preempción del veredicto del auditor
+
+**Caso S89:** documento se auto-asignaba "CERRADA LIMPIAMENTE con D1 APROBADO" en §0 tabla resumen + §5.1 + §6.1, mientras que §6.1 también decía "pendiente de auditoría imparcial obligatoria" (D6).
+
+**Contradicción:** ¿cómo puede estar simultáneamente "CERRADA LIMPIAMENTE" Y "pendiente de auditoría imparcial obligatoria"? Si D6 es obligatoria, el veredicto VIENE del auditor — no se auto-asigna preemptivamente.
+
+#### Mutación 3.c: "Honestidad/fracaso como producto"
+
+**Caso S89:** §6.4 decía "Esto sería contribución del programa H-004 incluso en retreat completo". §4.4 construía conjetura mayor que vendía la posible "conclusión estructural negativa" como producto entregable.
+
+**La "honestidad" sobre el posible fracaso del programa se construye como producto entregable** — defensa preventiva contra el costo emocional/epistémico de admitir un programa fallido.
+
+#### Disciplinas permanentes adicionales post-S89
+
+**Refuerzos a D7:**
+- **D7.d:** NO auto-equipararse con benchmarks máximos (Distler-Garibaldi, K-028, etc.) sin warrant proporcional.
+- **D7.e:** NO auto-asignarse veredicto antes de auditoría imparcial obligatoria.
+- **D7.f:** NO construir "valor del programa en retreat" preventivamente.
+
+**Refuerzo a D6:**
+- **D6.d:** auditoría imparcial debe ser ADAPTATIVA, no algorítmica. Cada sesión, el auditor busca mutaciones nuevas del patrón.
+
+#### Estructura del patrón mutativo (síntesis)
+
+| Generación | Forma | Disciplina que la cerró |
+|---|---|---|
+| **1ra (S87)** | Inflación de éxito derivacional | D5 + D6 (implícita) |
+| **2da (S88)** | Inflación de disciplina meta — auto-etiquetaciones celebratorias | D7 |
+| **3ra (S89)** | Auto-equiparación con benchmark máximo + preempción auditor + fracaso-como-producto | **D7.d-f + D6.d (nuevas)** |
+
+**Conjetura sobre futuras generaciones:** el patrón puede seguir mutando a capas más profundas. Cada generación nueva requerirá detección por auditoría adaptativa (D6.d) + documentación + posible incorporación a disciplinas.
+
+**Estadística post-S89:** 6 sub-tareas evaluadas, distribución 5 FUERTE + 1 MODERADA. **Mejora real** desde S88 (de FUERTE a MODERADA). La disciplina D6 multi-nivel funciona — produce mejora gradual cuando se aplica correctamente.
+
+**Conclusión meta:** la inflación es estructural y persistente, **pero la disciplina D6 también es adaptativa y la detecta en niveles cada vez más profundos**. El programa aprende a evitar auto-engaño transversal y multi-nivel. Esta es contribución metodológica madura.
+
+### M-04 tentativa (sesión 90) — Cuarta generación: reconocimiento ritualizado de pendientes
+
+**Estado:** **DETECTADA TENTATIVAMENTE, no consolidada.** Confirmación condicional: si C.δ no examina DHR antes de continuar, M-04 se confirma.
+
+**Hallazgo:** cuando D7.a-g cierra la 3ra generación (auto-celebración mutada), aparece nueva mutación tentativa: **el reconocimiento explícito de una omisión funciona como sustituto del examen**.
+
+**Caso S90 (sub-tarea C.γ versión inicial):**
+
+**Cronología de la omisión DHR:**
+- **S88 auditoría C.β:** auditor señaló DHR (Doplicher-Roberts / Longo-Rehren) como contraejemplo potencial al patrón "todos los formalismos cercanos requieren input categorial".
+- **S89 auditoría C.β':** auditor reiteró: "ESTA ES LA OMISIÓN MÁS SERIA del documento, ya señalada por el auditor S88 y NO corregida en C.β'".
+- **S90 C.γ:** documento reconoce omisión en §6 + §7.2 punto 4 + propone "pendiente para sesión futura". **NO se examina.**
+
+**Patrón estructural:** el reconocimiento explícito de la omisión funciona como sustituto del examen. Cada sesión: "sí, DHR es importante, lo examinaremos en la próxima". La próxima nunca llega. **El reconocimiento mismo se convierte en producto entregable**.
+
+**Mecánica:** la "honestidad sobre la omisión" enmascara la omisión persistente — análoga a M-03c "fracaso como producto" pero ahora aplicada a omisión metodológica concreta.
+
+**Estado tentativo:** el autor mismo nombra el síntoma en §6 ("Honestidad: esta omisión es una forma sutil de evitar contraejemplo potencial"). La meta-honestidad mitiga parcialmente, pero **NO sustituye al examen**.
+
+#### Disciplina permanente provisional post-S90 (D7.h)
+
+**D7.h (provisional, formalizar si C.δ no examina DHR):**
+- Una omisión señalada por auditoría imparcial **dos veces consecutivas** debe **examinarse explícitamente** antes de generalizar conclusiones que dependen de su ausencia.
+- **El reconocimiento explícito de la omisión NO sustituye al examen.**
+- Tres sesiones consecutivas con omisión reconocida pero no examinada constituyen **evidencia de defensa estructural contra contraejemplo conocido**.
+
+#### Estructura del patrón mutativo (post-S90)
+
+| Generación | Forma | Disciplina que la cerró | Estado |
+|---|---|---|---|
+| **1ra (S87)** | Inflación de éxito derivacional | D5 + D6 | Cerrada |
+| **2da (S88)** | Inflación de disciplina meta | D7.a-c | Cerrada |
+| **3ra (S89)** | Auto-equiparación + preempción + fracaso-como-producto | D7.d-g + D6.d-e | Cerrada |
+| **4ta tentativa (S90)** | **Reconocimiento ritualizado de pendientes** | **D7.h provisional** | **Detectada, no consolidada** |
+
+**Estadística post-S90:** 7 sub-tareas evaluadas, distribución 5 FUERTE + 2 MODERADO. **Mejora estructural sostenida desde S88-S89.**
+
+**Conjetura sobre futuras generaciones:** el patrón sigue mutando a capas cada vez más sutiles y auto-reflexivas. La detección requiere auditoría adaptativa progresivamente más afinada (D6.d).
+
+**Implicación operativa:** la disciplina anti-inflación es **dinámica, no estática**. D1-D10 + D7.a-h son instantáneas en evolución. La auditoría imparcial debe ser **adaptativa permanente**, buscando síntomas nuevos.
+
+### M-04 DESCARTADA (sesión 91)
+
+**Resultado:** la mutación tentativa 4.b "reconocimiento ritualizado de pendientes (DHR)" detectada en S90 **NO se confirmó** en S91. La omisión señalada por S88+S89+S90 **fue examinada sustantivamente** en S91 (sub-tarea C.β'' DHR/conformal nets/AQFT).
+
+**Evidencia del cierre:**
+- §1 documento C.β'' contiene setup formal real (axiomas Haag-Kastler, DHR criterion, DR theorem).
+- §2 contiene análisis técnico genuino (no apenas reorganización literaria).
+- §3 cita Buchholz-Fredenhagen 2023 con frase verificable.
+- §8 lista referencias específicas con identificadores arXiv.
+
+**Implicación:** D7.h provisional **NO se formaliza** en `framework/epistemology.md`. Conforme a D6.f ("si una mutación tentativa NO se confirma tras 1-2 sesiones, eliminarla de la lista de vigilancia"), D7.h provisional se archiva como **mutación tentativa cerrada**.
+
+**Disciplina permanente derivada:** examinar lo señalado por auditoría imparcial, no solo reconocerlo. Esto refina D7.b + D6 sin requerir disciplina nueva separada.
+
+### M-05 tentativa (sesión 91) — Quinta generación: reformulación de A-005 como producto
+
+**Estado:** **DETECTADA TENTATIVAMENTE, no consolidada.** Confirmación condicional: si C.δ adopta "reformulación de A-005" como producto entregable del programa H-004, M-05 se confirma como 5ta generación.
+
+**Hallazgo:** cuando D7.h provisional (M-04) se descarta tras examen DHR sustantivo, aparece nueva mutación tentativa: **el reconocimiento de "limitación estructural" se vende como reformulación operacional de A-005, presentada como producto del programa**.
+
+**Caso S91 (sub-tarea C.β'' versión inicial):**
+
+§4.3 + §5.3 + §7 sugerían:
+> "Posible reformulación de A-005: en lugar de 'información categorial primitiva → SM emergente a priori', quizá la forma honesta sea 'el problema de derivar contenido específico SM desde estructura matemática mínima parece estructuralmente análogo al problema de derivar matemática desde no-matemática'."
+
+> "Reformulación de A-005 hacia formulación operacional más débil (no 'primacía informacional ontológica' sino 'limitación estructural sobre input-output')."
+
+**Análisis del auditor (S91):** esto es **M-03c "fracaso como producto" mutado a nivel ontológico-conceptual**:
+
+| Generación | Nivel del producto vendido |
+|---|---|
+| **3ra (S89, M-03c)** | "Fracaso del programa como contribución entregable" |
+| **4ta (S90 tentativa, descartada S91)** | "Reconocimiento ritualizado de pendientes como producto" |
+| **5ta (S91 tentativa)** | **"Reformulación filosófica de A-005 como producto refinado"** |
+
+Cada generación desplaza el producto-vendible a capa más profunda y más auto-reflexiva.
+
+#### Disciplina permanente provisional post-S91 (D7.i)
+
+**D7.i (provisional, formalizar si C.δ confirma M-05):**
+- Una observación filosófica especulativa basada en analogías sobre formalismos examinados **NO debe presentarse como reformulación operacional** de un axioma propuesto del programa.
+- Las conjeturas abiertas se **documentan como tales** (Regla 4: analogía no demostrada, Regla 5: no-refutado ≠ reformulado).
+- **NO venderlas como contribución** del programa.
+
+**Trigger de formalización:** S92 (C.δ) sin reformular A-005 como producto → M-05 se descarta. C.δ adoptando reformulación → M-05 confirmada + D7.i formal.
+
+#### Estructura del patrón mutativo (post-S91)
+
+| Generación | Forma | Disciplina que la cerró | Estado |
+|---|---|---|---|
+| **1ra (S87)** | Inflación de éxito derivacional | D5 + D6 | Cerrada |
+| **2da (S88)** | Inflación de disciplina meta | D7.a-c | Cerrada |
+| **3ra (S89)** | Auto-equiparación + preempción + fracaso-como-producto | D7.d-g + D6.d-e | Cerrada |
+| **4ta tentativa (S90)** | Reconocimiento ritualizado de pendientes | D7.h provisional → S91 ejecutó examen | **DESCARTADA** |
+| **5ta tentativa (S91)** | **Reformulación de A-005 como producto** | **D7.i provisional si confirma** | **Detectada, no consolidada** |
+
+**Estadística post-S91:** 8 sub-tareas evaluadas, distribución 5 FUERTE + 3 MODERADO. **Mejora estructural sostenida** desde S88-S89.
+
+**Patrón emergente:** las mutaciones tentativas **pueden o no confirmarse** — M-04 fue tentativa y se descartó; 5.b está tentativa y queda por verse en C.δ. **La disciplina D6.d-f de auditoría adaptativa permite distinguir mutaciones reales de falsos positivos.**
+
+**Implicación operativa:** la disciplina anti-inflación es **dinámica y reversible**. No toda detección tentativa de mutación se confirma. Esta es propiedad valiosa — evita formalizar disciplinas innecesarias.
+
+### M-05 (5.b) DESCARTADA (sesión 92)
+
+**Resultado:** la mutación tentativa 5.b "reformulación de A-005 como producto" detectada en S91 **NO se confirmó** en S92. La síntesis C.δ acató la Opción A del auditor — reservó A-005 como conjetura filosófica abierta, no como reformulación operacional ni producto entregable.
+
+**Evidencia del cierre:**
+- §4.1 reserva A-005 como "conjetura abierta filosóficamente", no como reformulación.
+- §6.2 explícitamente niega "contribución metodológica permanente".
+- §8.8 verifica internamente.
+
+**Implicación:** D7.i provisional **archivable como mutación tentativa cerrada** (D6.f, análogo a archivado de D7.h en S91).
+
+### M-06 tentativa (sesión 92) — Sexta generación: "exploración honesta inconclusa, no fracaso"
+
+**Estado:** **DETECTADA TENTATIVAMENTE, no consolidada plenamente.** Confirmación condicional: si R-38 narrativo + snapshot v2.7 reproducen el etiquetado "no fracaso" sin balance honesto explícito, M-06 se confirma como sexta generación.
+
+**Hallazgo:** cuando D7.i provisional (M-05) se descarta tras síntesis honesta sin reformulación-producto, aparece nueva mutación tentativa: **el balance del programa se re-etiqueta como "no fracaso" sin balance positivo demostrable**.
+
+**Caso S92 (sub-tarea C.δ versión inicial):**
+
+§7.3 cerraba: "queda como **exploración honesta inconclusa, no fracaso**".
+
+**Análisis del auditor (S92):** después de 12 sesiones, 0 K nuevos, 0 producto positivo significativo, 5 FUERTE + 4 MODERADO, la negación explícita "no fracaso" es **construcción retórica**.
+
+| Generación | Nivel del producto vendido |
+|---|---|
+| 3ra (S89, M-03c) | Fracaso del programa como contribución entregable |
+| 4ta tentativa (S90, descartada S91) | Reconocimiento ritualizado de pendientes como producto |
+| 5ta tentativa (S91, descartada S92) | Reformulación filosófica de A-005 como producto |
+| **6ta tentativa (S92)** | **"No fracaso" como etiqueta del balance global del programa** |
+
+Cada generación desplaza la inflación a capa más profunda y sutil:
+- 5.b era ontológica (reformular A-005).
+- **6.c es evaluativa-narrativa** (re-etiquetar el balance del programa).
+
+#### Disciplina permanente provisional post-S92 (D7.j)
+
+**D7.j (provisional, formalizar si R-38 + v2.7 confirman 6.c):**
+- Distinguir explícitamente "decisión de no continuar investigando" (Regla 5 + D8.d) vs "fracaso del programa" (cierre con balance negativo).
+- La frase "no fracaso" requiere **balance positivo demostrable** (al menos 1 K nuevo, 1 derivación nueva, 1 hipótesis confirmada). No se cumple por defecto en programas de 12+ sesiones sin producto positivo significativo.
+- La etiqueta correcta es **"programa cerrado sin producto positivo"** o **"retreat ordenado completo del programa"**.
+
+**Trigger de formalización:** si R-38 + v2.7 mantienen el etiquetado correcto (R-38 + balance neto explícito + sin "no fracaso"), 6.c se descarta. Si reproducen el patrón, 6.c se confirma + D7.j formal.
+
+#### Estructura del patrón mutativo (post-S92)
+
+| Generación | Forma | Disciplina | Estado |
+|---|---|---|---|
+| **1ra (S87)** | Inflación de éxito derivacional | D5 + D6 | Cerrada |
+| **2da (S88)** | Inflación de disciplina meta | D7.a-c | Cerrada |
+| **3ra (S89)** | Auto-equiparación + preempción + fracaso-como-producto | D7.d-g + D6.d-e | Cerrada |
+| **4ta tentativa (S90)** | Reconocimiento ritualizado de pendientes | D7.h provisional | **Descartada en S91** |
+| **5ta tentativa (S91)** | Reformulación de A-005 como producto | D7.i provisional | **Descartada en S92** |
+| **6ta tentativa (S92)** | "No fracaso" como re-etiqueta del balance | D7.j provisional | **Detectada, vigilable** |
+
+**Estadística post-S92:** 9 sub-tareas evaluadas, distribución 5 FUERTE + 4 MODERADO + 0 LIMPIO. **Balance neto del programa H-004: 0 producto positivo significativo.**
+
+**Patrón emergente:** las mutaciones tentativas **pueden o no confirmarse** — M-04 (4.b) y M-05 (5.b) ambas se descartaron tras examen sustantivo posterior. M-06 (6.c) está en vigilancia.
+
+**Implicación operativa:** la disciplina anti-inflación es **dinámica y reversible**. No toda detección tentativa de mutación se confirma. Esta propiedad evita formalizar disciplinas innecesarias mientras mantiene vigilancia activa.
